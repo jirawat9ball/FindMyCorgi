@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bebdd68743cf9147bd78ec1ce6c8c06, type: 3}
+  m_Name: Machete
+  m_EditorClassIdentifier: 
+  KeyName: Machete
+  KeyInfomation: it's a Machete
+  Image: {fileID: -7671631787105517523, guid: 5be5a19c15b0bf24cb8bd2d9f7de6b68, type: 3}
+  Cursericon: {fileID: 2800000, guid: 182a5b18212c99b4bb1fd303452f0502, type: 3}
+  imageShowGotItem: {fileID: 2354914950513676025, guid: e5428b45177008d46b0605a6b816bd9a, type: 3}
+  isStone: 0

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bebdd68743cf9147bd78ec1ce6c8c06, type: 3}
+  m_Name: Polaroid
+  m_EditorClassIdentifier: 
+  KeyName: Polaroid
+  KeyInfomation: it's a Polaroid
+  Image: {fileID: 49104727208924248, guid: d3a6755b0858e7a44b1b5c4754ed763a, type: 3}
+  Cursericon: {fileID: 2800000, guid: 4f5654c827480814e88546eade8cecc8, type: 3}
+  imageShowGotItem: {fileID: 2354914950513676025, guid: e5428b45177008d46b0605a6b816bd9a, type: 3}
+  isStone: 0

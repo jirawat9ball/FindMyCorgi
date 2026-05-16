@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 504a1052a3f97de47b91843cdcf8201e, type: 3}
+  m_Name: scene_peru-2
+  m_EditorClassIdentifier: 
+  SceneName: scene_peru-2
+  backScene: {fileID: 11400000, guid: d54cbebe225f8164f98c7f21f4560ebe, type: 2}
+  foundDogs: 
+  rewardSets:
+  - KeyItemInThisScene: {fileID: 11400000, guid: 75b55348d1a2ce24ea2bdf8d704baec9, type: 2}
+    AmontDogtoUnlockKeyItem: 10

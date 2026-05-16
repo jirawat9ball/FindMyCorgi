@@ -1,0 +1,2587 @@
+fileFormatVersion: 2
+guid: 4e6b374d37c1ca54e8b957ff3a036723
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7323974929974915916
+    second: inventory_fast travel_graphic_0
+  - first:
+      213: 8616874232618586298
+    second: inventory_fast travel_graphic_1
+  - first:
+      213: -955127489800619075
+    second: inventory_fast travel_graphic_2
+  - first:
+      213: -6599264736849060940
+    second: inventory_fast travel_graphic_3
+  - first:
+      213: 2612394666516870357
+    second: inventory_fast travel_graphic_4
+  - first:
+      213: 5464161012663668004
+    second: inventory_fast travel_graphic_5
+  - first:
+      213: -7918923007179476332
+    second: inventory_fast travel_graphic_6
+  - first:
+      213: 4308479697364185104
+    second: inventory_fast travel_graphic_7
+  - first:
+      213: -5463521350690105713
+    second: inventory_fast travel_graphic_8
+  - first:
+      213: 9059983377886940395
+    second: inventory_fast travel_graphic_9
+  - first:
+      213: -4408588623334266719
+    second: inventory_fast travel_graphic_10
+  - first:
+      213: -1472022962229957867
+    second: inventory_fast travel_graphic_11
+  - first:
+      213: 7186112228768846967
+    second: inventory_fast travel_graphic_12
+  - first:
+      213: -2547003990166216818
+    second: inventory_fast travel_graphic_13
+  - first:
+      213: 9033145325701695812
+    second: inventory_fast travel_graphic_14
+  - first:
+      213: -3395983531749791716
+    second: inventory_fast travel_graphic_15
+  - first:
+      213: -3243031753886487253
+    second: inventory_fast travel_graphic_16
+  - first:
+      213: 5276333678463370841
+    second: inventory_fast travel_graphic_17
+  - first:
+      213: -3522058382302170400
+    second: inventory_fast travel_graphic_18
+  - first:
+      213: 5865699646533235190
+    second: inventory_fast travel_graphic_19
+  - first:
+      213: -5050951672468899088
+    second: inventory_fast travel_graphic_20
+  - first:
+      213: 335855430465983587
+    second: inventory_fast travel_graphic_21
+  - first:
+      213: -3242838946807746208
+    second: inventory_fast travel_graphic_22
+  - first:
+      213: 8574640132352798273
+    second: inventory_fast travel_graphic_23
+  - first:
+      213: -4766236390436093899
+    second: inventory_fast travel_graphic_24
+  - first:
+      213: 3541048655325107136
+    second: inventory_fast travel_graphic_25
+  - first:
+      213: -8262876240449678249
+    second: inventory_fast travel_graphic_26
+  - first:
+      213: -911117517801611566
+    second: inventory_fast travel_graphic_27
+  - first:
+      213: -4951715440481422002
+    second: inventory_fast travel_graphic_28
+  - first:
+      213: -3150082522927576525
+    second: inventory_fast travel_graphic_29
+  - first:
+      213: -2894391694888788154
+    second: inventory_fast travel_graphic_30
+  - first:
+      213: 4176127515768733417
+    second: inventory_fast travel_graphic_31
+  - first:
+      213: -8816399127508358154
+    second: inventory_fast travel_graphic_32
+  - first:
+      213: 966318093635513895
+    second: inventory_fast travel_graphic_33
+  - first:
+      213: -3694515924320411395
+    second: inventory_fast travel_graphic_34
+  - first:
+      213: -4392875708540214174
+    second: inventory_fast travel_graphic_35
+  - first:
+      213: 7095435191795674851
+    second: inventory_fast travel_graphic_36
+  - first:
+      213: 7572935423485567964
+    second: inventory_fast travel_graphic_37
+  - first:
+      213: 7292614344751539037
+    second: inventory_fast travel_graphic_38
+  - first:
+      213: -4977654384429643125
+    second: inventory_fast travel_graphic_39
+  - first:
+      213: -1233218582994651455
+    second: inventory_fast travel_graphic_40
+  - first:
+      213: 4708631883230364318
+    second: inventory_fast travel_graphic_41
+  - first:
+      213: -149368721675555090
+    second: inventory_fast travel_graphic_42
+  - first:
+      213: 8786405674231413889
+    second: inventory_fast travel_graphic_43
+  - first:
+      213: -3618574149888839848
+    second: inventory_fast travel_graphic_44
+  - first:
+      213: 5482938017776649377
+    second: inventory_fast travel_graphic_45
+  - first:
+      213: 3213761479114592915
+    second: inventory_fast travel_graphic_46
+  - first:
+      213: -4630645384673884655
+    second: inventory_fast travel_graphic_47
+  - first:
+      213: -2717656388788297884
+    second: inventory_fast travel_graphic_48
+  - first:
+      213: -7074395437894796666
+    second: inventory_fast travel_graphic_49
+  - first:
+      213: -6499847805094630019
+    second: inventory_fast travel_graphic_50
+  - first:
+      213: 2972865345370867559
+    second: inventory_fast travel_graphic_51
+  - first:
+      213: 1927961514320095664
+    second: inventory_fast travel_graphic_52
+  - first:
+      213: 9056788509396780545
+    second: inventory_fast travel_graphic_53
+  - first:
+      213: 8053866132278340749
+    second: inventory_fast travel_graphic_54
+  - first:
+      213: 1157696127262470884
+    second: inventory_fast travel_graphic_55
+  - first:
+      213: -1620901460880121268
+    second: inventory_fast travel_graphic_56
+  - first:
+      213: 1196605565441526272
+    second: inventory_fast travel_graphic_57
+  - first:
+      213: -697979328248490872
+    second: inventory_fast travel_graphic_58
+  - first:
+      213: 3870220825738728069
+    second: inventory_fast travel_graphic_59
+  - first:
+      213: -6571954928411758825
+    second: inventory_fast travel_graphic_60
+  - first:
+      213: 5373628099953052203
+    second: inventory_fast travel_graphic_61
+  - first:
+      213: -7987589413101987356
+    second: inventory_fast travel_graphic_62
+  - first:
+      213: 4713864480673753208
+    second: inventory_fast travel_graphic_63
+  - first:
+      213: -8807074100028330382
+    second: inventory_fast travel_graphic_64
+  - first:
+      213: -2974936999524619158
+    second: inventory_fast travel_graphic_65
+  - first:
+      213: -2756355322163993571
+    second: inventory_fast travel_graphic_66
+  - first:
+      213: -7866170859345865953
+    second: inventory_fast travel_graphic_67
+  - first:
+      213: -1389550281283232308
+    second: inventory_fast travel_graphic_68
+  - first:
+      213: 3323542850426236025
+    second: inventory_fast travel_graphic_69
+  - first:
+      213: -3636222684990979497
+    second: inventory_fast travel_graphic_70
+  - first:
+      213: 4890138095823917630
+    second: inventory_fast travel_graphic_71
+  - first:
+      213: -3200816435952639106
+    second: inventory_fast travel_graphic_72
+  - first:
+      213: 1448738205528338272
+    second: inventory_fast travel_graphic_73
+  - first:
+      213: 7093054558916511790
+    second: inventory_fast travel_graphic_74
+  - first:
+      213: 6890424101765758676
+    second: inventory_fast travel_graphic_75
+  - first:
+      213: -5113429580362413375
+    second: inventory_fast travel_graphic_76
+  - first:
+      213: -2820880844385609908
+    second: inventory_fast travel_graphic_77
+  - first:
+      213: 4379130994640388421
+    second: inventory_fast travel_graphic_78
+  - first:
+      213: -5025373560704435973
+    second: inventory_fast travel_graphic_79
+  - first:
+      213: 790986283647413035
+    second: inventory_fast travel_graphic_80
+  - first:
+      213: -800569275458240869
+    second: inventory_fast travel_graphic_81
+  - first:
+      213: -3038586581629109398
+    second: inventory_fast travel_graphic_82
+  - first:
+      213: -4722443678788694817
+    second: inventory_fast travel_graphic_83
+  - first:
+      213: 7796492236714645117
+    second: inventory_fast travel_graphic_84
+  - first:
+      213: 3176872244200981891
+    second: inventory_fast travel_graphic_85
+  - first:
+      213: 2360917935461138487
+    second: inventory_fast travel_graphic_86
+  - first:
+      213: 8698894908487055293
+    second: inventory_fast travel_graphic_87
+  - first:
+      213: -5539260747490176914
+    second: inventory_fast travel_graphic_88
+  - first:
+      213: 240997115426769766
+    second: inventory_fast travel_graphic_89
+  - first:
+      213: 286041127920430056
+    second: inventory_fast travel_graphic_90
+  - first:
+      213: -8585257691599806503
+    second: inventory_fast travel_graphic_91
+  - first:
+      213: -548276371332554701
+    second: inventory_fast travel_graphic_92
+  - first:
+      213: 8730326207291443380
+    second: inventory_fast travel_graphic_93
+  - first:
+      213: 926378141367963522
+    second: inventory_fast travel_graphic_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_0
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1616
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43750d056cf3a560800000000000000
+      internalID: 7323974929974915916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1504
+        width: 139
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0927dd579459770800000000000000
+      internalID: 8616874232618586298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1504
+        width: 61
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb3937cb94beb2f0800000000000000
+      internalID: -955127489800619075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_3
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1390
+        width: 216
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb995dafa3ba64a0800000000000000
+      internalID: -6599264736849060940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_4
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1556
+        width: 101
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4fcdeab17114420800000000000000
+      internalID: 2612394666516870357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_5
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1655
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d4b5b9d7994db40800000000000000
+      internalID: 5464161012663668004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_6
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1616
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49236613b755a1290800000000000000
+      internalID: -7918923007179476332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_7
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1637
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010ff5b157bcacb30800000000000000
+      internalID: 4308479697364185104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_8
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1634
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f869a5d474cad24b0800000000000000
+      internalID: -5463521350690105713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_9
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1571
+        width: 103
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec05ed51e68bbd70800000000000000
+      internalID: 9059983377886940395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_10
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 1598
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a82559310c81d2c0800000000000000
+      internalID: -4408588623334266719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_11
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1592
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ba01b3ae2529be0800000000000000
+      internalID: -1472022962229957867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_12
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1592
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7749bd79ff23ab360800000000000000
+      internalID: 7186112228768846967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_13
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 1598
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fd3a49d5937acd0800000000000000
+      internalID: -2547003990166216818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_14
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1582
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4490ee660dd2c5d70800000000000000
+      internalID: 9033145325701695812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1574
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c182af678fa0fd0d0800000000000000
+      internalID: -3395983531749791716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_16
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1557
+        width: 86
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2da84a5dcf6ef2d0800000000000000
+      internalID: -3243031753886487253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_17
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1546
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9564d3d768d493940800000000000000
+      internalID: 5276333678463370841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_18
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1519
+        width: 102
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e231bcdf822f1fc0800000000000000
+      internalID: -3522058382302170400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1453
+        width: 101
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f17fbe20c6276150800000000000000
+      internalID: 5865699646533235190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_20
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1477
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa73d8073a67e9b0800000000000000
+      internalID: -5050951672468899088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_21
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1476
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3649fcc0cb239a400800000000000000
+      internalID: 335855430465983587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_22
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1406
+        width: 58
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061f8bfb82f1ff2d0800000000000000
+      internalID: -3242838946807746208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_23
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 1465
+        width: 74
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e62bd15cd3ff670800000000000000
+      internalID: 8574640132352798273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1408
+        width: 95
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5304488614deaddb0800000000000000
+      internalID: -4766236390436093899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_25
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1395
+        width: 74
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c31701adf4542130800000000000000
+      internalID: 3541048655325107136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1379
+        width: 100
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7545bf086dd545d80800000000000000
+      internalID: -8262876240449678249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_27
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1357
+        width: 89
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de9cc2e17f0b53f0800000000000000
+      internalID: -911117517801611566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_28
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1365
+        width: 63
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45b94dca09f74bb0800000000000000
+      internalID: -4951715440481422002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_29
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 840
+        width: 220
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a4cbf92a8a844d0800000000000000
+      internalID: -3150082522927576525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_30
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 940
+        width: 58
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f1051b61e05d7d0800000000000000
+      internalID: -2894391694888788154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_31
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 917
+        width: 44
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee312a79d594f930800000000000000
+      internalID: 4176127515768733417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_32
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 867
+        width: 153
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbecce64bbd5a580800000000000000
+      internalID: -8816399127508358154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_33
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 1021
+        width: 54
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e6d27bf2d096d00800000000000000
+      internalID: 966318093635513895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_34
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 953
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0abd957517abcc0800000000000000
+      internalID: -3694515924320411395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_35
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 986
+        width: 84
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264a40a41de5903c0800000000000000
+      internalID: -4392875708540214174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_36
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 974
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee69c5b6bc087260800000000000000
+      internalID: 7095435191795674851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_37
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 990
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd364dff4a8781960800000000000000
+      internalID: 7572935423485567964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_38
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 950
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5365decb12943560800000000000000
+      internalID: 7292614344751539037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_39
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 982
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ac769c5b1dbeab0800000000000000
+      internalID: -4977654384429643125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_40
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 963
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6713e8b3ab2eee0800000000000000
+      internalID: -1233218582994651455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_41
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 781
+        width: 157
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92460a10cb685140800000000000000
+      internalID: 4708631883230364318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_42
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 858
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee69f360f55dedf0800000000000000
+      internalID: -149368721675555090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_43
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 926
+        width: 164
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c3a0988659fe970800000000000000
+      internalID: 8786405674231413889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_44
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 798
+        width: 80
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fe6729bfd38cdc0800000000000000
+      internalID: -3618574149888839848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_45
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 795
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4cf0bc31f471c40800000000000000
+      internalID: 5482938017776649377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_46
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 889
+        width: 168
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 392957bb903999c20800000000000000
+      internalID: 3213761479114592915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_47
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 872
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11606bd8e84acbfb0800000000000000
+      internalID: -4630645384673884655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_48
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 868
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fd3b4c9e1f84ad0800000000000000
+      internalID: -2717656388788297884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 722
+        width: 119
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68af2abb4d2b2dd90800000000000000
+      internalID: -7074395437894796666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_50
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 839
+        width: 142
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d6b33ebd6ebc5a0800000000000000
+      internalID: -6499847805094630019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_51
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 841
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76746ebd74db14920800000000000000
+      internalID: 2972865345370867559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_52
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 697
+        width: 65
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b96ca158ce71ca10800000000000000
+      internalID: 1927961514320095664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_53
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 767
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1064f641a2d20bd70800000000000000
+      internalID: 9056788509396780545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_54
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 764
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ceffa739415cf60800000000000000
+      internalID: 8053866132278340749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_55
+      rect:
+        serializedVersion: 2
+        x: 2104
+        y: 562
+        width: 180
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e233577e76f01010800000000000000
+      internalID: 1157696127262470884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_56
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 721
+        width: 216
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42245095b66189e0800000000000000
+      internalID: -1620901460880121268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_57
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 706
+        width: 20
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ac5600c623b9010800000000000000
+      internalID: 1196605565441526272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_58
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 346
+        width: 144
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884de2fbf774056f0800000000000000
+      internalID: -697979328248490872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_59
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 650
+        width: 165
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582d970f559c5b530800000000000000
+      internalID: 3870220825738728069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_60
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 611
+        width: 170
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fa324ffc9bbc4a0800000000000000
+      internalID: -6571954928411758825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_61
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 583
+        width: 82
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a42c44946f29a40800000000000000
+      internalID: 5373628099953052203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_62
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 576
+        width: 118
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e99264bfb1662190800000000000000
+      internalID: -7987589413101987356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_63
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 585
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878e3e125c20b6140800000000000000
+      internalID: 4713864480673753208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_64
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 580
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ea44594ccf6c580800000000000000
+      internalID: -8807074100028330382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_65
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 374
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6c2b229f86e6b6d0800000000000000
+      internalID: -2974936999524619158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_66
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 375
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1468a330757fb9d0800000000000000
+      internalID: -2756355322163993571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_67
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 174
+        width: 278
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13192ab74fb5d290800000000000000
+      internalID: -7866170859345865953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_68
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 311
+        width: 103
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd919e916357bce0800000000000000
+      internalID: -1389550281283232308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_69
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 231
+        width: 69
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ce1731d989f1e20800000000000000
+      internalID: 3323542850426236025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_70
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 358
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75245e8cbba898dc0800000000000000
+      internalID: -3636222684990979497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 287
+        width: 184
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32903860b24dd340800000000000000
+      internalID: 4890138095823917630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_72
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 278
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73afcff86a6493d0800000000000000
+      internalID: -3200816435952639106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_73
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 285
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fad01e8b3fa1410800000000000000
+      internalID: 1448738205528338272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_74
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 247
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e280fac6a879f6260800000000000000
+      internalID: 7093054558916511790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_75
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 130
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4deb989a634bf9f50800000000000000
+      internalID: 6890424101765758676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_76
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 241
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca068683e27909b0800000000000000
+      internalID: -5113429580362413375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_77
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 240
+        width: 146
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4711b451d73ad8d0800000000000000
+      internalID: -2820880844385609908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_78
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 237
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5418170207cc5cc30800000000000000
+      internalID: 4379130994640388421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_79
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 183
+        width: 214
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf872924f59424ab0800000000000000
+      internalID: -5025373560704435973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_80
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 274
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ba20b85d52afa00800000000000000
+      internalID: 790986283647413035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_81
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 157
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e383e4c7ec3e4f0800000000000000
+      internalID: -800569275458240869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_82
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 7
+        width: 141
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b7ab66a95c4d5d0800000000000000
+      internalID: -3038586581629109398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_83
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 90
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcc206ae72867eb0800000000000000
+      internalID: -4722443678788694817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_84
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 102
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d769777b164b23c60800000000000000
+      internalID: 7796492236714645117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_85
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 116
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385c56c6974861c20800000000000000
+      internalID: 3176872244200981891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_86
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 109
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73082078a5aa3c020800000000000000
+      internalID: 2360917935461138487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_87
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 85
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db733de94dea8b870800000000000000
+      internalID: 8698894908487055293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_88
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 92
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60559bc2b79023b0800000000000000
+      internalID: -5539260747490176914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_89
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 85
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b08e08991385300800000000000000
+      internalID: 240997115426769766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_90
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 88
+        width: 135
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb69dce3e838f300800000000000000
+      internalID: 286041127920430056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_91
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 58
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dfd00bbd990bd880800000000000000
+      internalID: -8585257691599806503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_92
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 73
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330abff8b812468f0800000000000000
+      internalID: -548276371332554701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_93
+      rect:
+        serializedVersion: 2
+        x: 2126
+        y: 41
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8c3e62e69582970800000000000000
+      internalID: 8730326207291443380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_fast travel_graphic_94
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 42
+        width: 143
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f8cebe2082bdc00800000000000000
+      internalID: 926378141367963522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      inventory_fast travel_graphic_0: 7323974929974915916
+      inventory_fast travel_graphic_1: 8616874232618586298
+      inventory_fast travel_graphic_10: -4408588623334266719
+      inventory_fast travel_graphic_11: -1472022962229957867
+      inventory_fast travel_graphic_12: 7186112228768846967
+      inventory_fast travel_graphic_13: -2547003990166216818
+      inventory_fast travel_graphic_14: 9033145325701695812
+      inventory_fast travel_graphic_15: -3395983531749791716
+      inventory_fast travel_graphic_16: -3243031753886487253
+      inventory_fast travel_graphic_17: 5276333678463370841
+      inventory_fast travel_graphic_18: -3522058382302170400
+      inventory_fast travel_graphic_19: 5865699646533235190
+      inventory_fast travel_graphic_2: -955127489800619075
+      inventory_fast travel_graphic_20: -5050951672468899088
+      inventory_fast travel_graphic_21: 335855430465983587
+      inventory_fast travel_graphic_22: -3242838946807746208
+      inventory_fast travel_graphic_23: 8574640132352798273
+      inventory_fast travel_graphic_24: -4766236390436093899
+      inventory_fast travel_graphic_25: 3541048655325107136
+      inventory_fast travel_graphic_26: -8262876240449678249
+      inventory_fast travel_graphic_27: -911117517801611566
+      inventory_fast travel_graphic_28: -4951715440481422002
+      inventory_fast travel_graphic_29: -3150082522927576525
+      inventory_fast travel_graphic_3: -6599264736849060940
+      inventory_fast travel_graphic_30: -2894391694888788154
+      inventory_fast travel_graphic_31: 4176127515768733417
+      inventory_fast travel_graphic_32: -8816399127508358154
+      inventory_fast travel_graphic_33: 966318093635513895
+      inventory_fast travel_graphic_34: -3694515924320411395
+      inventory_fast travel_graphic_35: -4392875708540214174
+      inventory_fast travel_graphic_36: 7095435191795674851
+      inventory_fast travel_graphic_37: 7572935423485567964
+      inventory_fast travel_graphic_38: 7292614344751539037
+      inventory_fast travel_graphic_39: -4977654384429643125
+      inventory_fast travel_graphic_4: 2612394666516870357
+      inventory_fast travel_graphic_40: -1233218582994651455
+      inventory_fast travel_graphic_41: 4708631883230364318
+      inventory_fast travel_graphic_42: -149368721675555090
+      inventory_fast travel_graphic_43: 8786405674231413889
+      inventory_fast travel_graphic_44: -3618574149888839848
+      inventory_fast travel_graphic_45: 5482938017776649377
+      inventory_fast travel_graphic_46: 3213761479114592915
+      inventory_fast travel_graphic_47: -4630645384673884655
+      inventory_fast travel_graphic_48: -2717656388788297884
+      inventory_fast travel_graphic_49: -7074395437894796666
+      inventory_fast travel_graphic_5: 5464161012663668004
+      inventory_fast travel_graphic_50: -6499847805094630019
+      inventory_fast travel_graphic_51: 2972865345370867559
+      inventory_fast travel_graphic_52: 1927961514320095664
+      inventory_fast travel_graphic_53: 9056788509396780545
+      inventory_fast travel_graphic_54: 8053866132278340749
+      inventory_fast travel_graphic_55: 1157696127262470884
+      inventory_fast travel_graphic_56: -1620901460880121268
+      inventory_fast travel_graphic_57: 1196605565441526272
+      inventory_fast travel_graphic_58: -697979328248490872
+      inventory_fast travel_graphic_59: 3870220825738728069
+      inventory_fast travel_graphic_6: -7918923007179476332
+      inventory_fast travel_graphic_60: -6571954928411758825
+      inventory_fast travel_graphic_61: 5373628099953052203
+      inventory_fast travel_graphic_62: -7987589413101987356
+      inventory_fast travel_graphic_63: 4713864480673753208
+      inventory_fast travel_graphic_64: -8807074100028330382
+      inventory_fast travel_graphic_65: -2974936999524619158
+      inventory_fast travel_graphic_66: -2756355322163993571
+      inventory_fast travel_graphic_67: -7866170859345865953
+      inventory_fast travel_graphic_68: -1389550281283232308
+      inventory_fast travel_graphic_69: 3323542850426236025
+      inventory_fast travel_graphic_7: 4308479697364185104
+      inventory_fast travel_graphic_70: -3636222684990979497
+      inventory_fast travel_graphic_71: 4890138095823917630
+      inventory_fast travel_graphic_72: -3200816435952639106
+      inventory_fast travel_graphic_73: 1448738205528338272
+      inventory_fast travel_graphic_74: 7093054558916511790
+      inventory_fast travel_graphic_75: 6890424101765758676
+      inventory_fast travel_graphic_76: -5113429580362413375
+      inventory_fast travel_graphic_77: -2820880844385609908
+      inventory_fast travel_graphic_78: 4379130994640388421
+      inventory_fast travel_graphic_79: -5025373560704435973
+      inventory_fast travel_graphic_8: -5463521350690105713
+      inventory_fast travel_graphic_80: 790986283647413035
+      inventory_fast travel_graphic_81: -800569275458240869
+      inventory_fast travel_graphic_82: -3038586581629109398
+      inventory_fast travel_graphic_83: -4722443678788694817
+      inventory_fast travel_graphic_84: 7796492236714645117
+      inventory_fast travel_graphic_85: 3176872244200981891
+      inventory_fast travel_graphic_86: 2360917935461138487
+      inventory_fast travel_graphic_87: 8698894908487055293
+      inventory_fast travel_graphic_88: -5539260747490176914
+      inventory_fast travel_graphic_89: 240997115426769766
+      inventory_fast travel_graphic_9: 9059983377886940395
+      inventory_fast travel_graphic_90: 286041127920430056
+      inventory_fast travel_graphic_91: -8585257691599806503
+      inventory_fast travel_graphic_92: -548276371332554701
+      inventory_fast travel_graphic_93: 8730326207291443380
+      inventory_fast travel_graphic_94: 926378141367963522
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1129 @@
+fileFormatVersion: 2
+guid: 7c6d0d3128889a54bb9feb1515e54145
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8268816478266518055
+    second: jordan-1_sprite_A_0
+  - first:
+      213: -1470987379943444240
+    second: jordan-1_sprite_A_1
+  - first:
+      213: -1987781333255516372
+    second: jordan-1_sprite_A_2
+  - first:
+      213: -5328967416324229944
+    second: jordan-1_sprite_A_3
+  - first:
+      213: -702665272738983114
+    second: jordan-1_sprite_A_4
+  - first:
+      213: -164223413470548225
+    second: jordan-1_sprite_A_5
+  - first:
+      213: -6006597418390839082
+    second: jordan-1_sprite_A_6
+  - first:
+      213: -2754054060354377528
+    second: jordan-1_sprite_A_7
+  - first:
+      213: 4679042764109890204
+    second: jordan-1_sprite_A_8
+  - first:
+      213: -3191247586058746762
+    second: jordan-1_sprite_A_9
+  - first:
+      213: -8936941826744337914
+    second: jordan-1_sprite_A_10
+  - first:
+      213: 6128596524248139753
+    second: jordan-1_sprite_A_11
+  - first:
+      213: 1977932522725763854
+    second: jordan-1_sprite_A_12
+  - first:
+      213: -5373666912241707654
+    second: jordan-1_sprite_A_13
+  - first:
+      213: -3162264258644453707
+    second: jordan-1_sprite_A_14
+  - first:
+      213: -7413546577973576883
+    second: jordan-1_sprite_A_15
+  - first:
+      213: -1346788703837737210
+    second: jordan-1_sprite_A_16
+  - first:
+      213: -2416224305025046806
+    second: jordan-1_sprite_A_17
+  - first:
+      213: 873227733901361921
+    second: jordan-1_sprite_A_18
+  - first:
+      213: -3353198337851167113
+    second: jordan-1_sprite_A_19
+  - first:
+      213: 7971256093859436086
+    second: jordan-1_sprite_A_20
+  - first:
+      213: 3548941955270311323
+    second: jordan-1_sprite_A_21
+  - first:
+      213: -8268247252781257856
+    second: jordan-1_sprite_A_22
+  - first:
+      213: -7882405698662346073
+    second: jordan-1_sprite_A_23
+  - first:
+      213: 3638260740390415225
+    second: jordan-1_sprite_A_24
+  - first:
+      213: 1487602545966537401
+    second: jordan-1_sprite_A_25
+  - first:
+      213: 708895937989981315
+    second: jordan-1_sprite_A_26
+  - first:
+      213: 4870264597151949727
+    second: jordan-1_sprite_A_27
+  - first:
+      213: -7593033963171254464
+    second: jordan-1_sprite_A_28
+  - first:
+      213: 4550686664603598643
+    second: jordan-1_sprite_A_29
+  - first:
+      213: 8417899450663183506
+    second: jordan-1_sprite_A_30
+  - first:
+      213: -6366828746029301516
+    second: jordan-1_sprite_A_31
+  - first:
+      213: 4512152256403758974
+    second: jordan-1_sprite_A_32
+  - first:
+      213: 1436543333085190890
+    second: jordan-1_sprite_A_33
+  - first:
+      213: -7705517674173921584
+    second: jordan-1_sprite_A_34
+  - first:
+      213: -3375997555133112780
+    second: jordan-1_sprite_A_35
+  - first:
+      213: -4673089251491783568
+    second: jordan-1_sprite_A_36
+  - first:
+      213: 8503477367390045789
+    second: jordan-1_sprite_A_37
+  - first:
+      213: -3242741526830036870
+    second: jordan-1_sprite_A_38
+  - first:
+      213: -7878733760200597837
+    second: jordan-1_sprite_A_39
+  - first:
+      213: 6573101267344270332
+    second: jordan-1_sprite_A_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1848
+        width: 133
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ae8f3e6ccb0c270800000000000000
+      internalID: 8268816478266518055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1833
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0736585c0069be0800000000000000
+      internalID: -1470987379943444240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_2
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1833
+        width: 66
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f072cb86bf964e0800000000000000
+      internalID: -1987781333255516372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_3
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1821
+        width: 105
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4fc527e54bb06b0800000000000000
+      internalID: -5328967416324229944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_4
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1830
+        width: 91
+        height: 122
+      alignment: 9
+      pivot: {x: 0.60265577, y: 0.14905386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633d36648a1af36f0800000000000000
+      internalID: -702665272738983114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_5
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1833
+        width: 132
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe2940fcaf88bdf0800000000000000
+      internalID: -164223413470548225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_6
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1823
+        width: 127
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d02908e87744aca0800000000000000
+      internalID: -6006597418390839082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_7
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 1822
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8ea587c62a7c9d0800000000000000
+      internalID: -2754054060354377528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_8
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1638
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92c1a37a9c4fe040800000000000000
+      internalID: 4679042764109890204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1636
+        width: 99
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67445aa7a3966b3d0800000000000000
+      internalID: -3191247586058746762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_10
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1616
+        width: 78
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ab29e22ca99f380800000000000000
+      internalID: -8936941826744337914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_11
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1618
+        width: 125
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7018f61162d0550800000000000000
+      internalID: 6128596524248139753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_12
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1630
+        width: 81
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.32273647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0be2ce5627037b10800000000000000
+      internalID: 1977932522725763854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_13
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1610
+        width: 81
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75109a0a66ec65b0800000000000000
+      internalID: -5373666912241707654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_14
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1616
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6559149616d14d0800000000000000
+      internalID: -3162264258644453707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_15
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1620
+        width: 74
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b721e7aaacd1990800000000000000
+      internalID: -7413546577973576883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_16
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1376
+        width: 85
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f2e383fce3f4de0800000000000000
+      internalID: -1346788703837737210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_17
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1377
+        width: 73
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae62159dbc8d77ed0800000000000000
+      internalID: -2416224305025046806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_18
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1378
+        width: 101
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636d8201f279f9e60800000000000000
+      internalID: 7971256093859436086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_22
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 1391
+        width: 79
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9dfd5cb7ef504130800000000000000
+      internalID: 3548941955270311323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_23
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1393
+        width: 110
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08bafde3ee8414d80800000000000000
+      internalID: -8268247252781257856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1403
+        width: 68
+        height: 53
+      alignment: 9
+      pivot: {x: 0.38797626, y: 0.3179448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a257b3a7c11c9290800000000000000
+      internalID: -7882405698662346073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_20
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1385
+        width: 118
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b6837fdd2bd7230800000000000000
+      internalID: 3638260740390415225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_21
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1391
+        width: 71
+        height: 59
+      alignment: 9
+      pivot: {x: 0.52850425, y: 0.22558801}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba5d4742a605a410800000000000000
+      internalID: 1487602545966537401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1103
+        width: 84
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3843c96891186d900800000000000000
+      internalID: 708895937989981315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1112
+        width: 133
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93276be8d7a69340800000000000000
+      internalID: 4870264597151949727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_26
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1123
+        width: 123
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f63b117df10a690800000000000000
+      internalID: -7593033963171254464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_27
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1099
+        width: 80
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ffdcf2969472f30800000000000000
+      internalID: 4550686664603598643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_28
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1110
+        width: 120
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2942cbf43f262d470800000000000000
+      internalID: 8417899450663183506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_29
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1127
+        width: 148
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f08d270dfa74a7a0800000000000000
+      internalID: -6366828746029301516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_30
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1124
+        width: 126
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f5c6f12926e9e30800000000000000
+      internalID: 4512152256403758974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 885
+        width: 108
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea9ff0ec80afe310800000000000000
+      internalID: 1436543333085190890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_32
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 882
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d68e5c3080801590800000000000000
+      internalID: -7705517674173921584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_33
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 880
+        width: 75
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5285669, y: 0.100893505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e14b34c1c0621d0800000000000000
+      internalID: -3375997555133112780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_34
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 882
+        width: 83
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cd229b51ad52fb0800000000000000
+      internalID: -4673089251491783568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_35
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 881
+        width: 95
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d568bdebc9b620670800000000000000
+      internalID: 8503477367390045789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_36
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 888
+        width: 63
+        height: 25
+      alignment: 9
+      pivot: {x: 0.4861615, y: 0.18613769}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7843ea13c77ff2d0800000000000000
+      internalID: -3242741526830036870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_A_37
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 882
+        width: 83
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3a9b0e6c8583b50800000000000000
+      internalID: 6573101267344270332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 25351a61ff782424d9c9428eeeb71dd1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1: 1487602545966537401
+      jordan-1_sprite_A_0: 8268816478266518055
+      jordan-1_sprite_A_1: -1470987379943444240
+      jordan-1_sprite_A_10: -8936941826744337914
+      jordan-1_sprite_A_11: 6128596524248139753
+      jordan-1_sprite_A_12: 1977932522725763854
+      jordan-1_sprite_A_13: -5373666912241707654
+      jordan-1_sprite_A_14: -3162264258644453707
+      jordan-1_sprite_A_15: -7413546577973576883
+      jordan-1_sprite_A_16: -1346788703837737210
+      jordan-1_sprite_A_17: -2416224305025046806
+      jordan-1_sprite_A_18: 7971256093859436086
+      jordan-1_sprite_A_19: -7882405698662346073
+      jordan-1_sprite_A_2: -1987781333255516372
+      jordan-1_sprite_A_20: 3638260740390415225
+      jordan-1_sprite_A_21: 1487602545966537401
+      jordan-1_sprite_A_22: 3548941955270311323
+      jordan-1_sprite_A_23: -8268247252781257856
+      jordan-1_sprite_A_24: 708895937989981315
+      jordan-1_sprite_A_25: 4870264597151949727
+      jordan-1_sprite_A_26: -7593033963171254464
+      jordan-1_sprite_A_27: 4550686664603598643
+      jordan-1_sprite_A_28: 8417899450663183506
+      jordan-1_sprite_A_29: -6366828746029301516
+      jordan-1_sprite_A_3: -5328967416324229944
+      jordan-1_sprite_A_30: 4512152256403758974
+      jordan-1_sprite_A_31: 1436543333085190890
+      jordan-1_sprite_A_32: -7705517674173921584
+      jordan-1_sprite_A_33: -3375997555133112780
+      jordan-1_sprite_A_34: -4673089251491783568
+      jordan-1_sprite_A_35: 8503477367390045789
+      jordan-1_sprite_A_36: -3242741526830036870
+      jordan-1_sprite_A_37: 6573101267344270332
+      jordan-1_sprite_A_39: -7878733760200597837
+      jordan-1_sprite_A_4: -702665272738983114
+      jordan-1_sprite_A_5: -164223413470548225
+      jordan-1_sprite_A_6: -6006597418390839082
+      jordan-1_sprite_A_7: -2754054060354377528
+      jordan-1_sprite_A_8: 4679042764109890204
+      jordan-1_sprite_A_9: -3191247586058746762
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

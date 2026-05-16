@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: d63db9e8336d60749aaba1e7fb2cf623
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -326542693781222312
+    second: UI_loading scene_red line_0
+  - first:
+      213: 5720732958807711947
+    second: UI_loading scene_red line_1
+  - first:
+      213: -4917787365496322358
+    second: UI_loading scene_red line_2
+  - first:
+      213: -7814609100465959229
+    second: UI_loading scene_red line_3
+  - first:
+      213: -6041226931461385595
+    second: UI_loading scene_red line_4
+  - first:
+      213: 4147740273312419193
+    second: UI_loading scene_red line_5
+  - first:
+      213: 2275960386158911528
+    second: UI_loading scene_red line_6
+  - first:
+      213: -8211802196583416993
+    second: UI_loading scene_red line_7
+  - first:
+      213: -8416827602724637878
+    second: UI_loading scene_red line_8
+  - first:
+      213: -3975904905116044788
+    second: UI_loading scene_red line_9
+  - first:
+      213: 2497182326174336320
+    second: UI_loading scene_red line_10
+  - first:
+      213: 6224415707100808833
+    second: UI_loading scene_red line_11
+  - first:
+      213: 1095904901488040083
+    second: UI_loading scene_red line_12
+  - first:
+      213: -8333752110764537096
+    second: UI_loading scene_red line_13
+  - first:
+      213: 2308271331927149520
+    second: UI_loading scene_red line_14
+  - first:
+      213: -3066785931904127353
+    second: UI_loading scene_red line_15
+  - first:
+      213: -5908116463452031974
+    second: UI_loading scene_red line_16
+  - first:
+      213: 135229137761254193
+    second: UI_loading scene_red line_17
+  - first:
+      213: -5930257535720844805
+    second: UI_loading scene_red line_18
+  - first:
+      213: 8751856963764758698
+    second: UI_loading scene_red line_19
+  - first:
+      213: -3755767142786279647
+    second: UI_loading scene_red line_20
+  - first:
+      213: 2713092644921933281
+    second: UI_loading scene_red line_21
+  - first:
+      213: 1927408918311371021
+    second: UI_loading scene_red line_22
+  - first:
+      213: -5839849587884926846
+    second: UI_loading scene_red line_23
+  - first:
+      213: 3554011086424205938
+    second: UI_loading scene_red line_24
+  - first:
+      213: -4539705877761243269
+    second: UI_loading scene_red line_25
+  - first:
+      213: 5291113695091946797
+    second: UI_loading scene_red line_26
+  - first:
+      213: 5017026332218559273
+    second: UI_loading scene_red line_27
+  - first:
+      213: -5862320515010140017
+    second: UI_loading scene_red line_28
+  - first:
+      213: 362739003552349005
+    second: UI_loading scene_red line_29
+  - first:
+      213: -5669037585352393516
+    second: UI_loading scene_red line_30
+  - first:
+      213: 751650366653003186
+    second: UI_loading scene_red line_31
+  - first:
+      213: 4683443047660308656
+    second: UI_loading scene_red line_32
+  - first:
+      213: 6827765682598850798
+    second: UI_loading scene_red line_33
+  - first:
+      213: 5932410227240717894
+    second: UI_loading scene_red line_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_loading scene_red line_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163
+        width: 74
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ccb2d6623e77bf0800000000000000
+      internalID: -326542693781222312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 194
+        width: 82
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc06a98f050246f40800000000000000
+      internalID: 5720732958807711947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 215
+        width: 82
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac600b6527280cbb0800000000000000
+      internalID: -4917787365496322358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_3
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 224
+        width: 83
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce013c3d6eec8390800000000000000
+      internalID: -7814609100465959229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_4
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 216
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58298b61d10492ca0800000000000000
+      internalID: -6041226931461385595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 193
+        width: 81
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d4e5b8dcbbf8930800000000000000
+      internalID: 4147740273312419193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_6
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 158
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820ecd3a9e5d59f10800000000000000
+      internalID: 2275960386158911528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_7
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 172
+        width: 92
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b7fd20961d90e80800000000000000
+      internalID: -8211802196583416993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_8
+      rect:
+        serializedVersion: 2
+        x: 2308
+        y: 196
+        width: 92
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4335ebb3eb613b80800000000000000
+      internalID: -8416827602724637878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_9
+      rect:
+        serializedVersion: 2
+        x: 2418
+        y: 215
+        width: 93
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0233d5dd8fb2d8c0800000000000000
+      internalID: -3975904905116044788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_10
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 228
+        width: 87
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04541035816c7a220800000000000000
+      internalID: 2497182326174336320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_11
+      rect:
+        serializedVersion: 2
+        x: 2638
+        y: 231
+        width: 85
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1860b147b11916650800000000000000
+      internalID: 6224415707100808833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_12
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 221
+        width: 99
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398ddc893bf653f00800000000000000
+      internalID: 1095904901488040083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_13
+      rect:
+        serializedVersion: 2
+        x: 2866
+        y: 202
+        width: 86
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fac7bffb90985c80800000000000000
+      internalID: -8333752110764537096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_14
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 178
+        width: 87
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db4cb0fb80a80020800000000000000
+      internalID: 2308271331927149520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 115
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e60b681769075d0800000000000000
+      internalID: -3066785931904127353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_16
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 80
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14fd480167220ea0800000000000000
+      internalID: -5908116463452031974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_17
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 112
+        width: 94
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bba8f2f2e60e100800000000000000
+      internalID: 135229137761254193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_18
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 144
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf196cce03e73bda0800000000000000
+      internalID: -5930257535720844805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_19
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 154
+        width: 84
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa82a3a0a87d47970800000000000000
+      internalID: 8751856963764758698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_20
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 135
+        width: 85
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127d32bbea5d0ebc0800000000000000
+      internalID: -3755767142786279647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_21
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 129
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edfb4fc267d6a520800000000000000
+      internalID: 2713092644921933281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_22
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 130
+        width: 84
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d018ed803388fba10800000000000000
+      internalID: 1927408918311371021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_23
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 138
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288586c9dbfa4fea0800000000000000
+      internalID: -5839849587884926846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_24
+      rect:
+        serializedVersion: 2
+        x: 3588
+        y: 153
+        width: 81
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a6d1ec042625130800000000000000
+      internalID: 3554011086424205938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_25
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 48
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77c94b7e89bff0c0800000000000000
+      internalID: -4539705877761243269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_26
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 23
+        width: 90
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25f8264fdfcd6940800000000000000
+      internalID: 5291113695091946797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_27
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 33
+        width: 86
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b0ba82ede00a540800000000000000
+      internalID: 5017026332218559273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_28
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 54
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88e55f2d8ad4aea0800000000000000
+      internalID: -5862320515010140017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_29
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 81
+        width: 95
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bbaeca335b80500800000000000000
+      internalID: 362739003552349005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_30
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 8
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc7bba1a588351b0800000000000000
+      internalID: -5669037585352393516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_31
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 0
+        width: 88
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5f4aba6066e6a00800000000000000
+      internalID: 751650366653003186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_32
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 0
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8c09d43aeeef040800000000000000
+      internalID: 4683443047660308656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_33
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 4
+        width: 85
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee038e896b811ce50800000000000000
+      internalID: 6827765682598850798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_loading scene_red line_34
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 14
+        width: 91
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ec390aba7245250800000000000000
+      internalID: 5932410227240717894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI_loading scene_red line_0: -326542693781222312
+      UI_loading scene_red line_1: 5720732958807711947
+      UI_loading scene_red line_10: 2497182326174336320
+      UI_loading scene_red line_11: 6224415707100808833
+      UI_loading scene_red line_12: 1095904901488040083
+      UI_loading scene_red line_13: -8333752110764537096
+      UI_loading scene_red line_14: 2308271331927149520
+      UI_loading scene_red line_15: -3066785931904127353
+      UI_loading scene_red line_16: -5908116463452031974
+      UI_loading scene_red line_17: 135229137761254193
+      UI_loading scene_red line_18: -5930257535720844805
+      UI_loading scene_red line_19: 8751856963764758698
+      UI_loading scene_red line_2: -4917787365496322358
+      UI_loading scene_red line_20: -3755767142786279647
+      UI_loading scene_red line_21: 2713092644921933281
+      UI_loading scene_red line_22: 1927408918311371021
+      UI_loading scene_red line_23: -5839849587884926846
+      UI_loading scene_red line_24: 3554011086424205938
+      UI_loading scene_red line_25: -4539705877761243269
+      UI_loading scene_red line_26: 5291113695091946797
+      UI_loading scene_red line_27: 5017026332218559273
+      UI_loading scene_red line_28: -5862320515010140017
+      UI_loading scene_red line_29: 362739003552349005
+      UI_loading scene_red line_3: -7814609100465959229
+      UI_loading scene_red line_30: -5669037585352393516
+      UI_loading scene_red line_31: 751650366653003186
+      UI_loading scene_red line_32: 4683443047660308656
+      UI_loading scene_red line_33: 6827765682598850798
+      UI_loading scene_red line_34: 5932410227240717894
+      UI_loading scene_red line_4: -6041226931461385595
+      UI_loading scene_red line_5: 4147740273312419193
+      UI_loading scene_red line_6: 2275960386158911528
+      UI_loading scene_red line_7: -8211802196583416993
+      UI_loading scene_red line_8: -8416827602724637878
+      UI_loading scene_red line_9: -3975904905116044788
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: f2b7771853cc7864fa47751f11ed0d3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9092724901187916124
+    second: dog - highlight white_0
+  - first:
+      213: 5983032470598853253
+    second: dog - highlight white_1
+  - first:
+      213: 8564108610111196899
+    second: dog - highlight white_2
+  - first:
+      213: 5584306000643032468
+    second: dog - highlight white_3
+  - first:
+      213: 1813253789698761303
+    second: dog - highlight white_4
+  - first:
+      213: 8736018432633246442
+    second: dog - highlight white_5
+  - first:
+      213: 4801274245607013856
+    second: dog - highlight white_6
+  - first:
+      213: 4492601590611685446
+    second: dog - highlight white_7
+  - first:
+      213: 4624824777459256127
+    second: dog - highlight white_8
+  - first:
+      213: 8091655257169185710
+    second: dog - highlight white_9
+  - first:
+      213: 7995229652505530145
+    second: dog - highlight white_10
+  - first:
+      213: 5545097617761486903
+    second: dog - highlight white_11
+  - first:
+      213: 5547023240547996727
+    second: dog - highlight white_12
+  - first:
+      213: -8982412379635226856
+    second: dog - highlight white_13
+  - first:
+      213: 6609788313982020294
+    second: dog - highlight white_14
+  - first:
+      213: 3167767427910718639
+    second: dog - highlight white_15
+  - first:
+      213: 5860233172556616182
+    second: dog - highlight white_16
+  - first:
+      213: 4446644338938862202
+    second: dog - highlight white_17
+  - first:
+      213: 1673982259906140871
+    second: dog - highlight white_18
+  - first:
+      213: -4628885686744075179
+    second: dog - highlight white_19
+  - first:
+      213: 3614313825107864397
+    second: dog - highlight white_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dog - highlight white_0
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 3819
+        width: 132
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5197af4f19df2e70800000000000000
+      internalID: 9092724901187916124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_1
+      rect:
+        serializedVersion: 2
+        x: 3593
+        y: 3487
+        width: 96
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5822ca12550080350800000000000000
+      internalID: 5983032470598853253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_2
+      rect:
+        serializedVersion: 2
+        x: 5475
+        y: 3450
+        width: 140
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eeca830863d9d670800000000000000
+      internalID: 8564108610111196899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_3
+      rect:
+        serializedVersion: 2
+        x: 7462
+        y: 3156
+        width: 235
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495096d78b07f7d40800000000000000
+      internalID: 5584306000643032468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_4
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 2939
+        width: 178
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75220a6f6b8f92910800000000000000
+      internalID: 1813253789698761303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_5
+      rect:
+        serializedVersion: 2
+        x: 3954
+        y: 3021
+        width: 210
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae29e54aa729c3970800000000000000
+      internalID: 8736018432633246442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_6
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 2835
+        width: 177
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed33a6fc7d81a240800000000000000
+      internalID: 4801274245607013856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2226
+        width: 237
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640b3c5085de85e30800000000000000
+      internalID: 4492601590611685446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_8
+      rect:
+        serializedVersion: 2
+        x: 3961
+        y: 2435
+        width: 166
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b42e8b1adae2040800000000000000
+      internalID: 4624824777459256127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_9
+      rect:
+        serializedVersion: 2
+        x: 5764
+        y: 2457
+        width: 188
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabcd70c5955b4070800000000000000
+      internalID: 8091655257169185710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_10
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 2073
+        width: 135
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f03472203c4fe60800000000000000
+      internalID: 7995229652505530145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_11
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 1918
+        width: 99
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738c98777e424fc40800000000000000
+      internalID: 5545097617761486903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_12
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 1755
+        width: 70
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73413b57f3cfafc40800000000000000
+      internalID: 5547023240547996727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_13
+      rect:
+        serializedVersion: 2
+        x: 4092
+        y: 1824
+        width: 113
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81765c5188f085380800000000000000
+      internalID: -8982412379635226856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_14
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 1708
+        width: 145
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca2d6f837faabb50800000000000000
+      internalID: 6609788313982020294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_15
+      rect:
+        serializedVersion: 2
+        x: 6428
+        y: 1443
+        width: 147
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4dbaf21bb26fb20800000000000000
+      internalID: 3167767427910718639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_16
+      rect:
+        serializedVersion: 2
+        x: 4649
+        y: 1014
+        width: 404
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f19237850bb35150800000000000000
+      internalID: 5860233172556616182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_17
+      rect:
+        serializedVersion: 2
+        x: 7346
+        y: 1183
+        width: 310
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ad3f88777a5bd30800000000000000
+      internalID: 4446644338938862202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_18
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 540
+        width: 211
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cad20a0ffd2b3710800000000000000
+      internalID: 1673982259906140871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_19
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 125
+        width: 345
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554bab72ef4e2cfb0800000000000000
+      internalID: -4628885686744075179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dog - highlight white_20
+      rect:
+        serializedVersion: 2
+        x: 6463
+        y: 0
+        width: 335
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b6654464f982230800000000000000
+      internalID: 3614313825107864397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dog - highlight white_0: 9092724901187916124
+      dog - highlight white_1: 5983032470598853253
+      dog - highlight white_10: 7995229652505530145
+      dog - highlight white_11: 5545097617761486903
+      dog - highlight white_12: 5547023240547996727
+      dog - highlight white_13: -8982412379635226856
+      dog - highlight white_14: 6609788313982020294
+      dog - highlight white_15: 3167767427910718639
+      dog - highlight white_16: 5860233172556616182
+      dog - highlight white_17: 4446644338938862202
+      dog - highlight white_18: 1673982259906140871
+      dog - highlight white_19: -4628885686744075179
+      dog - highlight white_2: 8564108610111196899
+      dog - highlight white_20: 3614313825107864397
+      dog - highlight white_3: 5584306000643032468
+      dog - highlight white_4: 1813253789698761303
+      dog - highlight white_5: 8736018432633246442
+      dog - highlight white_6: 4801274245607013856
+      dog - highlight white_7: 4492601590611685446
+      dog - highlight white_8: 4624824777459256127
+      dog - highlight white_9: 8091655257169185710
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

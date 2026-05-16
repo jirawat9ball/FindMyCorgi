@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: ccc04fdb748a71b41a138fe110260dd2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2529465740313304093
+    second: jordan-2_obstacle_close_0
+  - first:
+      213: -6612623651374047808
+    second: jordan-2_obstacle_close_1
+  - first:
+      213: 7820672945949165056
+    second: jordan-2_obstacle_close_2
+  - first:
+      213: 4750687604657323142
+    second: jordan-2_obstacle_close_3
+  - first:
+      213: 6113875991558932424
+    second: jordan-2_obstacle_close_4
+  - first:
+      213: -8931570622034368167
+    second: jordan-2_obstacle_close_5
+  - first:
+      213: 1546129993649484513
+    second: jordan-2_obstacle_close_6
+  - first:
+      213: -7378251827638354005
+    second: jordan-2_obstacle_close_7
+  - first:
+      213: -447730428064372196
+    second: jordan-2_obstacle_close_8
+  - first:
+      213: -4468650997121618853
+    second: jordan-2_obstacle_close_9
+  - first:
+      213: -4011128208344707117
+    second: jordan-2_obstacle_close_10
+  - first:
+      213: 3208157537503690633
+    second: jordan-2_obstacle_close_11
+  - first:
+      213: -7051771738962672981
+    second: jordan-2_obstacle_close_12
+  - first:
+      213: -3637915361177987433
+    second: jordan-2_obstacle_close_13
+  - first:
+      213: 8574286914976338052
+    second: jordan-2_obstacle_close_14
+  - first:
+      213: -142978633457110651
+    second: jordan-2_obstacle_close_15
+  - first:
+      213: 1371928654082414201
+    second: jordan-2_obstacle_close_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_0
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2243
+        width: 103
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c15ea60b77a1320800000000000000
+      internalID: 2529465740313304093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_1
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 2148
+        width: 173
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdd08203dd3b34a0800000000000000
+      internalID: -6612623651374047808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_2
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 2196
+        width: 122
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006cecfcb9c988c60800000000000000
+      internalID: 7820672945949165056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1979
+        width: 225
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c737ac435dde140800000000000000
+      internalID: 4750687604657323142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_4
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1457
+        width: 92
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7c8a552d9d8d450800000000000000
+      internalID: 6113875991558932424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_5
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1370
+        width: 82
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959a35b37dfac0480800000000000000
+      internalID: -8931570622034368167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_6
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 932
+        width: 190
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2fd089905f47510800000000000000
+      internalID: 1546129993649484513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_7
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 1196
+        width: 74
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf3d3eed0f2b9990800000000000000
+      internalID: -7378251827638354005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_8
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1044
+        width: 91
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ae6104c8759c9f0800000000000000
+      internalID: -447730428064372196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_9
+      rect:
+        serializedVersion: 2
+        x: 3717
+        y: 916
+        width: 198
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cee5318992cf1c0800000000000000
+      internalID: -4468650997121618853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_10
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 860
+        width: 277
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df8019752c9558c0800000000000000
+      internalID: -4011128208344707117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_11
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 792
+        width: 90
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f3666684aa58c20800000000000000
+      internalID: 3208157537503690633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_12
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 596
+        width: 151
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2cdfd17f2132e90800000000000000
+      internalID: -7051771738962672981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_13
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 700
+        width: 109
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7969c06e047838dc0800000000000000
+      internalID: -3637915361177987433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_14
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 508
+        width: 154
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480d179458cfdf670800000000000000
+      internalID: 8574286914976338052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_15
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 136
+        width: 271
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581715eb0b9040ef0800000000000000
+      internalID: -142978633457110651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_obstacle_close_16
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 48
+        width: 234
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97613c397d11a0310800000000000000
+      internalID: 1371928654082414201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jordan-2_obstacle_close_0: 2529465740313304093
+      jordan-2_obstacle_close_1: -6612623651374047808
+      jordan-2_obstacle_close_10: -4011128208344707117
+      jordan-2_obstacle_close_11: 3208157537503690633
+      jordan-2_obstacle_close_12: -7051771738962672981
+      jordan-2_obstacle_close_13: -3637915361177987433
+      jordan-2_obstacle_close_14: 8574286914976338052
+      jordan-2_obstacle_close_15: -142978633457110651
+      jordan-2_obstacle_close_16: 1371928654082414201
+      jordan-2_obstacle_close_2: 7820672945949165056
+      jordan-2_obstacle_close_3: 4750687604657323142
+      jordan-2_obstacle_close_4: 6113875991558932424
+      jordan-2_obstacle_close_5: -8931570622034368167
+      jordan-2_obstacle_close_6: 1546129993649484513
+      jordan-2_obstacle_close_7: -7378251827638354005
+      jordan-2_obstacle_close_8: -447730428064372196
+      jordan-2_obstacle_close_9: -4468650997121618853
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

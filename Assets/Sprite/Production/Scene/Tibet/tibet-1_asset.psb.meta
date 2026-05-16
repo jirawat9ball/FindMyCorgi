@@ -1,0 +1,4322 @@
+fileFormatVersion: 2
+guid: 2bdbe34256444ec49ae663dad2011259
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 3e00d2dcc9aaef141a222b1bb7660577
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: DOG-SPRITE_tibet-1_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 2205
+      width: 79
+      height: 110
+    spriteID: d3fc7abefb8680a4e880e865633554c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 2205}
+    spritePosition: {x: 3395, y: 309}
+  - name: DOG-S_tibet-1_6_F
+    originalName: 
+    pivot: {x: 0.5538925, y: 0.12825958}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7866
+      y: 103
+      width: 78
+      height: 50
+    spriteID: 79a72a845f9f82143bdc81eb9e163dc5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7866, y: 103}
+    spritePosition: {x: 5437, y: 304}
+  - name: DOG-S_tibet-1_6_H
+    originalName: 
+    pivot: {x: 0.5071102, y: 0.15662841}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 2797
+      width: 73
+      height: 40
+    spriteID: fec6be43dcdc33e488c5a5626d0911c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 2797}
+    spritePosition: {x: 5445, y: 304}
+  - name: DOG-S_tibet-1_5_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1269
+      width: 78
+      height: 85
+    spriteID: 9fec80daf4418584b90506333adf07a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1269}
+    spritePosition: {x: 5626, y: 2404}
+  - name: DOG-S_tibet-1_5_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1174
+      width: 77
+      height: 87
+    spriteID: 5b9a26aa50dc184419e4d0b2910e73fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1174}
+    spritePosition: {x: 5627, y: 2402}
+  - name: DOG-S_tibet-1_4_F
+    originalName: 
+    pivot: {x: 0.5046847, y: 0.10118273}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2242
+      width: 69
+      height: 72
+    spriteID: 17146bc94f4fa41409931ab9c9baef9b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2242}
+    spritePosition: {x: 1863, y: 380}
+  - name: DOG-S_tibet-1_4_H
+    originalName: 
+    pivot: {x: 0.50001377, y: 0.15291078}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7997
+      y: 120
+      width: 71
+      height: 31
+    spriteID: de8cbbade471fd541b27c99ccf6a8f76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7997, y: 120}
+    spritePosition: {x: 1864, y: 382}
+  - name: DOG-S_tibet-1_3_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6624
+      y: 84
+      width: 131
+      height: 66
+    spriteID: 3790195f03e1b0f49b81ae1e2ca37296
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6624, y: 84}
+    spritePosition: {x: 2479, y: 1730}
+  - name: DOG-S_tibet-1_3_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6366
+      y: 255
+      width: 116
+      height: 61
+    spriteID: 2f671e30087db0f47b13d431d360948f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6366, y: 255}
+    spritePosition: {x: 2494, y: 1730}
+  - name: DOG-S_tibet-1_2_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.0822639}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2064
+      width: 62
+      height: 85
+    spriteID: 817d642d118d5af49801afa7c8c7df5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2064}
+    spritePosition: {x: 2550, y: 2607}
+  - name: DOG-S_tibet-1_2_H
+    originalName: 
+    pivot: {x: 0.512238, y: 0.12681924}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2622
+      width: 63
+      height: 62
+    spriteID: acc5aa9e7564b9848949755a7cbc61a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2622}
+    spritePosition: {x: 2548, y: 2609}
+  - name: DOG-S_tibet-1_1_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 2556
+      width: 69
+      height: 105
+    spriteID: a807a8f01e976f4438ac7ec8b31bcf3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 2556}
+    spritePosition: {x: 1245, y: 2266}
+  - name: DOG-S_tibet-1_1_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 2038
+      width: 78
+      height: 96
+    spriteID: 9969098510b6da64ea1f3f69af249467
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 2038}
+    spritePosition: {x: 1241, y: 2266}
+  - name: DOG_tibet-1_44_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 552
+      width: 84
+      height: 129
+    spriteID: 53e747417d96a684292233716151fb4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 552}
+    spritePosition: {x: 203, y: 2558}
+  - name: DOG_tibet-1_44_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 689
+      width: 83
+      height: 130
+    spriteID: d7e3d443a44f40949a50f540454c6207
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 689}
+    spritePosition: {x: 203, y: 2558}
+  - name: DOG_tibet-1_43_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1070
+      width: 72
+      height: 96
+    spriteID: b364b363b52d77249985d88b0e301384
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1070}
+    spritePosition: {x: 825, y: 2118}
+  - name: DOG_tibet-1_43_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 2142
+      width: 80
+      height: 92
+    spriteID: 61997a3e08c5f2a45ac81183f0ff0f10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 2142}
+    spritePosition: {x: 817, y: 2115}
+  - name: DOG_tibet-1_42_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6927
+      y: 165
+      width: 113
+      height: 81
+    spriteID: 1b958935f44029243a6e4f35b4f7626d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6927, y: 165}
+    spritePosition: {x: 340, y: 1512}
+  - name: DOG_tibet-1_42_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7412
+      y: 165
+      width: 107
+      height: 81
+    spriteID: 6b33f37a022b0c14cba68ed21713c5fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7412, y: 165}
+    spritePosition: {x: 346, y: 1512}
+  - name: DOG_tibet-1_41_F
+    originalName: 
+    pivot: {x: 0.5855933, y: 0.09159985}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2753
+      width: 61
+      height: 57
+    spriteID: 6ed08c44f0a1cc744bb1c0eeb2a33885
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2753}
+    spritePosition: {x: 582, y: 1612}
+  - name: DOG_tibet-1_41_H
+    originalName: 
+    pivot: {x: 0.5000141, y: 0.16441135}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7627
+      y: 122
+      width: 69
+      height: 29
+    spriteID: 4383a90bcca13854ebdfeb0d77c9a09c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7627, y: 122}
+    spritePosition: {x: 581, y: 1613}
+  - name: DOG_tibet-1_40_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 255
+      width: 117
+      height: 87
+    spriteID: 86dc97aae96f0164791620d484a4503f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 255}
+    spritePosition: {x: 932, y: 1543}
+  - name: DOG_tibet-1_40_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7171
+      y: 165
+      width: 112
+      height: 81
+    spriteID: 34851eff75c7edd4893f3b825932cef4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7171, y: 165}
+    spritePosition: {x: 937, y: 1543}
+  - name: DOG_tibet-1_39_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 2242
+      width: 68
+      height: 108
+    spriteID: f46352c94e237fe4eaf18bf7ad0c349d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 2242}
+    spritePosition: {x: 1090, y: 1162}
+  - name: DOG_tibet-1_39_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 1924
+      width: 71
+      height: 106
+    spriteID: 99831b5bdcc50fd4fa923c00827b30e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 1924}
+    spritePosition: {x: 1087, y: 1162}
+  - name: DOG_tibet-1_38_F
+    originalName: 
+    pivot: {x: 0.3882968, y: 0.2854004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2322
+      width: 69
+      height: 68
+    spriteID: c1c3b8b71dc0ee9468464817dc8fdf92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2322}
+    spritePosition: {x: 965, y: 1022}
+  - name: DOG_tibet-1_38_H
+    originalName: 
+    pivot: {x: 0.43057662, y: 0.42374408}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2553
+      width: 67
+      height: 61
+    spriteID: b3c88cd4b3e07f441959c7c074d9d5ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2553}
+    spritePosition: {x: 963, y: 1016}
+  - name: DOG_tibet-1_37_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 1676
+      width: 65
+      height: 116
+    spriteID: ac7df0b6fce62c7468bb294f4831cfb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 1676}
+    spritePosition: {x: 1535, y: 1125}
+  - name: DOG_tibet-1_37_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 1800
+      width: 65
+      height: 116
+    spriteID: e0bb11ece8aef8749b6607b13eecd3fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 1800}
+    spritePosition: {x: 1535, y: 1125}
+  - name: DOG_tibet-1_36_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 1070
+      width: 95
+      height: 83
+    spriteID: 1021d672a5ab526469252a48541f77a1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 1070}
+    spritePosition: {x: 1817, y: 1610}
+  - name: DOG_tibet-1_36_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 2780
+      width: 98
+      height: 55
+    spriteID: 561e37ad2c7b3284596d370e356d4a2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 2780}
+    spritePosition: {x: 1817, y: 1610}
+  - name: DOG_tibet-1_35_F
+    originalName: 
+    pivot: {x: 0.49999043, y: 0.10061868}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7997
+      y: 4
+      width: 102
+      height: 108
+    spriteID: 905c5e4118aa6454fb526dc750ea5090
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7997, y: 4}
+    spritePosition: {x: 1918, y: 1897}
+  - name: DOG_tibet-1_35_H
+    originalName: 
+    pivot: {x: 0.49623108, y: 0.082321726}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 165
+      width: 128
+      height: 82
+    spriteID: f17921ab0be683740a62323e7c53f892
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 165}
+    spritePosition: {x: 1918, y: 1898}
+  - name: DOG_tibet-1_34_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 8107
+      y: 4
+      width: 74
+      height: 136
+    spriteID: 36b525ace55b00b4ab5e449a79baa166
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 8107, y: 4}
+    spritePosition: {x: 2390, y: 2020}
+  - name: DOG_tibet-1_34_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 1694
+      width: 74
+      height: 124
+    spriteID: 23f7d71d6181457409e341197cfddf9c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 1694}
+    spritePosition: {x: 2390, y: 2020}
+  - name: DOG_tibet-1_33_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6124
+      y: 165
+      width: 109
+      height: 98
+    spriteID: b6ef2fba2cad88c49b0533f48e78007b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6124, y: 165}
+    spritePosition: {x: 2115, y: 1696}
+  - name: DOG_tibet-1_33_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7743
+      y: 4
+      width: 115
+      height: 99
+    spriteID: fdb41f0d4dd48e949afaf50546322d16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7743, y: 4}
+    spritePosition: {x: 2109, y: 1695}
+  - name: DOG_tibet-1_32_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1362
+      width: 66
+      height: 99
+    spriteID: 3c3572f203cbbb445b8fbc62db32704b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1362}
+    spritePosition: {x: 2010, y: 1302}
+  - name: DOG_tibet-1_32_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6763
+      y: 84
+      width: 66
+      height: 71
+    spriteID: ffc03050d0b7d3e4e9116a411b90f34c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6763, y: 84}
+    spritePosition: {x: 2010, y: 1302}
+  - name: DOG_tibet-1_31_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 638
+      width: 68
+      height: 105
+    spriteID: 61dec9f752b3a004dab1b23fa005f1c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 638}
+    spritePosition: {x: 2137, y: 1036}
+  - name: DOG_tibet-1_31_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 2577
+      width: 81
+      height: 105
+    spriteID: 1b0d616b8f37d9c49a8680b83ffa1879
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 2577}
+    spritePosition: {x: 2136, y: 1036}
+  - name: DOG_tibet-1_30_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7652
+      y: 165
+      width: 107
+      height: 78
+    spriteID: d66fcb6d3a427a8429dd9cece7fddd59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7652, y: 165}
+    spritePosition: {x: 3216, y: 2072}
+  - name: DOG_tibet-1_30_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7527
+      y: 165
+      width: 117
+      height: 74
+    spriteID: 9f678182b6e89ac42b461f148ad41d08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7527, y: 165}
+    spritePosition: {x: 3206, y: 2072}
+  - name: DOG_tibet-1_29_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 2358
+      width: 81
+      height: 90
+    spriteID: d7f521347f8d7d84c9f4613633faba08
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 2358}
+    spritePosition: {x: 2690, y: 1477}
+  - name: DOG_tibet-1_29_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2157
+      width: 65
+      height: 77
+    spriteID: 2aa71109504c866449f943f75bbffc3f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2157}
+    spritePosition: {x: 2706, y: 1477}
+  - name: DOG_tibet-1_28_F
+    originalName: 
+    pivot: {x: 0.45664877, y: 0.30008996}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1964
+      width: 60
+      height: 92
+    spriteID: 1c41c54a33b662d4db872353383fd121
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1964}
+    spritePosition: {x: 2552, y: 919}
+  - name: DOG_tibet-1_28_H
+    originalName: 
+    pivot: {x: 0.26546225, y: 0.25371066}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1873
+      width: 72
+      height: 83
+    spriteID: 8a90de08581be694384dffdf720edce6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1873}
+    spritePosition: {x: 2557, y: 926}
+  - name: DOG_tibet-1_27_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7106
+      y: 4
+      width: 121
+      height: 116
+    spriteID: 4303de3426995594a9d835b40ba05360
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7106, y: 4}
+    spritePosition: {x: 3135, y: 1445}
+  - name: DOG_tibet-1_27_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7235
+      y: 4
+      width: 127
+      height: 109
+    spriteID: 9f38baa72efe82b4dbda4c7459120b7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7235, y: 4}
+    spritePosition: {x: 3129, y: 1445}
+  - name: DOG_tibet-1_26_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 745
+      width: 78
+      height: 106
+    spriteID: 4d5486027a9a6cb4182c9a88dc24c9be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 745}
+    spritePosition: {x: 3166, y: 911}
+  - name: DOG_tibet-1_26_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 751
+      width: 70
+      height: 102
+    spriteID: f68faf0fe817e154ab07b3de1e0720dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 751}
+    spritePosition: {x: 3174, y: 911}
+  - name: DOG_tibet-1_25_F
+    originalName: 
+    pivot: {x: 0.6940836, y: 0.3028538}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 859
+      width: 89
+      height: 92
+    spriteID: dd239ff3456ac7e4caf9ce80ef01f75b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 859}
+    spritePosition: {x: 3690, y: 1659}
+  - name: DOG_tibet-1_25_H
+    originalName: 
+    pivot: {x: 0.57214004, y: 0.3989934}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2480
+      width: 70
+      height: 65
+    spriteID: af105eeafdde0b94fa34e5241edbecb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2480}
+    spritePosition: {x: 3711, y: 1661}
+  - name: DOG_tibet-1_24_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 861
+      width: 69
+      height: 102
+    spriteID: ab18b63b40318b841af8c85d9f6a6ca9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 861}
+    spritePosition: {x: 3690, y: 1129}
+  - name: DOG_tibet-1_24_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 435
+      width: 77
+      height: 93
+    spriteID: f5056386d3faede4e9d6f384f2396995
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 435}
+    spritePosition: {x: 3687, y: 1129}
+  - name: DOG_tibet-1_23_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 639
+      width: 95
+      height: 98
+    spriteID: dff03d6f6c6a81f42a932f66bca8e627
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 639}
+    spritePosition: {x: 4119, y: 1126}
+  - name: DOG_tibet-1_23_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 2690
+      width: 84
+      height: 99
+    spriteID: f6a5ab67864afdc4e900ae8864bb61bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 2690}
+    spritePosition: {x: 4124, y: 1125}
+  - name: DOG_tibet-1_22_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6794
+      y: 165
+      width: 125
+      height: 75
+    spriteID: 92f216a760cbb414eb32cab23edceeb9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6794, y: 165}
+    spritePosition: {x: 4310, y: 1449}
+  - name: DOG_tibet-1_22_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6524
+      y: 165
+      width: 127
+      height: 79
+    spriteID: ee31df97f4e0ddb42a8c060aef943657
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6524, y: 165}
+    spritePosition: {x: 4308, y: 1445}
+  - name: DOG_tibet-1_21_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 2323
+      width: 69
+      height: 124
+    spriteID: 9f398b43d7c2d3d4287751a2867711a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 2323}
+    spritePosition: {x: 4087, y: 1971}
+  - name: DOG_tibet-1_21_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 2071
+      width: 69
+      height: 126
+    spriteID: c62ea365f86cd0440a6d30a67b1dda14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 2071}
+    spritePosition: {x: 4087, y: 1971}
+  - name: DOG_tibet-1_20_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6659
+      y: 165
+      width: 127
+      height: 74
+    spriteID: 50494b56a222fcd499394b648608dc43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6659, y: 165}
+    spritePosition: {x: 4808, y: 2266}
+  - name: DOG_tibet-1_20_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7880
+      y: 165
+      width: 125
+      height: 65
+    spriteID: 7d9614e4f8dac4546aa213c1ffd75116
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7880, y: 165}
+    spritePosition: {x: 4808, y: 2266}
+  - name: DOG_tibet-1_19_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 1826
+      width: 77
+      height: 116
+    spriteID: ebfe49d862104bf4aad8320e53d32ccc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 1826}
+    spritePosition: {x: 5342, y: 1898}
+  - name: DOG_tibet-1_19_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 1463
+      width: 82
+      height: 115
+    spriteID: 66ae4aefce73e4f468b8b9b00c9b3b02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 1463}
+    spritePosition: {x: 5339, y: 1900}
+  - name: DOG_tibet-1_18_F
+    originalName: 
+    pivot: {x: 0.5147104, y: 0.14311919}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2398
+      width: 63
+      height: 74
+    spriteID: b948f18091cba1d4bb9fff24fc08ceda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2398}
+    spritePosition: {x: 5126, y: 1636}
+  - name: DOG_tibet-1_18_H
+    originalName: 
+    pivot: {x: 0.48466942, y: 0.21484835}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 2692
+      width: 68
+      height: 53
+    spriteID: a035ae0a2a17b7044905df64bdb1c1d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 2692}
+    spritePosition: {x: 5124, y: 1636}
+  - name: DOG_tibet-1_17_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 827
+      width: 82
+      height: 119
+    spriteID: 670bcf462dca6a44f9d3fb576f2c1707
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 827}
+    spritePosition: {x: 4903, y: 1481}
+  - name: DOG_tibet-1_17_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 954
+      width: 87
+      height: 112
+    spriteID: 1e3556097d325574ca7004676546de47
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 954}
+    spritePosition: {x: 4898, y: 1482}
+  - name: DOG_tibet-1_16_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 350
+      width: 113
+      height: 86
+    spriteID: f27365e74bbe411479db2b130f4df743
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 350}
+    spritePosition: {x: 5306, y: 1483}
+  - name: DOG_tibet-1_16_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7767
+      y: 165
+      width: 105
+      height: 78
+    spriteID: 3bc5e2abb8366674fada4099660d0dbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7767, y: 165}
+    spritePosition: {x: 5312, y: 1481}
+  - name: DOG_tibet-1_15_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6838
+      y: 4
+      width: 133
+      height: 110
+    spriteID: c568e230b8d1b3349910b324e1f87fef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6838, y: 4}
+    spritePosition: {x: 5529, y: 1174}
+  - name: DOG_tibet-1_15_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6377
+      y: 165
+      width: 139
+      height: 74
+    spriteID: 5398f9b84a042ee41ab2f395a82f06ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6377, y: 165}
+    spritePosition: {x: 5523, y: 1174}
+  - name: DOG_tibet-1_14_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 1375
+      width: 83
+      height: 93
+    spriteID: deaa1221db2698b41b6795844f020f66
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 1375}
+    spritePosition: {x: 4520, y: 797}
+  - name: DOG_tibet-1_14_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 971
+      width: 77
+      height: 91
+    spriteID: 3fc89e0516b41964db7048782b0fa45a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 971}
+    spritePosition: {x: 4527, y: 795}
+  - name: DOG_tibet-1_13_F
+    originalName: 
+    pivot: {x: 0.65928274, y: 0.26998466}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 1584
+      width: 90
+      height: 84
+    spriteID: b053811cc591fed4d97b93642209dfe1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 1584}
+    spritePosition: {x: 4991, y: 423}
+  - name: DOG_tibet-1_13_H
+    originalName: 
+    pivot: {x: 0.6018035, y: 0.26433477}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1786
+      width: 77
+      height: 79
+    spriteID: 8e975df7b8a0d7644b9d59a9406bfd5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1786}
+    spritePosition: {x: 5003, y: 423}
+  - name: DOG_tibet-1_12_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 959
+      width: 79
+      height: 103
+    spriteID: 0de3420862e1ba144bb2c0e5a5c7e8eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 959}
+    spritePosition: {x: 5355, y: 492}
+  - name: DOG_tibet-1_12_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 2456
+      width: 79
+      height: 92
+    spriteID: 75b869a29c026a94ca642e341bf54ce1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 2456}
+    spritePosition: {x: 5355, y: 492}
+  - name: DOG_tibet-1_11_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 535
+      width: 98
+      height: 96
+    spriteID: 964b33237315b9d49b8a71c6474731f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 535}
+    spritePosition: {x: 210, y: 500}
+  - name: DOG_tibet-1_11_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 331
+      width: 108
+      height: 96
+    spriteID: 0f0302f1df7210a40b314022fdca682e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 331}
+    spritePosition: {x: 197, y: 499}
+  - name: DOG_tibet-1_10_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7370
+      y: 4
+      width: 126
+      height: 108
+    spriteID: 5658164c73eb7ff4b845fa5aacd9d422
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7370, y: 4}
+    spritePosition: {x: 179, y: 127}
+  - name: DOG_tibet-1_10_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 444
+      width: 114
+      height: 83
+    spriteID: 9287dd07e7a25444bb97afa9c7f2b327
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 444}
+    spritePosition: {x: 179, y: 128}
+  - name: DOG_tibet-1_9_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 1074
+      width: 82
+      height: 117
+    spriteID: e73d167c5bf3d8e418d626ab32c51954
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 1074}
+    spritePosition: {x: 873, y: 45}
+  - name: DOG_tibet-1_9_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 1586
+      width: 93
+      height: 100
+    spriteID: 3e1b6af92e6471b41916140361b85c76
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 1586}
+    spritePosition: {x: 863, y: 45}
+  - name: DOG_tibet-1_8_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 2669
+      width: 70
+      height: 103
+    spriteID: 0c404c5a6756e564bb969a7c5847b0c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 2669}
+    spritePosition: {x: 2062, y: 266}
+  - name: DOG_tibet-1_8_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1469
+      width: 64
+      height: 99
+    spriteID: 2dc7e4abb1249f24380cdb87d4ee7df7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1469}
+    spritePosition: {x: 2065, y: 266}
+  - name: DOG_tibet-1_7_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 1161
+      width: 77
+      height: 101
+    spriteID: f0a04816a441d474fb198f997a249592
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 1161}
+    spritePosition: {x: 2445, y: 404}
+  - name: DOG_tibet-1_7_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 1476
+      width: 77
+      height: 100
+    spriteID: 16e89a9a3698a84499a1da98c906c4d8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 1476}
+    spritePosition: {x: 2445, y: 404}
+  - name: DOG_tibet-1_6_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 1330
+      width: 76
+      height: 125
+    spriteID: f5a5faa6f7e2f704f9e90d16bec71061
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 1330}
+    spritePosition: {x: 3799, y: 374}
+  - name: DOG_tibet-1_6_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 1199
+      width: 78
+      height: 123
+    spriteID: 94122bbd64e01b944be98f7a87ab9247
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 1199}
+    spritePosition: {x: 3796, y: 374}
+  - name: DOG_tibet-1_5_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7627
+      y: 4
+      width: 108
+      height: 110
+    spriteID: 81c7725772f7b934c957be928dac7c22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7627, y: 4}
+    spritePosition: {x: 4141, y: 479}
+  - name: DOG_tibet-1_5_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7291
+      y: 165
+      width: 113
+      height: 80
+    spriteID: e074e7ab7bace1e4e8c2bca3e54eee7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7291, y: 165}
+    spritePosition: {x: 4135, y: 476}
+  - name: DOG_tibet-1_4_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1576
+      width: 64
+      height: 99
+    spriteID: 02840a1e5b148204c93f2eca1914d0ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1576}
+    spritePosition: {x: 4471, y: 339}
+  - name: DOG_tibet-1_4_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 1683
+      width: 66
+      height: 95
+    spriteID: 210efa71269a2a14aaeabe2b3673342b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 1683}
+    spritePosition: {x: 4472, y: 339}
+  - name: DOG_tibet-1_3_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7048
+      y: 165
+      width: 115
+      height: 79
+    spriteID: 0fba8a5b109106b40a3218b23d2d6265
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7048, y: 165}
+    spritePosition: {x: 4253, y: 20}
+  - name: DOG_tibet-1_3_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 8013
+      y: 165
+      width: 125
+      height: 58
+    spriteID: d83829bc550ab0f4cbc9bb3d5876c00c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 8013, y: 165}
+    spritePosition: {x: 4241, y: 23}
+  - name: DOG_tibet-1_2_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6241
+      y: 1270
+      width: 80
+      height: 97
+    spriteID: 0a62716f1af4a5d49b1990f4cecbfb43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6241, y: 1270}
+    spritePosition: {x: 5050, y: 73}
+  - name: DOG_tibet-1_2_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6008
+      y: 536
+      width: 76
+      height: 94
+    spriteID: b9a83f88255ad794a8c2f5c53eeb3a10
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6008, y: 536}
+    spritePosition: {x: 5050, y: 73}
+  - name: DOG_tibet-1_1_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 1950
+      width: 77
+      height: 113
+    spriteID: c04015a6782050d4081d7631a354079a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 1950}
+    spritePosition: {x: 5630, y: 80}
+  - name: DOG_tibet-1_1_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 2455
+      width: 75
+      height: 114
+    spriteID: 3efcc7967625fae4c940e428d9d95483
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 2455}
+    spritePosition: {x: 5630, y: 80}
+  - name: ENV_tibet-1_6_click_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7504
+      y: 4
+      width: 115
+      height: 118
+    spriteID: 90d8aa17f39b91f439f6a64c47fc4ded
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7504, y: 4}
+    spritePosition: {x: 1841, y: 299}
+  - name: ENV_tibet-1_5_slide
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7866
+      y: 4
+      width: 123
+      height: 91
+    spriteID: daf94dcf4f29018428547cdee6259c58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7866, y: 4}
+    spritePosition: {x: 2490, y: 1710}
+  - name: ENV_tibet-1_4_click_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 4
+      width: 210
+      height: 319
+    spriteID: 26642e0eb184fd94d9ba9750ef66bf5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 4}
+    spritePosition: {x: 1140, y: 2217}
+  - name: ENV_tibet-1_3_click_1
+    originalName: 
+    pivot: {x: 0.8269414, y: 0.91737276}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6124
+      y: 4
+      width: 257
+      height: 153
+    spriteID: bbf6918767f426045865ee4fbbc32072
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6124, y: 4}
+    spritePosition: {x: 5371, y: 2422}
+  - name: ENV_tibet-1_3_click_0
+    originalName: 
+    pivot: {x: 0.041015625, y: 0.9320172}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6389
+      y: 4
+      width: 227
+      height: 153
+    spriteID: 04dc0e6718c269940b840eec3bba2ea4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6389, y: 4}
+    spritePosition: {x: 5493, y: 2422}
+  - name: ENV_tibet-1_2_click_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6979
+      y: 4
+      width: 119
+      height: 122
+    spriteID: 7a5a2654ad263a54688689bac764b7c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6979, y: 4}
+    spritePosition: {x: 2522, y: 2607}
+  - name: ENV_tibet-1_1_click_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5906
+      y: 331
+      width: 94
+      height: 213
+    spriteID: 9d60157a17cd03546a8e52f163f0a440
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5906, y: 331}
+    spritePosition: {x: 5324, y: 127}
+  - name: ENV_tibet-1_1_click_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6624
+      y: 4
+      width: 206
+      height: 72
+    spriteID: 9e17e70fcd2a7ea43a296af7295609c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6624, y: 4}
+    spritePosition: {x: 5385, y: 298}
+  - name: SCN_tibet-1_empty
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 5894
+      height: 2834
+    spriteID: cb364cff4da81354c971a862fa541db9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: DOG_tibet-1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: a45bec96e138e494d92f17bcbf19b202
+    layerID: 537
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: dog sprite
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 6e01fb27b010f734f9cfe3a2891e5806
+    layerID: 544
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-SPRITE_tibet-1_H
+    spriteName: DOG-SPRITE_tibet-1_H
+    isGroup: 0
+    parentIndex: 1
+    spriteID: d3fc7abefb8680a4e880e865633554c7
+    layerID: 536
+    mosaicPosition: {x: 5906, y: 2205}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog special
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 2f41d1142d9923b40bd99943b50a01e2
+    layerID: 532
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: dog S 6
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: 0845f45acbe1ea348971620bc83ecdbf
+    layerID: 531
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-S_tibet-1_6_F
+    spriteName: DOG-S_tibet-1_6_F
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 79a72a845f9f82143bdc81eb9e163dc5
+    layerID: 530
+    mosaicPosition: {x: 7866, y: 103}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_tibet-1_6_H
+    spriteName: DOG-S_tibet-1_6_H
+    isGroup: 0
+    parentIndex: 4
+    spriteID: fec6be43dcdc33e488c5a5626d0911c8
+    layerID: 526
+    mosaicPosition: {x: 5906, y: 2797}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog S 5
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: f435b4bd42b0f5e4fbd2c1907ce09bfe
+    layerID: 521
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-S_tibet-1_5_F
+    spriteName: DOG-S_tibet-1_5_F
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 9fec80daf4418584b90506333adf07a7
+    layerID: 520
+    mosaicPosition: {x: 6008, y: 1269}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_tibet-1_5_H
+    spriteName: DOG-S_tibet-1_5_H
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 5b9a26aa50dc184419e4d0b2910e73fa
+    layerID: 516
+    mosaicPosition: {x: 6008, y: 1174}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog S 4
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: bb55eba2486c38843bf6cca01f1a86b9
+    layerID: 511
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-S_tibet-1_4_F
+    spriteName: DOG-S_tibet-1_4_F
+    isGroup: 0
+    parentIndex: 10
+    spriteID: 17146bc94f4fa41409931ab9c9baef9b
+    layerID: 510
+    mosaicPosition: {x: 6008, y: 2242}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_tibet-1_4_H
+    spriteName: DOG-S_tibet-1_4_H
+    isGroup: 0
+    parentIndex: 10
+    spriteID: de8cbbade471fd541b27c99ccf6a8f76
+    layerID: 506
+    mosaicPosition: {x: 7997, y: 120}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog S 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: 00faa97d0e0a81841806bfab3a55807b
+    layerID: 501
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-S_tibet-1_3_F
+    spriteName: DOG-S_tibet-1_3_F
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 3790195f03e1b0f49b81ae1e2ca37296
+    layerID: 500
+    mosaicPosition: {x: 6624, y: 84}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_tibet-1_3_H
+    spriteName: DOG-S_tibet-1_3_H
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 2f671e30087db0f47b13d431d360948f
+    layerID: 496
+    mosaicPosition: {x: 6366, y: 255}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog S 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: 55e06109439ab94468b7dd048a358612
+    layerID: 491
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-S_tibet-1_2_F
+    spriteName: DOG-S_tibet-1_2_F
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 817d642d118d5af49801afa7c8c7df5e
+    layerID: 490
+    mosaicPosition: {x: 6008, y: 2064}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_tibet-1_2_H
+    spriteName: DOG-S_tibet-1_2_H
+    isGroup: 0
+    parentIndex: 16
+    spriteID: acc5aa9e7564b9848949755a7cbc61a2
+    layerID: 486
+    mosaicPosition: {x: 6008, y: 2622}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog S 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 3
+    spriteID: 32b86bc73f5769e4d937a87e197bdaa6
+    layerID: 481
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-S_tibet-1_1_F
+    spriteName: DOG-S_tibet-1_1_F
+    isGroup: 0
+    parentIndex: 19
+    spriteID: a807a8f01e976f4438ac7ec8b31bcf3a
+    layerID: 480
+    mosaicPosition: {x: 6241, y: 2556}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_tibet-1_1_H
+    spriteName: DOG-S_tibet-1_1_H
+    isGroup: 0
+    parentIndex: 19
+    spriteID: 9969098510b6da64ea1f3f69af249467
+    layerID: 476
+    mosaicPosition: {x: 6241, y: 2038}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog normal
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 555258685db39564795442fbec2cb221
+    layerID: 470
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: dog 44
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: e0354c6313d87a843a6c45fa27ff9a47
+    layerID: 469
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_44_F
+    spriteName: DOG_tibet-1_44_F
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 53e747417d96a684292233716151fb4a
+    layerID: 468
+    mosaicPosition: {x: 5906, y: 552}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_44_H
+    spriteName: DOG_tibet-1_44_H
+    isGroup: 0
+    parentIndex: 23
+    spriteID: d7e3d443a44f40949a50f540454c6207
+    layerID: 464
+    mosaicPosition: {x: 5906, y: 689}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 43
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: d8f4829aaffdc3642a0f6ee473f08522
+    layerID: 459
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_43_F
+    spriteName: DOG_tibet-1_43_F
+    isGroup: 0
+    parentIndex: 26
+    spriteID: b364b363b52d77249985d88b0e301384
+    layerID: 458
+    mosaicPosition: {x: 6008, y: 1070}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_43_H
+    spriteName: DOG_tibet-1_43_H
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 61997a3e08c5f2a45ac81183f0ff0f10
+    layerID: 454
+    mosaicPosition: {x: 6241, y: 2142}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 42
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 58f691dadd4aefc49872bbd9611abc7c
+    layerID: 449
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_42_F
+    spriteName: DOG_tibet-1_42_F
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 1b958935f44029243a6e4f35b4f7626d
+    layerID: 448
+    mosaicPosition: {x: 6927, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_42_H
+    spriteName: DOG_tibet-1_42_H
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 6b33f37a022b0c14cba68ed21713c5fd
+    layerID: 444
+    mosaicPosition: {x: 7412, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 41
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 38393921b6d6cc64db4b98bbdf0bd444
+    layerID: 439
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_41_F
+    spriteName: DOG_tibet-1_41_F
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 6ed08c44f0a1cc744bb1c0eeb2a33885
+    layerID: 438
+    mosaicPosition: {x: 6008, y: 2753}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_41_H
+    spriteName: DOG_tibet-1_41_H
+    isGroup: 0
+    parentIndex: 32
+    spriteID: 4383a90bcca13854ebdfeb0d77c9a09c
+    layerID: 434
+    mosaicPosition: {x: 7627, y: 122}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 40
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: b87b455503956744b9f0abbb3ca86fd1
+    layerID: 429
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_40_F
+    spriteName: DOG_tibet-1_40_F
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 86dc97aae96f0164791620d484a4503f
+    layerID: 428
+    mosaicPosition: {x: 6241, y: 255}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_40_H
+    spriteName: DOG_tibet-1_40_H
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 34851eff75c7edd4893f3b825932cef4
+    layerID: 424
+    mosaicPosition: {x: 7171, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 39
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: e7adb06212dd5904a99627b22d34c754
+    layerID: 419
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_39_F
+    spriteName: DOG_tibet-1_39_F
+    isGroup: 0
+    parentIndex: 38
+    spriteID: f46352c94e237fe4eaf18bf7ad0c349d
+    layerID: 418
+    mosaicPosition: {x: 6241, y: 2242}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_39_H
+    spriteName: DOG_tibet-1_39_H
+    isGroup: 0
+    parentIndex: 38
+    spriteID: 99831b5bdcc50fd4fa923c00827b30e8
+    layerID: 414
+    mosaicPosition: {x: 6241, y: 1924}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 38
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 7002809c5d888564295a4edb782ea8b0
+    layerID: 409
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_38_F
+    spriteName: DOG_tibet-1_38_F
+    isGroup: 0
+    parentIndex: 41
+    spriteID: c1c3b8b71dc0ee9468464817dc8fdf92
+    layerID: 408
+    mosaicPosition: {x: 6008, y: 2322}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_38_H
+    spriteName: DOG_tibet-1_38_H
+    isGroup: 0
+    parentIndex: 41
+    spriteID: b3c88cd4b3e07f441959c7c074d9d5ac
+    layerID: 404
+    mosaicPosition: {x: 6008, y: 2553}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 37
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 5b479fa3b36ac0f49b19782cc8453edb
+    layerID: 399
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_37_F
+    spriteName: DOG_tibet-1_37_F
+    isGroup: 0
+    parentIndex: 44
+    spriteID: ac7df0b6fce62c7468bb294f4831cfb0
+    layerID: 398
+    mosaicPosition: {x: 6241, y: 1676}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_37_H
+    spriteName: DOG_tibet-1_37_H
+    isGroup: 0
+    parentIndex: 44
+    spriteID: e0bb11ece8aef8749b6607b13eecd3fc
+    layerID: 394
+    mosaicPosition: {x: 6241, y: 1800}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 36
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 5a57a7f6c9a51b048aa7615fdf6ec5c2
+    layerID: 389
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_36_F
+    spriteName: DOG_tibet-1_36_F
+    isGroup: 0
+    parentIndex: 47
+    spriteID: 1021d672a5ab526469252a48541f77a1
+    layerID: 388
+    mosaicPosition: {x: 6241, y: 1070}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_36_H
+    spriteName: DOG_tibet-1_36_H
+    isGroup: 0
+    parentIndex: 47
+    spriteID: 561e37ad2c7b3284596d370e356d4a2a
+    layerID: 384
+    mosaicPosition: {x: 6241, y: 2780}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 35
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 6997ff2a66ea7a949bba702d70bbd959
+    layerID: 379
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_35_F
+    spriteName: DOG_tibet-1_35_F
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 905c5e4118aa6454fb526dc750ea5090
+    layerID: 378
+    mosaicPosition: {x: 7997, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_35_H
+    spriteName: DOG_tibet-1_35_H
+    isGroup: 0
+    parentIndex: 50
+    spriteID: f17921ab0be683740a62323e7c53f892
+    layerID: 374
+    mosaicPosition: {x: 6241, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 34
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: fdd6d5804bb9fc64c98e84b3c5153722
+    layerID: 369
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_34_F
+    spriteName: DOG_tibet-1_34_F
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 36b525ace55b00b4ab5e449a79baa166
+    layerID: 368
+    mosaicPosition: {x: 8107, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_34_H
+    spriteName: DOG_tibet-1_34_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 23f7d71d6181457409e341197cfddf9c
+    layerID: 364
+    mosaicPosition: {x: 5906, y: 1694}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 33
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: dfe9f73ecbe26754884aab3150cc2905
+    layerID: 359
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_33_F
+    spriteName: DOG_tibet-1_33_F
+    isGroup: 0
+    parentIndex: 56
+    spriteID: b6ef2fba2cad88c49b0533f48e78007b
+    layerID: 358
+    mosaicPosition: {x: 6124, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_33_H
+    spriteName: DOG_tibet-1_33_H
+    isGroup: 0
+    parentIndex: 56
+    spriteID: fdb41f0d4dd48e949afaf50546322d16
+    layerID: 354
+    mosaicPosition: {x: 7743, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 32
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 67c8b03932039bf41a29f143a69db8ea
+    layerID: 349
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_32_F
+    spriteName: DOG_tibet-1_32_F
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 3c3572f203cbbb445b8fbc62db32704b
+    layerID: 348
+    mosaicPosition: {x: 6008, y: 1362}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_32_H
+    spriteName: DOG_tibet-1_32_H
+    isGroup: 0
+    parentIndex: 59
+    spriteID: ffc03050d0b7d3e4e9116a411b90f34c
+    layerID: 344
+    mosaicPosition: {x: 6763, y: 84}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 31
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: d2862a4359999924c95c7bfbd7df7357
+    layerID: 339
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_31_F
+    spriteName: DOG_tibet-1_31_F
+    isGroup: 0
+    parentIndex: 62
+    spriteID: 61dec9f752b3a004dab1b23fa005f1c9
+    layerID: 338
+    mosaicPosition: {x: 6008, y: 638}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_31_H
+    spriteName: DOG_tibet-1_31_H
+    isGroup: 0
+    parentIndex: 62
+    spriteID: 1b0d616b8f37d9c49a8680b83ffa1879
+    layerID: 334
+    mosaicPosition: {x: 5906, y: 2577}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 30
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 204ff30fbdeab9641aa3efd7af39f84a
+    layerID: 329
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_30_F
+    spriteName: DOG_tibet-1_30_F
+    isGroup: 0
+    parentIndex: 65
+    spriteID: d66fcb6d3a427a8429dd9cece7fddd59
+    layerID: 328
+    mosaicPosition: {x: 7652, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_30_H
+    spriteName: DOG_tibet-1_30_H
+    isGroup: 0
+    parentIndex: 65
+    spriteID: 9f678182b6e89ac42b461f148ad41d08
+    layerID: 324
+    mosaicPosition: {x: 7527, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 29
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 16b14f1ea27d068479df0672077ab880
+    layerID: 319
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_29_F
+    spriteName: DOG_tibet-1_29_F
+    isGroup: 0
+    parentIndex: 68
+    spriteID: d7f521347f8d7d84c9f4613633faba08
+    layerID: 318
+    mosaicPosition: {x: 6241, y: 2358}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_29_H
+    spriteName: DOG_tibet-1_29_H
+    isGroup: 0
+    parentIndex: 68
+    spriteID: 2aa71109504c866449f943f75bbffc3f
+    layerID: 314
+    mosaicPosition: {x: 6008, y: 2157}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 28
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: e0acd26812d77394d8bbab49904b1a83
+    layerID: 309
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_28_F
+    spriteName: DOG_tibet-1_28_F
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 1c41c54a33b662d4db872353383fd121
+    layerID: 308
+    mosaicPosition: {x: 6008, y: 1964}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_28_H
+    spriteName: DOG_tibet-1_28_H
+    isGroup: 0
+    parentIndex: 71
+    spriteID: 8a90de08581be694384dffdf720edce6
+    layerID: 304
+    mosaicPosition: {x: 6008, y: 1873}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 27
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 6b3b9627a1e40924487b9f8002e829a3
+    layerID: 299
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_27_F
+    spriteName: DOG_tibet-1_27_F
+    isGroup: 0
+    parentIndex: 74
+    spriteID: 4303de3426995594a9d835b40ba05360
+    layerID: 298
+    mosaicPosition: {x: 7106, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_27_H
+    spriteName: DOG_tibet-1_27_H
+    isGroup: 0
+    parentIndex: 74
+    spriteID: 9f38baa72efe82b4dbda4c7459120b7a
+    layerID: 294
+    mosaicPosition: {x: 7235, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 26
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 09242bf25e57fea48abb2abd8c50aaca
+    layerID: 289
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_26_F
+    spriteName: DOG_tibet-1_26_F
+    isGroup: 0
+    parentIndex: 77
+    spriteID: 4d5486027a9a6cb4182c9a88dc24c9be
+    layerID: 288
+    mosaicPosition: {x: 6241, y: 745}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_26_H
+    spriteName: DOG_tibet-1_26_H
+    isGroup: 0
+    parentIndex: 77
+    spriteID: f68faf0fe817e154ab07b3de1e0720dd
+    layerID: 284
+    mosaicPosition: {x: 6008, y: 751}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 25
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 30811143a3d4e3645bb25ea995d8c2c3
+    layerID: 279
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_25_F
+    spriteName: DOG_tibet-1_25_F
+    isGroup: 0
+    parentIndex: 80
+    spriteID: dd239ff3456ac7e4caf9ce80ef01f75b
+    layerID: 278
+    mosaicPosition: {x: 6241, y: 859}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_25_H
+    spriteName: DOG_tibet-1_25_H
+    isGroup: 0
+    parentIndex: 80
+    spriteID: af105eeafdde0b94fa34e5241edbecb9
+    layerID: 274
+    mosaicPosition: {x: 6008, y: 2480}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 24
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: c63e158a3a41d7344962f587b3b12b8a
+    layerID: 269
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_24_F
+    spriteName: DOG_tibet-1_24_F
+    isGroup: 0
+    parentIndex: 83
+    spriteID: ab18b63b40318b841af8c85d9f6a6ca9
+    layerID: 268
+    mosaicPosition: {x: 6008, y: 861}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_24_H
+    spriteName: DOG_tibet-1_24_H
+    isGroup: 0
+    parentIndex: 83
+    spriteID: f5056386d3faede4e9d6f384f2396995
+    layerID: 264
+    mosaicPosition: {x: 6008, y: 435}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 23
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 948483d68076d3f4697f103babad8c03
+    layerID: 259
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_23_F
+    spriteName: DOG_tibet-1_23_F
+    isGroup: 0
+    parentIndex: 86
+    spriteID: dff03d6f6c6a81f42a932f66bca8e627
+    layerID: 258
+    mosaicPosition: {x: 6241, y: 639}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_23_H
+    spriteName: DOG_tibet-1_23_H
+    isGroup: 0
+    parentIndex: 86
+    spriteID: f6a5ab67864afdc4e900ae8864bb61bb
+    layerID: 254
+    mosaicPosition: {x: 5906, y: 2690}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 22
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 228d38e005a51074b96c20821ea4973d
+    layerID: 249
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_22_F
+    spriteName: DOG_tibet-1_22_F
+    isGroup: 0
+    parentIndex: 89
+    spriteID: 92f216a760cbb414eb32cab23edceeb9
+    layerID: 248
+    mosaicPosition: {x: 6794, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_22_H
+    spriteName: DOG_tibet-1_22_H
+    isGroup: 0
+    parentIndex: 89
+    spriteID: ee31df97f4e0ddb42a8c060aef943657
+    layerID: 244
+    mosaicPosition: {x: 6524, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 21
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: e018f088fb3348e45b695256cfdc271b
+    layerID: 239
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_21_F
+    spriteName: DOG_tibet-1_21_F
+    isGroup: 0
+    parentIndex: 92
+    spriteID: 9f398b43d7c2d3d4287751a2867711a5
+    layerID: 238
+    mosaicPosition: {x: 5906, y: 2323}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_21_H
+    spriteName: DOG_tibet-1_21_H
+    isGroup: 0
+    parentIndex: 92
+    spriteID: c62ea365f86cd0440a6d30a67b1dda14
+    layerID: 234
+    mosaicPosition: {x: 5906, y: 2071}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 20
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: d049b9c56df95f3488bf5fb497b170dd
+    layerID: 229
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_20_F
+    spriteName: DOG_tibet-1_20_F
+    isGroup: 0
+    parentIndex: 95
+    spriteID: 50494b56a222fcd499394b648608dc43
+    layerID: 228
+    mosaicPosition: {x: 6659, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_20_H
+    spriteName: DOG_tibet-1_20_H
+    isGroup: 0
+    parentIndex: 95
+    spriteID: 7d9614e4f8dac4546aa213c1ffd75116
+    layerID: 224
+    mosaicPosition: {x: 7880, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 19
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: eabb97cbd93dd4a438469c320eda18ee
+    layerID: 219
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_19_F
+    spriteName: DOG_tibet-1_19_F
+    isGroup: 0
+    parentIndex: 98
+    spriteID: ebfe49d862104bf4aad8320e53d32ccc
+    layerID: 218
+    mosaicPosition: {x: 5906, y: 1826}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_19_H
+    spriteName: DOG_tibet-1_19_H
+    isGroup: 0
+    parentIndex: 98
+    spriteID: 66ae4aefce73e4f468b8b9b00c9b3b02
+    layerID: 214
+    mosaicPosition: {x: 5906, y: 1463}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 18
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 34969b5376ba444489b0338eb98f05b0
+    layerID: 209
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_18_F
+    spriteName: DOG_tibet-1_18_F
+    isGroup: 0
+    parentIndex: 101
+    spriteID: b948f18091cba1d4bb9fff24fc08ceda
+    layerID: 208
+    mosaicPosition: {x: 6008, y: 2398}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_18_H
+    spriteName: DOG_tibet-1_18_H
+    isGroup: 0
+    parentIndex: 101
+    spriteID: a035ae0a2a17b7044905df64bdb1c1d5
+    layerID: 204
+    mosaicPosition: {x: 6008, y: 2692}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 17
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 7eaf986cd7dc0e140973f3eef479f673
+    layerID: 199
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_17_F
+    spriteName: DOG_tibet-1_17_F
+    isGroup: 0
+    parentIndex: 104
+    spriteID: 670bcf462dca6a44f9d3fb576f2c1707
+    layerID: 198
+    mosaicPosition: {x: 5906, y: 827}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_17_H
+    spriteName: DOG_tibet-1_17_H
+    isGroup: 0
+    parentIndex: 104
+    spriteID: 1e3556097d325574ca7004676546de47
+    layerID: 194
+    mosaicPosition: {x: 5906, y: 954}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 16
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: e2b895988d542f744a63d14568184e72
+    layerID: 189
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_16_F
+    spriteName: DOG_tibet-1_16_F
+    isGroup: 0
+    parentIndex: 107
+    spriteID: f27365e74bbe411479db2b130f4df743
+    layerID: 188
+    mosaicPosition: {x: 6241, y: 350}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_16_H
+    spriteName: DOG_tibet-1_16_H
+    isGroup: 0
+    parentIndex: 107
+    spriteID: 3bc5e2abb8366674fada4099660d0dbd
+    layerID: 184
+    mosaicPosition: {x: 7767, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 15
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 3269c82e077a7184eb29c63c2a65f20e
+    layerID: 179
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_15_F
+    spriteName: DOG_tibet-1_15_F
+    isGroup: 0
+    parentIndex: 110
+    spriteID: c568e230b8d1b3349910b324e1f87fef
+    layerID: 178
+    mosaicPosition: {x: 6838, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_15_H
+    spriteName: DOG_tibet-1_15_H
+    isGroup: 0
+    parentIndex: 110
+    spriteID: 5398f9b84a042ee41ab2f395a82f06ce
+    layerID: 174
+    mosaicPosition: {x: 6377, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 14
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 31ce30b8fa4032b4aa7d24efbfe24859
+    layerID: 169
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_14_F
+    spriteName: DOG_tibet-1_14_F
+    isGroup: 0
+    parentIndex: 113
+    spriteID: deaa1221db2698b41b6795844f020f66
+    layerID: 168
+    mosaicPosition: {x: 6241, y: 1375}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_14_H
+    spriteName: DOG_tibet-1_14_H
+    isGroup: 0
+    parentIndex: 113
+    spriteID: 3fc89e0516b41964db7048782b0fa45a
+    layerID: 164
+    mosaicPosition: {x: 6008, y: 971}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 13
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 11a6f146415204e409e000d0af1eacae
+    layerID: 159
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_13_F
+    spriteName: DOG_tibet-1_13_F
+    isGroup: 0
+    parentIndex: 116
+    spriteID: b053811cc591fed4d97b93642209dfe1
+    layerID: 158
+    mosaicPosition: {x: 6241, y: 1584}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_13_H
+    spriteName: DOG_tibet-1_13_H
+    isGroup: 0
+    parentIndex: 116
+    spriteID: 8e975df7b8a0d7644b9d59a9406bfd5e
+    layerID: 154
+    mosaicPosition: {x: 6008, y: 1786}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 12
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: b186e2f950f219c4fa3c5b6c442ca5d4
+    layerID: 149
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_12_F
+    spriteName: DOG_tibet-1_12_F
+    isGroup: 0
+    parentIndex: 119
+    spriteID: 0de3420862e1ba144bb2c0e5a5c7e8eb
+    layerID: 148
+    mosaicPosition: {x: 6241, y: 959}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_12_H
+    spriteName: DOG_tibet-1_12_H
+    isGroup: 0
+    parentIndex: 119
+    spriteID: 75b869a29c026a94ca642e341bf54ce1
+    layerID: 144
+    mosaicPosition: {x: 6241, y: 2456}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 11
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: b5099c91588a62c4a8544db512fe4a89
+    layerID: 139
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_11_F
+    spriteName: DOG_tibet-1_11_F
+    isGroup: 0
+    parentIndex: 122
+    spriteID: 964b33237315b9d49b8a71c6474731f2
+    layerID: 138
+    mosaicPosition: {x: 6241, y: 535}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_11_H
+    spriteName: DOG_tibet-1_11_H
+    isGroup: 0
+    parentIndex: 122
+    spriteID: 0f0302f1df7210a40b314022fdca682e
+    layerID: 134
+    mosaicPosition: {x: 6008, y: 331}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 10
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 02c27485eb915a14091b605bf89a23d6
+    layerID: 129
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_10_F
+    spriteName: DOG_tibet-1_10_F
+    isGroup: 0
+    parentIndex: 125
+    spriteID: 5658164c73eb7ff4b845fa5aacd9d422
+    layerID: 128
+    mosaicPosition: {x: 7370, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_10_H
+    spriteName: DOG_tibet-1_10_H
+    isGroup: 0
+    parentIndex: 125
+    spriteID: 9287dd07e7a25444bb97afa9c7f2b327
+    layerID: 124
+    mosaicPosition: {x: 6241, y: 444}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 9
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: cfd887937b565d34fb979e72adaf8797
+    layerID: 119
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_9_F
+    spriteName: DOG_tibet-1_9_F
+    isGroup: 0
+    parentIndex: 128
+    spriteID: e73d167c5bf3d8e418d626ab32c51954
+    layerID: 118
+    mosaicPosition: {x: 5906, y: 1074}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_9_H
+    spriteName: DOG_tibet-1_9_H
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 3e1b6af92e6471b41916140361b85c76
+    layerID: 114
+    mosaicPosition: {x: 5906, y: 1586}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 8
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: fb769babdedbb7c46816af1f782af676
+    layerID: 109
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_8_F
+    spriteName: DOG_tibet-1_8_F
+    isGroup: 0
+    parentIndex: 131
+    spriteID: 0c404c5a6756e564bb969a7c5847b0c6
+    layerID: 108
+    mosaicPosition: {x: 6241, y: 2669}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_8_H
+    spriteName: DOG_tibet-1_8_H
+    isGroup: 0
+    parentIndex: 131
+    spriteID: 2dc7e4abb1249f24380cdb87d4ee7df7
+    layerID: 104
+    mosaicPosition: {x: 6008, y: 1469}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 7
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 78cdbb4d215c2e846b1a2ff5d97baf43
+    layerID: 99
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_7_F
+    spriteName: DOG_tibet-1_7_F
+    isGroup: 0
+    parentIndex: 134
+    spriteID: f0a04816a441d474fb198f997a249592
+    layerID: 98
+    mosaicPosition: {x: 6241, y: 1161}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_7_H
+    spriteName: DOG_tibet-1_7_H
+    isGroup: 0
+    parentIndex: 134
+    spriteID: 16e89a9a3698a84499a1da98c906c4d8
+    layerID: 94
+    mosaicPosition: {x: 6241, y: 1476}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 6
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 05794f155cf20e74cb37ee3fca44dcdf
+    layerID: 89
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_6_F
+    spriteName: DOG_tibet-1_6_F
+    isGroup: 0
+    parentIndex: 137
+    spriteID: f5a5faa6f7e2f704f9e90d16bec71061
+    layerID: 88
+    mosaicPosition: {x: 5906, y: 1330}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_6_H
+    spriteName: DOG_tibet-1_6_H
+    isGroup: 0
+    parentIndex: 137
+    spriteID: 94122bbd64e01b944be98f7a87ab9247
+    layerID: 84
+    mosaicPosition: {x: 5906, y: 1199}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 5
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 0d839d22b8262754e9bfc7c484804f5b
+    layerID: 79
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_5_F
+    spriteName: DOG_tibet-1_5_F
+    isGroup: 0
+    parentIndex: 140
+    spriteID: 81c7725772f7b934c957be928dac7c22
+    layerID: 78
+    mosaicPosition: {x: 7627, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_5_H
+    spriteName: DOG_tibet-1_5_H
+    isGroup: 0
+    parentIndex: 140
+    spriteID: e074e7ab7bace1e4e8c2bca3e54eee7a
+    layerID: 74
+    mosaicPosition: {x: 7291, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 4
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 331e9f923b381154aaf2639329be4182
+    layerID: 69
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_4_F
+    spriteName: DOG_tibet-1_4_F
+    isGroup: 0
+    parentIndex: 143
+    spriteID: 02840a1e5b148204c93f2eca1914d0ce
+    layerID: 68
+    mosaicPosition: {x: 6008, y: 1576}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_4_H
+    spriteName: DOG_tibet-1_4_H
+    isGroup: 0
+    parentIndex: 143
+    spriteID: 210efa71269a2a14aaeabe2b3673342b
+    layerID: 64
+    mosaicPosition: {x: 6008, y: 1683}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 957625d3c9f362f4fbb1634e17d9a8c8
+    layerID: 59
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_3_F
+    spriteName: DOG_tibet-1_3_F
+    isGroup: 0
+    parentIndex: 146
+    spriteID: 0fba8a5b109106b40a3218b23d2d6265
+    layerID: 58
+    mosaicPosition: {x: 7048, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_3_H
+    spriteName: DOG_tibet-1_3_H
+    isGroup: 0
+    parentIndex: 146
+    spriteID: d83829bc550ab0f4cbc9bb3d5876c00c
+    layerID: 54
+    mosaicPosition: {x: 8013, y: 165}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 0077272ac32b6fb4ea151f7b011a3379
+    layerID: 49
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_2_F
+    spriteName: DOG_tibet-1_2_F
+    isGroup: 0
+    parentIndex: 149
+    spriteID: 0a62716f1af4a5d49b1990f4cecbfb43
+    layerID: 48
+    mosaicPosition: {x: 6241, y: 1270}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_2_H
+    spriteName: DOG_tibet-1_2_H
+    isGroup: 0
+    parentIndex: 149
+    spriteID: b9a83f88255ad794a8c2f5c53eeb3a10
+    layerID: 44
+    mosaicPosition: {x: 6008, y: 536}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 22
+    spriteID: 23d05f510fbc6914ea96a6acc580189b
+    layerID: 39
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_tibet-1_1_F
+    spriteName: DOG_tibet-1_1_F
+    isGroup: 0
+    parentIndex: 152
+    spriteID: c04015a6782050d4081d7631a354079a
+    layerID: 38
+    mosaicPosition: {x: 5906, y: 1950}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_tibet-1_1_H
+    spriteName: DOG_tibet-1_1_H
+    isGroup: 0
+    parentIndex: 152
+    spriteID: 3efcc7967625fae4c940e428d9d95483
+    layerID: 34
+    mosaicPosition: {x: 5906, y: 2455}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ENV_jordan-1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 8c23043cdcecc6041bf7a5ab60f31771
+    layerID: 23
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: tibet-1_ENV-6
+    spriteName: 
+    isGroup: 1
+    parentIndex: 155
+    spriteID: 2308fb47bb098ce439d5588641680173
+    layerID: 550
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_tibet-1_6_click_0
+    spriteName: ENV_tibet-1_6_click_0
+    isGroup: 0
+    parentIndex: 156
+    spriteID: 90d8aa17f39b91f439f6a64c47fc4ded
+    layerID: 549
+    mosaicPosition: {x: 7504, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: tibet-1_ENV-5
+    spriteName: 
+    isGroup: 1
+    parentIndex: 155
+    spriteID: f8471aa1c98c6ab4abcfc7b64e52b97e
+    layerID: 22
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_tibet-1_5_slide
+    spriteName: ENV_tibet-1_5_slide
+    isGroup: 0
+    parentIndex: 158
+    spriteID: daf94dcf4f29018428547cdee6259c58
+    layerID: 21
+    mosaicPosition: {x: 7866, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: tibet-1_ENV-4
+    spriteName: 
+    isGroup: 1
+    parentIndex: 155
+    spriteID: b7afdabdffa275342a4893dbe3421375
+    layerID: 19
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_tibet-1_4_click_00
+    spriteName: ENV_tibet-1_4_click_00
+    isGroup: 0
+    parentIndex: 160
+    spriteID: 26642e0eb184fd94d9ba9750ef66bf5b
+    layerID: 18
+    mosaicPosition: {x: 5906, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: tibet-1_ENV-3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 155
+    spriteID: 0488fe14593a1ac4a8613ec681234016
+    layerID: 16
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_tibet-1_3_click_1
+    spriteName: ENV_tibet-1_3_click_1
+    isGroup: 0
+    parentIndex: 162
+    spriteID: bbf6918767f426045865ee4fbbc32072
+    layerID: 15
+    mosaicPosition: {x: 6124, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ENV_tibet-1_3_click_0
+    spriteName: ENV_tibet-1_3_click_0
+    isGroup: 0
+    parentIndex: 162
+    spriteID: 04dc0e6718c269940b840eec3bba2ea4
+    layerID: 14
+    mosaicPosition: {x: 6389, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: tibet-1_ENV-2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 155
+    spriteID: 55c951a9b11b36047861d52d094f0d93
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_tibet-1_2_click_00
+    spriteName: ENV_tibet-1_2_click_00
+    isGroup: 0
+    parentIndex: 165
+    spriteID: 7a5a2654ad263a54688689bac764b7c4
+    layerID: 11
+    mosaicPosition: {x: 6979, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: tibet-1_ENV-1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 155
+    spriteID: e56c57e04fd5d4d46853b04bb1ed750a
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_tibet-1_1_click_1
+    spriteName: ENV_tibet-1_1_click_1
+    isGroup: 0
+    parentIndex: 167
+    spriteID: 9d60157a17cd03546a8e52f163f0a440
+    layerID: 8
+    mosaicPosition: {x: 5906, y: 331}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ENV_tibet-1_1_click_0
+    spriteName: ENV_tibet-1_1_click_0
+    isGroup: 0
+    parentIndex: 167
+    spriteID: 9e17e70fcd2a7ea43a296af7295609c5
+    layerID: 7
+    mosaicPosition: {x: 6624, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SCN_tibet-1_empty
+    spriteName: SCN_tibet-1_empty
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cb364cff4da81354c971a862fa541db9
+    layerID: 546
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 639112803947615699
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bebdd68743cf9147bd78ec1ce6c8c06, type: 3}
+  m_Name: Crystal Skull
+  m_EditorClassIdentifier: 
+  KeyName: Crystal Skull
+  KeyInfomation: it's a Crystal Skull
+  Image: {fileID: -6371607339132448380, guid: 2c1b7da145ace694eb479446fbb7e6db, type: 3}
+  Cursericon: {fileID: 2800000, guid: 4f5654c827480814e88546eade8cecc8, type: 3}
+  imageShowGotItem: {fileID: 0}
+  isStone: 0

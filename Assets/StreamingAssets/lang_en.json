@@ -1,0 +1,36 @@
+{
+    "entries": [
+        {
+            "key": "greeting",
+            "value": "Hello!"
+        },
+        {
+            "key": "start_game",
+            "value": "Start Game"
+        },
+        {
+            "key": "settings",
+            "value": "Settings"
+        },
+        {
+            "key": "quit",
+            "value": "Quit"
+        },
+        {
+            "key": "dialog_found_all",
+            "value": "We Found All Dogs!"
+        },
+        {
+            "key": "dialog_unlock_success",
+            "value": "It worked!"
+        },
+        {
+            "key": "dialog_need_item",
+            "value": "You need a special item to open this."
+        },
+        {
+            "key": "desc_box_locked",
+            "value": "This box seems to be locked..."
+        }
+    ]
+}

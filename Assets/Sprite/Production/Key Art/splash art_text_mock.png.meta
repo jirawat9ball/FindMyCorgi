@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: bc60a0c4ab1621f42bea6aa3c935495b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4335124234180854938
+    second: splash art_text_mock_0
+  - first:
+      213: 8797485386377439546
+    second: splash art_text_mock_1
+  - first:
+      213: 3266342590868969235
+    second: splash art_text_mock_2
+  - first:
+      213: -5259696000045375586
+    second: splash art_text_mock_3
+  - first:
+      213: -8264748489107757791
+    second: splash art_text_mock_4
+  - first:
+      213: -8416501660007127451
+    second: splash art_text_mock_5
+  - first:
+      213: -5478762679334424242
+    second: splash art_text_mock_6
+  - first:
+      213: -1338894176057378297
+    second: splash art_text_mock_7
+  - first:
+      213: -7547649022345379953
+    second: splash art_text_mock_8
+  - first:
+      213: -7469017176594642831
+    second: splash art_text_mock_9
+  - first:
+      213: -6506783399122734006
+    second: splash art_text_mock_10
+  - first:
+      213: -3602205400995224765
+    second: splash art_text_mock_11
+  - first:
+      213: 4707101998218020793
+    second: splash art_text_mock_12
+  - first:
+      213: 522773813945527616
+    second: splash art_text_mock_13
+  - first:
+      213: -1363357815033157596
+    second: splash art_text_mock_14
+  - first:
+      213: 5013890019834782168
+    second: splash art_text_mock_15
+  - first:
+      213: -2476115636636798889
+    second: splash art_text_mock_16
+  - first:
+      213: -8276826661464047654
+    second: splash art_text_mock_17
+  - first:
+      213: -5997994107841964256
+    second: splash art_text_mock_18
+  - first:
+      213: -6982772604563835802
+    second: splash art_text_mock_19
+  - first:
+      213: -7718626708423662485
+    second: splash art_text_mock_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: splash art_text_mock_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 108
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b767c3a7b86d3c0800000000000000
+      internalID: -4335124234180854938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39a7bb0952f61a70800000000000000
+      internalID: 8797485386377439546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3175973d741645d20800000000000000
+      internalID: 3266342590868969235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f90c2ea5ec107b0800000000000000
+      internalID: -5259696000045375586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_4
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1
+        width: 101
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12529c4a907bd4d80800000000000000
+      internalID: -8264748489107757791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_5
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 2
+        width: 94
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5662acf2554923b80800000000000000
+      internalID: -8416501660007127451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_6
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41ba91fe5687f3b0800000000000000
+      internalID: -5478762679334424242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_7
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1
+        width: 93
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ab24437da4b6de0800000000000000
+      internalID: -1338894176057378297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_8
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 0
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f77cd043d514790800000000000000
+      internalID: -7547649022345379953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_9
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17809cf4378b85890800000000000000
+      internalID: -7469017176594642831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_10
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 1
+        width: 93
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4471e019f243b5a0800000000000000
+      internalID: -6506783399122734006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_11
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 2
+        width: 91
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343afa9e545620ec0800000000000000
+      internalID: -3602205400995224765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_12
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 0
+        width: 108
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7015df35cf25140800000000000000
+      internalID: 4707101998218020793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_13
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 0
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d69169304414700800000000000000
+      internalID: 522773813945527616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_14
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 0
+        width: 108
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42822356a41641de0800000000000000
+      internalID: -1363357815033157596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_15
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 1
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1e027886ae49540800000000000000
+      internalID: 5013890019834782168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_16
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 2
+        width: 91
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750397f82f113add0800000000000000
+      internalID: -2476115636636798889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_17
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 2
+        width: 65
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adff3fff00ec22d80800000000000000
+      internalID: -8276826661464047654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_18
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027913d3328d2cca0800000000000000
+      internalID: -5997994107841964256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_19
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 0
+        width: 109
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664b4adff45381f90800000000000000
+      internalID: -6982772604563835802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash art_text_mock_20
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 1
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64a09a57ede1e490800000000000000
+      internalID: -7718626708423662485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      splash art_text_mock_0: -4335124234180854938
+      splash art_text_mock_1: 8797485386377439546
+      splash art_text_mock_10: -6506783399122734006
+      splash art_text_mock_11: -3602205400995224765
+      splash art_text_mock_12: 4707101998218020793
+      splash art_text_mock_13: 522773813945527616
+      splash art_text_mock_14: -1363357815033157596
+      splash art_text_mock_15: 5013890019834782168
+      splash art_text_mock_16: -2476115636636798889
+      splash art_text_mock_17: -8276826661464047654
+      splash art_text_mock_18: -5997994107841964256
+      splash art_text_mock_19: -6982772604563835802
+      splash art_text_mock_2: 3266342590868969235
+      splash art_text_mock_20: -7718626708423662485
+      splash art_text_mock_3: -5259696000045375586
+      splash art_text_mock_4: -8264748489107757791
+      splash art_text_mock_5: -8416501660007127451
+      splash art_text_mock_6: -5478762679334424242
+      splash art_text_mock_7: -1338894176057378297
+      splash art_text_mock_8: -7547649022345379953
+      splash art_text_mock_9: -7469017176594642831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

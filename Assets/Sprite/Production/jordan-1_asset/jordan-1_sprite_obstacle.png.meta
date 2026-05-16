@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 6a3556cf1dc25e244aaacbb1732490b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3638257706733223110
+    second: jordan-1_sprite_obstacle_0
+  - first:
+      213: 8988181571578933188
+    second: jordan-1_sprite_obstacle_1
+  - first:
+      213: 2929015322801135803
+    second: jordan-1_sprite_obstacle_2
+  - first:
+      213: -8011830506263189003
+    second: jordan-1_sprite_obstacle_3
+  - first:
+      213: -7081598399515273317
+    second: jordan-1_sprite_obstacle_4
+  - first:
+      213: 1935244622249321147
+    second: jordan-1_sprite_obstacle_5
+  - first:
+      213: 7280598937300587737
+    second: jordan-1_sprite_obstacle_6
+  - first:
+      213: 189616377454562598
+    second: jordan-1_sprite_obstacle_7
+  - first:
+      213: 7213098056650277604
+    second: jordan-1_sprite_obstacle_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jordan-1_sprite_obstacle_0
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 558
+        width: 265
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33c6dc54ef428dc0800000000000000
+      internalID: -3638257706733223110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_obstacle_1
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 558
+        width: 265
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfaca6948f6cbc70800000000000000
+      internalID: 8988181571578933188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_obstacle_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 420
+        width: 86
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0ec31eae3f5a820800000000000000
+      internalID: 2929015322801135803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_obstacle_3
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 306
+        width: 92
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f96b816a9240d090800000000000000
+      internalID: -8011830506263189003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_obstacle_4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 315
+        width: 122
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97daea86cb19bd90800000000000000
+      internalID: -7081598399515273317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_obstacle_5
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 299
+        width: 86
+        height: 80
+      alignment: 9
+      pivot: {x: 0.49478576, y: 0.9148346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2e7a60bbe5bda10800000000000000
+      internalID: 1935244622249321147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_obstacle_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 216
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d453e1c822e90560800000000000000
+      internalID: 7280598937300587737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_obstacle_7
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 80
+        width: 96
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d86c53717a1a200800000000000000
+      internalID: 189616377454562598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-1_sprite_obstacle_8
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 79
+        width: 116
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e243b447721a1460800000000000000
+      internalID: 7213098056650277604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 885776b897c78b14ca387af9ea9ac5e5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jordan-1_sprite_obstacle_0: -3638257706733223110
+      jordan-1_sprite_obstacle_1: 8988181571578933188
+      jordan-1_sprite_obstacle_2: 2929015322801135803
+      jordan-1_sprite_obstacle_3: -8011830506263189003
+      jordan-1_sprite_obstacle_4: -7081598399515273317
+      jordan-1_sprite_obstacle_5: 1935244622249321147
+      jordan-1_sprite_obstacle_6: 7280598937300587737
+      jordan-1_sprite_obstacle_7: 189616377454562598
+      jordan-1_sprite_obstacle_8: 7213098056650277604
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

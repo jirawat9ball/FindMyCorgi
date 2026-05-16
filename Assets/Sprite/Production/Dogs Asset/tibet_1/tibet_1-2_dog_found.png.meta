@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 234479ccb90b5454c9e7b95b41026901
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4858848539359293828
+    second: tibet_1-2_dog_found_0
+  - first:
+      213: -7655829939868351409
+    second: tibet_1-2_dog_found_1
+  - first:
+      213: -335388852017105437
+    second: tibet_1-2_dog_found_2
+  - first:
+      213: -2740452059786676903
+    second: tibet_1-2_dog_found_3
+  - first:
+      213: -472875176067125197
+    second: tibet_1-2_dog_found_4
+  - first:
+      213: 7467683890558120192
+    second: tibet_1-2_dog_found_5
+  - first:
+      213: 5888740347157686617
+    second: tibet_1-2_dog_found_6
+  - first:
+      213: -3831401764156180504
+    second: tibet_1-2_dog_found_7
+  - first:
+      213: 8996474893280856606
+    second: tibet_1-2_dog_found_8
+  - first:
+      213: -7515628255835199739
+    second: tibet_1-2_dog_found_9
+  - first:
+      213: 543310058672884476
+    second: tibet_1-2_dog_found_10
+  - first:
+      213: 5717145982615931520
+    second: tibet_1-2_dog_found_11
+  - first:
+      213: 3760923870965019255
+    second: tibet_1-2_dog_found_12
+  - first:
+      213: -7392433929958071546
+    second: tibet_1-2_dog_found_13
+  - first:
+      213: 3598443587727849938
+    second: tibet_1-2_dog_found_14
+  - first:
+      213: 7114225642731702195
+    second: tibet_1-2_dog_found_15
+  - first:
+      213: -2717910405945244381
+    second: tibet_1-2_dog_found_16
+  - first:
+      213: -837919850217245753
+    second: tibet_1-2_dog_found_17
+  - first:
+      213: 621400761398893037
+    second: tibet_1-2_dog_found_18
+  - first:
+      213: 847554642508605859
+    second: tibet_1-2_dog_found_19
+  - first:
+      213: 8469364175713136016
+    second: tibet_1-2_dog_found_20
+  - first:
+      213: -4577397753991722440
+    second: tibet_1-2_dog_found_21
+  - first:
+      213: 7830402822023577158
+    second: tibet_1-2_dog_found_22
+  - first:
+      213: 773519746778607766
+    second: tibet_1-2_dog_found_23
+  - first:
+      213: 5263560821861929701
+    second: tibet_1-2_dog_found_24
+  - first:
+      213: -1875435257448908103
+    second: tibet_1-2_dog_found_25
+  - first:
+      213: -3481474688604280885
+    second: tibet_1-2_dog_found_26
+  - first:
+      213: 244431789186543559
+    second: tibet_1-2_dog_found_27
+  - first:
+      213: -7991077123185594819
+    second: tibet_1-2_dog_found_28
+  - first:
+      213: -8040613809001955025
+    second: tibet_1-2_dog_found_29
+  - first:
+      213: -7176148176517710559
+    second: tibet_1-2_dog_found_30
+  - first:
+      213: -6883126964712371870
+    second: tibet_1-2_dog_found_31
+  - first:
+      213: -3544231170835025039
+    second: tibet_1-2_dog_found_32
+  - first:
+      213: -9121276430017079933
+    second: tibet_1-2_dog_found_33
+  - first:
+      213: 4747162726332399988
+    second: tibet_1-2_dog_found_34
+  - first:
+      213: 5904945370993302397
+    second: tibet_1-2_dog_found_35
+  - first:
+      213: 3676202908349323367
+    second: tibet_1-2_dog_found_36
+  - first:
+      213: 3125946527469460630
+    second: tibet_1-2_dog_found_37
+  - first:
+      213: -6181608726241556205
+    second: tibet_1-2_dog_found_38
+  - first:
+      213: -6231414669550432285
+    second: tibet_1-2_dog_found_39
+  - first:
+      213: -1529146104039660302
+    second: tibet_1-2_dog_found_40
+  - first:
+      213: -2054496312474836529
+    second: tibet_1-2_dog_found_41
+  - first:
+      213: -3915396341723766476
+    second: tibet_1-2_dog_found_42
+  - first:
+      213: -6365478977681271491
+    second: tibet_1-2_dog_found_43
+  - first:
+      213: -5004911315801086461
+    second: tibet_1-2_dog_found_44
+  - first:
+      213: 1727225415820372712
+    second: tibet_1-2_dog_found_45
+  - first:
+      213: -6371786996853036703
+    second: tibet_1-2_dog_found_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_0
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2557
+        width: 86
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e401a2ff6e19cb0800000000000000
+      internalID: -4858848539359293828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_1
+      rect:
+        serializedVersion: 2
+        x: 4807
+        y: 2265
+        width: 129
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44c8556b3701c590800000000000000
+      internalID: -7655829939868351409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_2
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 2117
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5f4e5bd95785bf0800000000000000
+      internalID: -335388852017105437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_3
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 2019
+        width: 76
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9557d640f55f7f9d0800000000000000
+      internalID: -2740452059786676903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_4
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 2133
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3303b6368820079f0800000000000000
+      internalID: -472875176067125197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_5
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 2071
+        width: 109
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001bf97deea82a760800000000000000
+      internalID: 7467683890558120192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_6
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1896
+        width: 104
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95928d6552209b150800000000000000
+      internalID: 5888740347157686617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_7
+      rect:
+        serializedVersion: 2
+        x: 4086
+        y: 1970
+        width: 71
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e77aa7256024dac0800000000000000
+      internalID: -3831401764156180504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_8
+      rect:
+        serializedVersion: 2
+        x: 5341
+        y: 1897
+        width: 79
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ac9b40046e9dc70800000000000000
+      internalID: 8996474893280856606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_9
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 1695
+        width: 111
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507ed0bbbef13b790800000000000000
+      internalID: -7515628255835199739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_10
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 1658
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa081aae993a8700800000000000000
+      internalID: 543310058672884476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_11
+      rect:
+        serializedVersion: 2
+        x: 5125
+        y: 1635
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08acfdefaf1675f40800000000000000
+      internalID: 5717145982615931520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_12
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1611
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772382c955c713430800000000000000
+      internalID: 3760923870965019255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_13
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1542
+        width: 119
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603ed4be18cc86990800000000000000
+      internalID: -7392433929958071546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_14
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 1609
+        width: 97
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9fccea06d30f130800000000000000
+      internalID: 3598443587727849938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1511
+        width: 115
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b78ffe778ecab260800000000000000
+      internalID: 7114225642731702195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_16
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 1539
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325cb4ac2ea084ad0800000000000000
+      internalID: -2717910405945244381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_17
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 1476
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c37d81f55c1f54f0800000000000000
+      internalID: -837919850217245753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_18
+      rect:
+        serializedVersion: 2
+        x: 3134
+        y: 1444
+        width: 123
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9965e33b8af9800800000000000000
+      internalID: 621400761398893037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_19
+      rect:
+        serializedVersion: 2
+        x: 4902
+        y: 1480
+        width: 84
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a96572f47e13cb00800000000000000
+      internalID: 847554642508605859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_20
+      rect:
+        serializedVersion: 2
+        x: 5305
+        y: 1482
+        width: 115
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09decce58d9398570800000000000000
+      internalID: 8469364175713136016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_21
+      rect:
+        serializedVersion: 2
+        x: 4309
+        y: 1448
+        width: 127
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a07adaef0d970c0800000000000000
+      internalID: -4577397753991722440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_22
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1301
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e7eee11ed2bac60800000000000000
+      internalID: 7830402822023577158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_23
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 1385
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6903d758c181cba00800000000000000
+      internalID: 773519746778607766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_24
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1161
+        width: 70
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e25eb01eaceb0940800000000000000
+      internalID: 5263560821861929701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_25
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1124
+        width: 67
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bab380e19d19f5e0800000000000000
+      internalID: -1875435257448908103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_26
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 1128
+        width: 71
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc76a3367315fafc0800000000000000
+      internalID: -3481474688604280885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_27
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 1125
+        width: 97
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfe64eca65646300800000000000000
+      internalID: 244431789186543559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_28
+      rect:
+        serializedVersion: 2
+        x: 5528
+        y: 1173
+        width: 135
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ea5cbe1bdf91190800000000000000
+      internalID: -7991077123185594819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_29
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 1021
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21865a77500a6090800000000000000
+      internalID: -8040613809001955025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_30
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1035
+        width: 70
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d381b1143396c90800000000000000
+      internalID: -7176148176517710559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_31
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 918
+        width: 62
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26908647e783a70a0800000000000000
+      internalID: -6883126964712371870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_32
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 910
+        width: 80
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173f28c378c50dec0800000000000000
+      internalID: -3544231170835025039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_33
+      rect:
+        serializedVersion: 2
+        x: 4519
+        y: 796
+        width: 85
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38550bad967ba6180800000000000000
+      internalID: -9121276430017079933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_34
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 499
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471840a195f41e140800000000000000
+      internalID: 4747162726332399988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_35
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 403
+        width: 79
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b9428778492f150800000000000000
+      internalID: 5904945370993302397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_36
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 373
+        width: 78
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7685b6a511f740330800000000000000
+      internalID: 3676202908349323367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_37
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 478
+        width: 110
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69cdea40ec7916b20800000000000000
+      internalID: 3125946527469460630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_38
+      rect:
+        serializedVersion: 2
+        x: 4990
+        y: 422
+        width: 92
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319cae37d93863aa0800000000000000
+      internalID: -6181608726241556205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_39
+      rect:
+        serializedVersion: 2
+        x: 5354
+        y: 491
+        width: 81
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efc94d9f519589a0800000000000000
+      internalID: -6231414669550432285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_40
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 265
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f42b0b58b167cae0800000000000000
+      internalID: -1529146104039660302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_41
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 338
+        width: 66
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1669e2d76fc73e0800000000000000
+      internalID: -2054496312474836529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_42
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 126
+        width: 128
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431e0b895c7b9a9c0800000000000000
+      internalID: -3915396341723766476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_43
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 44
+        width: 84
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d355716789649a7a0800000000000000
+      internalID: -6365478977681271491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_44
+      rect:
+        serializedVersion: 2
+        x: 5049
+        y: 72
+        width: 82
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306e759ecabfa8ab0800000000000000
+      internalID: -5004911315801086461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_45
+      rect:
+        serializedVersion: 2
+        x: 5629
+        y: 79
+        width: 79
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eaeffc4d5658f710800000000000000
+      internalID: 1727225415820372712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tibet_1-2_dog_found_46
+      rect:
+        serializedVersion: 2
+        x: 4252
+        y: 19
+        width: 117
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1692f1c4c7dd297a0800000000000000
+      internalID: -6371786996853036703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tibet_1-2_dog_found_0: -4858848539359293828
+      tibet_1-2_dog_found_1: -7655829939868351409
+      tibet_1-2_dog_found_10: 543310058672884476
+      tibet_1-2_dog_found_11: 5717145982615931520
+      tibet_1-2_dog_found_12: 3760923870965019255
+      tibet_1-2_dog_found_13: -7392433929958071546
+      tibet_1-2_dog_found_14: 3598443587727849938
+      tibet_1-2_dog_found_15: 7114225642731702195
+      tibet_1-2_dog_found_16: -2717910405945244381
+      tibet_1-2_dog_found_17: -837919850217245753
+      tibet_1-2_dog_found_18: 621400761398893037
+      tibet_1-2_dog_found_19: 847554642508605859
+      tibet_1-2_dog_found_2: -335388852017105437
+      tibet_1-2_dog_found_20: 8469364175713136016
+      tibet_1-2_dog_found_21: -4577397753991722440
+      tibet_1-2_dog_found_22: 7830402822023577158
+      tibet_1-2_dog_found_23: 773519746778607766
+      tibet_1-2_dog_found_24: 5263560821861929701
+      tibet_1-2_dog_found_25: -1875435257448908103
+      tibet_1-2_dog_found_26: -3481474688604280885
+      tibet_1-2_dog_found_27: 244431789186543559
+      tibet_1-2_dog_found_28: -7991077123185594819
+      tibet_1-2_dog_found_29: -8040613809001955025
+      tibet_1-2_dog_found_3: -2740452059786676903
+      tibet_1-2_dog_found_30: -7176148176517710559
+      tibet_1-2_dog_found_31: -6883126964712371870
+      tibet_1-2_dog_found_32: -3544231170835025039
+      tibet_1-2_dog_found_33: -9121276430017079933
+      tibet_1-2_dog_found_34: 4747162726332399988
+      tibet_1-2_dog_found_35: 5904945370993302397
+      tibet_1-2_dog_found_36: 3676202908349323367
+      tibet_1-2_dog_found_37: 3125946527469460630
+      tibet_1-2_dog_found_38: -6181608726241556205
+      tibet_1-2_dog_found_39: -6231414669550432285
+      tibet_1-2_dog_found_4: -472875176067125197
+      tibet_1-2_dog_found_40: -1529146104039660302
+      tibet_1-2_dog_found_41: -2054496312474836529
+      tibet_1-2_dog_found_42: -3915396341723766476
+      tibet_1-2_dog_found_43: -6365478977681271491
+      tibet_1-2_dog_found_44: -5004911315801086461
+      tibet_1-2_dog_found_45: 1727225415820372712
+      tibet_1-2_dog_found_46: -6371786996853036703
+      tibet_1-2_dog_found_5: 7467683890558120192
+      tibet_1-2_dog_found_6: 5888740347157686617
+      tibet_1-2_dog_found_7: -3831401764156180504
+      tibet_1-2_dog_found_8: 8996474893280856606
+      tibet_1-2_dog_found_9: -7515628255835199739
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: f752a355fc9666c46b39fa86c8b70fda
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2354751325310618246
+    second: jordan-2_dog-special_found_0
+  - first:
+      213: -4500671437735643251
+    second: jordan-2_dog-special_found_1
+  - first:
+      213: 4546903756582452039
+    second: jordan-2_dog-special_found_2
+  - first:
+      213: 8428963539552796611
+    second: jordan-2_dog-special_found_3
+  - first:
+      213: 8645921132817751037
+    second: jordan-2_dog-special_found_4
+  - first:
+      213: -7334687595213414557
+    second: jordan-2_dog-special_found_5
+  - first:
+      213: -7463517116569214945
+    second: jordan-2_dog-special_found_6
+  - first:
+      213: -5326674420373854956
+    second: jordan-2_dog-special_found_7
+  - first:
+      213: 4028501947627611972
+    second: jordan-2_dog-special_found_8
+  - first:
+      213: -6645329339257084785
+    second: jordan-2_dog-special_found_9
+  - first:
+      213: -420515718274896820
+    second: jordan-2_dog-special_found_10
+  - first:
+      213: -2231883567228366798
+    second: jordan-2_dog-special_found_11
+  - first:
+      213: 3961199159740131891
+    second: jordan-2_dog-special_found_12
+  - first:
+      213: -7019241777497554562
+    second: jordan-2_dog-special_found_13
+  - first:
+      213: -8403058388323229856
+    second: jordan-2_dog-special_found_14
+  - first:
+      213: 1215208829940902202
+    second: jordan-2_dog-special_found_15
+  - first:
+      213: -373108071803433495
+    second: jordan-2_dog-special_found_16
+  - first:
+      213: 6719225884388009342
+    second: jordan-2_dog-special_found_17
+  - first:
+      213: 4418665549452501211
+    second: jordan-2_dog-special_found_18
+  - first:
+      213: -817573454157088713
+    second: jordan-2_dog-special_found_19
+  - first:
+      213: 8781304248977593629
+    second: jordan-2_dog-special_found_20
+  - first:
+      213: 7350460594031878190
+    second: jordan-2_dog-special_found_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_0
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 2291
+        width: 83
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75fa78452e325fd0800000000000000
+      internalID: -2354751325310618246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_1
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 2196
+        width: 78
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8735074c276a81c0800000000000000
+      internalID: -4500671437735643251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_2
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 2184
+        width: 73
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b7cf640e8d91f30800000000000000
+      internalID: 4546903756582452039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_3
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 2002
+        width: 129
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf73cf3ea1b9f470800000000000000
+      internalID: 8428963539552796611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_4
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1457
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb15a5567b7cf770800000000000000
+      internalID: 8645921132817751037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_5
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1404
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f17d43e74f53a90800000000000000
+      internalID: -7334687595213414557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_6
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 1373
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1028d3d9b24c6890800000000000000
+      internalID: -7463517116569214945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_7
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 1193
+        width: 73
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415e47b26d9d316b0800000000000000
+      internalID: -5326674420373854956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 965
+        width: 78
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447205d6d2d18e730800000000000000
+      internalID: 4028501947627611972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_9
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1051
+        width: 72
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84a916ac2c07c3a0800000000000000
+      internalID: -6645329339257084785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_10
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 882
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ca1c5ae270a2af0800000000000000
+      internalID: -420515718274896820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_11
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 961
+        width: 73
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230525b78b1c601e0800000000000000
+      internalID: -2231883567228366798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_12
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 821
+        width: 81
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ae2e006a109f630800000000000000
+      internalID: 3961199159740131891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_13
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 705
+        width: 65
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e714dabfac4a69e90800000000000000
+      internalID: -7019241777497554562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_14
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 600
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f9029cae6526b80800000000000000
+      internalID: -8403058388323229856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_15
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 592
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39ab8c0ef94dd010800000000000000
+      internalID: 1215208829940902202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_16
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 515
+        width: 77
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed435d7f2472daf0800000000000000
+      internalID: -373108071803433495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 159
+        width: 155
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75ae84875c7f3d50800000000000000
+      internalID: 6719225884388009342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_18
+      rect:
+        serializedVersion: 2
+        x: 3311
+        y: 177
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd06f58f7e0425d30800000000000000
+      internalID: 4418665549452501211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_19
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 179
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7387d2f664567a4f0800000000000000
+      internalID: -817573454157088713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_20
+      rect:
+        serializedVersion: 2
+        x: 3288
+        y: 86
+        width: 156
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1510f860b57dd970800000000000000
+      internalID: 8781304248977593629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jordan-2_dog-special_found_21
+      rect:
+        serializedVersion: 2
+        x: 3326
+        y: 170
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20e6c247f4120660800000000000000
+      internalID: 7350460594031878190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jordan-2_dog-special_found_0: -2354751325310618246
+      jordan-2_dog-special_found_1: -4500671437735643251
+      jordan-2_dog-special_found_10: -420515718274896820
+      jordan-2_dog-special_found_11: -2231883567228366798
+      jordan-2_dog-special_found_12: 3961199159740131891
+      jordan-2_dog-special_found_13: -7019241777497554562
+      jordan-2_dog-special_found_14: -8403058388323229856
+      jordan-2_dog-special_found_15: 1215208829940902202
+      jordan-2_dog-special_found_16: -373108071803433495
+      jordan-2_dog-special_found_17: 6719225884388009342
+      jordan-2_dog-special_found_18: 4418665549452501211
+      jordan-2_dog-special_found_19: -817573454157088713
+      jordan-2_dog-special_found_2: 4546903756582452039
+      jordan-2_dog-special_found_20: 8781304248977593629
+      jordan-2_dog-special_found_21: 7350460594031878190
+      jordan-2_dog-special_found_3: 8428963539552796611
+      jordan-2_dog-special_found_4: 8645921132817751037
+      jordan-2_dog-special_found_5: -7334687595213414557
+      jordan-2_dog-special_found_6: -7463517116569214945
+      jordan-2_dog-special_found_7: -5326674420373854956
+      jordan-2_dog-special_found_8: 4028501947627611972
+      jordan-2_dog-special_found_9: -6645329339257084785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
