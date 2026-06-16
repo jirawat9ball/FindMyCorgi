@@ -102,7 +102,7 @@ public class LoadSceneManager : MonoBehaviour
             {
                 Debug.LogWarning($"Skipped unloading scene '{CurrentScene}' because it is not currently loaded.");
             }
-            
+
             CurrentScene = null;
             onComplete?.Invoke();
         }
@@ -118,13 +118,17 @@ public class LoadSceneManager : MonoBehaviour
         isReady = false;
         AsyncOperation asyncLoad;
 
+        Panel.gameObject.SetActive(true);
+        canvasGroup.gameObject.SetActive(false);
+
+        yield return StartCoroutine(AnimateImage(offScreenX, 0, slideInDuration));
+
+        canvasGroup.gameObject.SetActive(true);
         if (progressBar != null) progressBar.value = 0;
         ResetPlanePosition();
 
-        yield return StartCoroutine(AnimateImage(onScreenX, 0, slideInDuration));
-        Panel.gameObject.SetActive(true);
-        canvasGroup.gameObject.SetActive(true);
-        yield return StartCoroutine(AnimateImage(0, offScreenX, slideInDuration));
+        StartCoroutine(AnimateLoadingText());
+        yield return StartCoroutine(AnimateImage(0, onScreenX, slideInDuration));
 
         //yield return StartCoroutine(Fade(0, 1));
 
@@ -154,7 +158,7 @@ public class LoadSceneManager : MonoBehaviour
         //yield return StartCoroutine(Fade(1, 0));
 
         isReady = true;
-       
+
     }
 
     IEnumerator LoadUI(AsyncOperation asyncLoad)
@@ -215,7 +219,7 @@ public class LoadSceneManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(1);
-      
+
     }
 
     private void ResetPlanePosition()
@@ -358,7 +362,8 @@ public class LoadSceneManager : MonoBehaviour
     {
         isReady = false;
         Panel.gameObject.SetActive(true);
-        transitionImage.gameObject.SetActive(true);
+      
+        if (canvasGroup != null) canvasGroup.gameObject.SetActive(false);
 
         // 2. เลื่อนภาพเข้ามา "บังหน้าจอ" (จากนอกจอ -> กลางจอ)
         yield return StartCoroutine(AnimateImage(offScreenX, 0, slideInDuration));
@@ -373,7 +378,7 @@ public class LoadSceneManager : MonoBehaviour
         // ถ้าอยากให้ภาพไหลทะลุไปอีกด้าน ให้ใส่เครื่องหมายลบ (เช่น -offScreenX)
         yield return StartCoroutine(AnimateImage(0, onScreenX, slideInDuration));
         Panel.gameObject.SetActive(false);
-        transitionImage.gameObject.SetActive(false);
+       
 
         isReady = true;
     }
