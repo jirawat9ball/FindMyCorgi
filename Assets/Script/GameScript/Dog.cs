@@ -14,6 +14,7 @@ public class Dog : Interaction
     [Header("Dog setUp")]
     public string id;
     public bool isSpecial;
+    public bool realDog;
 
 
     [Header("State Settings")]
@@ -96,14 +97,28 @@ public class Dog : Interaction
 
             case DogState.Found:
                 // เปลี่ยนเป็นภาพ B และคง Collider ไว้เผื่อคลิกเด้งดึ๋งเล่น
-                if (spriteRenderer != null)
+                //เพิ่ม realDog
+                if (realDog)
                 {
-                    spriteRenderer.enabled = true;
-                    if (spriteFound != null) spriteRenderer.sprite = spriteFound;
-                    spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
+                    // 🌟 เส้นทางของหมาจริง: ซ่อนภาพและปิด Collider เพื่อไม่ให้กดซ้ำได้
+                    if (spriteRenderer != null) spriteRenderer.enabled = false;
+                    if (dogCollider != null) dogCollider.enabled = false;
                 }
-                if (dogCollider != null) dogCollider.enabled = true;
+                else
+                {
+                    // 🌟 เส้นทางของหมาหลอก: เปลี่ยนเป็นภาพ B และคง Collider ไว้เผื่อคลิกเด้งดึ๋งเล่น
+                    if (spriteRenderer != null)
+                    {
+                        spriteRenderer.enabled = true;
+                        if (spriteFound != null) spriteRenderer.sprite = spriteFound;
+                        spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
+                    }
+                    if (dogCollider != null) dogCollider.enabled = true;
+                }
+
+                // สั่งปลดล็อคสิ่งกีดขวาง (อันนี้ต้องทำทั้งคู่ เลยเอาไว้นอก if-else)
                 if (blockingObstacle != null) blockingObstacle.DoneState();
+
                 break;
         }
     }
