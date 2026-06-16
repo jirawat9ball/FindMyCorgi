@@ -1,15 +1,25 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SplashScreen : MonoBehaviour
 {
-    public string sceneName = "Stage Select";
+    public GameObject SplashUI;
+
     private void Update()
     {
-        if (Input.anyKeyDown) {
-            LoadScene(sceneName);
+        // ถ้ากดปุ่มใดๆ และยังไม่ได้ถูกกด
+        if (Input.anyKeyDown)
+        {
+            LoadSceneManager.Instance.PlayLocalTransition(() => { });
+
+            Invoke("HideSplashUI", 1f);
         }
     }
-    public void LoadScene(string sceneName) {
-        LoadSceneManager.Instance.LoadeScene(sceneName);
+
+    private void HideSplashUI()
+    {
+        if (SplashUI != null)
+        {
+            SplashUI.SetActive(false);
+        }
     }
 }
