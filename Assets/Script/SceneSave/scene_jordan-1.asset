@@ -16,4 +16,6 @@ MonoBehaviour:
   SceneName: scene_jordan-1
   soundBG: {fileID: 8300000, guid: df16baf8381ce55408ac359f92eb9ee6, type: 3}
   backScene: {fileID: 0}
-  rewardSets: []
+  rewardSets:
+  - KeyItemInThisScene: {fileID: 11400000, guid: 6e6595c93ca354b4392caca9f133b41c, type: 2}
+    AmontDogtoUnlockKeyItem: 38
