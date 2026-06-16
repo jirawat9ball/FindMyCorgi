@@ -52,4 +52,8 @@ public class SaveData
 
     [Header("การตั้งค่าเกม")]
     public GameSettingsData gameSettings = new GameSettingsData();
+
+    //ใช้เช็กว่าเคยดูคัตซีนมั้ย
+    [Header("คัตซีนเปิดเกม")]
+    public bool hasWatchedIntro = false;
 }
