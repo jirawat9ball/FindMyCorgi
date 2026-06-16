@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 // 🌟 สร้าง Enum สำหรับระบุสถานะของหมา
 public enum DogState
@@ -100,9 +101,22 @@ public class Dog : Interaction
                 //เพิ่ม realDog
                 if (realDog)
                 {
-                    // 🌟 เส้นทางของหมาจริง: ซ่อนภาพและปิด Collider เพื่อไม่ให้กดซ้ำได้
-                    if (spriteRenderer != null) spriteRenderer.enabled = false;
+                    // 🌟 เส้นทางของหมาจริง: ปิด Collider ทันทีกันกดซ้ำ
                     if (dogCollider != null) dogCollider.enabled = false;
+
+                    if (spriteRenderer != null)
+                    {
+                        // 1. 🌟 เปลี่ยนภาพและ "สี" ให้เป็นแบบหมาที่ถูกค้นพบแล้ว
+                        spriteRenderer.enabled = true;
+                        if (spriteFound != null) spriteRenderer.sprite = spriteFound;
+                        spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
+
+                        // 2. 🌟 กำหนดเวลาเฟดตรงนี้ครับ! (ตัวเลขคือวินาที)
+                        // ถ้าอยากให้เห็นชัดๆ ลองปรับเป็น 1.0f หรือ 1.5f ดูครับ
+                        float fadeTime = 1.0f;
+
+                        StartCoroutine(FadeOutAndHideRoutine(fadeTime));
+                    }
                 }
                 else
                 {
@@ -114,11 +128,8 @@ public class Dog : Interaction
                         spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
                     }
                     if (dogCollider != null) dogCollider.enabled = true;
+                    if (blockingObstacle != null) blockingObstacle.DoneState();
                 }
-
-                // สั่งปลดล็อคสิ่งกีดขวาง (อันนี้ต้องทำทั้งคู่ เลยเอาไว้นอก if-else)
-                if (blockingObstacle != null) blockingObstacle.DoneState();
-
                 break;
         }
     }
@@ -151,7 +162,7 @@ public class Dog : Interaction
 
             if (!isPopping)
             {
-                StopAllCoroutines();
+                //StopAllCoroutines();
                 StartCoroutine(PopRoutine());
             }
         }
@@ -305,5 +316,25 @@ public class Dog : Interaction
 
         transform.localScale = originalScale;
         isPopping = false; // 🌟 ปลดล็อค
+    }
+
+    private IEnumerator FadeOutAndHideRoutine(float duration)
+    {
+        if (spriteRenderer == null) yield break;
+        Color startColor = spriteRenderer.color;
+        float time = 0f;
+
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+            float currentAlpha = Mathf.Lerp(startColor.a, 0f, time / duration);
+            spriteRenderer.color = new Color(startColor.r, startColor.g, startColor.b, currentAlpha);
+            yield return null;
+        }
+
+        spriteRenderer.color = new Color(startColor.r, startColor.g, startColor.b, 0f);
+        spriteRenderer.enabled = false;
+
+        if (blockingObstacle != null) blockingObstacle.DoneState();
     }
 }
