@@ -6409,6 +6409,10 @@ PrefabInstance:
       propertyPath: onComplate.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1253472058}
+    - target: {fileID: 2130863725506554446, guid: 83d21fc206c3e9545a9a5bee2ce0a57c, type: 3}
+      propertyPath: onComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1253472058}
     - target: {fileID: 2308977389228928221, guid: 83d21fc206c3e9545a9a5bee2ce0a57c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.17
@@ -21021,12 +21025,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 1046560921}
     m_Modifications:
     - target: {fileID: 1551354962252366207, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
+      propertyPath: m_Size.x
+      value: 2.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551354962252366207, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
+      propertyPath: m_Size.y
+      value: 3.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551354962252366207, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551354962252366207, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551354962252366207, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
       propertyPath: m_SortingOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551354962252366207, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1670231636036673207, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
       propertyPath: m_Name
       value: ENV_jordan-1_sprite_obstacle_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1670231636036673207, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4654798045119326486, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21069,6 +21097,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8477568537550676420, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
+      propertyPath: NeedKey
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e6595c93ca354b4392caca9f133b41c, type: 2}
+    - target: {fileID: 8477568537550676420, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
       propertyPath: obstacle
       value: 
       objectReference: {fileID: 5270466662466495897}
@@ -21086,6 +21118,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4654798045119326486, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
   m_PrefabInstance: {fileID: 2112364619}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2112364621 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8477568537550676420, guid: c1379957d547fa848aeaea8b347701cf, type: 3}
+  m_PrefabInstance: {fileID: 2112364619}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9ee655ea2f8aa8449e69a584b00cec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gate
 --- !u!1 &2141710495
 GameObject:
   m_ObjectHideFlags: 0
@@ -21131,12 +21174,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 1046560921}
     m_Modifications:
     - target: {fileID: 329539979515855368, guid: 334709bd6e645b1408625acf086307c6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3638257706733223110, guid: 6a3556cf1dc25e244aaacbb1732490b8, type: 3}
+    - target: {fileID: 329539979515855368, guid: 334709bd6e645b1408625acf086307c6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 329539979515855368, guid: 334709bd6e645b1408625acf086307c6, type: 3}
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2864023790978333134, guid: 334709bd6e645b1408625acf086307c6, type: 3}
       propertyPath: m_Name
       value: ENV_jordan-1_sprite_obstacle_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2864023790978333134, guid: 334709bd6e645b1408625acf086307c6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3783398259066776421, guid: 334709bd6e645b1408625acf086307c6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21221,13 +21276,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2112364621}
+        m_TargetAssemblyTypeName: Gate, Assembly-CSharp
+        m_MethodName: SetlockGate
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onFail:
     m_PersistentCalls:
       m_Calls: []
   startState: 0
   currentState: 0
-  spriteAfterClick: []
-  RequiredClick: 5
+  spriteAfterClick:
+  - {fileID: 8988181571578933188, guid: 6a3556cf1dc25e244aaacbb1732490b8, type: 3}
+  - {fileID: 8988181571578933188, guid: 6a3556cf1dc25e244aaacbb1732490b8, type: 3}
+  RequiredClick: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
