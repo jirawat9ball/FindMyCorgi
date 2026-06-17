@@ -101,18 +101,15 @@ public class Dog : Interaction
                 //เพิ่ม realDog
                 if (realDog)
                 {
-                    // 🌟 เส้นทางของหมาจริง: ปิด Collider ทันทีกันกดซ้ำ
+                    // ปิด Collider ทันทีกันกดซ้ำ
                     if (dogCollider != null) dogCollider.enabled = false;
 
                     if (spriteRenderer != null)
                     {
-                        // 1. 🌟 เปลี่ยนภาพและ "สี" ให้เป็นแบบหมาที่ถูกค้นพบแล้ว
+
                         spriteRenderer.enabled = true;
                         if (spriteFound != null) spriteRenderer.sprite = spriteFound;
                         spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
-
-                        // 2. 🌟 กำหนดเวลาเฟดตรงนี้ครับ! (ตัวเลขคือวินาที)
-                        // ถ้าอยากให้เห็นชัดๆ ลองปรับเป็น 1.0f หรือ 1.5f ดูครับ
                         float fadeTime = 1.0f;
 
                         StartCoroutine(FadeOutAndHideRoutine(fadeTime));
@@ -120,7 +117,7 @@ public class Dog : Interaction
                 }
                 else
                 {
-                    // 🌟 เส้นทางของหมาหลอก: เปลี่ยนเป็นภาพ B และคง Collider ไว้เผื่อคลิกเด้งดึ๋งเล่น
+                    //เปลี่ยนเป็นภาพ B และคง Collider ไว้เผื่อคลิกเด้งดึ๋งเล่น
                     if (spriteRenderer != null)
                     {
                         spriteRenderer.enabled = true;
@@ -128,6 +125,7 @@ public class Dog : Interaction
                         spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
                     }
                     if (dogCollider != null) dogCollider.enabled = true;
+                    // สั่งปลดล็อคสิ่งกีดขวาง (อันนี้ต้องทำทั้งคู่ เลยเอาไว้นอก if-else)
                     if (blockingObstacle != null) blockingObstacle.DoneState();
                 }
                 break;

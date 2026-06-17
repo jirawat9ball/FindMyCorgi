@@ -85,8 +85,9 @@ public abstract class Interaction : MonoBehaviour
     
     }
 
-    public virtual void DoneState() { 
-        
+    public virtual void DoneState() 
+    {
+
     }
 
     protected virtual void OnMouseDown()
@@ -109,8 +110,8 @@ public abstract class Interaction : MonoBehaviour
             }
         }
     }
-
-    private void OnMouseEnter()
+    //เปลี่ยนจาก private เป็น protected virtual ให้สคริปต์ Gate นำไปปรับแต่งได้
+    protected virtual void OnMouseEnter()
     {
         if (!Gamemanager.Instance.isStateGamePlay())
         {

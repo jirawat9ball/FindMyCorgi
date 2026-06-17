@@ -50,7 +50,8 @@ public class Gate : Interaction
             Debug.Log("Clicked Item " + gameObject.name);
             DoOnLock();
         }
-        else {
+        else 
+        {
             isProcessing = true; // 🌟 ปรับ State ให้รู้ว่ากำลังทำงานอยู่
             StartCoroutine(EnumGotoScene());
             Debug.Log("go to scene " + GotoScene);
@@ -73,5 +74,18 @@ public class Gate : Interaction
         // 🌟 เลิกล็อค State เมื่อโหลดทุกอย่างเสร็จสิ้น
         isProcessing = false;
     }
+    protected override void OnMouseEnter()
+    {
+        if (!Gamemanager.Instance.isStateGamePlay()) return;
 
+        // ถ้าประตู "เปิดแล้ว" (ไม่ได้ล็อค) ให้โชว์ลูกศรปกติเลย ไม่ต้องไปเช็คกุญแจแล้ว
+        if (!GateIslock)
+        {
+            CursorHandle.Instance.ResetToBaseCursor();
+            return;
+        }
+
+        // แต่ถ้ายังปิดอยู่ ก็ดึงระบบเช็คกุญแจ/แว่นขยาย มาโชว์ตามปกติ
+        base.OnMouseEnter();
+    }
 }
