@@ -661,12 +661,12 @@ VideoPlayer:
   m_RenderMode: 1
   m_AspectRatio: 2
   m_DataSource: 1
-  m_TimeUpdateMode: 2
+  m_TimeUpdateMode: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: https://cdn.discordapp.com/attachments/486865345861255168/1517069015808217098/23325-334689174.mp4?ex=6a34f01f&is=6a339e9f&hm=91a8936bb31a5e0c5071e4304b5a4ce8cbe136cd92e82558c0bd8d53be435902&
+  m_Url: https://cdn.discordapp.com/attachments/1513393788192555008/1517420183193391164/Story_board_dog.mov?ex=6a3a2bab&is=6a38da2b&hm=ea82cf7b157bec4503bf802ec37615acab27f3d3ea1e8bb3b6944213ebd18c45&
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0

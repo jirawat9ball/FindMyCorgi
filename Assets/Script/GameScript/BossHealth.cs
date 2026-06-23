@@ -1,19 +1,38 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using TMPro; // 🌟 เรียกใช้ TextMeshPro
 
 public class BossHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 5;
     private int currentHealth;
-
     private bool isDead = false;
 
-    public UnityEvent onDamaged;  // เผื่อเอาไว้เล่นเสียงตอนโดนตี หรือทำบอสกระพริบแดง
-    public UnityEvent onDefeated; // ส่งสัญญาณเมื่อบอสตาย (ชนะ)
+    [Header("UI Settings")]
+    public TextMeshProUGUI healthText; // 🌟 ช่องสำหรับลาก TextMeshPro มาใส่
+
+    public UnityEvent onDamaged;
+    public UnityEvent onDefeated;
 
     private void Start()
     {
+        
+        if (healthText == null)
+        {
+            
+            GameObject hpObj = GameObject.Find("HP txt");
+            if (hpObj != null)
+            {
+                healthText = hpObj.GetComponent<TextMeshProUGUI>();
+            }
+            else
+            {
+                Debug.LogWarning("⚠️ หา UI เลือดบอสไม่เจอ! ตรวจสอบชื่อ GameObject อีกทีครับ");
+            }
+        }
+
         currentHealth = maxHealth;
+        UpdateHealthUI();
     }
 
     public void TakeDamage(int damage)
@@ -21,6 +40,7 @@ public class BossHealth : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damage;
+        UpdateHealthUI(); // 🌟 อัปเดต UI ทันทีที่โดนตี
         onDamaged?.Invoke();
 
         Debug.Log($"💥 บอสโดนดาเมจ! เลือดเหลือ: {currentHealth}");
@@ -29,13 +49,17 @@ public class BossHealth : MonoBehaviour
         {
             currentHealth = 0;
             isDead = true;
-            onDefeated?.Invoke(); // บอสตาย! โยน Event แจ้งเตือน
+            UpdateHealthUI();
+            onDefeated?.Invoke();
         }
     }
 
-    public void ResetHealth()
+    // 🌟 ฟังก์ชันจัดการ UI
+    private void UpdateHealthUI()
     {
-        currentHealth = maxHealth;
-        isDead = false;
+        if (healthText != null)
+        {
+            healthText.text = $"HP:{currentHealth}";
+        }
     }
 }

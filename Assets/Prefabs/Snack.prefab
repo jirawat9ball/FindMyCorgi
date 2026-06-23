@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4669277821030524913}
   - component: {fileID: 8718670767220735908}
   - component: {fileID: 3311591548583658839}
-  - component: {fileID: 3585458511636189351}
   m_Layer: 0
   m_Name: Snack
   m_TagString: Untagged
@@ -164,17 +163,3 @@ MonoBehaviour:
   popDuration: 0.5
   jumpHeight: 1
   tossSideRange: 1.5
---- !u!114 &3585458511636189351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6402801997015413434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: def91ed99d6ea64408e4fe11b68a18dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AutoTint
-  mySprite: {fileID: 4669277821030524913}
-  blendStrength: 1

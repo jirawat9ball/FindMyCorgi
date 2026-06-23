@@ -21,6 +21,10 @@ public class SceneHandle : MonoBehaviour
     public Gate gate;
     ZoneHandle zoneHandle;
 
+    public Gradient sceneOverlayGradient;
+    public Material multiplyMaterial;
+    private SpriteRenderer overlayRenderer;
+
 #if UNITY_EDITOR
     [ContextMenu("🛠️ DEBUG: Reveal All Dogs (เฉลยทั้งหมด)")]
     public void DebugRevealAllDogs()
@@ -76,7 +80,7 @@ public class SceneHandle : MonoBehaviour
         if (targetDog != null)
         {
             Debug.Log($"🔍 [Editor Test] ตรวจสอบสุนัข ({debugDogIndex + 1}/{allDogs.Length}): {targetDog.name}");
-            
+
             if (Gamemanager.Instance.cameraPan != null)
             {
                 // เลื่อนกล้องไปที่ตำแหน่งหมา และซูมเข้าไปใกล้ๆ (false = zoom in)
@@ -88,12 +92,14 @@ public class SceneHandle : MonoBehaviour
 
     public void Setup()
     {
+        
         // 🌟 ป้องกันลิสต์ซ้ำซ้อนเวลาถูกเรียกซ้ำ
         lostDogs.Clear();
         foundDogs.Clear();
 
         // 🌟 เรียกใช้ฟังก์ชันค้นหา SCN
         FindSCNSpriteRenderer();
+        
 
         Dog[] interactions = GetAllDog();
         for (int i = 0; i < interactions.Length; i++)
@@ -103,7 +109,7 @@ public class SceneHandle : MonoBehaviour
                 lostDogs.Add(interactions[i]);
             }
         } // 🌟 นำวงเล็บปีกกาของลูป for ที่หายไปกลับคืนมา!
-        
+
         SoundManager.Instance.PlayBGSound(sceneObject.soundBG);
 
         // 🌟 A/B Testing Mode 1: 10% Drop on Scene Load
@@ -139,6 +145,7 @@ public class SceneHandle : MonoBehaviour
                 Debug.Log("❌ [A/B Test Mode 1] เกลือ! รอบนี้ดรอปไม่สำเร็จจ้า");
             }
         }
+        CreateGradientOverlayOnTop();
     }
 
     public Dog[] GetAllDog()
@@ -148,9 +155,9 @@ public class SceneHandle : MonoBehaviour
     }
     // 🌟 ฟังก์ชันใหม่: สำหรับค้นหา SpriteRenderer จากตัวลูกที่ชื่อ SCN
     private void FindSCNSpriteRenderer()
-    {   
+    {
         if (targetSpriteRenderer != null) return;
-        
+
         targetSpriteRenderer = FindOrCreateSCNRenderer();
 
         // 🌟 เพิ่มบรรทัดนี้ลงไป: เมื่อหาภาพเจอแล้ว ให้คำนวณซูมทันที!
@@ -159,7 +166,7 @@ public class SceneHandle : MonoBehaviour
             CalculateAutoZoom();
         }
     }
-    
+
     private SpriteRenderer FindOrCreateSCNRenderer()
     {
         if (targetSpriteRenderer != null) return targetSpriteRenderer;
@@ -204,7 +211,8 @@ public class SceneHandle : MonoBehaviour
 
         Debug.Log($"[Auto Zoom] คำนวณระยะซูมของฉาก {gameObject.name} ได้ที่: {autoZoom}");
     }
-    public void setZone(ZoneHandle _zoneHandle) {
+    public void setZone(ZoneHandle _zoneHandle)
+    {
         zoneHandle = _zoneHandle;
     }
     public void SetToGamemanager()
@@ -271,12 +279,13 @@ public class SceneHandle : MonoBehaviour
             Gamemanager.Instance.uiIngame.UpdateLostDog(normalLostCount, specialLostCount);
         }
     }
-    void SetupScene() {
+    void SetupScene()
+    {
         Dog[] allDogs = GetAllDog();
         foreach (Dog dog in allDogs)
         {
             if (dog == null) continue;
-            
+
             // 🌟 เช็คเลยว่าหมาตัวนี้อยู่ในเซฟของเราแล้วหรือยัง?
             if (Gamemanager.Instance.IsDogFoundInSave(sceneObject.name, dog.name))
             {
@@ -285,7 +294,7 @@ public class SceneHandle : MonoBehaviour
                 {
                     foundDogs.Add(dog);
                     lostDogs.Remove(dog);
-                    
+
                     // 🌟 ให้น้องหมาเปลี่ยนสลับสถานะตัวเอง และปิดสิ่งกีดขวาง
                     dog.ChangeState(DogState.Found);
                 }
@@ -298,7 +307,7 @@ public class SceneHandle : MonoBehaviour
         }
         UpdateDogUI();
     }
-    
+
     Dog FindDogInteractionByName(string itemName)
     {
         Dog[] allDogs = GetAllDog();
@@ -311,9 +320,10 @@ public class SceneHandle : MonoBehaviour
         }
         return null; // คืนค่า null หากไม่พบไอเท็ม
     }
-    
-    public Vector3 lostDogsHint() {
-        int r = Random.Range(0,lostDogs.Count);
+
+    public Vector3 lostDogsHint()
+    {
+        int r = Random.Range(0, lostDogs.Count);
         Debug.Log("Get lostDogs" + lostDogs[r].name);
         lostDogs[r].OnHint();
         return lostDogs[r].transform.position;
@@ -337,7 +347,7 @@ public class SceneHandle : MonoBehaviour
         Gamemanager.Instance.totalDogsFoundInSession++; // บวกยอดสะสม
         int requiredDogs = Gamemanager.Instance.dropEveryXDogs;
         // ป้องกันการหารด้วย 0
-        if (requiredDogs > 0 && Gamemanager.Instance.totalDogsFoundInSession % requiredDogs == 0) 
+        if (requiredDogs > 0 && Gamemanager.Instance.totalDogsFoundInSession % requiredDogs == 0)
         {
             if (Gamemanager.Instance.snackDropMode == Gamemanager.SnackDropMode.DropEvery15Dogs)
             {
@@ -349,8 +359,10 @@ public class SceneHandle : MonoBehaviour
             }
         }
 
-        if (sceneObject.rewardSets.Length > 0) {
-            for (int i = 0; i < sceneObject.rewardSets.Length; i++) {
+        if (sceneObject.rewardSets.Length > 0)
+        {
+            for (int i = 0; i < sceneObject.rewardSets.Length; i++)
+            {
                 // 🌟 1. เปลี่ยนจาก >= เป็น == เพื่อให้มันแจกของแค่จังหวะที่ยอดครบพอดีเท่านั้น
                 if (foundDogs.Count == sceneObject.rewardSets[i].AmontDogtoUnlockKeyItem)
                 {
@@ -365,12 +377,13 @@ public class SceneHandle : MonoBehaviour
                     }
                 }
             }
-            
+
         }
-        if (lostDogs.Count == 0) {
+        if (lostDogs.Count == 0)
+        {
             Debug.Log("Found All");
             Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_found_all");
-            
+
             // 🌟 ปลดล็อคด่านและบันทึกลงไป (ในที่นี้บันทึกชื่อฉากว่าสำเร็จแล้ว)
             Gamemanager.Instance.ClearScene(sceneObject.name);
         }
@@ -397,7 +410,7 @@ public class SceneHandle : MonoBehaviour
         if (targetSpriteRenderer != null)
         {
             // 🌟 ปลดล็อกคอมเมนต์บรรทัดล่างนี้ ถ้าคุณใส่ฟังก์ชันคำนวณซูมอัตโนมัติไว้แล้ว
-             CalculateAutoZoom(); 
+            CalculateAutoZoom();
 
 #if UNITY_EDITOR
             // บังคับให้ Unity จำค่าที่เปลี่ยนแปลงไป (จะได้ไม่หายตอนกด Play)
@@ -410,5 +423,71 @@ public class SceneHandle : MonoBehaviour
         {
             Debug.LogWarning("⚠️ ไม่พบ SCN! ลองเช็คดูว่ามี GameObject ที่ชื่อมีคำว่า 'SCN' ไหมครับ");
         }
+    }
+
+    private void CreateGradientOverlayOnTop()
+    {
+        Debug.Log("👉 เริ่มทำงาน: CreateGradientOverlayOnTop");
+
+        // 🌟 ไม้ตายที่ 1: ถ้ายังว่างเปล่า ให้หาจากตัวมันเองก่อน (เผื่อภาพอยู่บน Object เดียวกัน)
+        if (targetSpriteRenderer == null)
+        {
+            targetSpriteRenderer = GetComponent<SpriteRenderer>();
+        }
+
+        // 🌟 ไม้ตายที่ 2: ถ้ายังไม่เจออีก ให้ควานหาจากตัวลูกทั้งหมด (เอาตัวแรกที่เจอ)
+        if (targetSpriteRenderer == null)
+        {
+            targetSpriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        }
+
+        // ถ้าผ่าน 2 ไม้ตายแล้วยัง null แสดงว่าลืมใส่ SpriteRenderer จริงๆ
+        if (targetSpriteRenderer == null)
+        {
+            Debug.LogError("❌ สร้างฟิล์มไม่ได้: พยายามหาภาพฉากหลังทุกวิธีแล้วแต่ไม่เจอเลยครับ! ลองเช็คว่า GameObject นี้มี SpriteRenderer หรือยัง?");
+            return;
+        }
+
+        if (sceneOverlayGradient == null)
+        {
+            Debug.LogError("❌ สร้างฟิล์มไม่ได้: ยังไม่ได้ตั้งค่าสี Gradient ในหน้า Inspector!");
+            return;
+        }
+
+        Debug.Log($"✅ เจอภาพฉากหลังชื่อ '{targetSpriteRenderer.gameObject.name}' แล้ว! กำลังสร้าง GameObject แผ่นฟิล์ม...");
+
+        Texture2D tex = new Texture2D(1, 100);
+        tex.wrapMode = TextureWrapMode.Clamp;
+        for (int y = 0; y < 100; y++)
+        {
+            tex.SetPixel(0, y, sceneOverlayGradient.Evaluate(y / 100f));
+        }
+        tex.Apply();
+
+        Sprite gradientSprite = Sprite.Create(tex, new Rect(0, 0, 1, 100), new Vector2(0.5f, 0.5f), 100f);
+
+        GameObject overlayObj = new GameObject("Scene_Gradient_Film");
+        overlayObj.transform.SetParent(this.transform);
+        overlayObj.transform.position = targetSpriteRenderer.bounds.center;
+
+        overlayRenderer = overlayObj.AddComponent<SpriteRenderer>();
+        overlayRenderer.sprite = gradientSprite;
+
+        if (multiplyMaterial != null)
+        {
+            overlayRenderer.material = multiplyMaterial;
+        }
+        else
+        {
+            Debug.LogWarning("⚠️ ไม่ได้ใส่ Material Multiply! แผ่นฟิล์มจะเป็นแบบธรรมดา (ทับเส้นดำ)");
+        }
+
+        overlayRenderer.sortingOrder = 4;
+
+        Vector3 bgSize = targetSpriteRenderer.bounds.size;
+        Vector3 overlaySize = overlayRenderer.bounds.size;
+        overlayObj.transform.localScale = new Vector3(bgSize.x / overlaySize.x, bgSize.y / overlaySize.y, 1);
+
+        Debug.Log("🎉 สร้าง GameObject แผ่นฟิล์มสำเร็จแล้ว!");
     }
 }

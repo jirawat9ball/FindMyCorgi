@@ -18,7 +18,7 @@ public class SnackDropObject : Interaction
         // 🌟 ดันเลเยอร์ภาพขนมให้อยู่ระดับสูงที่สุด (Level 100) จะได้ไม่โดนสุนัขหรือต้นไม้บัง
         if (spriteRenderer != null)
         {
-            spriteRenderer.sortingOrder = 100;
+            spriteRenderer.sortingOrder = 3;
         }
 
         originalScale = transform.localScale;

@@ -150,27 +150,34 @@ public class Dog : Interaction
 
         base.OnMouseDown();
 
-        if (currentState == DogState.Visible || currentState == DogState.Hint)
+        // 🌟 เล่นเสียงและทำอนิเมชันเด้งดึ๋งเสมอเวลากดโดน (ไม่ว่าจะโหมดไหน)
+        SoundManager.Instance.PlayOnClickSound();
+        if (!isPopping)
         {
-            // เพิ่งหาเจอครั้งแรก
-            sceneHandle.AddFoundDog(this);
-            ChangeState(DogState.Found); // เปลี่ยนสถานะเป็นหาเจอแล้ว
-            SoundManager.Instance.PlayOnClickSound();
-            onComplete?.Invoke();
-
-            if (!isPopping)
-            {
-                //StopAllCoroutines();
-                StartCoroutine(PopRoutine());
-            }
+            StopAllCoroutines();
+            StartCoroutine(PopRoutine());
         }
-        else if (currentState == DogState.Found)
+
+        // ========================================================
+        //  แยกระหว่าง "ด่านบอส" กับ "ด่านปกติ"
+        // ========================================================
+        BossMatchManager bossManager = FindObjectOfType<BossMatchManager>();
+
+        if (bossManager != null)
         {
-            // กรณีคลิกซ้ำตัวที่เจอแล้ว (เด้งอย่างเดียว)
-            if (!isPopping)
+            // ---  โหมดด่านบอส (จับคู่มินิเกม) ---
+            // ส่งตัวเองไปให้กรรมการเช็ค id จับคู่เลย ไม่ต้องเปลี่ยน State เอง
+            bossManager.SelectDog(this);
+        }
+        else
+        {
+            // ---  โหมดด่านปกติ (หาของธรรมดา) ---
+            if (currentState == DogState.Visible || currentState == DogState.Hint)
             {
-                StopAllCoroutines();
-                StartCoroutine(PopRoutine());
+                // เพิ่งหาเจอครั้งแรก
+                sceneHandle.AddFoundDog(this);
+                ChangeState(DogState.Found); // เปลี่ยนสถานะเป็นหาเจอแล้ว
+                onComplete?.Invoke();
             }
         }
     }
