@@ -905,11 +905,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 878415984}
-  - component: {fileID: 878415985}
+  - component: {fileID: 878415988}
   - component: {fileID: 878415987}
   - component: {fileID: 878415986}
   m_Layer: 0
-  m_Name: Matching
+  m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -930,22 +930,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1465307268}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &878415985
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 878415983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de78511bdfc94814cb91d483ca3690d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossMatchManager
-  bossHealth: {fileID: 878415987}
-  matchTimer: {fileID: 878415986}
-  timePenaltyOnFail: 5
-  firstSelectedDog: {fileID: 0}
 --- !u!114 &878415986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -963,8 +947,8 @@ MonoBehaviour:
   onTimeOut:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 878415985}
-        m_TargetAssemblyTypeName: BossMatchManager, Assembly-CSharp
+      - m_Target: {fileID: 878415988}
+        m_TargetAssemblyTypeName: FlashlightManager, Assembly-CSharp
         m_MethodName: GameOver
         m_Mode: 1
         m_Arguments:
@@ -995,8 +979,8 @@ MonoBehaviour:
   onDefeated:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 878415985}
-        m_TargetAssemblyTypeName: BossMatchManager, Assembly-CSharp
+      - m_Target: {fileID: 878415988}
+        m_TargetAssemblyTypeName: FlashlightManager, Assembly-CSharp
         m_MethodName: GameWin
         m_Mode: 1
         m_Arguments:
@@ -1007,6 +991,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &878415988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878415983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ee01ae0aab0504a9b622e744e4915d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FlashlightManager
+  timeLimit: 60
+  darkOverlayWithHole: {fileID: -5913738696227704600, guid: ee20c6e2bbef6484b863997729a6c728, type: 3}
+  overlaySize: 200
 --- !u!1001 &885224104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1558,7 +1557,7 @@ GameObject:
   - component: {fileID: 1465307267}
   - component: {fileID: 1465307269}
   m_Layer: 0
-  m_Name: scene_matching
+  m_Name: scene_flashlight
   m_TagString: Background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1659,7 +1658,7 @@ MonoBehaviour:
   maxZoom: 13
   panType: 3
   targetSpriteRenderer: {fileID: 0}
-  sceneObject: {fileID: 11400000, guid: 8d2b20116c6158c4685a20e5f5c4d5e7, type: 2}
+  sceneObject: {fileID: 11400000, guid: 0264fc39171af0944a48f6ab4de3b4f8, type: 2}
   lostDogs: []
   foundDogs: []
   gate: {fileID: 0}
