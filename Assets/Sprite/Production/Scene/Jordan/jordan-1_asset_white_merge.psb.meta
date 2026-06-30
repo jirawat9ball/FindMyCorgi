@@ -1,0 +1,3102 @@
+fileFormatVersion: 2
+guid: 27b376930f450894793e7e7a09446c71
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 6b54734cf319f014f832c8a7c11859dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: GATE_jordan-1_to_jordan-2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 804
+      width: 228
+      height: 385
+    spriteID: b0df338fb4740fb4a954626b9d734d20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 804}
+    spritePosition: {x: 529, y: 664}
+  - name: DOG-SPRITE_jordan-1_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 1626
+      width: 72
+      height: 100
+    spriteID: 33f17101087de6e4f91f083659d8cdd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 1626}
+    spritePosition: {x: 2202, y: 521}
+  - name: DOG-S_jordan-1_6_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7413
+      y: 4
+      width: 71
+      height: 66
+    spriteID: ad980e05aecd4d349b2bfbd92032ed4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7413, y: 4}
+    spritePosition: {x: 5159, y: 444}
+  - name: DOG-S_jordan-1_5_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 2657
+      width: 92
+      height: 102
+    spriteID: bece6caea3a7a6344a0f4648e7df00a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 2657}
+    spritePosition: {x: 417, y: 632}
+  - name: DOG-S_jordan-1_4_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 2074
+      width: 73
+      height: 90
+    spriteID: 8f93cf50661e3b54b8da876c3a86eb07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 2074}
+    spritePosition: {x: 3930, y: 672}
+  - name: DOG-S_jordan-1_3_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 1734
+      width: 70
+      height: 100
+    spriteID: c1d2c1ff39abcf34d86c327d20169fdb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 1734}
+    spritePosition: {x: 2460, y: 1352}
+  - name: DOG-S_jordan-1_2_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 2678
+      width: 71
+      height: 84
+    spriteID: 6cb6e20d4ff87ab46b10cce3258450bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 2678}
+    spritePosition: {x: 4669, y: 1587}
+  - name: DOG-S_jordan-1_1_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6331
+      y: 4
+      width: 90
+      height: 78
+    spriteID: e7fb93b56ac2b8b4e95da745f50ef44f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6331, y: 4}
+    spritePosition: {x: 1394, y: 2436}
+  - name: DOG-S_jordan-1_6_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7656
+      y: 66
+      width: 54
+      height: 25
+    spriteID: d6f75140b9b39db42b23214615ab1727
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7656, y: 66}
+    spritePosition: {x: 5167, y: 444}
+  - name: DOG-S_jordan-1_5_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7564
+      y: 4
+      width: 84
+      height: 47
+    spriteID: 9ad9a137a5a37e241994d3391181a3bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7564, y: 4}
+    spritePosition: {x: 425, y: 632}
+  - name: DOG-S_jordan-1_4_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 2172
+      width: 73
+      height: 90
+    spriteID: b7a7de54ea38139439c5e7ade9137be7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 2172}
+    spritePosition: {x: 3930, y: 672}
+  - name: DOG-S_jordan-1_3_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 2270
+      width: 65
+      height: 100
+    spriteID: 7285704ca08a9ba4782ded4f8cb388a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 2270}
+    spritePosition: {x: 2460, y: 1352}
+  - name: DOG-S_jordan-1_2_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7105
+      y: 4
+      width: 70
+      height: 77
+    spriteID: a04f0f1bd184a2b48b3a311b7bff7e26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7105, y: 4}
+    spritePosition: {x: 4670, y: 1586}
+  - name: DOG-S_jordan-1_1_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6851
+      y: 4
+      width: 95
+      height: 62
+    spriteID: 03f6e84a91f8fdc428d8d65e98f95d70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6851, y: 4}
+    spritePosition: {x: 1389, y: 2441}
+  - name: DOG_jordan-1_31_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 1831
+      width: 118
+      height: 86
+    spriteID: e97e5fe16857d4241a9caf2d05a71970
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 1831}
+    spritePosition: {x: 2932, y: 19}
+  - name: DOG_jordan-1_30_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 4
+      width: 130
+      height: 87
+    spriteID: 2cb71bd65746ebd4fb8906725917ca25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 4}
+    spritePosition: {x: 1466, y: 127}
+  - name: DOG_jordan-1_29_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 2493
+      width: 110
+      height: 83
+    spriteID: b08c9a42b533e034cabfa03c390439be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 2493}
+    spritePosition: {x: 172, y: 284}
+  - name: DOG_jordan-1_28_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 460
+      width: 73
+      height: 115
+    spriteID: d469931f9d9f7d54986a49d0c0d4bb1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 460}
+    spritePosition: {x: 4983, y: 275}
+  - name: DOG_jordan-1_27_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6070
+      y: 4
+      width: 122
+      height: 65
+    spriteID: ef05a925388807f4fb86526b29899b20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6070, y: 4}
+    spritePosition: {x: 4402, y: 542}
+  - name: DOG_jordan-1_26_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 1613
+      width: 96
+      height: 131
+    spriteID: 03272d675b602074abece6ccbbcf1413
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 1613}
+    spritePosition: {x: 3609, y: 539}
+  - name: DOG_jordan-1_25_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 338
+      width: 74
+      height: 114
+    spriteID: a55a4d92f5705874582fd0da5efb1e1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 338}
+    spritePosition: {x: 1135, y: 523}
+  - name: DOG_jordan-1_24_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 2584
+      width: 99
+      height: 90
+    spriteID: bc43e14147a72bf48aa3d2413ec49e15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 2584}
+    spritePosition: {x: 3126, y: 623}
+  - name: DOG_jordan-1_23_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 2488
+      width: 70
+      height: 91
+    spriteID: be9aae263efaf8f4f95d0fbecc3985a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 2488}
+    spritePosition: {x: 3921, y: 979}
+  - name: DOG_jordan-1_22_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7031
+      y: 4
+      width: 66
+      height: 82
+    spriteID: edffdbbc79af3474aa8a20b53225754f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7031, y: 4}
+    spritePosition: {x: 4250, y: 1005}
+  - name: DOG_jordan-1_21_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 1630
+      width: 116
+      height: 91
+    spriteID: e9ca6775e8015274cab0d6fbc83990ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 1630}
+    spritePosition: {x: 4913, y: 1001}
+  - name: DOG_jordan-1_20_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7256
+      y: 4
+      width: 72
+      height: 73
+    spriteID: 3ffc73488d6e58b42bcbf0a444e91ca5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7256, y: 4}
+    spritePosition: {x: 105, y: 1077}
+  - name: DOG_jordan-1_19_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 1885
+      width: 97
+      height: 122
+    spriteID: c46e45f5765f39443aeb85ebe21b7960
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 1885}
+    spritePosition: {x: 1916, y: 1171}
+  - name: DOG_jordan-1_18_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 1963
+      width: 65
+      height: 103
+    spriteID: d480f1dc33702c54293d35e968262349
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 1963}
+    spritePosition: {x: 2635, y: 1214}
+  - name: DOG_jordan-1_17_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 943
+      width: 78
+      height: 104
+    spriteID: e69d6875f84d5934bbe11d2b320241dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 943}
+    spritePosition: {x: 3824, y: 1241}
+  - name: DOG_jordan-1_16_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5666
+      y: 197
+      width: 61
+      height: 100
+    spriteID: ef219a0ffe0b9cb43b61660514e6c793
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5666, y: 197}
+    spritePosition: {x: 4734, y: 1320}
+  - name: DOG_jordan-1_15_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 1842
+      width: 60
+      height: 113
+    spriteID: cfe8c66d39560814e978c0df3b5d44a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 1842}
+    spritePosition: {x: 2240, y: 1348}
+  - name: DOG_jordan-1_14_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 2401
+      width: 81
+      height: 120
+    spriteID: c876954abfc676d4ca6678dc1a89a460
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 2401}
+    spritePosition: {x: 3126, y: 1349}
+  - name: DOG_jordan-1_13_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7492
+      y: 4
+      width: 64
+      height: 72
+    spriteID: 239c52d7a0e1cb44d8fb0f53598b7d28
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7492, y: 4}
+    spritePosition: {x: 3482, y: 1531}
+  - name: DOG_jordan-1_12_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 2031
+      width: 115
+      height: 87
+    spriteID: f242b15ec8eb681478d36f7abe0669d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 2031}
+    spritePosition: {x: 448, y: 1535}
+  - name: DOG_jordan-1_11_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 2262
+      width: 75
+      height: 131
+    spriteID: 44b2f91429919bd45bc57d97769ebce5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 2262}
+    spritePosition: {x: 1956, y: 1604}
+  - name: DOG_jordan-1_10_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5666
+      y: 99
+      width: 90
+      height: 90
+    spriteID: 701e1e4923c17ba46b3fc3bd54219879
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5666, y: 99}
+    spritePosition: {x: 5070, y: 1761}
+  - name: DOG_jordan-1_9_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7735
+      y: 4
+      width: 56
+      height: 68
+    spriteID: 36b2e5d1f26c1b94a8617370c6ee8ed5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7735, y: 4}
+    spritePosition: {x: 2520, y: 1854}
+  - name: DOG_jordan-1_8_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 1055
+      width: 76
+      height: 105
+    spriteID: ed91782172f7b544381df69c0ad5c0f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 1055}
+    spritePosition: {x: 3897, y: 1884}
+  - name: DOG_jordan-1_7_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 1522
+      width: 112
+      height: 100
+    spriteID: 3b473d9ee0ddaef4aa69824e3fece7f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 1522}
+    spritePosition: {x: 1615, y: 2005}
+  - name: DOG_jordan-1_6_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 2403
+      width: 115
+      height: 82
+    spriteID: 48b7594ed8b46c540a20c9e5f89a5656
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 2403}
+    spritePosition: {x: 2934, y: 2074}
+  - name: DOG_jordan-1_5_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 714
+      width: 81
+      height: 102
+    spriteID: e58c65b9049d35f4b87940807b9fca60
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 714}
+    spritePosition: {x: 869, y: 2167}
+  - name: DOG_jordan-1_4_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 1752
+      width: 96
+      height: 125
+    spriteID: a821393f34974124a83a8144956f7e7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 1752}
+    spritePosition: {x: 68, y: 2257}
+  - name: DOG_jordan-1_3_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 1395
+      width: 72
+      height: 103
+    spriteID: 407279b6926fd464f8ba0f88e869857a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 1395}
+    spritePosition: {x: 4716, y: 2462}
+  - name: DOG_jordan-1_2_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 1925
+      width: 103
+      height: 98
+    spriteID: c643a943651365842b91c8dd8eadf6ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 1925}
+    spritePosition: {x: 2058, y: 2510}
+  - name: DOG_jordan-1_1_F
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6200
+      y: 4
+      width: 123
+      height: 58
+    spriteID: b3d5846c62f3d7547bdc91e81a8e439b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6200, y: 4}
+    spritePosition: {x: 2793, y: 2592}
+  - name: DOG_jordan-1_31_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 2221
+      width: 112
+      height: 86
+    spriteID: 32dccf2b6911b244a9f7d3655739fefd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 2221}
+    spritePosition: {x: 2938, y: 19}
+  - name: DOG_jordan-1_30_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5712
+      y: 4
+      width: 132
+      height: 74
+    spriteID: 6e39292b575f0784ea043d3654e4e193
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5712, y: 4}
+    spritePosition: {x: 1468, y: 142}
+  - name: DOG_jordan-1_29_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 1408
+      width: 106
+      height: 106
+    spriteID: c3367ca45174ce143a789c7e7f7217d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 1408}
+    spritePosition: {x: 185, y: 281}
+  - name: DOG_jordan-1_28_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 1168
+      width: 70
+      height: 112
+    spriteID: 26bff69672cc97047bc959b11fd491c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 1168}
+    spritePosition: {x: 4985, y: 276}
+  - name: DOG_jordan-1_27_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6524
+      y: 4
+      width: 109
+      height: 61
+    spriteID: 1732ba642c769d64e8bb88461eaf602e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6524, y: 4}
+    spritePosition: {x: 4425, y: 537}
+  - name: DOG_jordan-1_26_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 2682
+      width: 119
+      height: 73
+    spriteID: e0119127fc17c724ab963a18aa626919
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 2682}
+    spritePosition: {x: 3617, y: 540}
+  - name: DOG_jordan-1_25_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 824
+      width: 74
+      height: 111
+    spriteID: 43b2a2b38c8eef142af6a53c3273fe7c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 824}
+    spritePosition: {x: 1135, y: 523}
+  - name: DOG_jordan-1_24_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5852
+      y: 4
+      width: 98
+      height: 83
+    spriteID: 907a61e050d2e0b408c2a2a1baaf97de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5852, y: 4}
+    spritePosition: {x: 3126, y: 623}
+  - name: DOG_jordan-1_23_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6954
+      y: 4
+      width: 69
+      height: 81
+    spriteID: bb715d813cdc5484f88278fa77193b5e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6954, y: 4}
+    spritePosition: {x: 3921, y: 979}
+  - name: DOG_jordan-1_22_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7799
+      y: 4
+      width: 62
+      height: 57
+    spriteID: 33f836c04c8d17d40a02c35f379aeaeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7799, y: 4}
+    spritePosition: {x: 4247, y: 1005}
+  - name: DOG_jordan-1_21_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5958
+      y: 4
+      width: 104
+      height: 77
+    spriteID: 0bce4cdf3709f2f4094663cf01aa306e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5958, y: 4}
+    spritePosition: {x: 4912, y: 1004}
+  - name: DOG_jordan-1_20_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7932
+      y: 4
+      width: 60
+      height: 51
+    spriteID: 18329ff25907bab42a54f7e1ac0f22c3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7932, y: 4}
+    spritePosition: {x: 106, y: 1080}
+  - name: DOG_jordan-1_19_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 2015
+      width: 90
+      height: 118
+    spriteID: d1f9865cecc2c0b4585b9340c121d416
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 2015}
+    spritePosition: {x: 1923, y: 1171}
+  - name: DOG_jordan-1_18_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 2378
+      width: 63
+      height: 102
+    spriteID: 988207bb7d1859f4791076175d669aa2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 2378}
+    spritePosition: {x: 2635, y: 1214}
+  - name: DOG_jordan-1_17_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 1288
+      width: 75
+      height: 99
+    spriteID: af48f85bcf419ed459ccf2d30cd615b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 1288}
+    spritePosition: {x: 3824, y: 1241}
+  - name: DOG_jordan-1_16_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7183
+      y: 4
+      width: 65
+      height: 81
+    spriteID: c731bd955d8c12d4782b623fa6d6ac5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7183, y: 4}
+    spritePosition: {x: 4730, y: 1321}
+  - name: DOG_jordan-1_15_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 1506
+      width: 66
+      height: 112
+    spriteID: 817aab51c1e1b634d81c8f43965d363f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 1506}
+    spritePosition: {x: 2238, y: 1350}
+  - name: DOG_jordan-1_14_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 211
+      width: 71
+      height: 119
+    spriteID: 5ed0a0e9d8b995e4caf50fed1982c224
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 211}
+    spritePosition: {x: 3132, y: 1347}
+  - name: DOG_jordan-1_13_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7656
+      y: 4
+      width: 71
+      height: 54
+    spriteID: 2e45887cfee881c44ac591bfd10bc4fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7656, y: 4}
+    spritePosition: {x: 3478, y: 1523}
+  - name: DOG_jordan-1_12_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 2126
+      width: 111
+      height: 87
+    spriteID: 722b314bef297394e80da4aa78102631
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 2126}
+    spritePosition: {x: 452, y: 1535}
+  - name: DOG_jordan-1_11_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 583
+      width: 68
+      height: 123
+    spriteID: adb3c56110b44434280150c3a392d27f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 583}
+    spritePosition: {x: 1956, y: 1614}
+  - name: DOG_jordan-1_10_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6429
+      y: 4
+      width: 87
+      height: 80
+    spriteID: 3bd101c621584c74482f4d91d767c785
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6429, y: 4}
+    spritePosition: {x: 5071, y: 1778}
+  - name: DOG_jordan-1_9_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7869
+      y: 4
+      width: 55
+      height: 62
+    spriteID: b876ade1dc9391c45b4d524c75860f4a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7869, y: 4}
+    spritePosition: {x: 2526, y: 1857}
+  - name: DOG_jordan-1_8_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 2587
+      width: 76
+      height: 83
+    spriteID: cf8cf97d5142f864abca920edb2e7f19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 2587}
+    spritePosition: {x: 3897, y: 1884}
+  - name: DOG_jordan-1_7_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 1300
+      width: 113
+      height: 100
+    spriteID: 71eeeafd55894904cac19e0f3c2457c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 1300}
+    spritePosition: {x: 1614, y: 2005}
+  - name: DOG_jordan-1_6_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 2315
+      width: 118
+      height: 80
+    spriteID: 517a684bfeaea514c9c29b3af7b0b5ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 2315}
+    spritePosition: {x: 2931, y: 2074}
+  - name: DOG_jordan-1_5_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 2529
+      width: 80
+      height: 120
+    spriteID: f251ef976046a3e44911f3f7dc2d3609
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 2529}
+    spritePosition: {x: 860, y: 2169}
+  - name: DOG_jordan-1_4_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 2141
+      width: 92
+      height: 113
+    spriteID: 76e9ae7c4ca1a5a43895d1bef12ba7e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 2141}
+    spritePosition: {x: 72, y: 2257}
+  - name: DOG_jordan-1_3_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5666
+      y: 305
+      width: 57
+      height: 100
+    spriteID: a40482cef1023f9419b05f532f59980f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5666, y: 305}
+    spritePosition: {x: 4731, y: 2462}
+  - name: DOG_jordan-1_2_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7336
+      y: 4
+      width: 69
+      height: 72
+    spriteID: 3cb39b02910e20d4896ddb803a565faf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7336, y: 4}
+    spritePosition: {x: 2091, y: 2515}
+  - name: DOG_jordan-1_1_H
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6641
+      y: 4
+      width: 118
+      height: 56
+    spriteID: c5024c3947dfdf54ab624480ea02076e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6641, y: 4}
+    spritePosition: {x: 2795, y: 2592}
+  - name: ENV_jordan-1_gate_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 4
+      width: 238
+      height: 392
+    spriteID: 66a00d3df86e1b34faad06521fc54c18
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 4}
+    spritePosition: {x: 530, y: 666}
+  - name: ENV_jordan-1_gate_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 404
+      width: 238
+      height: 392
+    spriteID: ef91e6ef02a81044fa021339a33db77e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 404}
+    spritePosition: {x: 530, y: 666}
+  - name: ENV_jordan-1_6_click_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 1300
+      width: 102
+      height: 136
+    spriteID: ee96ba848f4b0e44a8c330c43f3a6058
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 1300}
+    spritePosition: {x: 5144, y: 328}
+  - name: ENV_jordan-1_5_click_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5574
+      y: 99
+      width: 84
+      height: 104
+    spriteID: 8506ad444914eb446b76f2f3816927e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5574, y: 99}
+    spritePosition: {x: 3925, y: 667}
+  - name: ENV_jordan-1_4_click_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 1197
+      width: 193
+      height: 95
+    spriteID: 719c9e58d571f1b4eb0b2a3ed6aac493
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 1197}
+    spritePosition: {x: 368, y: 583}
+  - name: ENV_jordan-1_3_slide
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5328
+      y: 1444
+      width: 81
+      height: 161
+    spriteID: a3a979a1891363b4eb36113b6d77eae6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5328, y: 1444}
+    spritePosition: {x: 2454, y: 1353}
+  - name: ENV_jordan-1_2_click_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 7564
+      y: 59
+      width: 76
+      height: 22
+    spriteID: 81ccb3558a7e02b4ba32655bc4387cfb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 7564, y: 59}
+    spritePosition: {x: 4667, y: 1646}
+  - name: ENV_jordan-1_2_click_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 6767
+      y: 4
+      width: 76
+      height: 78
+    spriteID: c6adc754a60dea24c8719c91203fe446
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 6767, y: 4}
+    spritePosition: {x: 4668, y: 1591}
+  - name: ENV_jordan-1_1_slide
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 5438
+      y: 1729
+      width: 108
+      height: 94
+    spriteID: 9c469aeee18dbf94c9ca4ffbc0f386c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 5438, y: 1729}
+    spritePosition: {x: 1388, y: 2446}
+  - name: SCN_jordan-1_empty
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 5316
+      height: 2764
+    spriteID: d292f218142589b49be4d93be1537915
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: GATE_jordan-1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 3306509bde94358458437af218dce0e3
+    layerID: 25
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: GATE_jordan-1_to_jordan-2
+    spriteName: GATE_jordan-1_to_jordan-2
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b0df338fb4740fb4a954626b9d734d20
+    layerID: 24
+    mosaicPosition: {x: 5328, y: 804}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog_render
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 4894e476d19107d46a6fa034733f4d79
+    layerID: 395
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: dog sprite
+    spriteName: 
+    isGroup: 1
+    parentIndex: 2
+    spriteID: 6acbea86d7340bc4bb0fb0b025f70c78
+    layerID: 394
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-SPRITE_jordan-1_H
+    spriteName: DOG-SPRITE_jordan-1_H
+    isGroup: 0
+    parentIndex: 3
+    spriteID: 33f17101087de6e4f91f083659d8cdd5
+    layerID: 393
+    mosaicPosition: {x: 5574, y: 1626}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog_special
+    spriteName: 
+    isGroup: 1
+    parentIndex: 2
+    spriteID: 5cd16fb50e7ee1b4fba5405c9afcbbfd
+    layerID: 388
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: dog_found
+    spriteName: 
+    isGroup: 1
+    parentIndex: 5
+    spriteID: 85deb0fc0a7abc94ab72590845301237
+    layerID: 387
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-S_jordan-1_6_F
+    spriteName: DOG-S_jordan-1_6_F
+    isGroup: 0
+    parentIndex: 6
+    spriteID: ad980e05aecd4d349b2bfbd92032ed4b
+    layerID: 386
+    mosaicPosition: {x: 7413, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_5_F
+    spriteName: DOG-S_jordan-1_5_F
+    isGroup: 0
+    parentIndex: 6
+    spriteID: bece6caea3a7a6344a0f4648e7df00a5
+    layerID: 382
+    mosaicPosition: {x: 5328, y: 2657}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_4_F
+    spriteName: DOG-S_jordan-1_4_F
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 8f93cf50661e3b54b8da876c3a86eb07
+    layerID: 378
+    mosaicPosition: {x: 5574, y: 2074}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_3_F
+    spriteName: DOG-S_jordan-1_3_F
+    isGroup: 0
+    parentIndex: 6
+    spriteID: c1d2c1ff39abcf34d86c327d20169fdb
+    layerID: 374
+    mosaicPosition: {x: 5574, y: 1734}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_2_F
+    spriteName: DOG-S_jordan-1_2_F
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 6cb6e20d4ff87ab46b10cce3258450bf
+    layerID: 370
+    mosaicPosition: {x: 5574, y: 2678}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_1_F
+    spriteName: DOG-S_jordan-1_1_F
+    isGroup: 0
+    parentIndex: 6
+    spriteID: e7fb93b56ac2b8b4e95da745f50ef44f
+    layerID: 366
+    mosaicPosition: {x: 6331, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog_hide
+    spriteName: 
+    isGroup: 1
+    parentIndex: 5
+    spriteID: 82169e779b74d5143a4b86ec23bf642a
+    layerID: 361
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG-S_jordan-1_6_H
+    spriteName: DOG-S_jordan-1_6_H
+    isGroup: 0
+    parentIndex: 13
+    spriteID: d6f75140b9b39db42b23214615ab1727
+    layerID: 360
+    mosaicPosition: {x: 7656, y: 66}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_5_H
+    spriteName: DOG-S_jordan-1_5_H
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 9ad9a137a5a37e241994d3391181a3bf
+    layerID: 356
+    mosaicPosition: {x: 7564, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_4_H
+    spriteName: DOG-S_jordan-1_4_H
+    isGroup: 0
+    parentIndex: 13
+    spriteID: b7a7de54ea38139439c5e7ade9137be7
+    layerID: 352
+    mosaicPosition: {x: 5574, y: 2172}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_3_H
+    spriteName: DOG-S_jordan-1_3_H
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 7285704ca08a9ba4782ded4f8cb388a2
+    layerID: 348
+    mosaicPosition: {x: 5574, y: 2270}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_2_H
+    spriteName: DOG-S_jordan-1_2_H
+    isGroup: 0
+    parentIndex: 13
+    spriteID: a04f0f1bd184a2b48b3a311b7bff7e26
+    layerID: 344
+    mosaicPosition: {x: 7105, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG-S_jordan-1_1_H
+    spriteName: DOG-S_jordan-1_1_H
+    isGroup: 0
+    parentIndex: 13
+    spriteID: 03f6e84a91f8fdc428d8d65e98f95d70
+    layerID: 340
+    mosaicPosition: {x: 6851, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog_normal
+    spriteName: 
+    isGroup: 1
+    parentIndex: 2
+    spriteID: e4533e3960eaa3a4db56b7a01c4387c4
+    layerID: 334
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: dog_found
+    spriteName: 
+    isGroup: 1
+    parentIndex: 20
+    spriteID: 8a15116d58681d54ba378a970ff6e79c
+    layerID: 333
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_jordan-1_31_F
+    spriteName: DOG_jordan-1_31_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: e97e5fe16857d4241a9caf2d05a71970
+    layerID: 332
+    mosaicPosition: {x: 5438, y: 1831}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_30_F
+    spriteName: DOG_jordan-1_30_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 2cb71bd65746ebd4fb8906725917ca25
+    layerID: 328
+    mosaicPosition: {x: 5574, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_29_F
+    spriteName: DOG_jordan-1_29_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: b08c9a42b533e034cabfa03c390439be
+    layerID: 324
+    mosaicPosition: {x: 5438, y: 2493}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_28_F
+    spriteName: DOG_jordan-1_28_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: d469931f9d9f7d54986a49d0c0d4bb1a
+    layerID: 320
+    mosaicPosition: {x: 5574, y: 460}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_27_F
+    spriteName: DOG_jordan-1_27_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: ef05a925388807f4fb86526b29899b20
+    layerID: 316
+    mosaicPosition: {x: 6070, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_26_F
+    spriteName: DOG_jordan-1_26_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 03272d675b602074abece6ccbbcf1413
+    layerID: 312
+    mosaicPosition: {x: 5328, y: 1613}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_25_F
+    spriteName: DOG_jordan-1_25_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: a55a4d92f5705874582fd0da5efb1e1b
+    layerID: 308
+    mosaicPosition: {x: 5574, y: 338}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_24_F
+    spriteName: DOG_jordan-1_24_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: bc43e14147a72bf48aa3d2413ec49e15
+    layerID: 304
+    mosaicPosition: {x: 5438, y: 2584}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_23_F
+    spriteName: DOG_jordan-1_23_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: be9aae263efaf8f4f95d0fbecc3985a4
+    layerID: 300
+    mosaicPosition: {x: 5574, y: 2488}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_22_F
+    spriteName: DOG_jordan-1_22_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: edffdbbc79af3474aa8a20b53225754f
+    layerID: 296
+    mosaicPosition: {x: 7031, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_21_F
+    spriteName: DOG_jordan-1_21_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: e9ca6775e8015274cab0d6fbc83990ae
+    layerID: 292
+    mosaicPosition: {x: 5438, y: 1630}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_20_F
+    spriteName: DOG_jordan-1_20_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 3ffc73488d6e58b42bcbf0a444e91ca5
+    layerID: 288
+    mosaicPosition: {x: 7256, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_19_F
+    spriteName: DOG_jordan-1_19_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: c46e45f5765f39443aeb85ebe21b7960
+    layerID: 284
+    mosaicPosition: {x: 5328, y: 1885}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_18_F
+    spriteName: DOG_jordan-1_18_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: d480f1dc33702c54293d35e968262349
+    layerID: 280
+    mosaicPosition: {x: 5574, y: 1963}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_17_F
+    spriteName: DOG_jordan-1_17_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: e69d6875f84d5934bbe11d2b320241dc
+    layerID: 276
+    mosaicPosition: {x: 5574, y: 943}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_16_F
+    spriteName: DOG_jordan-1_16_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: ef219a0ffe0b9cb43b61660514e6c793
+    layerID: 272
+    mosaicPosition: {x: 5666, y: 197}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_15_F
+    spriteName: DOG_jordan-1_15_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: cfe8c66d39560814e978c0df3b5d44a5
+    layerID: 268
+    mosaicPosition: {x: 5574, y: 1842}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_14_F
+    spriteName: DOG_jordan-1_14_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: c876954abfc676d4ca6678dc1a89a460
+    layerID: 264
+    mosaicPosition: {x: 5328, y: 2401}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_13_F
+    spriteName: DOG_jordan-1_13_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 239c52d7a0e1cb44d8fb0f53598b7d28
+    layerID: 260
+    mosaicPosition: {x: 7492, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_12_F
+    spriteName: DOG_jordan-1_12_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: f242b15ec8eb681478d36f7abe0669d9
+    layerID: 256
+    mosaicPosition: {x: 5438, y: 2031}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_11_F
+    spriteName: DOG_jordan-1_11_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 44b2f91429919bd45bc57d97769ebce5
+    layerID: 252
+    mosaicPosition: {x: 5328, y: 2262}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_10_F
+    spriteName: DOG_jordan-1_10_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 701e1e4923c17ba46b3fc3bd54219879
+    layerID: 248
+    mosaicPosition: {x: 5666, y: 99}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_9_F
+    spriteName: DOG_jordan-1_9_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 36b2e5d1f26c1b94a8617370c6ee8ed5
+    layerID: 244
+    mosaicPosition: {x: 7735, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_8_F
+    spriteName: DOG_jordan-1_8_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: ed91782172f7b544381df69c0ad5c0f5
+    layerID: 240
+    mosaicPosition: {x: 5574, y: 1055}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_7_F
+    spriteName: DOG_jordan-1_7_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 3b473d9ee0ddaef4aa69824e3fece7f9
+    layerID: 236
+    mosaicPosition: {x: 5438, y: 1522}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_6_F
+    spriteName: DOG_jordan-1_6_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 48b7594ed8b46c540a20c9e5f89a5656
+    layerID: 232
+    mosaicPosition: {x: 5438, y: 2403}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_5_F
+    spriteName: DOG_jordan-1_5_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: e58c65b9049d35f4b87940807b9fca60
+    layerID: 228
+    mosaicPosition: {x: 5574, y: 714}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_4_F
+    spriteName: DOG_jordan-1_4_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: a821393f34974124a83a8144956f7e7a
+    layerID: 224
+    mosaicPosition: {x: 5328, y: 1752}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_3_F
+    spriteName: DOG_jordan-1_3_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 407279b6926fd464f8ba0f88e869857a
+    layerID: 220
+    mosaicPosition: {x: 5574, y: 1395}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_2_F
+    spriteName: DOG_jordan-1_2_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: c643a943651365842b91c8dd8eadf6ff
+    layerID: 216
+    mosaicPosition: {x: 5438, y: 1925}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_1_F
+    spriteName: DOG_jordan-1_1_F
+    isGroup: 0
+    parentIndex: 21
+    spriteID: b3d5846c62f3d7547bdc91e81a8e439b
+    layerID: 212
+    mosaicPosition: {x: 6200, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: dog_hide
+    spriteName: 
+    isGroup: 1
+    parentIndex: 20
+    spriteID: 66002842e28be7045b88d703552c6598
+    layerID: 207
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: DOG_jordan-1_31_H
+    spriteName: DOG_jordan-1_31_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 32dccf2b6911b244a9f7d3655739fefd
+    layerID: 206
+    mosaicPosition: {x: 5438, y: 2221}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_30_H
+    spriteName: DOG_jordan-1_30_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 6e39292b575f0784ea043d3654e4e193
+    layerID: 202
+    mosaicPosition: {x: 5712, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_29_H
+    spriteName: DOG_jordan-1_29_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: c3367ca45174ce143a789c7e7f7217d2
+    layerID: 198
+    mosaicPosition: {x: 5438, y: 1408}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_28_H
+    spriteName: DOG_jordan-1_28_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 26bff69672cc97047bc959b11fd491c3
+    layerID: 194
+    mosaicPosition: {x: 5574, y: 1168}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_27_H
+    spriteName: DOG_jordan-1_27_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 1732ba642c769d64e8bb88461eaf602e
+    layerID: 190
+    mosaicPosition: {x: 6524, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_26_H
+    spriteName: DOG_jordan-1_26_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: e0119127fc17c724ab963a18aa626919
+    layerID: 186
+    mosaicPosition: {x: 5438, y: 2682}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_25_H
+    spriteName: DOG_jordan-1_25_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 43b2a2b38c8eef142af6a53c3273fe7c
+    layerID: 182
+    mosaicPosition: {x: 5574, y: 824}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_24_H
+    spriteName: DOG_jordan-1_24_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 907a61e050d2e0b408c2a2a1baaf97de
+    layerID: 178
+    mosaicPosition: {x: 5852, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_23_H
+    spriteName: DOG_jordan-1_23_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: bb715d813cdc5484f88278fa77193b5e
+    layerID: 174
+    mosaicPosition: {x: 6954, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_22_H
+    spriteName: DOG_jordan-1_22_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 33f836c04c8d17d40a02c35f379aeaeb
+    layerID: 170
+    mosaicPosition: {x: 7799, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_21_H
+    spriteName: DOG_jordan-1_21_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 0bce4cdf3709f2f4094663cf01aa306e
+    layerID: 166
+    mosaicPosition: {x: 5958, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_20_H
+    spriteName: DOG_jordan-1_20_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 18329ff25907bab42a54f7e1ac0f22c3
+    layerID: 162
+    mosaicPosition: {x: 7932, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_19_H
+    spriteName: DOG_jordan-1_19_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: d1f9865cecc2c0b4585b9340c121d416
+    layerID: 158
+    mosaicPosition: {x: 5328, y: 2015}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_18_H
+    spriteName: DOG_jordan-1_18_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 988207bb7d1859f4791076175d669aa2
+    layerID: 154
+    mosaicPosition: {x: 5574, y: 2378}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_17_H
+    spriteName: DOG_jordan-1_17_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: af48f85bcf419ed459ccf2d30cd615b8
+    layerID: 150
+    mosaicPosition: {x: 5574, y: 1288}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_16_H
+    spriteName: DOG_jordan-1_16_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: c731bd955d8c12d4782b623fa6d6ac5f
+    layerID: 146
+    mosaicPosition: {x: 7183, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_15_H
+    spriteName: DOG_jordan-1_15_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 817aab51c1e1b634d81c8f43965d363f
+    layerID: 142
+    mosaicPosition: {x: 5574, y: 1506}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_14_H
+    spriteName: DOG_jordan-1_14_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 5ed0a0e9d8b995e4caf50fed1982c224
+    layerID: 138
+    mosaicPosition: {x: 5574, y: 211}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_13_H
+    spriteName: DOG_jordan-1_13_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 2e45887cfee881c44ac591bfd10bc4fb
+    layerID: 134
+    mosaicPosition: {x: 7656, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_12_H
+    spriteName: DOG_jordan-1_12_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 722b314bef297394e80da4aa78102631
+    layerID: 130
+    mosaicPosition: {x: 5438, y: 2126}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_11_H
+    spriteName: DOG_jordan-1_11_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: adb3c56110b44434280150c3a392d27f
+    layerID: 126
+    mosaicPosition: {x: 5574, y: 583}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_10_H
+    spriteName: DOG_jordan-1_10_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 3bd101c621584c74482f4d91d767c785
+    layerID: 122
+    mosaicPosition: {x: 6429, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_9_H
+    spriteName: DOG_jordan-1_9_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: b876ade1dc9391c45b4d524c75860f4a
+    layerID: 118
+    mosaicPosition: {x: 7869, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_8_H
+    spriteName: DOG_jordan-1_8_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: cf8cf97d5142f864abca920edb2e7f19
+    layerID: 114
+    mosaicPosition: {x: 5574, y: 2587}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_7_H
+    spriteName: DOG_jordan-1_7_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 71eeeafd55894904cac19e0f3c2457c4
+    layerID: 110
+    mosaicPosition: {x: 5438, y: 1300}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_6_H
+    spriteName: DOG_jordan-1_6_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 517a684bfeaea514c9c29b3af7b0b5ab
+    layerID: 106
+    mosaicPosition: {x: 5438, y: 2315}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_5_H
+    spriteName: DOG_jordan-1_5_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: f251ef976046a3e44911f3f7dc2d3609
+    layerID: 102
+    mosaicPosition: {x: 5328, y: 2529}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_4_H
+    spriteName: DOG_jordan-1_4_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 76e9ae7c4ca1a5a43895d1bef12ba7e6
+    layerID: 98
+    mosaicPosition: {x: 5328, y: 2141}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_3_H
+    spriteName: DOG_jordan-1_3_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: a40482cef1023f9419b05f532f59980f
+    layerID: 94
+    mosaicPosition: {x: 5666, y: 305}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_2_H
+    spriteName: DOG_jordan-1_2_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 3cb39b02910e20d4896ddb803a565faf
+    layerID: 90
+    mosaicPosition: {x: 7336, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: DOG_jordan-1_1_H
+    spriteName: DOG_jordan-1_1_H
+    isGroup: 0
+    parentIndex: 53
+    spriteID: c5024c3947dfdf54ab624480ea02076e
+    layerID: 86
+    mosaicPosition: {x: 6641, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ENV_jordan-1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 7600e95d71fe19846b2132273a426f89
+    layerID: 79
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: jordan-1_ENV-mission
+    spriteName: 
+    isGroup: 1
+    parentIndex: 85
+    spriteID: bff0c189cc462744fa0ab04e654fe817
+    layerID: 78
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_jordan-1_gate_1
+    spriteName: ENV_jordan-1_gate_1
+    isGroup: 0
+    parentIndex: 86
+    spriteID: 66a00d3df86e1b34faad06521fc54c18
+    layerID: 77
+    mosaicPosition: {x: 5328, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ENV_jordan-1_gate_0
+    spriteName: ENV_jordan-1_gate_0
+    isGroup: 0
+    parentIndex: 86
+    spriteID: ef91e6ef02a81044fa021339a33db77e
+    layerID: 72
+    mosaicPosition: {x: 5328, y: 404}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: jordan-1_ENV-6
+    spriteName: 
+    isGroup: 1
+    parentIndex: 85
+    spriteID: 24ca810c0bd8a1e47986eca916aa31d3
+    layerID: 66
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_jordan-1_6_click_0
+    spriteName: ENV_jordan-1_6_click_0
+    isGroup: 0
+    parentIndex: 89
+    spriteID: ee96ba848f4b0e44a8c330c43f3a6058
+    layerID: 65
+    mosaicPosition: {x: 5328, y: 1300}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: jordan-1_ENV-5
+    spriteName: 
+    isGroup: 1
+    parentIndex: 85
+    spriteID: 4775c8b162f7ccb40bd7f9c3d57f3b33
+    layerID: 60
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_jordan-1_5_click_0
+    spriteName: ENV_jordan-1_5_click_0
+    isGroup: 0
+    parentIndex: 91
+    spriteID: 8506ad444914eb446b76f2f3816927e3
+    layerID: 59
+    mosaicPosition: {x: 5574, y: 99}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: jordan-1_ENV-4
+    spriteName: 
+    isGroup: 1
+    parentIndex: 85
+    spriteID: fdcef51b149cc5e4797e5ac6922ca839
+    layerID: 54
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_jordan-1_4_click_0
+    spriteName: ENV_jordan-1_4_click_0
+    isGroup: 0
+    parentIndex: 93
+    spriteID: 719c9e58d571f1b4eb0b2a3ed6aac493
+    layerID: 53
+    mosaicPosition: {x: 5328, y: 1197}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: jordan-1_ENV-3
+    spriteName: 
+    isGroup: 1
+    parentIndex: 85
+    spriteID: b294d5f371bcd4441bc0d8db2ccc8d28
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_jordan-1_3_slide
+    spriteName: ENV_jordan-1_3_slide
+    isGroup: 0
+    parentIndex: 95
+    spriteID: a3a979a1891363b4eb36113b6d77eae6
+    layerID: 47
+    mosaicPosition: {x: 5328, y: 1444}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: jordan-1_ENV-2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 85
+    spriteID: d2230c96fc286c941a584830ee91f06c
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_jordan-1_2_click_1
+    spriteName: ENV_jordan-1_2_click_1
+    isGroup: 0
+    parentIndex: 97
+    spriteID: 81ccb3558a7e02b4ba32655bc4387cfb
+    layerID: 41
+    mosaicPosition: {x: 7564, y: 59}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ENV_jordan-1_2_click_0
+    spriteName: ENV_jordan-1_2_click_0
+    isGroup: 0
+    parentIndex: 97
+    spriteID: c6adc754a60dea24c8719c91203fe446
+    layerID: 37
+    mosaicPosition: {x: 6767, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: jordan-1_ENV-1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 85
+    spriteID: 2ef31224fab039e4e95fa0e52f75d53a
+    layerID: 32
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ENV_jordan-1_1_slide
+    spriteName: ENV_jordan-1_1_slide
+    isGroup: 0
+    parentIndex: 100
+    spriteID: 9c469aeee18dbf94c9ca4ffbc0f386c2
+    layerID: 31
+    mosaicPosition: {x: 5438, y: 1729}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SCN_jordan-1_empty
+    spriteName: SCN_jordan-1_empty
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d292f218142589b49be4d93be1537915
+    layerID: 17
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 639184323625962109
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

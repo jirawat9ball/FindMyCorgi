@@ -82,12 +82,18 @@ public class SetupDogInScene : Editor
 
                 if (upperName.Contains("_MOVE"))
                 {
+                    // 🌟 เพิ่ม Collider ก่อนแอดสคริปต์
+                    if (child.gameObject.GetComponent<BoxCollider2D>() == null) child.gameObject.AddComponent<BoxCollider2D>();
+
                     if (child.gameObject.GetComponent<MoveObject>() == null)
                         child.gameObject.AddComponent<MoveObject>();
                     isInteractable = true;
                 }
                 else if (upperName.Contains("_SLIDE"))
                 {
+                    // 🌟 เพิ่ม Collider ก่อนแอดสคริปต์
+                    if (child.gameObject.GetComponent<BoxCollider2D>() == null) child.gameObject.AddComponent<BoxCollider2D>();
+
                     if (child.gameObject.GetComponent<SlideObject>() == null)
                         child.gameObject.AddComponent<SlideObject>();
                     isInteractable = true;
@@ -124,44 +130,66 @@ public class SetupDogInScene : Editor
 
                     if (isRootFrame)
                     {
+                        // 🌟 เพิ่ม Collider ก่อนแอดสคริปต์ (แก้บั๊กของภาพนี้เลยครับ)
+                        if (child.gameObject.GetComponent<BoxCollider2D>() == null) child.gameObject.AddComponent<BoxCollider2D>();
+
                         ClickObject clickObj = child.gameObject.GetComponent<ClickObject>();
                         if (clickObj == null) clickObj = child.gameObject.AddComponent<ClickObject>();
                         isInteractable = true;
 
-                        if (isDisappearMode)
+                        // ดักเช็ค Null เพิ่มความปลอดภัยให้ Inspector
+                        if (clickObj != null)
                         {
-                            Undo.RecordObject(clickObj, "Clear Array for Disappear Mode");
-                            clickObj.spriteAfterClick = new Sprite[0];
-                            clickObj.RequiredClick = 1;
-                            EditorUtility.SetDirty(clickObj);
-                        }
-                        else if (clickObj.spriteAfterClick == null || clickObj.spriteAfterClick.Length == 0)
-                        {
-                            Undo.RecordObject(clickObj, "Set Array for Anim Mode");
-                            List<Sprite> clickSprites = new List<Sprite>();
-                            int startSearch = frameIndex == -1 ? 0 : frameIndex + 1;
-
-                            for (int i = startSearch; i <= 20; i++)
+                            if (isDisappearMode)
                             {
-                                string targetName = baseName + "_" + i;
-                                Transform foundSpriteObj = FindChildRecursive(parentObj.transform, targetName);
-
-                                if (foundSpriteObj != null)
-                                {
-                                    SpriteRenderer foundSr = foundSpriteObj.GetComponent<SpriteRenderer>();
-                                    if (foundSr != null && foundSr.sprite != null)
-                                    {
-                                        clickSprites.Add(foundSr.sprite);
-                                    }
-                                    DestroyImmediate(foundSpriteObj.gameObject);
-                                }
-                            }
-
-                            if (clickSprites.Count > 0)
-                            {
-                                clickObj.spriteAfterClick = clickSprites.ToArray();
-                                clickObj.RequiredClick = clickSprites.Count;
+                                Undo.RecordObject(clickObj, "Clear Array for Disappear Mode");
+                                clickObj.spriteAfterClick = new Sprite[0];
+                                clickObj.RequiredClick = 1;
                                 EditorUtility.SetDirty(clickObj);
+                            }
+                            if (clickObj != null)
+                            {
+                                if (isDisappearMode)
+                                {
+                                    Undo.RecordObject(clickObj, "Clear Array for Disappear Mode");
+                                    clickObj.spriteAfterClick = new Sprite[0];
+                                    clickObj.RequiredClick = 1;
+                                    EditorUtility.SetDirty(clickObj);
+                                }
+                                else
+                                {
+                                    // ==========================================
+                                    // 🌟 ท่อนที่เปลี่ยนใหม่: เก็บเป็น GameObject และสั่ง SetActive(false)
+                                    // ==========================================
+                                    Undo.RecordObject(clickObj, "Set Array for Active Mode");
+                                    List<GameObject> clickObjects = new List<GameObject>();
+                                    int startSearch = frameIndex == -1 ? 0 : frameIndex + 1;
+
+                                    for (int i = startSearch; i <= 20; i++)
+                                    {
+                                        string targetName = baseName + "_" + i;
+                                        Transform foundObj = FindChildRecursive(parentObj.transform, targetName);
+
+                                        if (foundObj != null)
+                                        {
+                                            // 🌟 สั่งปิดการแสดงผลไว้ก่อน และ "ไม่ลบ Object ทิ้ง"
+                                            foundObj.gameObject.SetActive(false);
+                                            clickObjects.Add(foundObj.gameObject);
+                                        }
+                                    }
+
+                                    if (clickObjects.Count > 0)
+                                    {
+                                        // 💡 ถ้าในสคริปต์ ClickObject ของคุณมีตัวแปร Array แบบ GameObject ไว้รับค่า
+                                        // เช่น public GameObject[] objectsToActive; 
+                                        // เอาเครื่องหมาย // ด้านล่างออก แล้วแก้ชื่อตัวแปรให้ตรงกับในสคริปต์คุณได้เลยครับ:
+                                        // clickObj.objectsToActive = clickObjects.ToArray();
+
+                                        clickObj.RequiredClick = clickObjects.Count; // ยังใช้นับจำนวนคลิกอยู่
+                                        EditorUtility.SetDirty(clickObj);
+                                    }
+                                    // ==========================================
+                                }
                             }
                         }
                     }
@@ -169,9 +197,7 @@ public class SetupDogInScene : Editor
 
                 if (isInteractable && child != null)
                 {
-                    if (child.gameObject.GetComponent<BoxCollider2D>() == null)
-                        child.gameObject.AddComponent<BoxCollider2D>();
-
+                    // นับจำนวนชิ้นเฉยๆ ไม่ต้องแอด Collider ตรงนี้แล้ว
                     envInteractCount++;
                 }
             }
@@ -181,11 +207,11 @@ public class SetupDogInScene : Editor
             // ==========================================
             if (upperName.Contains("DOG") && objName.EndsWith("_H"))
             {
-                Dog dogScript = child.gameObject.GetComponent<Dog>();
-                if (dogScript == null) dogScript = child.gameObject.AddComponent<Dog>();
-
                 BoxCollider2D collider = child.gameObject.GetComponent<BoxCollider2D>();
                 if (collider == null) child.gameObject.AddComponent<BoxCollider2D>();
+
+                Dog dogScript = child.gameObject.GetComponent<Dog>();
+                if (dogScript == null) dogScript = child.gameObject.AddComponent<Dog>();
 
                 Undo.RecordObject(dogScript, "Set Dog Script");
 

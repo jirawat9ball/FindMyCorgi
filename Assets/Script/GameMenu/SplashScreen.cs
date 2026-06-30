@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Video;
+using System.Threading.Tasks;
 
 public class SplashScreen : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class SplashScreen : MonoBehaviour
     private bool isVideoStarted = false;
     private bool isVideoPlaying = false;
 
+    // 🌟 1. เพิ่มตัวแปรแม่กุญแจ ล็อคไม่ให้กดข้ามซ้อนกัน
+    private bool isTransitioningToMenu = false;
+
     private void Start()
     {
         if (SplashUI != null) SplashUI.SetActive(true);
@@ -17,7 +21,6 @@ public class SplashScreen : MonoBehaviour
 
         if (videoPlayer != null)
         {
-            //ดึงกล้องจาก CoreManager
             videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
             videoPlayer.targetCamera = Camera.main;
 
@@ -28,7 +31,6 @@ public class SplashScreen : MonoBehaviour
 
     private void Update()
     {
-        // กดปุ่มอะไรก็ได้เพื่อเริ่ม (แต่ขอยกเว้นปุ่ม ESC ไว้ จะได้ไม่ชนกัน)
         if (Input.anyKeyDown && !Input.GetKeyDown(KeyCode.Escape) && !isVideoStarted)
         {
             isVideoStarted = true;
@@ -36,38 +38,34 @@ public class SplashScreen : MonoBehaviour
             return;
         }
 
-        // ถ้าวิดีโอกำลังฉายอยู่ และผู้เล่นกดปุ่ม ESC
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            // ดักเช็คก่อนว่าวิดีโอเริ่มเล่นจริงๆ หรือยัง
-            if (isVideoPlaying)
+            // 🌟 เช็คด้วยว่า ถ้ากำลังโหลดไปหน้าเมนูอยู่ จะไม่สนใจการกด ESC อีก
+            if (isVideoPlaying && !isTransitioningToMenu)
             {
                 TrySkipVideo();
             }
             else
             {
-                Debug.Log("วิดีโอยังไม่พร้อม หรือกำลังทรานสิชันอยู่ กดข้ามไม่ได้นะ");
+                Debug.Log("วิดีโอยังไม่พร้อม หรือ กำลังโหลดเข้าเมนูอยู่ กดซ้ำไม่ได้ครับ!");
             }
         }
     }
+
     private void TrySkipVideo()
     {
-        // ดึงข้อมูลเซฟ
         SaveData currentData = SaveManager.Instance.LoadGame();
 
-        // ถ้าไม่เคยมีไฟล์เซฟมาก่อน เพิ่งเล่นครั้งแรก ห้ามข้าม!
         if (currentData == null)
         {
             Debug.LogWarning("ไม่พบไฟล์เซฟเก่า: บังคับดูคัตซีนครั้งแรกให้จบก่อน");
             return;
         }
 
-        // ถ้ามีไฟล์เซฟ เช็คว่าเคยดูหรือยัง
         if (currentData.hasWatchedIntro)
         {
             Debug.Log("กด ESC: ผู้เล่นเคยดูคัตซีนนี้แล้ว กดข้าม (Skip) ทันที!");
-
-            isVideoPlaying = false; // ล็อคไว้ไม่ให้กดข้ามซ้ำสองจนระบบรวน
+            isVideoPlaying = false;
             TransitionToMainMenu();
         }
         else
@@ -78,22 +76,40 @@ public class SplashScreen : MonoBehaviour
 
     private void TransitionToVideo()
     {
-        LoadSceneManager.Instance.PlayLocalTransition(() =>
+        LoadSceneManager.Instance.PlayLocalTransition(async () =>
         {
-            if (SplashUI != null) SplashUI.SetActive(false);
-
             if (videoPlayer != null)
             {
                 videoPlayer.gameObject.SetActive(true);
                 videoPlayer.Play();
+
+                float timeout = 5f;
+                while (!videoPlayer.isPlaying && timeout > 0)
+                {
+                    timeout -= Time.deltaTime;
+                    await Task.Yield();
+                }
+
+                if (timeout <= 0)
+                {
+                    Debug.LogWarning("วิดีโอโหลดไม่ขึ้น สั่งเข้าเมนูหลัก");
+                    if (SplashUI != null) SplashUI.SetActive(false);
+                    TransitionToMainMenu();
+                    return;
+                }
+
                 isVideoPlaying = true;
+
+                if (SplashUI != null) SplashUI.SetActive(false);
             }
             else
             {
+                if (SplashUI != null) SplashUI.SetActive(false);
                 TransitionToMainMenu();
             }
         });
     }
+
     private void OnVideoFinished(VideoPlayer source)
     {
         if (!isVideoPlaying) return;
@@ -101,7 +117,6 @@ public class SplashScreen : MonoBehaviour
 
         SaveData currentData = SaveManager.Instance.LoadGame();
 
-        // ถ้าไฟล์เซฟเป็น null (เล่นครั้งแรก) ให้สร้างใหม่
         if (currentData == null)
         {
             currentData = new SaveData();
@@ -116,8 +131,12 @@ public class SplashScreen : MonoBehaviour
 
     private void TransitionToMainMenu()
     {
-        // สั่ง Pause วิดีโอทันที! 
-        // ภาพบนจอจะหยุดนิ่ง "ปุ่มกดติดแล้ว" ระหว่างรอม่านดำปิดลงมา
+        // 🌟 2. ดักหน้าประตู! ถ้ามีคนเผลอเรียกฟังก์ชันนี้ซ้ำตอนที่มันกำลังโหลดอยู่ ให้เตะกลับไปเลย
+        if (isTransitioningToMenu) return;
+
+        // ล็อคแม่กุญแจทันที!
+        isTransitioningToMenu = true;
+
         if (videoPlayer != null)
         {
             videoPlayer.Pause();
@@ -125,7 +144,6 @@ public class SplashScreen : MonoBehaviour
 
         LoadSceneManager.Instance.PlayLocalTransition(() =>
         {
-            // พอม่านดำปิดสนิท ค่อยสั่งปิดการทำงานของวิดีโอทิ้งไป
             if (videoPlayer != null)
             {
                 videoPlayer.Stop();
