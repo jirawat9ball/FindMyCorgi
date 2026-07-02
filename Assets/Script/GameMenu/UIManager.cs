@@ -30,6 +30,19 @@ public class UIManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+
+        string currentSceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+
+        if (currentSceneName == "Stage Select") 
+        {
+            if (PanelCamp != null) PanelCamp.SetActive(true);
+            if (GameMenu != null) GameMenu.SetActive(false);
+        }
+        else
+        {
+            // ถ้าเป็นซีนอื่นๆ (เช่น ด่านต่างๆ) ให้สั่งปิดแคมป์ทิ้งไว้เลย
+            if (PanelCamp != null) PanelCamp.SetActive(false);
+        } 
     }
 
     // ==========================================

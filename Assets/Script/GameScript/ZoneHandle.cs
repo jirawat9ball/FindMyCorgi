@@ -4,7 +4,8 @@ public class ZoneHandle : MonoBehaviour
 {
     public SceneHandle[] sceneHandles;
     public SceneHandle currentScene;
-    public int indexScene = 0; // เพิ่มตัวแปร indexScene เพื่อเก็บค่า Index ของฉากเริ่มต้น
+    public int indexScene = 0; 
+    
     private void Awake()
     {
         Gamemanager.Instance.currentZone = this;
@@ -25,20 +26,15 @@ public class ZoneHandle : MonoBehaviour
 
     void GotoScene()
     {
-        // 🌟 1. พยายามอ่านค่าเป้าหมายจาก Gamemanager ก่อนเป็นอันดับแรก
         SceneObject targetSceneObj = Gamemanager.Instance.sceneObject;
 
-        // 🌟 2. ถ้าใน Gamemanager ยังไม่มีข้อมูล (กรณี Test Mode หรือกด Play ในฉากนี้ตรงๆ)
         if (targetSceneObj == null)
         {
             if (sceneHandles != null && indexScene < sceneHandles.Length)
             {
-                // ดึงฉากเริ่มต้นจาก Index ที่เราตั้งไว้ใน Inspector
                 targetSceneObj = sceneHandles[indexScene].sceneObject;
-
-                // บันทึกกลับไปที่ Gamemanager เพื่อให้ทุกระบบรับรู้ตรงกัน
                 Gamemanager.Instance.sceneObject = targetSceneObj;
-                Gamemanager.Instance.SetStateGamePlay(); // บังคับเริ่มสถานะ Gameplay
+                Gamemanager.Instance.SetStateGamePlay(); 
 
                 Debug.Log($"🛠️ [Gamemanager Sync] ไม่พบข้อมูลฉาก ระบบจึงดึงฉาก Index {indexScene} มาใส่ใน Gamemanager ให้แล้วครับ");
             }
@@ -49,15 +45,13 @@ public class ZoneHandle : MonoBehaviour
             }
         }
 
-        // 🌟 3. ตอนนี้เรามีข้อมูลใน targetSceneObj (ที่อ่านมาจาก Manager) แล้ว
-        // จึงทำการค้นหา SceneHandle ที่ตรงกับข้อมูลนั้น
         SceneHandle sceneHandle = GetScene(targetSceneObj);
 
         if (sceneHandle != null)
         {
-            currentScene = sceneHandle; // อัปเดตฉากปัจจุบันของโซน
-            sceneHandle.Setup();        // เตรียมความพร้อมสคริปต์ต่างๆ ในฉาก
-            sceneHandle.SetToGamemanager(); // สั่งให้ฉากนั้นไปจัดการกล้องและ UI ต่อ
+            currentScene = sceneHandle; 
+            sceneHandle.Setup();        
+            sceneHandle.SetToGamemanager(); 
         }
         else
         {
@@ -67,7 +61,11 @@ public class ZoneHandle : MonoBehaviour
 
     public void BackScene()
     {
-        GotoScene(currentScene.sceneObject.backScene);
+        // 🌟 ดักกัน Error ถ้าเกิดไม่มีฉากให้กลับ
+        if (currentScene != null && currentScene.sceneObject.backScene != null)
+        {
+            GotoScene(currentScene.sceneObject.backScene);
+        }
     }
 
     void GotoScene(SceneObject sceneObject)
@@ -75,15 +73,23 @@ public class ZoneHandle : MonoBehaviour
         SceneHandle sceneHandle = GetScene(sceneObject);
         if (sceneHandle != null)
         {
-            sceneHandle.SetToGamemanager();
+            // ==========================================
+            // 🌟 แก้ไข: เพิ่มการสั่ง Setup ฉากใหม่ และจำว่าตอนนี้อยู่ห้องไหน
+            // ==========================================
+            currentScene = sceneHandle;     // 1. อัปเดตให้โซนรู้ว่าผู้เล่นย้ายมาห้องนี้แล้ว
+            sceneHandle.Setup();            // 2. สั่งรัน Setup (สร้างแผ่นฟิล์ม, เปลี่ยนเพลง, นับหมาใหม่)
+            sceneHandle.SetToGamemanager(); // 3. ส่งข้อมูลให้กล้องตามปกติ
         }
     }
 
     SceneHandle GetScene(SceneObject _sceneObject)
     {
+        if (sceneHandles == null) return null;
+
         for (int i = 0; i < sceneHandles.Length; i++)
         {
-            if (sceneHandles[i].sceneObject == _sceneObject)
+            // 🌟 ดักเช็ค null ป้องกัน Error กรณีลืมใส่ฉากใน Array
+            if (sceneHandles[i] != null && sceneHandles[i].sceneObject == _sceneObject)
             {
                 return sceneHandles[i];
             }

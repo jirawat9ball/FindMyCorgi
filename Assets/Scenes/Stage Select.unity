@@ -666,7 +666,7 @@ VideoPlayer:
   m_AudioOutputMode: 2
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: https://cdn.discordapp.com/attachments/1513393788192555008/1521392965069705256/Full20test.mov?ex=6a44ab1c&is=6a43599c&hm=f57637a45a259b57e6ece526240bf68ad854cbf24b3165e7ef673bcbd7c3f0a0&
+  m_Url: https://cdn.discordapp.com/attachments/1513393788192555008/1521392965069705256/Full20test.mov?ex=6a474e1c&is=6a45fc9c&hm=1a911eccbb587d38d4d29b110761ab605152814ca32d296dddfbc6710c7849dc&
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
@@ -709,7 +709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2087992764
 MonoBehaviour:
   m_ObjectHideFlags: 0

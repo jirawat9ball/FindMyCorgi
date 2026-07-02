@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
-using TMPro; // 🌟 เรียกใช้ TextMeshPro
+using TMPro;
 
 public class CountdownTimer : MonoBehaviour
 {
@@ -8,25 +8,33 @@ public class CountdownTimer : MonoBehaviour
     private float currentTime;
     private bool isRunning = false;
 
-    [Header("UI Settings")]
-    public TextMeshProUGUI timerText; // 🌟 ช่องสำหรับลาก TextMeshPro มาใส่
-
+    public TextMeshProUGUI timerText;
     public UnityEvent onTimeOut;
 
     private void Start()
     {
-        // 🌟 วิ่งหา UI เวลาอัตโนมัติ
+        // 🌟 งมหา UI ที่ออโต้เจนมาจาก Core Manager
         if (timerText == null)
         {
-            
-            GameObject timerObj = GameObject.Find("Time txt");
-            if (timerObj != null)
+            if (Gamemanager.Instance != null && Gamemanager.Instance.uiIngame != null)
             {
-                timerText = timerObj.GetComponent<TextMeshProUGUI>();
-            }
-            else
-            {
-                Debug.LogWarning("⚠️ หา UI เวลาไม่เจอ! ตรวจสอบชื่อ GameObject อีกทีครับ");
+                // เข้าถึงก้อน UI หลัก
+                Transform mainGame = Gamemanager.Instance.uiIngame.panalgame.transform;
+
+                // หา Boss Panal ที่ซ่อนอยู่
+                Transform bossPanel = mainGame.Find("Boss Panal");
+                if (bossPanel != null)
+                {
+                    bossPanel.gameObject.SetActive(true); // บังคับเปิดทันที!
+
+                    // เจาะเข้าไปหา Time txt
+                    Transform timeTxtTrans = bossPanel.Find("Time/Time txt");
+                    if (timeTxtTrans != null)
+                    {
+                        timerText = timeTxtTrans.GetComponent<TextMeshProUGUI>();
+                        Debug.Log("✅ CountdownTimer ดึง Time txt จากระบบออโต้เจนสำเร็จ!");
+                    }
+                }
             }
         }
 
@@ -34,53 +42,35 @@ public class CountdownTimer : MonoBehaviour
         UpdateTimerUI();
     }
 
-    public void StartTimer()
-    {
-        isRunning = true;
-    }
+    public void StartTimer() => isRunning = true;
+    public void StopTimer() => isRunning = false;
 
-    public void StopTimer()
-    {
-        isRunning = false;
-    }
-
-    // 🌟 ฟังก์ชันใหม่: เอาไว้ให้บอสสั่งหักเวลาตอนทายผิด
     public void ReduceTime(float penaltyTime)
     {
         if (!isRunning) return;
-
         currentTime -= penaltyTime;
         if (currentTime < 0) currentTime = 0;
-
         UpdateTimerUI();
-        Debug.Log($"⏳ โดนหักเวลา! เหลือเวลา: {currentTime} วินาที");
     }
 
     private void Update()
     {
-        if (!isRunning) return;
+        if (!isRunning || currentTime <= 0) return;
 
-        if (currentTime > 0)
+        currentTime -= Time.deltaTime;
+        UpdateTimerUI();
+
+        if (currentTime <= 0)
         {
-            currentTime -= Time.deltaTime;
-            UpdateTimerUI(); // 🌟 อัปเดต UI ทุกเฟรม
-
-            if (currentTime <= 0)
-            {
-                currentTime = 0;
-                isRunning = false;
-                UpdateTimerUI();
-                onTimeOut?.Invoke();
-            }
+            isRunning = false;
+            onTimeOut?.Invoke();
         }
     }
 
-    // 🌟 ฟังก์ชันจัดการ UI โดยเฉพาะ
     private void UpdateTimerUI()
     {
         if (timerText != null)
         {
-            // แสดงผลเป็นตัวเลขจำนวนเต็ม (วินาที)
             timerText.text = Mathf.CeilToInt(currentTime).ToString();
         }
     }
