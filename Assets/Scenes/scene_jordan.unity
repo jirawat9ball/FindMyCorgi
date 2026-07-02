@@ -515,6 +515,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4207722414573202583, guid: 394be6a0f0382804bbf8ce001fa2e21a, type: 3}
   m_PrefabInstance: {fileID: 16690063}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &38081639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 38081640}
+  m_Layer: 0
+  m_Name: '[Target]ENV_jordan-1_1_slide'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &38081640
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38081639}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -11.056, y: 24.93, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 234748489}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &40168863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 40168864}
+  m_Layer: 0
+  m_Name: '[Target]ENV_jordan-2_4_slide '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &40168864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40168863}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.262, y: 7.21, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1928375812}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &57995237
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +817,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.01, y: 1.71}
   m_EdgeRadius: 0
+--- !u!1 &77952456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 77952457}
+  m_Layer: 0
+  m_Name: '[Target]ENV_jordan-2_2_slide '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &77952457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77952456}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.897, y: 2.844, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1928375812}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &79955751 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2536716764385386827, guid: 27b376930f450894793e7e7a09446c71, type: 3}
@@ -1511,35 +1604,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9223357281013178370, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   m_PrefabInstance: {fileID: 1928375811}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &121035387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121035385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
-  NeedKey: {fileID: 0}
-  Description: 
-  clip: {fileID: 0}
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onFail:
-    m_PersistentCalls:
-      m_Calls: []
-  startState: 0
-  currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
 --- !u!61 &121035388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1586,6 +1650,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2, y: 1.39}
   m_EdgeRadius: 0
+--- !u!114 &121035389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121035385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  NeedKey: {fileID: 0}
+  Description: 
+  clip: {fileID: 0}
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  startState: 0
+  currentState: 0
+  targetTransform: {fileID: 1326095161}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
 --- !u!1 &127621742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2568,40 +2660,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1846977457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &254563362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 254563363}
+  m_Layer: 0
+  m_Name: '[Target]ENV_jordan-2_5_slide'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &254563363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254563362}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10.151, y: 9.025, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1928375812}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &254991124 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8162058662060491230, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   m_PrefabInstance: {fileID: 1928375811}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &254991126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 254991124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
-  NeedKey: {fileID: 0}
-  Description: 
-  clip: {fileID: 0}
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onFail:
-    m_PersistentCalls:
-      m_Calls: []
-  startState: 0
-  currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
 --- !u!61 &254991127
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2648,6 +2742,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.89, y: 1.26}
   m_EdgeRadius: 0
+--- !u!114 &254991128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254991124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  NeedKey: {fileID: 0}
+  Description: 
+  clip: {fileID: 0}
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  startState: 0
+  currentState: 0
+  targetTransform: {fileID: 1613671461}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
 --- !u!1 &270120436
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,7 +3139,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: 5439442555793299438, guid: 27b376930f450894793e7e7a09446c71, type: 3}
   spriteFound: {fileID: -8105379365542487039, guid: 27b376930f450894793e7e7a09446c71, type: 3}
-  blockingObstacle: {fileID: 1878615909}
+  blockingObstacle: {fileID: 0}
 --- !u!61 &279427906
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6339,7 +6461,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: 2210191716598738460, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   spriteFound: {fileID: 647928901768674400, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-  blockingObstacle: {fileID: 580321124}
+  blockingObstacle: {fileID: 580321126}
 --- !u!61 &543122163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6386,40 +6508,42 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5, y: 0.25}
   m_EdgeRadius: 0
+--- !u!1 &547853956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547853957}
+  m_Layer: 0
+  m_Name: '[Target]ENV_jordan-1_3_slide'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547853957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547853956}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.47, y: 14.335, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 234748489}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &557619550 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3184761867608769621, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   m_PrefabInstance: {fileID: 1928375811}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &557619552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557619550}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
-  NeedKey: {fileID: 0}
-  Description: 
-  clip: {fileID: 0}
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onFail:
-    m_PersistentCalls:
-      m_Calls: []
-  startState: 0
-  currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
 --- !u!61 &557619553
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6466,23 +6590,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.69, y: 2.13}
   m_EdgeRadius: 0
---- !u!1 &580321122 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1915810591743329110, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-  m_PrefabInstance: {fileID: 1928375811}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &580321124
+--- !u!114 &557619554
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 580321122}
+  m_GameObject: {fileID: 557619550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
   NeedKey: {fileID: 0}
   Description: 
   clip: {fileID: 0}
@@ -6494,12 +6613,16 @@ MonoBehaviour:
       m_Calls: []
   startState: 0
   currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
+  targetTransform: {fileID: 77952457}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
+--- !u!1 &580321122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1915810591743329110, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+  m_PrefabInstance: {fileID: 1928375811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!61 &580321125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6546,6 +6669,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.07, y: 0.4}
   m_EdgeRadius: 0
+--- !u!114 &580321126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580321122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  NeedKey: {fileID: 0}
+  Description: 
+  clip: {fileID: 0}
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  startState: 0
+  currentState: 0
+  targetTransform: {fileID: 40168864}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
 --- !u!1001 &584573611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6813,7 +6964,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: 7153989528103280545, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   spriteFound: {fileID: -7905389948304184411, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-  blockingObstacle: {fileID: 1040482784}
+  blockingObstacle: {fileID: 1040482786}
 --- !u!61 &595127747
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12484,35 +12635,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -8549667861830572868, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   m_PrefabInstance: {fileID: 1928375811}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &948342945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 948342943}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
-  NeedKey: {fileID: 0}
-  Description: 
-  clip: {fileID: 0}
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onFail:
-    m_PersistentCalls:
-      m_Calls: []
-  startState: 0
-  currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
 --- !u!61 &948342946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12559,6 +12681,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.88, y: 2.19}
   m_EdgeRadius: 0
+--- !u!114 &948342947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948342943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  NeedKey: {fileID: 0}
+  Description: 
+  clip: {fileID: 0}
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  startState: 0
+  currentState: 0
+  targetTransform: {fileID: 254563363}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
 --- !u!114 &950387553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13608,35 +13758,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1240368557587832176, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   m_PrefabInstance: {fileID: 1928375811}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1040482784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1040482782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
-  NeedKey: {fileID: 0}
-  Description: 
-  clip: {fileID: 0}
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onFail:
-    m_PersistentCalls:
-      m_Calls: []
-  startState: 0
-  currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
 --- !u!61 &1040482785
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13683,6 +13804,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.32, y: 1.74}
   m_EdgeRadius: 0
+--- !u!114 &1040482786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040482782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  NeedKey: {fileID: 0}
+  Description: 
+  clip: {fileID: 0}
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  startState: 0
+  currentState: 0
+  targetTransform: {fileID: 1088422088}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
 --- !u!1 &1044400059
 GameObject:
   m_ObjectHideFlags: 0
@@ -14296,6 +14445,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4809303033149939519, guid: cd563811d7066f24ea92952928d78a34, type: 3}
   m_PrefabInstance: {fileID: 1081980698}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1088422087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1088422088}
+  m_Layer: 0
+  m_Name: '[Target]ENV_jordan-2_1_slide'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1088422088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088422087}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.831, y: 2.077, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1928375812}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1095209338 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8779654025205464240, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
@@ -14864,7 +15044,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: -3146308387713135337, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   spriteFound: {fileID: 4435694655669967659, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-  blockingObstacle: {fileID: 1709450823}
+  blockingObstacle: {fileID: 1709450825}
 --- !u!61 &1124848417
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15247,6 +15427,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1157873067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1157873068}
+  m_Layer: 0
+  m_Name: '[Target]ENV_jordan-2_15_slide'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1157873068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157873067}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.27, y: 5.35, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1928375812}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1165681138 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4326887147308602341, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
@@ -15280,7 +15491,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: -9042049710638501660, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   spriteFound: {fileID: -3357784680492846877, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-  blockingObstacle: {fileID: 557619552}
+  blockingObstacle: {fileID: 557619554}
 --- !u!61 &1165681141
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16172,35 +16383,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2739425935813687481, guid: 27b376930f450894793e7e7a09446c71, type: 3}
   m_PrefabInstance: {fileID: 1824776677}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1251255367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251255365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
-  NeedKey: {fileID: 0}
-  Description: 
-  clip: {fileID: 0}
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onFail:
-    m_PersistentCalls:
-      m_Calls: []
-  startState: 0
-  currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
 --- !u!61 &1251255368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16247,6 +16429,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.08, y: 0.94}
   m_EdgeRadius: 0
+--- !u!114 &1251255369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251255365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  NeedKey: {fileID: 0}
+  Description: 
+  clip: {fileID: 0}
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  startState: 0
+  currentState: 0
+  targetTransform: {fileID: 38081640}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
 --- !u!1 &1251469356
 GameObject:
   m_ObjectHideFlags: 0
@@ -16967,6 +17177,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.74, y: 1.11}
   m_EdgeRadius: 0
+--- !u!1 &1326095160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1326095161}
+  m_Layer: 0
+  m_Name: '[Target]ENV_jordan-2_8_slide'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1326095161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326095160}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7.941, y: 22.664999, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1928375812}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1354116185 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 893794875726091828, guid: 27b376930f450894793e7e7a09446c71, type: 3}
@@ -18010,7 +18251,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: 5195056638103399802, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   spriteFound: {fileID: 6685074809605266110, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-  blockingObstacle: {fileID: 254991126}
+  blockingObstacle: {fileID: 254991128}
 --- !u!61 &1464630724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18546,7 +18787,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: -5705154347773373667, guid: 27b376930f450894793e7e7a09446c71, type: 3}
   spriteFound: {fileID: -3862095930470716248, guid: 27b376930f450894793e7e7a09446c71, type: 3}
-  blockingObstacle: {fileID: 1251255367}
+  blockingObstacle: {fileID: 0}
 --- !u!61 &1491185017
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18626,7 +18867,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: 2898473314839841651, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   spriteFound: {fileID: 5983635154993714753, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-  blockingObstacle: {fileID: 121035387}
+  blockingObstacle: {fileID: 121035389}
 --- !u!61 &1496952142
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20706,6 +20947,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.32, y: 0.74}
   m_EdgeRadius: 0
+--- !u!1 &1613671460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613671461}
+  m_Layer: 0
+  m_Name: '[Target]ENV_jordan-2_11_slide'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1613671461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613671460}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.191, y: 11.08, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1928375812}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1623268896
 GameObject:
   m_ObjectHideFlags: 0
@@ -21729,35 +22001,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -6131873556297611267, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   m_PrefabInstance: {fileID: 1928375811}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1709450823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1709450821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
-  NeedKey: {fileID: 0}
-  Description: 
-  clip: {fileID: 0}
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onFail:
-    m_PersistentCalls:
-      m_Calls: []
-  startState: 0
-  currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
 --- !u!61 &1709450824
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21804,6 +22047,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.52, y: 0.92}
   m_EdgeRadius: 0
+--- !u!114 &1709450825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709450821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  NeedKey: {fileID: 0}
+  Description: 
+  clip: {fileID: 0}
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  startState: 0
+  currentState: 0
+  targetTransform: {fileID: 1157873068}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
 --- !u!1 &1709747932 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2068571471067025779, guid: 27b376930f450894793e7e7a09446c71, type: 3}
@@ -22153,7 +22424,7 @@ MonoBehaviour:
       m_Calls: []
   id: jordan-2
   isSpecial: 0
-  realDog: 0
+  realDog: 1
   startState: 1
   currentState: 0
   spriteNotFound: {fileID: -3430704624804874696, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
@@ -23174,6 +23445,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: 27b376930f450894793e7e7a09446c71, type: 3}
       insertIndex: 39
       addedObject: {fileID: 482661684}
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: 27b376930f450894793e7e7a09446c71, type: 3}
+      insertIndex: 44
+      addedObject: {fileID: 547853957}
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: 27b376930f450894793e7e7a09446c71, type: 3}
+      insertIndex: 48
+      addedObject: {fileID: 38081640}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 27b376930f450894793e7e7a09446c71, type: 3}
       insertIndex: -1
@@ -23435,7 +23712,7 @@ PrefabInstance:
       addedObject: {fileID: 1878615910}
     - targetCorrespondingSourceObject: {fileID: -7562791047684854178, guid: 27b376930f450894793e7e7a09446c71, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1878615909}
+      addedObject: {fileID: 1878615911}
     - targetCorrespondingSourceObject: {fileID: -4298460556387413983, guid: 27b376930f450894793e7e7a09446c71, type: 3}
       insertIndex: -1
       addedObject: {fileID: 967551038}
@@ -23447,7 +23724,7 @@ PrefabInstance:
       addedObject: {fileID: 1251255368}
     - targetCorrespondingSourceObject: {fileID: 2739425935813687481, guid: 27b376930f450894793e7e7a09446c71, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1251255367}
+      addedObject: {fileID: 1251255369}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 27b376930f450894793e7e7a09446c71, type: 3}
 --- !u!114 &1828994547
 MonoBehaviour:
@@ -24028,35 +24305,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -7562791047684854178, guid: 27b376930f450894793e7e7a09446c71, type: 3}
   m_PrefabInstance: {fileID: 1824776677}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1878615909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878615907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
-  NeedKey: {fileID: 0}
-  Description: 
-  clip: {fileID: 0}
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onFail:
-    m_PersistentCalls:
-      m_Calls: []
-  startState: 0
-  currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
 --- !u!61 &1878615910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24103,6 +24351,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.81, y: 1.61}
   m_EdgeRadius: 0
+--- !u!114 &1878615911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878615907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  NeedKey: {fileID: 0}
+  Description: 
+  clip: {fileID: 0}
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  startState: 0
+  currentState: 0
+  targetTransform: {fileID: 547853957}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
 --- !u!114 &1891216300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24983,6 +25259,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8549667861830572868, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -8149834060581436021, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       propertyPath: m_SortingOrder
       value: 0
@@ -25065,6 +25345,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6144855410296691539, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6131873556297611267, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -5887072039267360060, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
@@ -25179,6 +25463,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1240368557587832176, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1555267828797952184, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       propertyPath: m_LocalPosition.z
       value: -2
@@ -25190,6 +25478,10 @@ PrefabInstance:
     - target: {fileID: 1912967631622355659, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915810591743329110, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2072635554317603064, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       propertyPath: m_SortingOrder
@@ -25214,6 +25506,10 @@ PrefabInstance:
     - target: {fileID: 2861480987482441901, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3184761867608769621, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3608133309461845632, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25319,6 +25615,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2
       objectReference: {fileID: 0}
+    - target: {fileID: 9223357281013178370, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 853319324051500105, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
@@ -25338,7 +25638,28 @@ PrefabInstance:
     - {fileID: -2101299338975900894, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
     - {fileID: 4970124419743460108, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
     - {fileID: -9217832470593354772, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1157873068}
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      insertIndex: 8
+      addedObject: {fileID: 1613671461}
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      insertIndex: 13
+      addedObject: {fileID: 1326095161}
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      insertIndex: 17
+      addedObject: {fileID: 254563363}
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      insertIndex: 19
+      addedObject: {fileID: 40168864}
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      insertIndex: 22
+      addedObject: {fileID: 77952457}
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      insertIndex: 24
+      addedObject: {fileID: 1088422088}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
@@ -25360,7 +25681,7 @@ PrefabInstance:
       addedObject: {fileID: 1709450824}
     - targetCorrespondingSourceObject: {fileID: -6131873556297611267, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1709450823}
+      addedObject: {fileID: 1709450825}
     - targetCorrespondingSourceObject: {fileID: -4153139822543280551, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2081929387}
@@ -25384,7 +25705,7 @@ PrefabInstance:
       addedObject: {fileID: 254991127}
     - targetCorrespondingSourceObject: {fileID: -8162058662060491230, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 254991126}
+      addedObject: {fileID: 254991128}
     - targetCorrespondingSourceObject: {fileID: -6847298340090294486, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1578994050}
@@ -25402,7 +25723,7 @@ PrefabInstance:
       addedObject: {fileID: 121035388}
     - targetCorrespondingSourceObject: {fileID: 9223357281013178370, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 121035387}
+      addedObject: {fileID: 121035389}
     - targetCorrespondingSourceObject: {fileID: -3316708808422445771, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
       addedObject: {fileID: 307120832}
@@ -25420,13 +25741,13 @@ PrefabInstance:
       addedObject: {fileID: 948342946}
     - targetCorrespondingSourceObject: {fileID: -8549667861830572868, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 948342945}
+      addedObject: {fileID: 948342947}
     - targetCorrespondingSourceObject: {fileID: 1915810591743329110, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
       addedObject: {fileID: 580321125}
     - targetCorrespondingSourceObject: {fileID: 1915810591743329110, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 580321124}
+      addedObject: {fileID: 580321126}
     - targetCorrespondingSourceObject: {fileID: 7361202672090368746, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
       addedObject: {fileID: 861637117}
@@ -25438,13 +25759,13 @@ PrefabInstance:
       addedObject: {fileID: 557619553}
     - targetCorrespondingSourceObject: {fileID: 3184761867608769621, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 557619552}
+      addedObject: {fileID: 557619554}
     - targetCorrespondingSourceObject: {fileID: 1240368557587832176, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1040482785}
     - targetCorrespondingSourceObject: {fileID: 1240368557587832176, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1040482784}
+      addedObject: {fileID: 1040482786}
     - targetCorrespondingSourceObject: {fileID: -3614980025304266177, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1744749650}
@@ -25554,6 +25875,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1418707430}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+--- !u!4 &1928375812 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+  m_PrefabInstance: {fileID: 1928375811}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1928801665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29215,7 +29541,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: -7888503569350272974, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   spriteFound: {fileID: -5266496387362422202, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-  blockingObstacle: {fileID: 948342945}
+  blockingObstacle: {fileID: 948342947}
 --- !u!61 &2126356519
 BoxCollider2D:
   m_ObjectHideFlags: 0

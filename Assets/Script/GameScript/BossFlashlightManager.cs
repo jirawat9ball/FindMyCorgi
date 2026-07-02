@@ -3,28 +3,28 @@ using TMPro;
 
 public class FlashlightManager : MonoBehaviour
 {
-
-    public float timeLimit = 60f;
     public Sprite darkOverlayWithHole;
     public float overlaySize = 200f;
 
+    [Header("ระบบเวลา (ลาก CountdownTimer มาใส่)")]
+    public CountdownTimer matchTimer;
+
     private GameObject flashlightOverlayObj;
-    private float currentTime;
     private bool isGameActive = false;
-    private TextMeshProUGUI timerText;
     private SceneHandle currentScene;
 
     private void Start()
     {
         currentScene = FindObjectOfType<SceneHandle>();
-
-        GameObject timerObj = GameObject.Find("Text_Timer");
-        if (timerObj != null) timerText = timerObj.GetComponent<TextMeshProUGUI>();
-
         CreateFlashlightOverlay();
-
-        currentTime = timeLimit;
         isGameActive = true;
+
+        // 🌟 สั่งเริ่มเวลา และผูก Event เวลาหมดให้เรียก GameOver
+        if (matchTimer != null)
+        {
+            matchTimer.onTimeOut.AddListener(GameOver);
+            matchTimer.StartTimer();
+        }
     }
 
     private void CreateFlashlightOverlay()
@@ -33,25 +33,18 @@ public class FlashlightManager : MonoBehaviour
         SpriteRenderer renderer = flashlightOverlayObj.AddComponent<SpriteRenderer>();
 
         renderer.sprite = darkOverlayWithHole;
-        renderer.sortingOrder = 900;  
-
-        
+        renderer.sortingOrder = 900;
         renderer.drawMode = SpriteDrawMode.Sliced;
-
-        
         renderer.size = new Vector2(overlaySize, overlaySize);
-
-        //  บังคับล็อค Scale ไว้ที่ 1 เท่าเดิม
         flashlightOverlayObj.transform.localScale = Vector3.one;
 
-        Cursor.visible = false; // ซ่อนเมาส์
+        Cursor.visible = false;
     }
 
     private void Update()
     {
         if (!isGameActive || !Gamemanager.Instance.isStateGamePlay()) return;
 
-        // 🌟 ให้แผ่นความมืดวิ่งตามเมาส์
         if (Camera.main != null && flashlightOverlayObj != null)
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -59,19 +52,6 @@ public class FlashlightManager : MonoBehaviour
             flashlightOverlayObj.transform.position = mousePos;
         }
 
-        // ระบบเวลานับถอยหลัง
-        if (currentTime > 0)
-        {
-            currentTime -= Time.deltaTime;
-            if (timerText != null) timerText.text = Mathf.CeilToInt(currentTime).ToString();
-
-            if (currentTime <= 0)
-            {
-                GameOver();
-            }
-        }
-
-        // เช็คเงื่อนไขชนะ 
         if (currentScene != null && currentScene.lostDogs.Count == 0)
         {
             GameWin();
@@ -80,19 +60,38 @@ public class FlashlightManager : MonoBehaviour
 
     public void GameWin()
     {
+        if (!isGameActive) return;
         isGameActive = false;
         Cursor.visible = true;
+        if (matchTimer != null) matchTimer.StopTimer();
+
         Debug.Log("🎉 หาเจอครบก่อนหมดเวลา! ชนะด่านไฟฉาย!");
+
+        // 🌟 เรียก UI ชนะ
+        if (currentScene != null && Gamemanager.Instance != null)
+        {
+            Gamemanager.Instance.ClearScene(currentScene.sceneObject.name);
+            if (Gamemanager.Instance.dialogueUIManager != null)
+            {
+                Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_found_all");
+            }
+        }
     }
 
     public void GameOver()
     {
-        currentTime = 0;
+        if (!isGameActive) return;
         isGameActive = false;
-        if (timerText != null) timerText.text = "0";
         Cursor.visible = true;
+        if (matchTimer != null) matchTimer.StopTimer();
 
         Debug.Log("💀 เวลาหมด! Game Over!");
+
+        // 🌟 เรียก UI แพ้ (เปลี่ยนชื่อ Dialog ตามที่ตั้งไว้ในโปรเจกต์ได้เลย)
+        if (Gamemanager.Instance != null && Gamemanager.Instance.dialogueUIManager != null)
+        {
+            Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_lose");
+        }
     }
 
     private void OnDestroy()

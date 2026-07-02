@@ -1,75 +1,61 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 
-// 🌟 1. สร้างโครงสร้างเก็บข้อมูลของแต่ละรอบ (ใส่ Serializable เพื่อให้โชว์ใน Inspector)
 [System.Serializable]
 public class CupRoundConfig
 {
-    [Header("ตั้งค่าความยากรอบนี้")]
-    public int numberOfCups = 3;       // จำนวนถ้วย
-    public float shuffleSpeed = 10f;    // ความเร็วสลับ
-    public int shuffleAmount = 5;      // สลับกี่ครั้ง
-    public float showDogDuration = 2f;  // เวลาโชว์หมาก่อนสลับ
+    public int numberOfCups = 3;
+    public float shuffleSpeed = 10f;
+    public int shuffleAmount = 5;
+    public float showDogDuration = 2f;
 }
 
 public class BossCupShuffleManager : MonoBehaviour
 {
     [Header("ตั้งค่าระบบรอบ (Rounds)")]
-    [Tooltip("เพิ่มจำนวนรอบและตั้งค่าความยากแต่ละรอบได้ที่นี่")]
     public CupRoundConfig[] rounds;
-    private int currentRoundIndex = 0; // จำว่าตอนนี้อยู่รอบที่เท่าไหร่
+    private int currentRoundIndex = 0;
 
     [Header("ตั้งค่าถ้วย")]
     public GameObject cupPrefab;
-    public float cupSpacing = 2.5f;     // ระยะห่างระหว่างถ้วย
-    public Transform tableCenterPoint;  // 🌟 เปลี่ยนมาใช้จุดกึ่งกลางโต๊ะแทน เพื่อให้ถ้วยบาลานซ์ตรงกลางเสมอ
+    public float cupSpacing = 2.5f;
+    public Transform tableCenterPoint;
 
     [Header("เฉดสีถ้วย (เรียงลำดับ)")]
     public Color[] cupColors = new Color[] { Color.red, Color.green, Color.blue, Color.yellow, Color.magenta, Color.cyan };
 
+    [Header("ระบบเวลา (ลาก CountdownTimer มาใส่ถ้ามี)")]
+    public CountdownTimer matchTimer;
+
     private List<GameObject> activeCups = new List<GameObject>();
     private bool isShuffling = false;
     private bool canPick = false;
+    private bool isGameActive = true;
     private string correctCupName;
-
-    private SceneHandle currentScene;
-    private TextMeshProUGUI timerText;
 
     private void Start()
     {
-        currentScene = FindObjectOfType<SceneHandle>();
-        GameObject timerObj = GameObject.Find("Text_Timer");
-        if (timerObj != null) timerText = timerObj.GetComponent<TextMeshProUGUI>();
+        if (rounds.Length == 0) return;
 
-        if (rounds.Length == 0)
+        // 🌟 เริ่มเวลาและผูก Event (ถ้าเกมนี้มีเวลาจำกัด)
+        if (matchTimer != null)
         {
-            Debug.LogError("ยังไม่ได้ตั้งค่า Rounds ใน Inspector ครับ!");
-            return;
+            matchTimer.onTimeOut.AddListener(GameOver);
+            matchTimer.StartTimer();
         }
 
-        StartRound(); // เริ่มรอบแรก
+        StartRound();
     }
 
     private void StartRound()
     {
-        Debug.Log($"====== 🏁 เริ่มด่านสลับถ้วย รอบที่ {currentRoundIndex + 1} / {rounds.Length} ======");
-
-        // 1. ทำลายถ้วยเก่าทิ้งก่อน (ถ้านี่ไม่ใช่รอบแรก)
-        foreach (GameObject oldCup in activeCups)
-        {
-            Destroy(oldCup);
-        }
+        foreach (GameObject oldCup in activeCups) Destroy(oldCup);
         activeCups.Clear();
 
-        // 2. โหลดการตั้งค่าของรอบปัจจุบัน
         CupRoundConfig currentConfig = rounds[currentRoundIndex];
-
-        // สุ่มหาตำแหน่งหมา
         int correctCupIndex = Random.Range(0, currentConfig.numberOfCups);
 
-        // 🌟 3. คำนวณหาตำแหน่ง X เริ่มต้น เพื่อให้ถ้วยทั้งหมดวางกึ่งกลางจอพอดี
         float totalWidth = (currentConfig.numberOfCups - 1) * cupSpacing;
         float startX = tableCenterPoint.position.x - (totalWidth / 2f);
 
@@ -82,12 +68,8 @@ public class BossCupShuffleManager : MonoBehaviour
 
             newCup.AddComponent<CupClickHandler>().manager = this;
 
-            // ใส่สีถ้วย (ถ้าถ้วยเยอะกว่าสีที่มี จะวนกลับไปใช้สีแรกใหม่)
             SpriteRenderer cupRenderer = newCup.GetComponent<SpriteRenderer>();
-            if (cupRenderer != null)
-            {
-                cupRenderer.color = cupColors[i % cupColors.Length];
-            }
+            if (cupRenderer != null) cupRenderer.color = cupColors[i % cupColors.Length];
 
             Transform dogTrans = newCup.transform.Find("Dog_Inside");
             if (dogTrans != null)
@@ -96,12 +78,8 @@ public class BossCupShuffleManager : MonoBehaviour
                 {
                     dogTrans.gameObject.SetActive(true);
                     correctCupName = newCup.name;
-                    Debug.Log($"[ระบบ] 👀 โชว์หมาที่ถ้วยใบที่ {i + 1}");
                 }
-                else
-                {
-                    dogTrans.gameObject.SetActive(false);
-                }
+                else dogTrans.gameObject.SetActive(false);
             }
         }
 
@@ -112,7 +90,6 @@ public class BossCupShuffleManager : MonoBehaviour
     {
         yield return new WaitForSeconds(config.showDogDuration);
 
-        // ซ่อนหมาทั้งหมด
         foreach (GameObject cup in activeCups)
         {
             Transform dogTrans = cup.transform.Find("Dog_Inside");
@@ -122,21 +99,17 @@ public class BossCupShuffleManager : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         isShuffling = true;
-        for (int i = 0; i < config.shuffleAmount; i++)
-        {
-            yield return StartCoroutine(ShuffleRoutine(config.shuffleSpeed));
-        }
+        for (int i = 0; i < config.shuffleAmount; i++) yield return StartCoroutine(ShuffleRoutine(config.shuffleSpeed));
         isShuffling = false;
 
         canPick = true;
-        Debug.Log("🎲 สลับเสร็จแล้ว! เลือกเลย!");
     }
 
     private IEnumerator ShuffleRoutine(float speed)
     {
         int indexA = Random.Range(0, activeCups.Count);
         int indexB = Random.Range(0, activeCups.Count);
-        while (indexA == indexB) { indexB = Random.Range(0, activeCups.Count); }
+        while (indexA == indexB) indexB = Random.Range(0, activeCups.Count);
 
         GameObject cupA = activeCups[indexA];
         GameObject cupB = activeCups[indexB];
@@ -165,15 +138,13 @@ public class BossCupShuffleManager : MonoBehaviour
 
     public void OnCupClicked(GameObject clickedCup)
     {
-        if (!canPick) return;
+        if (!canPick || !isGameActive) return;
         canPick = false;
 
         clickedCup.transform.position += Vector3.up * 1.5f;
         Transform dogTrans = clickedCup.transform.Find("Dog_Inside");
 
-        bool hasDog = (clickedCup.name == correctCupName);
-
-        if (hasDog)
+        if (clickedCup.name == correctCupName)
         {
             if (dogTrans != null)
             {
@@ -181,56 +152,56 @@ public class BossCupShuffleManager : MonoBehaviour
                 dogTrans.gameObject.SetActive(true);
             }
 
-            Debug.Log($"🎉 ถูกต้อง! ผ่านรอบที่ {currentRoundIndex + 1} แล้ว!");
-
-            // ตรวจสอบว่ามีรอบต่อไปไหม?
             currentRoundIndex++;
-            if (currentRoundIndex < rounds.Length)
-            {
-                // ถ้ามี ให้หน่วงเวลาพักหายใจ 2 วินาที แล้วเริ่มรอบใหม่
-                StartCoroutine(PrepareNextRound());
-            }
-            else
-            {
-                // ถ้าครบทุกรอบแล้ว ชนะด่านบอสจริงๆ!
-                GameWin();
-            }
+            if (currentRoundIndex < rounds.Length) StartCoroutine(PrepareNextRound());
+            else GameWin();
         }
         else
         {
-            Debug.Log("💀 ว่างเปล่า... ทายผิด Game Over!");
             GameOver();
         }
     }
 
     private IEnumerator PrepareNextRound()
     {
-        Debug.Log("⏳ กำลังเตรียมตัวสู่รอบถัดไป...");
-        yield return new WaitForSeconds(2f); // หน่วงเวลาให้ผู้เล่นดีใจแป๊บนึง
-
-        // อย่าลืมลบหมาที่หลุดจากการเป็นลูกถ้วยตอนทายถูกทิ้งด้วย ไม่งั้นหมาจะค้างในฉาก
+        yield return new WaitForSeconds(2f);
         GameObject strayDog = GameObject.Find("Dog_Inside");
         if (strayDog != null) Destroy(strayDog);
-
-        StartRound(); // เรียกรอบต่อไป
+        StartRound();
     }
 
     public void GameWin()
     {
-        Debug.Log("🏆 [WIN] เอาชนะบอสครบทุกรอบเรียบร้อย!!");
+        if (!isGameActive) return;
+        isGameActive = false;
+        if (matchTimer != null) matchTimer.StopTimer();
+
+        SceneHandle currentScene = FindObjectOfType<SceneHandle>();
+        if (currentScene != null && Gamemanager.Instance != null)
+        {
+            Gamemanager.Instance.ClearScene(currentScene.sceneObject.name);
+            if (Gamemanager.Instance.dialogueUIManager != null)
+            {
+                Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_found_all");
+            }
+        }
     }
 
     public void GameOver()
     {
-        Debug.Log("💥 [LOSE] แพ้แล้ว! กลับไปเริ่มใหม่นะ!");
+        if (!isGameActive) return;
+        isGameActive = false;
+        if (matchTimer != null) matchTimer.StopTimer();
+
+        if (Gamemanager.Instance != null && Gamemanager.Instance.dialogueUIManager != null)
+        {
+            Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_lose"); // 🌟 ใช้ Dialog เดียวกันหมด
+        }
     }
+
     public class CupClickHandler : MonoBehaviour
     {
         public BossCupShuffleManager manager;
-        private void OnMouseDown()
-        {
-            if (manager != null) manager.OnCupClicked(gameObject);
-        }
+        private void OnMouseDown() { if (manager != null) manager.OnCupClicked(gameObject); }
     }
 }
-

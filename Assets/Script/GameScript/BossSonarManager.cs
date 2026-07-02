@@ -1,26 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 
 public class BossSonarManager : MonoBehaviour
 {
-    [Header("ตั้งค่าเวลา")]
-    public float timeLimit = 60f;
-
     [Header("ตั้งค่าตัวคลื่นโซน่าร์ (Sonar)")]
     public GameObject sonarVisualPrefab;
     public float maxSonarRadius = 8f;
     public float fadeSpeed = 2f;
-
-    // 🌟 1. เพิ่มตัวแปรตั้งค่าคูลดาวน์
-    [Tooltip("เวลาที่ต้องรอก่อนจะคลิกโซน่าร์ครั้งต่อไปได้ (นับหลังจากหมุนเสร็จ)")]
     public float sonarCooldown = 3f;
-    private bool canUseSonar = true; // เอาไว้เช็คว่าโซน่าร์พร้อมใช้งานไหม
 
-    private float currentTime;
+    [Header("ระบบเวลา (ลาก CountdownTimer มาใส่)")]
+    public CountdownTimer matchTimer;
+
+    private bool canUseSonar = true;
     private bool isGameActive = false;
-    private TextMeshProUGUI timerText;
     private SceneHandle currentScene;
     private List<GameObject> remainingDogs = new List<GameObject>();
 
@@ -35,21 +29,22 @@ public class BossSonarManager : MonoBehaviour
     {
         currentScene = FindObjectOfType<SceneHandle>();
 
-        GameObject timerObj = GameObject.Find("Text_Timer");
-        if (timerObj != null) timerText = timerObj.GetComponent<TextMeshProUGUI>();
-
         GameObject[] dogs = GameObject.FindGameObjectsWithTag("Dog");
         foreach (GameObject dog in dogs)
         {
-            if (dog.GetComponent<HiddenSonarDog>() == null)
-            {
-                dog.AddComponent<HiddenSonarDog>();
-            }
+            if (dog.GetComponent<HiddenSonarDog>() == null) dog.AddComponent<HiddenSonarDog>();
             remainingDogs.Add(dog);
         }
 
-        currentTime = timeLimit;
         isGameActive = true;
+
+        // 🌟 เริ่มเวลาและผูก Event
+        if (matchTimer != null)
+        {
+            matchTimer.onTimeOut.AddListener(GameOver);
+            matchTimer.StartTimer();
+        }
+
         Debug.Log($"🔊 [ระบบ] เริ่มเกม! มีหมาซ่อนอยู่ {remainingDogs.Count} ตัว");
     }
 
@@ -57,7 +52,6 @@ public class BossSonarManager : MonoBehaviour
     {
         if (!isGameActive || !Gamemanager.Instance.isStateGamePlay()) return;
 
-        // 🌟 2. ดักจับการคลิก โดยจะกดได้ก็ต่อเมื่อ canUseSonar เป็น true เท่านั้น
         if (Input.GetMouseButtonDown(0))
         {
             if (canUseSonar)
@@ -66,25 +60,12 @@ public class BossSonarManager : MonoBehaviour
                 mousePos.z = 0f;
                 StartCoroutine(SonarPulseRoutine(mousePos));
             }
-            else
-            {
-                Debug.Log("⏳ โซน่าร์กำลังชาร์จพลัง! รอแป๊บนึง...");
-            }
-        }
-
-        if (currentTime > 0)
-        {
-            currentTime -= Time.deltaTime;
-            if (timerText != null) timerText.text = Mathf.CeilToInt(currentTime).ToString();
-            if (currentTime <= 0) GameOver();
         }
     }
 
     private IEnumerator SonarPulseRoutine(Vector3 originPos)
     {
         if (sonarVisualPrefab == null) yield break;
-
-        // 🌟 3. ล็อกการกดยิงโซน่าร์ทันทีที่เริ่มยิง
         canUseSonar = false;
 
         GameObject sonarObj = Instantiate(sonarVisualPrefab, originPos, Quaternion.identity);
@@ -96,14 +77,12 @@ public class BossSonarManager : MonoBehaviour
         sr.color = c;
 
         float realRadius = (maxSonarRadius * sr.sprite.bounds.size.x) / 2f;
-
         SonarGizmoData gizmoData = new SonarGizmoData { position = originPos, radius = realRadius };
         activeGizmos.Add(gizmoData);
 
         float rotatedAmount = 0f;
         float rotationSpeed = 360f / 1.5f;
 
-        // ขั้นตอนหมุนเรดาร์ 360 องศา
         while (rotatedAmount < 360f)
         {
             float step = rotationSpeed * Time.deltaTime;
@@ -119,14 +98,11 @@ public class BossSonarManager : MonoBehaviour
                     if (dogScript != null) dogScript.OnHitBySonar();
                 }
             }
-
             yield return null;
         }
 
-        // 🌟 4. พอเรดาร์หมุนเสร็จครบวงแล้ว ให้เรียกตัวนับคูลดาวน์ 3 วินาทีทันที!
         StartCoroutine(CooldownRoutine());
 
-        // หมุนเสร็จแล้ว ค่อยๆ เฟดหายไปตามปกติ
         while (c.a > 0)
         {
             c.a -= fadeSpeed * Time.deltaTime;
@@ -138,20 +114,15 @@ public class BossSonarManager : MonoBehaviour
         Destroy(sonarObj);
     }
 
-    // 🌟 5. ฟังก์ชันนับถอยหลังคูลดาวน์แยกต่างหาก
     private IEnumerator CooldownRoutine()
     {
-        float timer = sonarCooldown; // ตั้งค่าเริ่มต้นที่ 3 วินาที
-
+        float timer = sonarCooldown;
         while (timer > 0)
         {
             timer -= Time.deltaTime;
             yield return null;
         }
-
-        // 🌟 ครบ 3 วินาทีแล้ว ปลดล็อกให้กดยิงโซน่าร์ครั้งต่อไปได้
         canUseSonar = true;
-        Debug.Log("✅ โซน่าร์ชาร์จเสร็จแล้ว! กดคลิกครั้งต่อไปได้เลย");
     }
 
     public void CaptureDog(GameObject dog)
@@ -159,34 +130,42 @@ public class BossSonarManager : MonoBehaviour
         if (remainingDogs.Contains(dog))
         {
             remainingDogs.Remove(dog);
-            Debug.Log($"🎉 จับได้! เหลืออีก {remainingDogs.Count} ตัว");
-
             if (remainingDogs.Count == 0) GameWin();
         }
     }
 
     public void GameWin()
     {
+        if (!isGameActive) return;
         isGameActive = false;
-        Debug.Log("🏆 [WIN] ชนะแล้ว!");
+        if (matchTimer != null) matchTimer.StopTimer();
+
+        if (currentScene != null && Gamemanager.Instance != null)
+        {
+            Gamemanager.Instance.ClearScene(currentScene.sceneObject.name);
+            if (Gamemanager.Instance.dialogueUIManager != null)
+            {
+                Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_found_all");
+            }
+        }
     }
 
     public void GameOver()
     {
-        currentTime = 0;
+        if (!isGameActive) return;
         isGameActive = false;
-        if (timerText != null) timerText.text = "0";
-        Debug.Log("💥 [LOSE] เวลาหมด!");
+        if (matchTimer != null) matchTimer.StopTimer();
+
+        if (Gamemanager.Instance != null && Gamemanager.Instance.dialogueUIManager != null)
+        {
+            Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_lose");
+        }
     }
 
     private void OnDrawGizmos()
     {
         if (activeGizmos == null) return;
-
         Gizmos.color = Color.yellow;
-        foreach (SonarGizmoData data in activeGizmos)
-        {
-            Gizmos.DrawWireSphere(data.position, data.radius);
-        }
+        foreach (SonarGizmoData data in activeGizmos) Gizmos.DrawWireSphere(data.position, data.radius);
     }
 }

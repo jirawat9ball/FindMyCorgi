@@ -13,22 +13,28 @@ public class BossMatchManager : MonoBehaviour
     public Dog firstSelectedDog = null;
     private Dog secondSelectedDog = null;
     private bool isCheckingMatch = false;
+    private bool isGameActive = true;
 
     private void Start()
     {
-        if (matchTimer != null) matchTimer.StartTimer();
+        // 🌟 เริ่มเวลาและผูก Event เวลาหมด
+        if (matchTimer != null)
+        {
+            matchTimer.onTimeOut.AddListener(GameOver);
+            matchTimer.StartTimer();
+        }
     }
 
     private void Update()
     {
-        // บังคับล็อคสีเหลืองทุกเฟรม ป้องกันสีหายตอนเลื่อนเมาส์
+        if (!isGameActive) return;
         if (firstSelectedDog != null) HighlightDog(firstSelectedDog, true);
         if (secondSelectedDog != null) HighlightDog(secondSelectedDog, true);
     }
 
     public void SelectDog(Dog clickedDog)
     {
-        if (isCheckingMatch) return;
+        if (!isGameActive || isCheckingMatch) return;
         if (clickedDog.currentState == DogState.Found || clickedDog == firstSelectedDog) return;
 
         if (firstSelectedDog == null)
@@ -37,7 +43,6 @@ public class BossMatchManager : MonoBehaviour
             HighlightDog(firstSelectedDog, true);
             return;
         }
-
         StartCoroutine(CheckMatchRoutine(clickedDog));
     }
 
@@ -45,19 +50,12 @@ public class BossMatchManager : MonoBehaviour
     {
         isCheckingMatch = true;
         secondSelectedDog = secondDog;
-
         HighlightDog(secondDog, true);
 
         yield return new WaitForSeconds(0.4f);
 
-        if (firstSelectedDog.id == secondDog.id && !string.IsNullOrEmpty(secondDog.id))
-        {
-            MatchSuccess(secondDog);
-        }
-        else
-        {
-            MatchFail(secondDog);
-        }
+        if (firstSelectedDog.id == secondDog.id && !string.IsNullOrEmpty(secondDog.id)) MatchSuccess(secondDog);
+        else MatchFail(secondDog);
 
         isCheckingMatch = false;
     }
@@ -76,7 +74,6 @@ public class BossMatchManager : MonoBehaviour
         tempFirst.ChangeState(DogState.Found);
         tempSecond.ChangeState(DogState.Found);
 
-        // 🌟 โยนดาเมจให้บอสเลย ไม่ต้องมานั่งนับคู่แล้ว
         if (bossHealth != null) bossHealth.TakeDamage(20);
     }
 
@@ -98,19 +95,13 @@ public class BossMatchManager : MonoBehaviour
     {
         if (dog == null) return;
         SpriteRenderer sr = dog.GetComponent<SpriteRenderer>();
-        if (sr != null)
-        {
-            sr.color = isHighlight ? Color.yellow : Color.white;
-        }
+        if (sr != null) sr.color = isHighlight ? Color.yellow : Color.white;
     }
-
-    // ===================================================
-    // 🌟 ฟังก์ชัน ชนะ/แพ้ รอรับคำสั่งจาก Event ของบอสและเวลา
-    // ===================================================
 
     public void GameWin()
     {
-        Debug.Log("👑 บอสตายแล้ว! ชนะด่าน!");
+        if (!isGameActive) return;
+        isGameActive = false;
         if (matchTimer != null) matchTimer.StopTimer();
 
         SceneHandle currentScene = FindObjectOfType<SceneHandle>();
@@ -126,6 +117,13 @@ public class BossMatchManager : MonoBehaviour
 
     public void GameOver()
     {
-        Debug.Log("💀 เวลาหมด! แพ้แล้ว!");
+        if (!isGameActive) return;
+        isGameActive = false;
+        if (matchTimer != null) matchTimer.StopTimer();
+
+        if (Gamemanager.Instance != null && Gamemanager.Instance.dialogueUIManager != null)
+        {
+            Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_lose");
+        }
     }
 }
