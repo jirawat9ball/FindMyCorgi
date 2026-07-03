@@ -901,7 +901,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 404402841162723132}
         m_TargetAssemblyTypeName: Gamemanager, Assembly-CSharp
-        m_MethodName: BackScene
+        m_MethodName: GoMapMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
