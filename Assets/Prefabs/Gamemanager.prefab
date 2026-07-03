@@ -31240,6 +31240,7 @@ MonoBehaviour:
       screenResolutionIndex: 0
       isFullscreen: 1
       languageIndex: 0
+    hasWatchedIntro: 0
   loadedScenesData: []
   Snack: 3
   Collectable: []
@@ -31329,6 +31330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OnClickSound: {fileID: 8300000, guid: d1f864d1dc312420d95448e4730d7429, type: 3}
+  OnEmptyClickSound: {fileID: 0}
   MainMenu: {fileID: 8300000, guid: f6330685fa7e42944be6e367f4b284d5, type: 3}
   DefaultBGSound: {fileID: 8300000, guid: 795bf7a37ab188d4dbecbca8f484e6ee, type: 3}
 --- !u!114 &1465858071895508810

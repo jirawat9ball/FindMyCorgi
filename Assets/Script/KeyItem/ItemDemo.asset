@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bebdd68743cf9147bd78ec1ce6c8c06, type: 3}
+  m_Name: ItemDemo
+  m_EditorClassIdentifier: 
+  KeyName: See you soon
+  KeyInfomation: Thank you for playing the demo.
+  Image: {fileID: 4609055246618937343, guid: 90ca83829615dbf4e891ee3b836eb8ce, type: 3}
+  Cursericon: []
+  imageShowGotItem: {fileID: 5088899487602174208, guid: 13f14125c702a9640bcdcb8c7d96a6bc, type: 3}
+  isStone: 0
+  DialogueWhenNeedItem: 

@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
@@ -7,6 +7,7 @@ public class SoundManager : MonoBehaviour
     AudioSource _audioBG;
 
     public AudioClip OnClickSound;
+    public AudioClip OnEmptyClickSound;
 
     public AudioClip MainMenu;
     public AudioClip DefaultBGSound;
@@ -58,7 +59,13 @@ public class SoundManager : MonoBehaviour
         _audioEF.volume = v;
     }
     public void PlayOnClickSound() {
+        if (_audioEF.isPlaying) return;
         _audioEF.PlayOneShot(OnClickSound);
+    }
+    public void PlayOnEmptyClickSound()
+    {
+        if (_audioEF.isPlaying) return;
+        _audioEF.PlayOneShot(OnEmptyClickSound);
     }
     public void PlayBGSound(AudioClip BGSound) {
         if (BGSound == null) return;

@@ -17,5 +17,5 @@ MonoBehaviour:
   soundBG: {fileID: 8300000, guid: df16baf8381ce55408ac359f92eb9ee6, type: 3}
   backScene: {fileID: 11400000, guid: 897a888dba688b74ea58ad2e7bdbd1e6, type: 2}
   rewardSets:
-  - KeyItemInThisScene: {fileID: 11400000, guid: 57cae306f0144e94894407909d0c417b, type: 2}
+  - KeyItemInThisScene: {fileID: 11400000, guid: b02db821ea50db040939a491b9ba1bef, type: 2}
     AmontDogtoUnlockKeyItem: 10
