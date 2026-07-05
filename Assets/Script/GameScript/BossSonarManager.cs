@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -145,7 +145,7 @@ public class BossSonarManager : MonoBehaviour
             Gamemanager.Instance.ClearScene(currentScene.sceneObject.name);
             if (Gamemanager.Instance.dialogueUIManager != null)
             {
-                Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_found_all");
+                UIManager.Instance.ShowDialog("dialog_found_all");
             }
         }
     }
@@ -158,7 +158,7 @@ public class BossSonarManager : MonoBehaviour
 
         if (Gamemanager.Instance != null && Gamemanager.Instance.dialogueUIManager != null)
         {
-            Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_lose");
+            UIManager.Instance.ShowDialog("dialog_lose");
         }
     }
 

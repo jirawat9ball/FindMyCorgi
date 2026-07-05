@@ -55,6 +55,7 @@ public class DialogueUIManager : MonoBehaviour
         StartCoroutine(BG.Fade(1, 0, duration));
         yield return StartCoroutine(dialogueBox.TweenFillAmount(0, duration));
         parent.SetActive(false);
+        if (UIManager.Instance != null) UIManager.Instance.OnNotificationClosed();
     }
     public void ChangeText(string newText)
     {

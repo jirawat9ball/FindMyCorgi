@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -150,6 +150,10 @@ public class PanalPopUpManager : MonoBehaviour
         if (closeLayer != null)
         {
             closeLayer.gameObject.SetActive(false);
+            if (closeLayer == GotItem)
+            {
+                if (UIManager.Instance != null) UIManager.Instance.OnNotificationClosed();
+            }
         }
     }
     void closeAllMenu() {

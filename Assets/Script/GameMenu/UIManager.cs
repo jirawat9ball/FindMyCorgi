@@ -1,7 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
+using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour
 {
+    private Queue<System.Action> notificationQueue = new Queue<System.Action>();
+    private bool isShowingNotification = false;
+
     // ==========================================
     // ⚙️ SINGLETON
     // ==========================================
@@ -98,10 +102,14 @@ public class UIManager : MonoBehaviour
     /// </summary>
     public void ShowPopUpGotItem(KeyItem keyItem)
     {
-        if (uiIngame != null)
-        {
-            uiIngame.panelPopUpManager.ShowPopUpGotItem(keyItem);
-        }
+        notificationQueue.Enqueue(() => {
+            isShowingNotification = true;
+            if (uiIngame != null)
+            {
+                uiIngame.panelPopUpManager.ShowPopUpGotItem(keyItem);
+            }
+        });
+        ProcessQueue();
     }
 
     /// <summary>
@@ -109,9 +117,28 @@ public class UIManager : MonoBehaviour
     /// </summary>
     public void ShowDialog(string dialogKey)
     {
-        if (dialogueUIManager != null)
+        notificationQueue.Enqueue(() => {
+            isShowingNotification = true;
+            if (dialogueUIManager != null)
+            {
+                dialogueUIManager.OnShowDialog(dialogKey);
+            }
+        });
+        ProcessQueue();
+    }
+
+    private void ProcessQueue()
+    {
+        if (!isShowingNotification && notificationQueue.Count > 0)
         {
-            dialogueUIManager.OnShowDialog(dialogKey);
+            var action = notificationQueue.Dequeue();
+            action?.Invoke();
         }
+    }
+
+    public void OnNotificationClosed()
+    {
+        isShowingNotification = false;
+        ProcessQueue();
     }
 }

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.Video;
 using System.Threading.Tasks;
 
@@ -24,6 +24,11 @@ public class SplashScreen : MonoBehaviour
             videoPlayer.renderMode = UnityEngine.Video.VideoRenderMode.CameraNearPlane;
             videoPlayer.targetCamera = Camera.main;
 
+            // 🌟 ให้เล่นเสียงจาก VDO โดยตรง
+            videoPlayer.audioOutputMode = VideoAudioOutputMode.Direct;
+            videoPlayer.EnableAudioTrack(0, true);
+            videoPlayer.SetDirectAudioVolume(0, 1f);
+
             videoPlayer.loopPointReached += OnVideoFinished;
             videoPlayer.Prepare();
         }
@@ -31,23 +36,19 @@ public class SplashScreen : MonoBehaviour
 
     private void Update()
     {
-        if (Input.anyKeyDown && !Input.GetKeyDown(KeyCode.Escape) && !isVideoStarted)
-        {
-            isVideoStarted = true;
-            TransitionToVideo();
-            return;
-        }
+        if (isTransitioningToMenu) return;
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.anyKeyDown)
         {
-            // 🌟 เช็คด้วยว่า ถ้ากำลังโหลดไปหน้าเมนูอยู่ จะไม่สนใจการกด ESC อีก
-            if (isVideoPlaying && !isTransitioningToMenu)
+            if (!isVideoStarted)
             {
-                TrySkipVideo();
+                isVideoStarted = true;
+                TransitionToVideo();
             }
-            else
+            else if (isVideoPlaying)
             {
-                Debug.Log("วิดีโอยังไม่พร้อม หรือ กำลังโหลดเข้าเมนูอยู่ กดซ้ำไม่ได้ครับ!");
+                // 🌟 พยายามกดข้ามถ้าวิดีโอกำลังเล่นอยู่ (ใช้ได้ทุกปุ่ม)
+                TrySkipVideo();
             }
         }
     }
@@ -64,13 +65,13 @@ public class SplashScreen : MonoBehaviour
 
         if (currentData.hasWatchedIntro)
         {
-            Debug.Log("กด ESC: ผู้เล่นเคยดูคัตซีนนี้แล้ว กดข้าม (Skip) ทันที!");
+            Debug.Log("ผู้เล่นเคยดูคัตซีนนี้แล้ว กดข้าม (Skip) ทันที!");
             isVideoPlaying = false;
             TransitionToMainMenu();
         }
         else
         {
-            Debug.Log("กด ESC แต่ข้ามไม่ได้: ไฟล์เซฟบอกว่ายังไม่เคยดูคัตซีนนี้");
+            Debug.Log("ข้ามไม่ได้: ต้องดูคัตซีนครั้งแรกให้จบก่อน");
         }
     }
 
@@ -99,6 +100,12 @@ public class SplashScreen : MonoBehaviour
                 }
 
                 isVideoPlaying = true;
+                
+                // 🌟 ปิดเสียงดนตรีประกอบ (BG Music) ระหว่างที่เล่นวิดีโอ
+                if (SoundManager.Instance != null)
+                {
+                    SoundManager.Instance.PauseBGSound(true);
+                }
 
                 if (SplashUI != null) SplashUI.SetActive(false);
             }
@@ -140,6 +147,12 @@ public class SplashScreen : MonoBehaviour
         if (videoPlayer != null)
         {
             videoPlayer.Pause();
+        }
+        
+        // 🌟 เปิดเสียงดนตรีประกอบ (BG Music) กลับคืนมา
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PauseBGSound(false);
         }
 
         LoadSceneManager.Instance.PlayLocalTransition(() =>

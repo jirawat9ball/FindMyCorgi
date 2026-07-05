@@ -100,12 +100,12 @@ public abstract class Interaction : MonoBehaviour
         if (NeedKey != null) {
             if (Gamemanager.Instance.IsHasKey(NeedKey))
             {
-                Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_unlock_success");
+                UIManager.Instance.ShowDialog("dialog_unlock_success");
                 onComplete?.Invoke();
             }
             else
             {
-                Gamemanager.Instance.dialogueUIManager.OnShowDialog(Description);
+                UIManager.Instance.ShowDialog(Description);
                 onFail?.Invoke();
             }
         }

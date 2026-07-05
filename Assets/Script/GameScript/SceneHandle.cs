@@ -96,7 +96,10 @@ public class SceneHandle : MonoBehaviour
         {
             if (interactions[i] != null)
             {
-                lostDogs.Add(interactions[i]);
+                if (!interactions[i].realDog)
+                {
+                    lostDogs.Add(interactions[i]);
+                }
             }
         }
 
@@ -261,7 +264,11 @@ public class SceneHandle : MonoBehaviour
 
             if (Gamemanager.Instance.IsDogFoundInSave(sceneObject.name, dog.name))
             {
-                if (!foundDogs.Contains(dog))
+                if (dog.realDog)
+                {
+                    dog.ChangeState(DogState.Hidden);
+                }
+                else if (!foundDogs.Contains(dog))
                 {
                     foundDogs.Add(dog);
                     lostDogs.Remove(dog);
@@ -303,11 +310,16 @@ public class SceneHandle : MonoBehaviour
 
     public void AddFoundDog(Dog dog)
     {
+        Gamemanager.Instance.RegisterFoundDogToSave(sceneObject.name, dog.name);
+
+        if (dog.realDog)
+        {
+            return;
+        }
+
         foundDogs.Add(dog);
         lostDogs.Remove(dog);
         UpdateDogUI();
-
-        Gamemanager.Instance.RegisterFoundDogToSave(sceneObject.name, dog.name);
 
         Gamemanager.Instance.totalDogsFoundInSession++;
         int requiredDogs = Gamemanager.Instance.dropEveryXDogs;
@@ -334,7 +346,7 @@ public class SceneHandle : MonoBehaviour
                     if (!Gamemanager.Instance.IsHasKey(keyItem))
                     {
                         Gamemanager.Instance.AddKeyItem(keyItem);
-                        Gamemanager.Instance.uiIngame.panelPopUpManager.ShowPopUpGotItem(keyItem);
+                        UIManager.Instance.ShowPopUpGotItem(keyItem);
                     }
                 }
             }
@@ -342,7 +354,7 @@ public class SceneHandle : MonoBehaviour
         }
         if (lostDogs.Count == 0)
         {
-            Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_found_all");
+            UIManager.Instance.ShowDialog("dialog_found_all");
             Gamemanager.Instance.ClearScene(sceneObject.name);
         }
     }

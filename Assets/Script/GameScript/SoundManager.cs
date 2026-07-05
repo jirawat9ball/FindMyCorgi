@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
@@ -72,6 +72,18 @@ public class SoundManager : MonoBehaviour
         if (_audioBG.clip == BGSound && _audioBG.isPlaying) return; // 🌟 ถ้าเป็นเพลงเดิมที่กำลังเล่นอยู่ ให้ข้ามไปเลย ไม่ต้องเริ่มใหม่
         _audioBG.clip = BGSound;
         _audioBG.Play();
+    }
+
+    public void PauseBGSound(bool pause)
+    {
+        if (pause)
+        {
+            _audioBG.Pause();
+        }
+        else
+        {
+            _audioBG.UnPause();
+        }
     }
 
     public void PlayBGSoundDefault() {         

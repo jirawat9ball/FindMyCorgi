@@ -24,7 +24,7 @@ public class ClickObject : Obstacle
             if (FailedClick >= 3)
             {
                 FailedClick = 0; // Reset the failed click count
-                Gamemanager.Instance.dialogueUIManager.OnShowDialog(NeedKey.DialogueWhenNeedItem);
+                UIManager.Instance.ShowDialog(NeedKey.DialogueWhenNeedItem);
             }
             return; // แจ้งเตือนเสร็จให้เด้งออกไปเลย ไม่ต้องนับคลิกผ่าน
         }

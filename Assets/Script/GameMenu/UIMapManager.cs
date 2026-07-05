@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -61,11 +61,28 @@ public class UIMapManager : MonoBehaviour
 
                 // กวาดหาปุ่มทุกอันที่อยู่ใน Country นี้
                 Button[] allBtns = uIMapScenes[i].GetComponentsInChildren<Button>(true);
-                foreach (Button btn in allBtns) btn.interactable = isCountryUnlocked;
+                foreach (Button btn in allBtns)
+                {
+                    btn.interactable = isCountryUnlocked;
+
+                    // 🌟 แก้ปัญหาความโปร่งใสที่เกิดจากระบบ Button ของ Unity
+                    // โดยปกติปุ่มที่กดไม่ได้ (Disabled) จะถูกลดค่า Alpha ลงครึ่งนึง (0.5)
+                    // เราต้องไปบังคับให้สีตอนปุ่มพัง (Disabled Color) เป็นแบบทึบ 100%
+                    ColorBlock cb = btn.colors;
+                    Color dc = cb.disabledColor;
+                    dc.a = 1f; 
+                    cb.disabledColor = dc;
+                    btn.colors = cb;
+                }
 
                 // กวาดหารูปภาพ (Pin, พื้นหลัง, ฯลฯ) ทุกชิ้นมาเปลี่ยนสี
                 Image[] allImgs = uIMapScenes[i].GetComponentsInChildren<Image>(true);
-                foreach (Image img in allImgs) img.color = isCountryUnlocked ? Color.white : Color.gray;
+                foreach (Image img in allImgs)
+                {
+                    Color targetColor = isCountryUnlocked ? Color.white : Color.gray;
+                    targetColor.a = 1f; // 🌟 บังคับตั้งค่าทึบ 100% (ลบความโปร่งใสทิ้งทั้งหมด)
+                    img.color = targetColor;
+                }
 
                 // 🌟 ขั้นที่ 3: สั่งลงสี "ด่านย่อย" ทับอีกรอบ! 
                 // (เพราะขั้นที่ 2 อาจจะเผลอสาดสีโดนด่านย่อยไปด้วย เราเลยต้องมาเซ็ตด่านย่อยให้กลับมาตรงตามสถานะจริงของมัน)

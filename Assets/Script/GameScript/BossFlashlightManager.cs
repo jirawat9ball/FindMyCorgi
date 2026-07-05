@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -142,7 +142,7 @@ public class FlashlightManager : MonoBehaviour
             Gamemanager.Instance.ClearScene(currentScene.sceneObject.name);
             if (Gamemanager.Instance.dialogueUIManager != null)
             {
-                Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_found_all");
+                UIManager.Instance.ShowDialog("dialog_found_all");
             }
         }
     }
@@ -165,7 +165,7 @@ public class FlashlightManager : MonoBehaviour
 
         //if (Gamemanager.Instance != null && Gamemanager.Instance.dialogueUIManager != null)
         //{
-        //    Gamemanager.Instance.dialogueUIManager.OnShowDialog("dialog_lose");
+        //    UIManager.Instance.ShowDialog("dialog_lose");
         //}
     }
 
