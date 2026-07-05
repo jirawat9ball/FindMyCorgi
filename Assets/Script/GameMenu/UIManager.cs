@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour
@@ -16,6 +16,7 @@ public class UIManager : MonoBehaviour
     public GameObject PanelCamp;
     public GameObject MapMenu;
     public GameObject GameMenu;
+    public GameObject RaycastBlocker;
 
     [Header("ระบบย่อย UI")]
     public UIingame uiIngame;

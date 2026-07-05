@@ -36,6 +36,7 @@ public class Dog : Interaction
     private Vector3 originalScale;
     private Collider2D dogCollider;
     private bool isPopping = false; // 🌟 ป้องกันคลิกย้ำๆ ทำให้อนิเมชันบวมค้าง
+    private int originalSortingOrder; // 🌟 เก็บค่า Order in layer เดิมไว้
 
     SceneHandle sceneHandle
     {
@@ -49,6 +50,8 @@ public class Dog : Interaction
         dogCollider = GetComponent<Collider2D>();
         transform.position = new Vector3(transform.position.x, transform.position.y, 0);
         blockingObstacle?.SetDog(this);
+
+        if (spriteRenderer != null) originalSortingOrder = spriteRenderer.sortingOrder;
     }
 
     protected override void Start()
@@ -81,6 +84,7 @@ public class Dog : Interaction
                     spriteRenderer.enabled = true;
                     if (spriteNotFound != null) spriteRenderer.sprite = spriteNotFound;
                     spriteRenderer.color = Color.white; // สีปกติ
+                    spriteRenderer.sortingOrder = originalSortingOrder; // คืนค่า Order ปกติ
                 }
                 if (dogCollider != null) dogCollider.enabled = true;
                 break;
@@ -92,6 +96,7 @@ public class Dog : Interaction
                     spriteRenderer.enabled = true;
                     if (spriteFound != null) spriteRenderer.sprite = spriteFound;
                     spriteRenderer.color = sceneHandle.HintDogColor;
+                    spriteRenderer.sortingOrder = originalSortingOrder; // คืนค่า Order ปกติ
                 }
                 if (dogCollider != null) dogCollider.enabled = true;
                 break;
@@ -106,10 +111,10 @@ public class Dog : Interaction
 
                     if (spriteRenderer != null)
                     {
-
                         spriteRenderer.enabled = true;
                         if (spriteFound != null) spriteRenderer.sprite = spriteFound;
                         spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
+                        spriteRenderer.sortingOrder = 999; // 🌟 ดันเลเยอร์ให้ลอยเหนือฉาก
                         float fadeTime = 1.0f;
 
                         StartCoroutine(FadeOutAndHideRoutine(fadeTime));
@@ -123,6 +128,7 @@ public class Dog : Interaction
                         spriteRenderer.enabled = true;
                         if (spriteFound != null) spriteRenderer.sprite = spriteFound;
                         spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
+                        spriteRenderer.sortingOrder = 999; // 🌟 ดันเลเยอร์ให้ลอยเหนือฉาก
                     }
                     if (dogCollider != null) dogCollider.enabled = true;
                     // สั่งปลดล็อคสิ่งกีดขวาง (อันนี้ต้องทำทั้งคู่ เลยเอาไว้นอก if-else)

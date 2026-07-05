@@ -100,6 +100,12 @@ public class SplashScreen : MonoBehaviour
                 }
 
                 isVideoPlaying = true;
+
+                // 🌟 เปิดตัวบังคลิก (RaycastBlocker) ตอนวิดีโอเริ่มเล่น
+                if (UIManager.Instance != null && UIManager.Instance.RaycastBlocker != null)
+                {
+                    UIManager.Instance.RaycastBlocker.SetActive(true);
+                }
                 
                 // 🌟 ปิดเสียงดนตรีประกอบ (BG Music) ระหว่างที่เล่นวิดีโอ
                 if (SoundManager.Instance != null)
@@ -144,6 +150,12 @@ public class SplashScreen : MonoBehaviour
         // ล็อคแม่กุญแจทันที!
         isTransitioningToMenu = true;
 
+        // 🌟 ปิดตัวบังคลิก (RaycastBlocker) กลับคืนเมื่อออกจากวิดีโอ
+        if (UIManager.Instance != null && UIManager.Instance.RaycastBlocker != null)
+        {
+            UIManager.Instance.RaycastBlocker.SetActive(false);
+        }
+
         if (videoPlayer != null)
         {
             videoPlayer.Pause();
@@ -171,6 +183,12 @@ public class SplashScreen : MonoBehaviour
         if (videoPlayer != null)
         {
             videoPlayer.loopPointReached -= OnVideoFinished;
+        }
+
+        // เผื่อซีนถูกทำลายระหว่างทาง ให้แน่ใจว่าปิด Blocker แน่นอน
+        if (UIManager.Instance != null && UIManager.Instance.RaycastBlocker != null)
+        {
+            UIManager.Instance.RaycastBlocker.SetActive(false);
         }
     }
 }

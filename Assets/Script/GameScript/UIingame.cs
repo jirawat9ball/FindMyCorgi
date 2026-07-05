@@ -12,6 +12,7 @@ public class UIingame : MonoBehaviour
     public TextMeshProUGUI SpecialDogTxt;
     public TextMeshProUGUI announceText;
     public TextMeshProUGUI SnackTxt;
+    
 
     [UnityEngine.Serialization.FormerlySerializedAs("panalPopUpManager")]
     public PanalPopUpManager panelPopUpManager;
