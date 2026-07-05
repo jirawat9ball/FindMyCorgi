@@ -2,16 +2,15 @@ using UnityEngine;
 
 public class ClickParticlePlayer : MonoBehaviour
 {
-
     [Header("Particle Settings")]
-    [Tooltip("≈“° Particle System ∑’Ë¡’Õ¬ŸË„π©“° (Scene) ¡“„ Ë™ËÕßπ’È")]
+    [Tooltip("Particle System in the scene")]
     public ParticleSystem targetParticle;
 
-    [Tooltip("√–¬–ÀË“ß®“°°≈ÈÕß („™È ”À√—∫‡°¡ 2D À√◊Õ‡¡◊ËÕ§≈‘°‰¡Ë‚¥π«—µ∂ÿ 3D)")]
+    [Tooltip("Z distance for 2D raycast")]
     public float defaultZDistance = 10f;
 
     [Header("3D Settings")]
-    [Tooltip("‡ª‘¥„™Èß“π∂È“µÈÕß°“√„ÀÈ Particle ¬È“¬‰ª∫πæ◊Èπº‘««—µ∂ÿ 3D ∑’Ë¡’ Collider")]
+    [Tooltip("Enable for 3D raycast")]
     public bool useRaycastFor3D = false;
 
     [Header("Emission Counts")]
@@ -22,15 +21,12 @@ public class ClickParticlePlayer : MonoBehaviour
 
     void Start()
     {
-        // ÕÈ“ßÕ‘ß∂÷ß Main Camera „π©“°
         cam = Camera.main;
-        // µ—Èß§Ë“‡√‘Ë¡µÈπ: „ÀÈ Particle À¬ÿ¥ª≈ËÕ¬·∫∫Õ—µ‚π¡—µ‘ (Manual Emit ‡∑Ë“π—Èπ)
         if (targetParticle != null)
         {
             var emission = targetParticle.emission;
             emission.enabled = true;
-            emission.rateOverTime = 0; // ª‘¥°“√‰À≈·∫∫ª°µ‘
-            // ≈∫ Burst „π Inspector ÕÕ°¥È«¬‡æ◊ËÕ„ÀÈ §√‘ªµÏ§ÿ¡ 100%
+            emission.rateOverTime = 0; 
         }
     }
 
@@ -48,38 +44,60 @@ public class ClickParticlePlayer : MonoBehaviour
 
     void HandleClick(Vector3 screenPos)
     {
-        SoundManager.Instance.PlayOnClickSound();
-
-        if (targetParticle == null) return;
+        // üåü ‡∏õ‡πâ‡∏≠‡∏á‡∏Å‡∏±‡∏ô‡πÑ‡∏°‡πà‡πÉ‡∏´‡πâ‡πÄ‡∏•‡πà‡∏ô‡πÄ‡∏™‡∏µ‡∏¢‡∏á‡πÅ‡∏•‡∏∞ Particle ‡πÄ‡∏°‡∏∑‡πà‡∏≠‡∏Å‡∏î‡πÇ‡∏î‡∏ô‡∏õ‡∏∏‡πà‡∏° UI
+        if (UnityEngine.EventSystems.EventSystem.current != null)
+        {
+            // ‡∏ï‡∏£‡∏ß‡∏à‡∏™‡∏≠‡∏ö‡∏ß‡πà‡∏≤ ‡πÄ‡∏°‡∏≤‡∏™‡πå ‡∏´‡∏£‡∏∑‡∏≠ ‡∏ô‡∏¥‡πâ‡∏ß‡∏™‡∏±‡∏°‡∏ú‡∏±‡∏™ ‡∏≠‡∏¢‡∏π‡πà‡∏ö‡∏ô UI ‡∏´‡∏£‡∏∑‡∏≠‡πÑ‡∏°‡πà
+            if (Application.isMobilePlatform && Input.touchCount > 0)
+            {
+                if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)) return;
+            }
+            else
+            {
+                if (UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject()) return;
+            }
+        }
 
         Vector3 spawnPosition;
         int emitCount;
 
-        // ·ª≈ßµ”·ÀπËß‡¡“ Ï∫π®Õ „ÀÈ‡ªÁπµ”·ÀπËß„π‚≈°¢Õß‡°¡
         Vector2 mousePos2D = cam.ScreenToWorldPoint(screenPos);
-
-        // ¬‘ß Raycast ·∫∫ 2D ≈ß‰ª∑’Ë®ÿ¥π—Èπ‚¥¬µ√ß (√–¬–∑“ß 0)
         RaycastHit2D hit2D = Physics2D.Raycast(mousePos2D, Vector2.zero);
 
-        // µ√«® Õ∫«Ë“ "™π«—µ∂ÿ 2D" À√◊Õ‰¡Ë
         if (hit2D.collider != null)
         {
-            // °√≥’: °¥‚¥π«—µ∂ÿ 2D
+            // üåü ‡πÄ‡∏ä‡πá‡∏Ñ‡∏ß‡πà‡∏≤‡∏ß‡∏±‡∏ï‡∏ñ‡∏∏‡∏ô‡∏µ‡πâ‡∏°‡∏µ‡πÄ‡∏™‡∏µ‡∏¢‡∏á‡πÄ‡∏â‡∏û‡∏≤‡∏∞‡∏ï‡∏±‡∏ß‡πÑ‡∏´‡∏° (‡∏™‡∏Ñ‡∏£‡∏¥‡∏õ‡∏ï‡πå Interaction)
+            Interaction interaction = hit2D.collider.GetComponent<Interaction>();
+            if (interaction != null && interaction.clipClick != null && interaction.clipClick.Length > 0)
+            {
+                // ‡∏™‡∏∏‡πà‡∏°‡πÄ‡∏™‡∏µ‡∏¢‡∏á‡∏à‡∏≤‡∏Å Array
+                AudioClip randomClip = interaction.clipClick[Random.Range(0, interaction.clipClick.Length)];
+                SoundManager.Instance.PlayCustomSound(randomClip);
+            }
+            else
+            {
+                // ‡πÇ‡∏î‡∏ô‡∏ß‡∏±‡∏ï‡∏ñ‡∏∏ ‡πÄ‡∏•‡πà‡∏ô‡πÄ‡∏™‡∏µ‡∏¢‡∏á‡∏õ‡∏Å‡∏ï‡∏¥
+                SoundManager.Instance.PlayOnClickSound();
+            }
+            
             spawnPosition = hit2D.point;
-            spawnPosition.z = defaultZDistance; // ∫—ß§—∫·°π Z ‰¡Ë„ÀÈæ“√Ïµ‘‡§‘≈®¡
-            emitCount = countOnObject; // 10
-            Debug.Log("Hit 2D Object: " + hit2D.collider.gameObject.name);
+            spawnPosition.z = defaultZDistance; 
+            emitCount = countOnObject;
         }
         else
         {
-            // °√≥’: °¥æ◊Èπ∑’Ë«Ë“ß
+            // üåü ‡∏Å‡∏î‡πÇ‡∏î‡∏ô‡∏ó‡∏µ‡πà‡∏ß‡πà‡∏≤‡∏á‡πÄ‡∏õ‡∏•‡πà‡∏≤ ‡πÄ‡∏•‡πà‡∏ô‡πÄ‡∏™‡∏µ‡∏¢‡∏á Empty
+            SoundManager.Instance.PlayOnEmptyClickSound();
+            
             screenPos.z = defaultZDistance;
             spawnPosition = cam.ScreenToWorldPoint(screenPos);
-            emitCount = countOnEmptySpace; // 4
-            Debug.Log("Empty Space");
+            emitCount = countOnEmptySpace;
         }
 
-        targetParticle.transform.position = spawnPosition;
-        targetParticle.Emit(emitCount);
+        if (targetParticle != null)
+        {
+            targetParticle.transform.position = spawnPosition;
+            targetParticle.Emit(emitCount);
+        }
     }
 }

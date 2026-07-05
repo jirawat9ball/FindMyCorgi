@@ -156,8 +156,7 @@ public class Dog : Interaction
 
         base.OnMouseDown();
 
-        // 🌟 เล่นเสียงและทำอนิเมชันเด้งดึ๋งเสมอเวลากดโดน (ไม่ว่าจะโหมดไหน)
-        SoundManager.Instance.PlayOnClickSound();
+        // 🌟 ทำอนิเมชันเด้งดึ๋งเสมอเวลากดโดน
         if (!isPopping)
         {
             StopAllCoroutines();

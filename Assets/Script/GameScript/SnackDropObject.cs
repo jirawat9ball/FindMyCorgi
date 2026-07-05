@@ -77,9 +77,6 @@ public class SnackDropObject : Interaction
         // 🌟 เพิ่มจำนวน Snack (แอบใช้ฟังก์ชันเดียวกับดูโฆษณาไปก่อน)
         Gamemanager.Instance.AddSnackFromAd(1);
         
-        // 🌟 เสียงตอนเก็บ
-        SoundManager.Instance.PlayOnClickSound();
-
         // 🌟 ทำให้หายไป
         Destroy(gameObject);
     }

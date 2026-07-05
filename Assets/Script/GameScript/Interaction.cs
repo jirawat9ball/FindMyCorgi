@@ -11,7 +11,7 @@ public abstract class Interaction : MonoBehaviour
     public KeyItem NeedKey;
     [Tooltip("ใส่ Key จากไฟล์ภาษา เช่น desc_box_locked")]
     public string Description;
-    public AudioClip clip;
+    public AudioClip[] clipClick;
 
     BoxCollider2D _boxCollider;
     protected BoxCollider2D boxCollider

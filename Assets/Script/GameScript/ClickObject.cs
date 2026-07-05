@@ -19,7 +19,6 @@ public class ClickObject : Obstacle
         if (NeedKey != null && !Gamemanager.Instance.IsHasKey(NeedKey))
         {
             onFail?.Invoke();
-            SoundManager.Instance.PlayOnClickSound();
             FailedClick++;
             if (FailedClick >= 3)
             {

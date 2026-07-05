@@ -62,6 +62,13 @@ public class SoundManager : MonoBehaviour
         if (_audioEF.isPlaying) return;
         _audioEF.PlayOneShot(OnClickSound);
     }
+
+    public void PlayCustomSound(AudioClip customClip)
+    {
+        if (customClip == null) return;
+        if (_audioEF.isPlaying) return;
+        _audioEF.PlayOneShot(customClip);
+    }
     public void PlayOnEmptyClickSound()
     {
         if (_audioEF.isPlaying) return;
