@@ -84,6 +84,22 @@ public class UIMapManager : MonoBehaviour
                     img.color = targetColor;
                 }
 
+                // 🌟 ขั้นที่ 2.5: เปลี่ยนชื่อด่านของประเทศที่ล็อกอยู่ให้แสดงเป็น "???"
+                if (!isCountryUnlocked)
+                {
+                    TMPro.TextMeshProUGUI[] allTextsTMP = uIMapScenes[i].GetComponentsInChildren<TMPro.TextMeshProUGUI>(true);
+                    foreach (TMPro.TextMeshProUGUI txt in allTextsTMP)
+                    {
+                        txt.text = "???";
+                    }
+
+                    Text[] allTextsNormal = uIMapScenes[i].GetComponentsInChildren<Text>(true);
+                    foreach (Text txt in allTextsNormal)
+                    {
+                        txt.text = "???";
+                    }
+                }
+
                 // 🌟 ขั้นที่ 3: สั่งลงสี "ด่านย่อย" ทับอีกรอบ! 
                 // (เพราะขั้นที่ 2 อาจจะเผลอสาดสีโดนด่านย่อยไปด้วย เราเลยต้องมาเซ็ตด่านย่อยให้กลับมาตรงตามสถานะจริงของมัน)
                 if (mapScene != null && mapScene.parrent != null)
