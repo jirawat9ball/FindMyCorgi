@@ -56,4 +56,7 @@ public class SaveData
     //ใช้เช็กว่าเคยดูคัตซีนมั้ย
     [Header("คัตซีนเปิดเกม")]
     public bool hasWatchedIntro = false;
+    
+    [Header("สถานะสอนเล่น (Tutorial)")]
+    public bool hasCompletedTutorial = false; // สำหรับสอนเล่นเมื่อเข้าด่านทิเบตครั้งแรก
 }

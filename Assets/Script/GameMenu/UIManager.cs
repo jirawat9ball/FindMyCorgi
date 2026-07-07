@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections.Generic;
 
 public class UIManager : MonoBehaviour
@@ -37,6 +37,9 @@ public class UIManager : MonoBehaviour
         }
 
         string currentSceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+
+        // 🌟 ป้องกันบั๊กกดจอไม่ได้เมื่อรันเกมที่ซีนย่อยโดยตรง (กัน RaycastBlocker ค้างจากการตั้งค่าใน Prefab)
+        if (RaycastBlocker != null) RaycastBlocker.SetActive(false);
 
         if (currentSceneName == "Stage Select") 
         {

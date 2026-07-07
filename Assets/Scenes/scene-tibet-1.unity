@@ -138,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -757,7 +757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -928,7 +928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1136,7 +1136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1216,7 +1216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1296,7 +1296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1456,7 +1456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1536,7 +1536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1696,7 +1696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1776,7 +1776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1861,7 +1861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1941,7 +1941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -2021,7 +2021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -2101,7 +2101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -2181,7 +2181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -2704,6 +2704,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5657276714756038967, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 5657276714756038967, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
       objectReference: {fileID: 0}
@@ -3206,7 +3210,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -3286,7 +3290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -3366,7 +3370,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -3446,7 +3450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -3526,7 +3530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -3606,7 +3610,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -3691,7 +3695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -3771,7 +3775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -3851,7 +3855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -3931,7 +3935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4011,7 +4015,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4091,7 +4095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickObject
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4168,7 +4172,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickObject
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4245,7 +4249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickObject
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls:
@@ -4334,7 +4338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4414,7 +4418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4494,7 +4498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4574,7 +4578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4654,7 +4658,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickObject
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls:
@@ -4743,7 +4747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4823,7 +4827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4903,7 +4907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -4983,7 +4987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -5063,7 +5067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -5143,7 +5147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -5223,7 +5227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -5303,7 +5307,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -5383,7 +5387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -5463,7 +5467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -5543,7 +5547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlideObject
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -5623,7 +5627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickObject
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls:
@@ -5723,7 +5727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -5803,7 +5807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dog
   NeedKey: {fileID: 0}
   Description: 
-  clip: {fileID: 0}
+  clipClick: []
   onComplete:
     m_PersistentCalls:
       m_Calls: []

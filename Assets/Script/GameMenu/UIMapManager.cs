@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -13,6 +14,9 @@ public class UIMapManager : MonoBehaviour
     {
         StartCoroutine(ActivateObjectsWithDelayRoutine());
     }
+
+    private Dictionary<TMPro.TextMeshProUGUI, string> originalTextTMP = new Dictionary<TMPro.TextMeshProUGUI, string>();
+    private Dictionary<Text, string> originalTextNormal = new Dictionary<Text, string>();
 
     public IEnumerator ActivateObjectsWithDelayRoutine()
     {
@@ -59,6 +63,23 @@ public class UIMapManager : MonoBehaviour
                 // 🌟 ขั้นที่ 2: สั่งกวาด "ด่านใหญ่ (Country)" ให้ย้อมสีและล็อกปุ่มแบบถอนรากถอนโคน
                 bool isCountryUnlocked = unlockCount > 0;
 
+                // 🌟 ระบบ Tutorial บังคับให้เข้า Tibet ในการเล่นครั้งแรกสุด
+                if (Gamemanager.Instance != null && Gamemanager.Instance.currentSaveData != null)
+                {
+                    if (!Gamemanager.Instance.currentSaveData.hasCompletedTutorial)
+                    {
+                        bool isTibet = uIMapScenes[i].name.ToLower().Contains("tibet");
+                        if (isTibet)
+                        {
+                            isCountryUnlocked = true; // ปลดล็อคแค่ทิเบต
+                        }
+                        else
+                        {
+                            isCountryUnlocked = false; // ล็อกประเทศอื่นให้หมด
+                        }
+                    }
+                }
+
                 // กวาดหาปุ่มทุกอันที่อยู่ใน Country นี้
                 Button[] allBtns = uIMapScenes[i].GetComponentsInChildren<Button>(true);
                 foreach (Button btn in allBtns)
@@ -85,19 +106,23 @@ public class UIMapManager : MonoBehaviour
                 }
 
                 // 🌟 ขั้นที่ 2.5: เปลี่ยนชื่อด่านของประเทศที่ล็อกอยู่ให้แสดงเป็น "???"
-                if (!isCountryUnlocked)
+                // และถ้าปลดล็อกแล้ว ให้คืนค่าชื่อด่านเดิมกลับมา
+                TMPro.TextMeshProUGUI[] allTextsTMP = uIMapScenes[i].GetComponentsInChildren<TMPro.TextMeshProUGUI>(true);
+                foreach (TMPro.TextMeshProUGUI txt in allTextsTMP)
                 {
-                    TMPro.TextMeshProUGUI[] allTextsTMP = uIMapScenes[i].GetComponentsInChildren<TMPro.TextMeshProUGUI>(true);
-                    foreach (TMPro.TextMeshProUGUI txt in allTextsTMP)
-                    {
-                        txt.text = "???";
-                    }
+                    if (!originalTextTMP.ContainsKey(txt))
+                        originalTextTMP[txt] = txt.text; // จดจำชื่อด่านเดิมไว้
 
-                    Text[] allTextsNormal = uIMapScenes[i].GetComponentsInChildren<Text>(true);
-                    foreach (Text txt in allTextsNormal)
-                    {
-                        txt.text = "???";
-                    }
+                    txt.text = isCountryUnlocked ? originalTextTMP[txt] : "???";
+                }
+
+                Text[] allTextsNormal = uIMapScenes[i].GetComponentsInChildren<Text>(true);
+                foreach (Text txt in allTextsNormal)
+                {
+                    if (!originalTextNormal.ContainsKey(txt))
+                        originalTextNormal[txt] = txt.text; // จดจำชื่อด่านเดิมไว้
+
+                    txt.text = isCountryUnlocked ? originalTextNormal[txt] : "???";
                 }
 
                 // 🌟 ขั้นที่ 3: สั่งลงสี "ด่านย่อย" ทับอีกรอบ! 
