@@ -137,6 +137,13 @@ public class SplashScreen : MonoBehaviour
 
         currentData.hasWatchedIntro = true;
         SaveManager.Instance.SaveGame(currentData);
+        
+        // 🌟 ซิงค์ข้อมูลไปที่ Gamemanager ด้วย (ถ้ามี) ไม่งั้นเดี๋ยว Gamemanager จะเซฟทับกลับเป็น false!
+        if (Gamemanager.Instance != null && Gamemanager.Instance.currentSaveData != null)
+        {
+            Gamemanager.Instance.currentSaveData.hasWatchedIntro = true;
+        }
+
         Debug.Log("💾 บันทึกสถานะการดูคัตซีนลงไฟล์ JSON สำเร็จ!");
 
         TransitionToMainMenu();

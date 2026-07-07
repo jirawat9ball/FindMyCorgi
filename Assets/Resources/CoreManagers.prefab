@@ -6382,6 +6382,10 @@ PrefabInstance:
       propertyPath: targetParticle
       value: 
       objectReference: {fileID: 1591661386052922774}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: useRaycastFor3D
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4814752964680184468, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
       propertyPath: cameraPan
       value: 
@@ -6528,7 +6532,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 858587775129183688, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
       insertIndex: 1
       addedObject: {fileID: 6730212270423144772}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9022934916400931390, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7099227032997561090}
   m_SourcePrefab: {fileID: 100100000, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
 --- !u!114 &404402841162723132 stripped
 MonoBehaviour:
@@ -6546,6 +6553,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9022934916400931390, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
   m_PrefabInstance: {fileID: 5137985340886015400}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7099227032997561090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4213730919756283798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e02b924e324c040b9de72cf25bf608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialManager
 --- !u!224 &4327087006506315480 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8881429172818850672, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
@@ -6571,6 +6590,10 @@ PrefabInstance:
     - target: {fileID: 813589519095610899, guid: 5ba80b98fb8448f409699dc511db8cc1, type: 3}
       propertyPath: m_Name
       value: LoadSceneManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 813589519095610899, guid: 5ba80b98fb8448f409699dc511db8cc1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1789247334304796193, guid: 5ba80b98fb8448f409699dc511db8cc1, type: 3}
       propertyPath: m_AnchorMax.x

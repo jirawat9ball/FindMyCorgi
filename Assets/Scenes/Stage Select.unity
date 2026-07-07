@@ -177,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3420390489194063234, guid: 050c128cff02b934e80d64b9d36220a2, type: 3}
+  m_Sprite: {fileID: 7795126773457878048, guid: 60272a5f0d049dc44b0a0fd6783ad68d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -267,15 +267,15 @@ RectTransform:
   m_GameObject: {fileID: 1009733188}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7257259, y: 0.46183875, z: 0.6597508}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 197783485}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 118}
-  m_SizeDelta: {x: 2235.6, y: 1294.8}
+  m_AnchoredPosition: {x: -18, y: 514}
+  m_SizeDelta: {x: 2800, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1009733190
 MonoBehaviour:
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5958278538375663963, guid: fa16ff621f943ba4e8aa5a899a53441e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e7459f1b304f232448bf70e7661c5b8f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -413,8 +413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshProComponent: {fileID: 1131705870}
-  colorStart: {r: 0, g: 0, b: 0, a: 0.43137255}
-  colorEnd: {r: 0, g: 0, b: 0, a: 1}
+  colorStart: {r: 1, g: 1, b: 1, a: 0.43137255}
+  colorEnd: {r: 1, g: 1, b: 1, a: 1}
   scaleStart: {x: 1, y: 1, z: 1}
   scaleEnd: {x: 1.2, y: 1.2, z: 1.2}
   duration: 1
@@ -471,8 +471,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

@@ -8,6 +8,7 @@ public class ClickObject : Obstacle
     public int RequiredClick = 1;
     int countClick = 0;
     int FailedClick = 0;
+
     protected override void OnMouseDown()
     {
         if (!Gamemanager.Instance.isStateGamePlay())
@@ -28,7 +29,7 @@ public class ClickObject : Obstacle
             return; // แจ้งเตือนเสร็จให้เด้งออกไปเลย ไม่ต้องนับคลิกผ่าน
         }
 
-        // 🌟 ถ้าหลุดมาถึงตรงนี้ได้ แปลว่า "ต้องการกุญแจและมีแล้ว" หรือ "ไม่ต้องใช้กุญแจเลย" ก็จะให้คลิกผ่านได้ปกติ
+        // 🌟 3. ถ้าหลุดมาถึงตรงนี้ได้ แปลว่าผ่านเงื่อนไขทั้งหมด ก็นับคลิกปกติ
         countClick++;
         ChangeSprite();
         
@@ -70,6 +71,7 @@ public class ClickObject : Obstacle
 
         boxCollider.enabled = false;
         onComplete?.Invoke();
+
         Debug.Log("Play Partical");
         Debug.Log("Play Sound");
         //Destroy(gameObject);

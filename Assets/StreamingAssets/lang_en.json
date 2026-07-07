@@ -31,6 +31,10 @@
         {
             "key": "desc_box_locked",
             "value": "This box seems to be locked..."
+        },
+        {
+            "key": "dialog_need_more_dogs",
+            "value": "You must find all dogs in this area first!"
         }
     ]
 }
