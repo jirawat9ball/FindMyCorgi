@@ -114,7 +114,7 @@ public class Dog : Interaction
                         spriteRenderer.enabled = true;
                         if (spriteFound != null) spriteRenderer.sprite = spriteFound;
                         spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
-                        spriteRenderer.sortingOrder = 999; // 🌟 ดันเลเยอร์ให้ลอยเหนือฉาก
+                        spriteRenderer.sortingOrder = 500; // 🌟 ดันเลเยอร์ให้ลอยเหนือฉาก
                         float fadeTime = 1.0f;
 
                         StartCoroutine(FadeOutAndHideRoutine(fadeTime));
@@ -128,7 +128,7 @@ public class Dog : Interaction
                         spriteRenderer.enabled = true;
                         if (spriteFound != null) spriteRenderer.sprite = spriteFound;
                         spriteRenderer.color = isSpecial ? sceneHandle.FoundSpecialDogColor : sceneHandle.FoundDogColor;
-                        spriteRenderer.sortingOrder = 999; // 🌟 ดันเลเยอร์ให้ลอยเหนือฉาก
+                        spriteRenderer.sortingOrder = 500; // 🌟 ดันเลเยอร์ให้ลอยเหนือฉาก
                     }
                     if (dogCollider != null) dogCollider.enabled = true;
                     // สั่งปลดล็อคสิ่งกีดขวาง (อันนี้ต้องทำทั้งคู่ เลยเอาไว้นอก if-else)

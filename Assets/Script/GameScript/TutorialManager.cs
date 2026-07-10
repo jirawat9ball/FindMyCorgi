@@ -29,7 +29,6 @@ public class TutorialManager : MonoBehaviour
         };
     }
 
-    // 🌟 ฟังก์ชันหาปุ่มอัตโนมัติจากชื่อ
     private GameObject FindButtonByName(string keyword)
     {
         Button[] allButtons = Resources.FindObjectsOfTypeAll<Button>();
@@ -37,6 +36,18 @@ public class TutorialManager : MonoBehaviour
         {
             if (btn.gameObject.scene.name == null) continue; // ข้าม Prefab ในโปรเจกต์
             if (btn.gameObject.name.ToLower().Contains(keyword)) return btn.gameObject;
+        }
+        return null;
+    }
+
+    // 🌟 ฟังก์ชันหา Object อัตโนมัติ (หาเจอแม้จะโดนปิด Active ไว้)
+    private GameObject FindInactiveObjectByName(string keyword)
+    {
+        Transform[] allTransforms = Resources.FindObjectsOfTypeAll<Transform>();
+        foreach (Transform t in allTransforms)
+        {
+            if (t.gameObject.scene.name == null) continue;
+            if (t.name.ToLower().Contains(keyword)) return t.gameObject;
         }
         return null;
     }
@@ -50,6 +61,14 @@ public class TutorialManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(1.5f); // รอให้ UI โหลดเข้าฉากเสร็จก่อน
+
+        // หา Object มือชี้ที่เตรียมไว้
+        GameObject invHand = FindInactiveObjectByName("inv_hand");
+        GameObject htpHand = FindInactiveObjectByName("htp_hand");
+
+        // ปิดมือชี้ไว้ก่อนเผื่อเปิดค้างไว้ใน Scene
+        if (invHand != null) invHand.SetActive(false);
+        if (htpHand != null) htpHand.SetActive(false);
 
         // 2. ค้นหาปุ่มกระเป๋า
         bagBtn = FindButtonByName("inventory"); 
@@ -68,6 +87,9 @@ public class TutorialManager : MonoBehaviour
 
         // ยกปุ่มกระเป๋าของจริงให้ทะลุจอดำขึ้นมา (sorting 1001)
         yield return StartCoroutine(ElevateUI(bagBtn));
+        
+        // โชว์มือชี้กระเป๋า
+        if (invHand != null) invHand.SetActive(true);
 
         // รอจนกว่ากระเป๋า (หน้าหนังสือ) จะเปิดขึ้นมา
         while (Gamemanager.Instance.uiIngame.panelPopUpManager.Inventory == null || 
@@ -75,6 +97,9 @@ public class TutorialManager : MonoBehaviour
         {
             yield return null;
         }
+
+        // ปิดมือชี้กระเป๋า
+        if (invHand != null) invHand.SetActive(false);
 
         // พอเปิดกระเป๋าแล้ว คืนสภาพปุ่มกระเป๋ากลับไปเหมือนเดิม
         RestoreUI(bagBtn);
@@ -94,12 +119,18 @@ public class TutorialManager : MonoBehaviour
         // ยกปุ่ม How to play ของจริงให้ทะลุจอดำขึ้นมา
         yield return StartCoroutine(ElevateUI(htpBtn));
 
+        // โชว์มือชี้ How to play
+        if (htpHand != null) htpHand.SetActive(true);
+
         // รอจนกว่าหน้าต่าง How to play จะเด้งเปิดขึ้นมา
         while (Gamemanager.Instance.uiIngame.panelPopUpManager.Howtoplay == null || 
                !Gamemanager.Instance.uiIngame.panelPopUpManager.Howtoplay.gameObject.activeSelf)
         {
             yield return null;
         }
+
+        // ปิดมือชี้ How to play
+        if (htpHand != null) htpHand.SetActive(false);
 
         // พอกดเปิด howtoplay ปุ๊บ คืนสภาพปุ่มคู่มือ
         RestoreUI(htpBtn);

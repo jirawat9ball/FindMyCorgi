@@ -11,8 +11,21 @@ public class SceneObject : ScriptableObject
     public SceneObject backScene;
     public RewardSet[] rewardSets;
 }
+public enum DogTypeRequirement
+{
+    Any,            // นับรวมทุกประเภท 
+    NormalOnly,     // นับเฉพาะหมาปกติ
+    SpecialOnly,    // นับเฉพาะหมาพิเศษ
+    RealDogOnly     // ให้รางวัลทันทีที่เจอหมาจริง (ไม่สนจำนวน)
+}
+
 [System.Serializable]
 public class RewardSet {
     public KeyItem KeyItemInThisScene;
+    
+    [Tooltip("ประเภทของหมาที่ต้องการให้เป็นเงื่อนไข")]
+    public DogTypeRequirement dogTypeRequirement = DogTypeRequirement.Any;
+    
+    [Tooltip("จำนวนที่ต้องหาเจอ (สำหรับ Any, NormalOnly, SpecialOnly)")]
     public int AmontDogtoUnlockKeyItem = 10;
 }

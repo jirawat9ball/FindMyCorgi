@@ -18,4 +18,5 @@ MonoBehaviour:
   backScene: {fileID: 0}
   rewardSets:
   - KeyItemInThisScene: {fileID: 11400000, guid: 6e6595c93ca354b4392caca9f133b41c, type: 2}
-    AmontDogtoUnlockKeyItem: 10
+    dogTypeRequirement: 2
+    AmontDogtoUnlockKeyItem: 5

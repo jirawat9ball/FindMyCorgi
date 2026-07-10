@@ -267,6 +267,7 @@ public class SceneHandle : MonoBehaviour
                 if (dog.realDog)
                 {
                     dog.ChangeState(DogState.Hidden);
+                    if (!foundDogs.Contains(dog)) foundDogs.Add(dog);
                 }
                 else if (!foundDogs.Contains(dog))
                 {
@@ -312,12 +313,18 @@ public class SceneHandle : MonoBehaviour
     {
         Gamemanager.Instance.RegisterFoundDogToSave(sceneObject.name, dog.name);
 
+        if (!foundDogs.Contains(dog))
+        {
+            foundDogs.Add(dog);
+        }
+
+        CheckRewards(dog);
+
         if (dog.realDog)
         {
             return;
         }
 
-        foundDogs.Add(dog);
         lostDogs.Remove(dog);
         UpdateDogUI();
 
@@ -334,28 +341,83 @@ public class SceneHandle : MonoBehaviour
                 }
             }
         }
+        // ลบ CheckRewards(dog); ตรงนี้ออกเพราะถูกย้ายไปด้านบนแล้ว
+        
+        bool isAllFound = (lostDogs.Count == 0);
+        bool isDemoEnd = false;
 
-        if (sceneObject.rewardSets.Length > 0)
+        if (isAllFound)
         {
-            for (int i = 0; i < sceneObject.rewardSets.Length; i++)
-            {
-                if (foundDogs.Count == sceneObject.rewardSets[i].AmontDogtoUnlockKeyItem)
-                {
-                    KeyItem keyItem = sceneObject.rewardSets[i].KeyItemInThisScene;
+            Gamemanager.Instance.ClearScene(sceneObject.name);
 
-                    if (!Gamemanager.Instance.IsHasKey(keyItem))
-                    {
-                        Gamemanager.Instance.AddKeyItem(keyItem);
-                        UIManager.Instance.ShowPopUpGotItem(keyItem);
-                    }
-                }
+            if (DemoEnd.Instance != null)
+            {
+                isDemoEnd = DemoEnd.Instance.IsDemoEnd();
             }
 
-        }
-        if (lostDogs.Count == 0)
-        {
+            // 1. คิว บทสนทนาจบด่าน ก่อนเพื่อนเสมอ ทุกกรณี
             UIManager.Instance.ShowDialog("dialog_found_all");
-            Gamemanager.Instance.ClearScene(sceneObject.name);
+        }
+
+        // 3. คิว Popup จบเดโม (See you soon) ไว้ท้ายสุด
+        if (isAllFound && isDemoEnd && DemoEnd.Instance != null)
+        {
+            DemoEnd.Instance.ShowDemoEndPopup();
+        }
+    }
+
+    private void CheckRewards(Dog newlyFoundDog)
+    {
+        if (sceneObject.rewardSets == null || sceneObject.rewardSets.Length == 0) return;
+
+        int totalFound = foundDogs.Count; // ตอนนี้มีรวม RealDog ไปแล้ว
+        int normalFound = 0;
+        int specialFound = 0;
+
+        foreach (Dog d in foundDogs)
+        {
+            if (d.realDog) continue; // แยก RealDog ออกจากการนับ Normal/Special
+
+            if (d.isSpecial) specialFound++;
+            else normalFound++;
+        }
+
+        for (int i = 0; i < sceneObject.rewardSets.Length; i++)
+        {
+            RewardSet reward = sceneObject.rewardSets[i];
+            bool isUnlocked = false;
+
+            switch (reward.dogTypeRequirement)
+            {
+                case DogTypeRequirement.Any:
+                    // ถ้ายอดรวมหมาถึงจำนวนที่กำหนด
+                    isUnlocked = (totalFound == reward.AmontDogtoUnlockKeyItem);
+                    break;
+                case DogTypeRequirement.NormalOnly:
+                    // ยอดรวมหมาปกติถึงที่กำหนด และตัวล่าสุดที่เจอก็ต้องเป็นหมาปกติ
+                    isUnlocked = (normalFound == reward.AmontDogtoUnlockKeyItem && !newlyFoundDog.isSpecial && !newlyFoundDog.realDog);
+                    break;
+                case DogTypeRequirement.SpecialOnly:
+                    // ยอดรวมหมาพิเศษถึงที่กำหนด และตัวล่าสุดที่เจอก็ต้องเป็นหมาพิเศษ
+                    isUnlocked = (specialFound == reward.AmontDogtoUnlockKeyItem && newlyFoundDog.isSpecial && !newlyFoundDog.realDog);
+                    break;
+                case DogTypeRequirement.RealDogOnly:
+                    // ขอแค่ตัวล่าสุดที่เจอเป็นหมาจริง ก็แจกรางวัลเลยทันที (ไม่สนว่าเก็บมากี่ตัว)
+                    isUnlocked = (newlyFoundDog.realDog);
+                    break;
+            }
+
+            if (isUnlocked)
+            {
+                KeyItem keyItem = reward.KeyItemInThisScene;
+                if (keyItem != null && !Gamemanager.Instance.IsHasKey(keyItem))
+                {
+                    Gamemanager.Instance.AddKeyItem(keyItem);
+                    
+                    // คิว Popup ของรางวัล
+                    UIManager.Instance.ShowPopUpGotItem(keyItem);
+                }
+            }
         }
     }
 

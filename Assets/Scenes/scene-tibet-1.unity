@@ -1310,7 +1310,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: 1320995560728331304, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
   spriteFound: {fileID: -749909539315426128, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
-  blockingObstacle: {fileID: 1996398293}
+  blockingObstacle: {fileID: 0}
 --- !u!61 &291682468
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2843,7 +2843,10 @@ PrefabInstance:
     - {fileID: -4489399349879497549, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
     - {fileID: 272500034565630631, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
     - {fileID: 6544384947168763352, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
+      insertIndex: 53
+      addedObject: {fileID: 1412228192}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
       insertIndex: -1
@@ -3165,7 +3168,7 @@ PrefabInstance:
       addedObject: {fileID: 1996398294}
     - targetCorrespondingSourceObject: {fileID: -1041410057132174040, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1996398293}
+      addedObject: {fileID: 1996398295}
     - targetCorrespondingSourceObject: {fileID: 1192894901555543029, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1462772143}
@@ -3191,6 +3194,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1480875888}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
+--- !u!4 &688461401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -7552582706839291426, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
+  m_PrefabInstance: {fileID: 688461400}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &706806061 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2865233880413727798, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
@@ -4153,6 +4161,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.19, y: 1.22}
   m_EdgeRadius: 0
+--- !u!1 &1412228191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412228192}
+  m_Layer: 0
+  m_Name: '[Target]ENV_tibet-1_5_slide'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1412228192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412228191}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.19, y: 17.555, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 688461401}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1462772140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1192894901555543029, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
@@ -5533,35 +5572,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -1041410057132174040, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}
   m_PrefabInstance: {fileID: 688461400}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1996398293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996398291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d80179ae662f3c44784f9fdc245a3b54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SlideObject
-  NeedKey: {fileID: 0}
-  Description: 
-  clipClick: []
-  onComplete:
-    m_PersistentCalls:
-      m_Calls: []
-  onFail:
-    m_PersistentCalls:
-      m_Calls: []
-  startState: 0
-  currentState: 0
-  slideSpeed: 5
-  direction: 1
-  doneAtBound: 1
-  ClampDirection:
-    Min: -1
-    Max: 1
 --- !u!61 &1996398294
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5608,6 +5618,34 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.23, y: 0.91}
   m_EdgeRadius: 0
+--- !u!114 &1996398295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996398291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  NeedKey: {fileID: 0}
+  Description: 
+  clipClick: []
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  startState: 0
+  currentState: 0
+  targetTransform: {fileID: 1412228192}
+  moveSpeed: 5
+  toggleMove: 1
+  rotateToTarget: 1
+  objectIsLocked: 0
 --- !u!1 &2007133086 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4415942946759649247, guid: 9e0f98a802ecbd745a87aa08ae960c42, type: 3}

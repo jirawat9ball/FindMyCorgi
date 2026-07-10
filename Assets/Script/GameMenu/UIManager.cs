@@ -84,10 +84,43 @@ public class UIManager : MonoBehaviour
     /// </summary>
     public void ShowMapMenu()
     {
+        if (ThankYouPanel != null) ThankYouPanel.SetActive(false);
         PanelCamp.SetActive(true);
         GameMenu.SetActive(false);
         MapMenu.SetActive(true);
         if (uiIngame != null) uiIngame.panelPopUpManager.CloseAllPopUp();
+    }
+
+    // ==========================================
+    // 🏆 หน้าจบเดโม (Thank You For Playing)
+    // ==========================================
+    [Header("หน้าจบ Demo")]
+    public GameObject ThankYouPanel;
+
+    public void ShowThankYouPanel()
+    {
+        if (MapMenu != null) MapMenu.SetActive(false);
+        if (PanelCamp != null) PanelCamp.SetActive(false);
+        if (GameMenu != null) GameMenu.SetActive(false);
+        if (ThankYouPanel != null) ThankYouPanel.SetActive(true);
+        if (uiIngame != null) uiIngame.panelPopUpManager.CloseAllPopUp();
+    }
+
+    public void CloseThankYouAndGoHome()
+    {
+        if (LoadSceneManager.Instance != null)
+        {
+            StartCoroutine(LoadSceneManager.Instance.LocalTransitionRoutine(() => 
+            {
+                if (ThankYouPanel != null) ThankYouPanel.SetActive(false);
+                ShowHome(); 
+            }));
+        }
+        else
+        {
+            if (ThankYouPanel != null) ThankYouPanel.SetActive(false);
+            ShowHome();
+        }
     }
 
     /// <summary>

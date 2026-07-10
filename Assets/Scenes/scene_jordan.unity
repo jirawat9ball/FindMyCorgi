@@ -546,37 +546,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 234748489}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &40168863
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 40168864}
-  m_Layer: 0
-  m_Name: '[Target]ENV_jordan-2_4_slide '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &40168864
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40168863}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.262, y: 7.21, z: -2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1928375812}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &57995237
 GameObject:
   m_ObjectHideFlags: 0
@@ -6656,7 +6625,7 @@ MonoBehaviour:
   currentState: 0
   spriteNotFound: {fileID: 2210191716598738460, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
   spriteFound: {fileID: 647928901768674400, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-  blockingObstacle: {fileID: 580321126}
+  blockingObstacle: {fileID: 0}
 --- !u!61 &543122163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6873,9 +6842,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 580321122}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9304d81a238a91d4e8f837cd0478c5b2, type: 3}
+  m_Script: {fileID: 11500000, guid: b3f37e82226308747a9a5f28510596a4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClickToMoveObject
+  m_EditorClassIdentifier: Assembly-CSharp::ClickObject
   NeedKey: {fileID: 0}
   Description: 
   clipClick: []
@@ -6887,11 +6856,9 @@ MonoBehaviour:
       m_Calls: []
   startState: 0
   currentState: 0
-  targetTransform: {fileID: 40168864}
-  moveSpeed: 5
-  toggleMove: 1
-  rotateToTarget: 1
-  objectIsLocked: 0
+  spriteAfterClick:
+  - {fileID: 0}
+  RequiredClick: 1
 --- !u!1001 &584573611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25881,6 +25848,10 @@ PrefabInstance:
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1915810591743329110, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
+      propertyPath: m_Name
+      value: ENV_jordan-2_4_click_00
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915810591743329110, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
@@ -26081,13 +26052,10 @@ PrefabInstance:
       insertIndex: 17
       addedObject: {fileID: 254563363}
     - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-      insertIndex: 19
-      addedObject: {fileID: 40168864}
-    - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-      insertIndex: 22
+      insertIndex: 21
       addedObject: {fileID: 77952457}
     - targetCorrespondingSourceObject: {fileID: -7552582706839291426, guid: eb22940a27092b54494c53ca667c0b24, type: 3}
-      insertIndex: 24
+      insertIndex: 23
       addedObject: {fileID: 1088422088}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: eb22940a27092b54494c53ca667c0b24, type: 3}

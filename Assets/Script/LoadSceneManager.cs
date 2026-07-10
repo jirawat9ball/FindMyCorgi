@@ -79,37 +79,47 @@ public class LoadSceneManager : MonoBehaviour
 
     IEnumerator UnloadSequen(System.Action onComplete = null)
     {
+        // 1. บังคับรัน Transition เสมอ (แก้ปัญหาไม่มีเฟดเวลาเทสตรงจาก Editor)
+        if (progressBar != null) progressBar.value = 0;
+        ResetPlanePosition();
+
+        Panel.gameObject.SetActive(true);
+        canvasGroup.gameObject.SetActive(true);
+        yield return StartCoroutine(AnimateImage(offScreenX, onScreenX, slideInDuration));
+
+        // 2. ถ้ามีฉากให้ Unload ก็ Unload ทิ้งไป
         if (!string.IsNullOrEmpty(CurrentScene))
         {
-            if (progressBar != null) progressBar.value = 0;
-            ResetPlanePosition();
-
-            Panel.gameObject.SetActive(true);
-
-            yield return StartCoroutine(Fade(0, 1));
-
-            // ตรวจสอบก่อนว่า Scene ที่จะ Unload มีอยู่จริงและกำลังโหลดอยู่หรือไม่
             Scene sceneToUnload = SceneManager.GetSceneByName(CurrentScene);
             if (sceneToUnload.IsValid() && sceneToUnload.isLoaded)
             {
                 AsyncOperation asyncLoad = SceneManager.UnloadSceneAsync(CurrentScene);
                 if (asyncLoad != null)
                 {
-                    StartCoroutine(LoadUI(asyncLoad));
+                    yield return StartCoroutine(LoadUI(asyncLoad));
                 }
             }
             else
             {
                 Debug.LogWarning($"Skipped unloading scene '{CurrentScene}' because it is not currently loaded.");
             }
-
             CurrentScene = null;
-            onComplete?.Invoke();
         }
         else
         {
-            onComplete?.Invoke();
+            // จำลองเวลาโหลดนิดหน่อยถ้าเทสใน Editor จะได้เห็นฉากเครื่องบิน
+            yield return new WaitForSeconds(0.5f);
         }
+
+        // 3. รัน Callback (เช่น เปิดหน้า Thank You)
+        onComplete?.Invoke();
+
+        // 4. สไลด์เครื่องบินออก
+        yield return StartCoroutine(AnimateImage(onScreenX, offScreenX, slideInDuration));
+        canvasGroup.gameObject.SetActive(false);
+        Panel.gameObject.SetActive(false);
+        
+        isReady = true;
     }
 
     IEnumerator LoadAsyncScene(string sceneName, bool add = false, System.Action onComplete = null)
