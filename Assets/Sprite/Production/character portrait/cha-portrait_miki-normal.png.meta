@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: eef52397ba958ac44bcbb70fdd526295
+guid: a0ead6b5f30e5bd4b933fbd24d29da21
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 252261927608417158
-    second: UI_letter box_portrait_frame_0
+      213: -2264391869973305671
+    second: cha-portrait_miki-normal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_letter box_portrait_frame_0
+      name: cha-portrait_miki-normal_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 590
-        height: 586
+        width: 498
+        height: 509
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68b7479f2e6308300800000000000000
-      internalID: 252261927608417158
+      spriteID: 9b665fd67934390e0800000000000000
+      internalID: -2264391869973305671
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9078011d34981f249a2198ad5bf8df75
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_letter box_portrait_frame_0: 252261927608417158
+      cha-portrait_miki-normal_0: -2264391869973305671
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

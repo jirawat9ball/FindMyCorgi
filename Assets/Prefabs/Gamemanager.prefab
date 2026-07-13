@@ -15664,6 +15664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 4768033337893353209}
   Image: {fileID: 5289859088237837657}
+  currentItem: {fileID: 0}
 --- !u!1 &4720370767406836622
 GameObject:
   m_ObjectHideFlags: 0
@@ -28619,7 +28620,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 252261927608417158, guid: eef52397ba958ac44bcbb70fdd526295, type: 3}
+  m_Sprite: {fileID: -2264391869973305671, guid: a0ead6b5f30e5bd4b933fbd24d29da21, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31317,6 +31318,7 @@ MonoBehaviour:
       isFullscreen: 1
       languageIndex: 0
     hasWatchedIntro: 0
+    hasCompletedTutorial: 0
   loadedScenesData: []
   Snack: 3
   Collectable: []
@@ -31515,6 +31517,7 @@ MonoBehaviour:
   uiIngame: {fileID: 114532102092255736}
   uiInventory: {fileID: 7394839689153605565}
   dialogueUIManager: {fileID: 1621127754463556058}
+  ThankYouPanel: {fileID: 0}
 --- !u!1 &9030573864302591937
 GameObject:
   m_ObjectHideFlags: 0
