@@ -262,12 +262,15 @@ public class Gamemanager : MonoBehaviour
     public void BackScene() {
         if (currentZone.currentScene.sceneObject.backScene == null)
         {
-            StartCoroutine(EnumGotoScene(() => {
-                LoadSceneManager.Instance.UnloadCurrentScene(GoMapMenu);
-                SoundManager.Instance.PlayBGSoundMainMenu();
-            }));
+            // กรณีไม่มี backScene → กลับไปหน้า Map
+            // UnloadCurrentScene จัดการ transition (slide) ของตัวเองอยู่แล้ว
+            // ไม่ต้องห่อด้วย EnumGotoScene อีก (จะทำให้ transition ซ้อนกัน isReady ค้าง)
+            SoundManager.Instance.PlayBGSoundMainMenu();
+            LoadSceneManager.Instance.UnloadCurrentScene(GoMapMenu);
         }
-        else {
+        else
+        {
+            // กรณีมี backScene → เปลี่ยนซีนภายใน zone เดิม (ใช้ local transition)
             StartCoroutine(EnumGotoScene(() => {
                 currentZone.BackScene();
             }));
@@ -275,12 +278,10 @@ public class Gamemanager : MonoBehaviour
     }
     IEnumerator EnumGotoScene(System.Action onMidpointComplete)
     {
-
         yield return StartCoroutine(LoadSceneManager.Instance.LocalTransitionRoutine(() =>
         {
             onMidpointComplete?.Invoke();
         }));
-
     }
     #endregion
 

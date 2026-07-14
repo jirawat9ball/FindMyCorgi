@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bebdd68743cf9147bd78ec1ce6c8c06, type: 3}
   m_Name: ItemDemo
   m_EditorClassIdentifier: 
-  KeyName: See you soon
+  KeyName: 
   KeyInfomation: Thank you for playing the demo.
   Image: {fileID: 4609055246618937343, guid: 90ca83829615dbf4e891ee3b836eb8ce, type: 3}
   Cursericon: []

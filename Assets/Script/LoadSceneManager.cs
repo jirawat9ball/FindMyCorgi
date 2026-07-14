@@ -80,12 +80,21 @@ public class LoadSceneManager : MonoBehaviour
     IEnumerator UnloadSequen(System.Action onComplete = null)
     {
         // 1. บังคับรัน Transition เสมอ (แก้ปัญหาไม่มีเฟดเวลาเทสตรงจาก Editor)
+        StartCoroutine(AnimateLoadingText());
+        isReady = false;
+        // AsyncOperation asyncLoad;
+
+        Panel.gameObject.SetActive(true);
+        canvasGroup.gameObject.SetActive(false);
+
+        yield return StartCoroutine(AnimateImage(offScreenX, 0, slideInDuration));
+
+        canvasGroup.gameObject.SetActive(true);
         if (progressBar != null) progressBar.value = 0;
         ResetPlanePosition();
 
-        Panel.gameObject.SetActive(true);
-        canvasGroup.gameObject.SetActive(true);
-        yield return StartCoroutine(AnimateImage(offScreenX, onScreenX, slideInDuration));
+        StartCoroutine(AnimateLoadingText());
+        yield return StartCoroutine(AnimateImage(0, onScreenX, slideInDuration));
 
         // 2. ถ้ามีฉากให้ Unload ก็ Unload ทิ้งไป
         if (!string.IsNullOrEmpty(CurrentScene))
@@ -111,12 +120,10 @@ public class LoadSceneManager : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         }
 
-        // 3. รัน Callback (เช่น เปิดหน้า Thank You)
         onComplete?.Invoke();
-
-        // 4. สไลด์เครื่องบินออก
-        yield return StartCoroutine(AnimateImage(onScreenX, offScreenX, slideInDuration));
+        yield return StartCoroutine(AnimateImage(onScreenX, 0, slideInDuration));
         canvasGroup.gameObject.SetActive(false);
+        yield return StartCoroutine(AnimateImage(0, offScreenX, slideInDuration));
         Panel.gameObject.SetActive(false);
         
         isReady = true;

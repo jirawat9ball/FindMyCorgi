@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
 {
-    [Header("การตั้งค่าแอนิเมชัน")]
-    public float moveXAmount = -20f; // เลื่อนซ้าย
+    [Header("ค่าการเคลื่อนที่")]
+    public float moveXAmount = -20f; // ขยับซ้าย
     public float moveYAmount = 0f;
     public float speed = 15f;
 
@@ -19,14 +19,14 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
 
     void Start()
     {
-        // 🌟 เปลี่ยนมาใช้ localPosition แทน anchoredPosition เพื่อเลี่ยงการถูก Anchor ล็อก
+        // ใช้ localPosition แทน anchoredPosition เพราะทำงานถูกต้องกว่าเมื่อ Anchor เปลี่ยน
         originalPosition = rectTransform.localPosition;
         targetPosition = originalPosition;
     }
 
     void Update()
     {
-        // เลื่อนไปยังตำแหน่งเป้าหมายอย่างนุ่มนวล
+        // เคลื่อนที่ไปยัง targetPosition อย่างนุ่มนวล
         rectTransform.localPosition = Vector2.Lerp(rectTransform.localPosition, targetPosition, Time.deltaTime * speed);
     }
 
@@ -38,11 +38,22 @@ public class ButtonHoverEffect : MonoBehaviour, IPointerEnterHandler, IPointerEx
     private void MoveToTarget()
     {
         targetPosition = originalPosition + new Vector2(moveXAmount, moveYAmount);
-        Debug.Log($"[Hover] สั่งปุ่มเลื่อนไปที่พิกัด: {targetPosition}"); // ดูใน Console ว่าค่าเปลี่ยนไหม
+        Debug.Log($"[Hover] เคลื่อนที่ไป hover position: {targetPosition}");
     }
 
     private void MoveToOriginal()
     {
         targetPosition = originalPosition;
+    }
+
+    /// <summary>
+    /// เรียกหลังจาก SetParent หรือเปลี่ยน hierarchy เพื่อ update originalPosition
+    /// ให้ตรงกับ localPosition จริงหลัง parent เปลี่ยน (ใช้ใน Tutorial)
+    /// </summary>
+    public void UpdateOriginalPosition()
+    {
+        originalPosition = rectTransform.localPosition;
+        targetPosition = originalPosition;
+        Debug.Log($"[Hover] UpdateOriginalPosition -> {originalPosition}");
     }
 }

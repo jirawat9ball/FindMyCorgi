@@ -94,8 +94,14 @@ public class PanalPopUpManager : MonoBehaviour
     }
     public void CloseAllPopUp()
     {
-        while (PopUplayer.Count > 0) {
-            StartCoroutine(ClosePopUpEnum());
+        StopAllCoroutines();
+        StartCoroutine(CloseAllSequence());
+    }
+    private IEnumerator CloseAllSequence()
+    {
+        while (PopUplayer.Count > 0)
+        {
+            yield return StartCoroutine(ClosePopUpEnum());
         }
     }
     IEnumerator ShowPopUpEnum(TypePopUp type) {

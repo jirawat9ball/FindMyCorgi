@@ -9,6 +9,12 @@ public class DialogueUIManager : MonoBehaviour
     [UnityEngine.Serialization.FormerlySerializedAs("parrent")]
     public GameObject parent;
     public Image portrait;
+    
+    [Header("Emotion Portraits")]
+    public Sprite portraitNormal;
+    public Sprite portraitHappy;
+    public Sprite portraitCurious;
+
     public Image dialogueBox;
     public Image BG;
     string dialogText;
@@ -29,6 +35,29 @@ public class DialogueUIManager : MonoBehaviour
         parent.SetActive(true);
         // 🌟 ดึงข้อมูลจากไฟล์แปลภาษา
         dialogText = LanguageSettings.Instance.GetText(dialogKey);
+
+        // 🌟 ตรวจจับ Emotion Tag
+        if (dialogText.Contains("(Happy)"))
+        {
+            if (portraitHappy != null) portrait.sprite = portraitHappy;
+            dialogText = dialogText.Replace("(Happy)", "").TrimStart();
+        }
+        else if (dialogText.Contains("(Curious)"))
+        {
+            if (portraitCurious != null) portrait.sprite = portraitCurious;
+            dialogText = dialogText.Replace("(Curious)", "").TrimStart();
+        }
+        else if (dialogText.Contains("(Normal)"))
+        {
+            if (portraitNormal != null) portrait.sprite = portraitNormal;
+            dialogText = dialogText.Replace("(Normal)", "").TrimStart();
+        }
+        else
+        {
+            // ถ้าไม่มี Tag ก็ให้กลับไปเป็น Normal
+            if (portraitNormal != null) portrait.sprite = portraitNormal;
+        }
+
         ShowDialogIsDone = false;
         if (currentCoroutine != null) StopCoroutine(currentCoroutine);
         currentCoroutine = StartCoroutine(SequenceShowDialog(dialogText));

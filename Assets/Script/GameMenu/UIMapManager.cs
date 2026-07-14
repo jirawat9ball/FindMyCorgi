@@ -64,21 +64,21 @@ public class UIMapManager : MonoBehaviour
                 bool isCountryUnlocked = unlockCount > 0;
 
                 // 🌟 ระบบ Tutorial บังคับให้เข้า Tibet ในการเล่นครั้งแรกสุด
-                if (Gamemanager.Instance != null && Gamemanager.Instance.currentSaveData != null)
-                {
-                    if (!Gamemanager.Instance.currentSaveData.hasCompletedTutorial)
-                    {
-                        bool isTibet = uIMapScenes[i].name.ToLower().Contains("tibet");
-                        if (isTibet)
-                        {
-                            isCountryUnlocked = true; // ปลดล็อคแค่ทิเบต
-                        }
-                        else
-                        {
-                            isCountryUnlocked = false; // ล็อกประเทศอื่นให้หมด
-                        }
-                    }
-                }
+                // if (Gamemanager.Instance != null && Gamemanager.Instance.currentSaveData != null)
+                // {
+                //     if (!Gamemanager.Instance.currentSaveData.hasCompletedTutorial)
+                //     {
+                //         bool isTibet = uIMapScenes[i].name.ToLower().Contains("tibet");
+                //         if (isTibet)
+                //         {
+                //             isCountryUnlocked = true; // ปลดล็อคแค่ทิเบต
+                //         }
+                //         else
+                //         {
+                //             isCountryUnlocked = false; // ล็อกประเทศอื่นให้หมด
+                //         }
+                //     }
+                // }
 
                 // กวาดหาปุ่มทุกอันที่อยู่ใน Country นี้
                 Button[] allBtns = uIMapScenes[i].GetComponentsInChildren<Button>(true);
