@@ -34,7 +34,7 @@
         },
         {
             "key": "dialog_need_more_dogs",
-            "value": "You must find all dogs in this area first!"
+            "value": "You must find all dogs in this area first!(Curious)"
         }
     ]
 }

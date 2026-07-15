@@ -7721,6 +7721,50 @@ PrefabInstance:
       propertyPath: useRaycastFor3D
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: clickBlankPrefab
+      value: 
+      objectReference: {fileID: 2978282056802672149, guid: ea81d3f9b5885e642a7c2995c72f231d, type: 3}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: clickFoundPrefab
+      value: 
+      objectReference: {fileID: 8062233426523935118, guid: f5bdde2b7725fc8489e0953931939e40, type: 3}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: clickBlankSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: clickFoundSprites.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: 'clickBlankSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 0bccfec2665148f4c85a5e1618a25ffe, type: 3}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: 'clickBlankSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 21300000, guid: cb244d60ad6384c40aa799f8014088bd, type: 3}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: 'clickBlankSprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 659c04eafc1446342b68be12207ff72d, type: 3}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: 'clickFoundSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 21300000, guid: e10918e51ae5622428eddbc16e103961, type: 3}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: 'clickFoundSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 21300000, guid: 6c143f730c70f23448f3acd15285fcfa, type: 3}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: 'clickFoundSprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 21300000, guid: d4bcc1a9cf9241349985cd875f35047f, type: 3}
+    - target: {fileID: 4437882632934098934, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: 'clickFoundSprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: 21300000, guid: cb82dc37d7dddd14a94057560c65f749, type: 3}
     - target: {fileID: 4583996128694803062, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -7781,6 +7825,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 55.700012
       objectReference: {fileID: 0}
+    - target: {fileID: 5229982684295719902, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: OnClickSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e592c1d3257722b4ca42bb18cf20df2a, type: 3}
+    - target: {fileID: 5229982684295719902, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: OnEmptyClickSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 9fb82b26eb91c03459dd1232b14f301a, type: 3}
     - target: {fileID: 5576950711708218247, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

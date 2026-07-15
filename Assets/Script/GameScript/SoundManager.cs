@@ -59,19 +59,16 @@ public class SoundManager : MonoBehaviour
         _audioEF.volume = v;
     }
     public void PlayOnClickSound() {
-        if (_audioEF.isPlaying) return;
         _audioEF.PlayOneShot(OnClickSound);
     }
 
     public void PlayCustomSound(AudioClip customClip)
     {
         if (customClip == null) return;
-        if (_audioEF.isPlaying) return;
         _audioEF.PlayOneShot(customClip);
     }
     public void PlayOnEmptyClickSound()
     {
-        if (_audioEF.isPlaying) return;
         _audioEF.PlayOneShot(OnEmptyClickSound);
     }
     public void PlayBGSound(AudioClip BGSound) {

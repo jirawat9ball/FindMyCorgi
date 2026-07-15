@@ -9,7 +9,7 @@ public class LanguageSettings : MonoBehaviour
     // ⚙️ SINGLETON
     // ==========================================
     public static LanguageSettings Instance { get; private set; }
-    public enum Language { English, Spanish, French, German } // Add your desired languages
+    public enum Language { English, Spanish, French, German, Thai } // Add your desired languages
 
     public Language currentLanguage = Language.English;
     public string languageFilePrefix = "lang_"; // Prefix for language files (e.g., lang_en.json)
@@ -110,6 +110,7 @@ public class LanguageSettings : MonoBehaviour
             case Language.Spanish: return "es";
             case Language.French: return "fr";
             case Language.German: return "de";
+            case Language.Thai: return "th";
             // Add more language codes as needed.
             default: return "en"; // Default to English.
         }

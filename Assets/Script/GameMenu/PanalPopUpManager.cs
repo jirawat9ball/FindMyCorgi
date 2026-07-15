@@ -94,14 +94,21 @@ public class PanalPopUpManager : MonoBehaviour
     }
     public void CloseAllPopUp()
     {
+        // 🌟 ถ้ากำลังรันแอนิเมชันปิดตัวสุดท้ายอยู่แล้ว (Count = 0) ก็ปล่อยให้มันปิดจนจบ ไม่ต้องขัดจังหวะ
+        if (PopUplayer.Count == 0) return; 
+
         StopAllCoroutines();
-        StartCoroutine(CloseAllSequence());
-    }
-    private IEnumerator CloseAllSequence()
-    {
-        while (PopUplayer.Count > 0)
+        
+        // 🌟 บังคับปิดทุกหน้าต่างทันที (ป้องกันแอนิเมชันค้างเวลาถูกสั่งปิดรัวๆ)
+        closeAllMenu();
+        PopUplayer.Clear();
+        
+        if (BG != null)
         {
-            yield return StartCoroutine(ClosePopUpEnum());
+            foreach (var bg in BG)
+            {
+                if (bg != null) bg.enabled = false;
+            }
         }
     }
     IEnumerator ShowPopUpEnum(TypePopUp type) {
@@ -159,6 +166,15 @@ public class PanalPopUpManager : MonoBehaviour
             if (closeLayer == GotItem)
             {
                 if (UIManager.Instance != null) UIManager.Instance.OnNotificationClosed();
+            }
+        }
+
+        // 🌟 ถ้านี่คือหน้าต่างสุดท้าย ให้กลับไปสู่สถานะเล่นเกมตามปกติอัตโนมัติ!
+        if (PopUplayer.Count == 0 && Gamemanager.Instance != null)
+        {
+            if (Gamemanager.Instance.stateGame != StateGame.gameplay)
+            {
+                Gamemanager.Instance.stateGame = StateGame.gameplay;
             }
         }
     }

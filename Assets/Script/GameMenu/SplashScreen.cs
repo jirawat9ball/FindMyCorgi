@@ -38,6 +38,9 @@ public class SplashScreen : MonoBehaviour
     {
         if (isTransitioningToMenu) return;
 
+        // 🌟 ป้องกันการรับ input ระหว่างที่ LoadSceneManager กำลังทำ Transition (กันบั๊กกดข้ามตอนยังโหลดไม่เสร็จ)
+        if (LoadSceneManager.Instance != null && !LoadSceneManager.Instance.isReady) return;
+
         if (Input.anyKeyDown)
         {
             if (!isVideoStarted)
@@ -149,7 +152,7 @@ public class SplashScreen : MonoBehaviour
         TransitionToMainMenu();
     }
 
-    private void TransitionToMainMenu()
+    private async void TransitionToMainMenu()
     {
         // 🌟 2. ดักหน้าประตู! ถ้ามีคนเผลอเรียกฟังก์ชันนี้ซ้ำตอนที่มันกำลังโหลดอยู่ ให้เตะกลับไปเลย
         if (isTransitioningToMenu) return;
@@ -157,15 +160,24 @@ public class SplashScreen : MonoBehaviour
         // ล็อคแม่กุญแจทันที!
         isTransitioningToMenu = true;
 
+        if (videoPlayer != null)
+        {
+            videoPlayer.Pause();
+        }
+
+        // 🌟 ป้องกันกรณี LoadSceneManager กำลังทำงานอยู่ ให้รอจนกว่าจะพร้อมก่อนเริ่ม Transition ใหม่
+        if (LoadSceneManager.Instance != null)
+        {
+            while (!LoadSceneManager.Instance.isReady)
+            {
+                await Task.Yield();
+            }
+        }
+
         // 🌟 ปิดตัวบังคลิก (RaycastBlocker) กลับคืนเมื่อออกจากวิดีโอ
         if (UIManager.Instance != null && UIManager.Instance.RaycastBlocker != null)
         {
             UIManager.Instance.RaycastBlocker.SetActive(false);
-        }
-
-        if (videoPlayer != null)
-        {
-            videoPlayer.Pause();
         }
         
         // 🌟 เปิดเสียงดนตรีประกอบ (BG Music) กลับคืนมา

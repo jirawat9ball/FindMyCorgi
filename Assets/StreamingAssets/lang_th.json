@@ -1,0 +1,40 @@
+{
+    "entries": [
+        {
+            "key": "greeting",
+            "value": "สวัสดี!"
+        },
+        {
+            "key": "start_game",
+            "value": "เริ่มเกม"
+        },
+        {
+            "key": "settings",
+            "value": "ตั้งค่า"
+        },
+        {
+            "key": "quit",
+            "value": "ออก"
+        },
+        {
+            "key": "dialog_found_all",
+            "value": "เราหาน้องหมาครบแล้ว!"
+        },
+        {
+            "key": "dialog_unlock_success",
+            "value": "สำเร็จ!"
+        },
+        {
+            "key": "dialog_need_item",
+            "value": "คุณต้องมีไอเทมพิเศษเพื่อเปิดสิ่งนี้"
+        },
+        {
+            "key": "desc_box_locked",
+            "value": "กล่องนี้ดูเหมือนจะล็อคอยู่..."
+        },
+        {
+            "key": "dialog_need_more_dogs",
+            "value": "คุณต้องหาน้องหมาในพื้นที่นี้ให้ครบก่อน!"
+        }
+    ]
+}

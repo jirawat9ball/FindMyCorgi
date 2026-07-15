@@ -2,32 +2,24 @@ using UnityEngine;
 
 public class ClickParticlePlayer : MonoBehaviour
 {
-    [Header("Particle Settings")]
-    [Tooltip("Particle System in the scene")]
-    public ParticleSystem targetParticle;
-
-    [Tooltip("Z distance for 2D raycast")]
-    public float defaultZDistance = 10f;
-
-    [Header("3D Settings")]
-    [Tooltip("Enable for 3D raycast")]
-    public bool useRaycastFor3D = false;
-
-    [Header("Emission Counts")]
-    public int countOnEmptySpace = 4;
-    public int countOnObject = 10;
+    [Header("Sprite Animation Settings")]
+    [Tooltip("ใส่รูปภาพแอนิเมชันตอนกดโดน 'ที่ว่างเปล่า' (ลากเฟรม 1-2-3-4 มาใส่เรียงกันได้เลย)")]
+    public Sprite[] clickBlankSprites;
+    
+    [Tooltip("ใส่รูปภาพแอนิเมชันตอนกดโดน 'น้องหมา/สิ่งของ' (ลากเฟรม 1-2-3-4 มาใส่เรียงกันได้เลย)")]
+    public Sprite[] clickFoundSprites;
+    
+    [Tooltip("ระยะเวลาการแสดงรูปแต่ละเฟรม (ยิ่งน้อยยิ่งเล่นเร็ว)")]
+    public float effectFrameDuration = 0.05f;
+    
+    [Tooltip("ขนาดของเอฟเฟกต์")]
+    public Vector3 effectScale = new Vector3(1, 1, 1);
 
     private Camera cam;
 
     void Start()
     {
         cam = Camera.main;
-        if (targetParticle != null)
-        {
-            var emission = targetParticle.emission;
-            emission.enabled = true;
-            emission.rateOverTime = 0; 
-        }
     }
 
     void Update()
@@ -59,7 +51,7 @@ public class ClickParticlePlayer : MonoBehaviour
         }
 
         Vector3 spawnPosition;
-        int emitCount;
+        Sprite[] spritesToPlay = null; // 🌟 เก็บค่าว่าจะใช้รูปเซ็ตไหน
 
         Vector2 mousePos2D = cam.ScreenToWorldPoint(screenPos);
         RaycastHit2D hit2D = Physics2D.Raycast(mousePos2D, Vector2.zero);
@@ -81,23 +73,44 @@ public class ClickParticlePlayer : MonoBehaviour
             }
             
             spawnPosition = hit2D.point;
-            spawnPosition.z = defaultZDistance; 
-            emitCount = countOnObject;
+            spawnPosition.z = 10f; 
+            spritesToPlay = clickFoundSprites; // 🌟 กำหนดให้ใช้รูปตอนเจอของ
         }
         else
         {
             // 🌟 กดโดนที่ว่างเปล่า เล่นเสียง Empty
             SoundManager.Instance.PlayOnEmptyClickSound();
             
-            screenPos.z = defaultZDistance;
+            screenPos.z = 10f;
             spawnPosition = cam.ScreenToWorldPoint(screenPos);
-            emitCount = countOnEmptySpace;
+            spritesToPlay = clickBlankSprites; // 🌟 กำหนดให้ใช้รูปตอนกดที่ว่าง
         }
 
-        if (targetParticle != null)
+        // 🌟 ถ้ายกเลิกใช้ Particle และหันมาใส่รูปภาพตรงๆ
+        if (spritesToPlay != null && spritesToPlay.Length > 0)
         {
-            targetParticle.transform.position = spawnPosition;
-            targetParticle.Emit(emitCount);
+            StartCoroutine(PlaySpriteEffect(spritesToPlay, spawnPosition));
         }
+    }
+
+    // 🌟 ฟังก์ชันสำหรับสร้าง Object ชั่วคราวมาสลับรูปภาพให้เป็นแอนิเมชัน แล้วทำลายทิ้ง
+    private System.Collections.IEnumerator PlaySpriteEffect(Sprite[] sprites, Vector3 position)
+    {
+        GameObject fxObj = new GameObject("ClickEffect");
+        fxObj.transform.position = position;
+        fxObj.transform.localScale = effectScale;
+        
+        SpriteRenderer sr = fxObj.AddComponent<SpriteRenderer>();
+        sr.sortingOrder = 9999; // ให้อยู่ชั้นบนสุด จะได้ไม่โดนฉากบัง
+
+        // สลับรูปทีละเฟรม
+        for (int i = 0; i < sprites.Length; i++)
+        {
+            sr.sprite = sprites[i];
+            yield return new WaitForSeconds(effectFrameDuration);
+        }
+
+        // เล่นจบแล้วทำลายทิ้งเลย
+        Destroy(fxObj);
     }
 }

@@ -36,26 +36,35 @@ public class DialogueUIManager : MonoBehaviour
         // 🌟 ดึงข้อมูลจากไฟล์แปลภาษา
         dialogText = LanguageSettings.Instance.GetText(dialogKey);
 
+        // 🌟 ค้นหาตัวลูกที่เป็นรูปหน้าจริงๆ (เพื่อไม่ให้กระทบกรอบรูปที่ตัวแม่)
+        Image faceImage = portrait;
+        if (portrait != null)
+        {
+            Transform photo = portrait.transform.Find("dialogue_portrait photo");
+            if (photo != null) faceImage = photo.GetComponent<Image>();
+            else if (portrait.transform.childCount > 0) faceImage = portrait.transform.GetChild(0).GetComponent<Image>();
+        }
+
         // 🌟 ตรวจจับ Emotion Tag
         if (dialogText.Contains("(Happy)"))
         {
-            if (portraitHappy != null) portrait.sprite = portraitHappy;
-            dialogText = dialogText.Replace("(Happy)", "").TrimStart();
+            if (portraitHappy != null && faceImage != null) faceImage.sprite = portraitHappy;
+            dialogText = dialogText.Replace("(Happy)", "").Trim();
         }
         else if (dialogText.Contains("(Curious)"))
         {
-            if (portraitCurious != null) portrait.sprite = portraitCurious;
-            dialogText = dialogText.Replace("(Curious)", "").TrimStart();
+            if (portraitCurious != null && faceImage != null) faceImage.sprite = portraitCurious;
+            dialogText = dialogText.Replace("(Curious)", "").Trim();
         }
         else if (dialogText.Contains("(Normal)"))
         {
-            if (portraitNormal != null) portrait.sprite = portraitNormal;
-            dialogText = dialogText.Replace("(Normal)", "").TrimStart();
+            if (portraitNormal != null && faceImage != null) faceImage.sprite = portraitNormal;
+            dialogText = dialogText.Replace("(Normal)", "").Trim();
         }
         else
         {
             // ถ้าไม่มี Tag ก็ให้กลับไปเป็น Normal
-            if (portraitNormal != null) portrait.sprite = portraitNormal;
+            if (portraitNormal != null && faceImage != null) faceImage.sprite = portraitNormal;
         }
 
         ShowDialogIsDone = false;
