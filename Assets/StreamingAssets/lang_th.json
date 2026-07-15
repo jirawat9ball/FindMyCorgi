@@ -35,6 +35,326 @@
         {
             "key": "dialog_need_more_dogs",
             "value": "คุณต้องหาน้องหมาในพื้นที่นี้ให้ครบก่อน!"
+        },
+        {
+            "key": "dialog_peru_1_1",
+            "value": "ว้าว~ มีร่องรอยอะไรเต็มไปหมดเลย! ลองสำรวจให้ทั่วดีกว่า!(Normal)"
+        },
+        {
+            "key": "dialog_peru_1_2",
+            "value": "หืม? ตรงนี้ดูน่าสงสัยจัง...(Curious)"
+        },
+        {
+            "key": "dialog_peru_1_3",
+            "value": "เย้! คบเพลิงนี่น่าจะมีประโยชน์แน่เลย!(Happy)"
+        },
+        {
+            "key": "dialog_camp_1_1",
+            "value": "งั้น~...ออกเดินทางต่อกันเถอะ!(Normal)"
+        },
+        {
+            "key": "dialog_china_1_1",
+            "value": "หืม? เหมือนมีอะไรซ่อนอยู่แถวนี้เลย...(Curious)"
+        },
+        {
+            "key": "dialog_china_1_2",
+            "value": "อุ๊ย...ตรงนี้เหมือนเคยถูกกลบไว้เลย!(Normal)"
+        },
+        {
+            "key": "dialog_china_1_3",
+            "value": "ถ้ามีพลั่วก็คงขุดได้สินะ...(Curious)"
+        },
+        {
+            "key": "dialog_china_1_4",
+            "value": "พลั่ว! แบบนี้ขุดอะไรได้แล้วสิ!(Happy)"
+        },
+        {
+            "key": "dialog_jordan_1_1",
+            "value": "ดินตรงนี้ดูแปลกๆ...น่าจะขุดได้นะ!(Curious)"
+        },
+        {
+            "key": "dialog_jordan_2_1",
+            "value": "ที่นี่เหมือนมีเรื่องราวซ่อนอยู่เลย...(Normal)"
+        },
+        {
+            "key": "dialog_jordan_2_2",
+            "value": "บันทึกเก่าๆ! อาจมีคำใบ้ก็ได้!(Happy)"
+        },
+        {
+            "key": "dialog_greece_1_1",
+            "value": "กำแพงนี่มีรอยแปลกๆ ด้วยแฮะ...(Curious)"
+        },
+        {
+            "key": "dialog_greece_1_2",
+            "value": "หนังสือเล่มนั้นอาจบอกวิธีเปิดก็ได้นะ!(Normal)"
+        },
+        {
+            "key": "dialog_greece_1_3",
+            "value": "ในนี้มืดมากเลย...(Normal)"
+        },
+        {
+            "key": "dialog_greece_1_4",
+            "value": "ถ้ามีคบเพลิงก็คงมองเห็นแล้ว(Normal)"
+        },
+        {
+            "key": "dialog_greece_1_5",
+            "value": "โล่งอก~ มองเห็นแล้ว!(Happy)"
+        },
+        {
+            "key": "dialog_greece_2_1",
+            "value": "รู้สึกเหมือนใกล้เจอของสำคัญแล้ว!(Normal)"
+        },
+        {
+            "key": "dialog_greece_2_2",
+            "value": "เหรียญโบราณ! สวยจังเลย!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_1_1",
+            "value": "ทะเลทรายกว้างสุดลูกหูลูกตาเลย...(Normal)"
+        },
+        {
+            "key": "dialog_egypt_1_2",
+            "value": "มีเถาวัลย์ขวางเต็มเลย!(Normal)"
+        },
+        {
+            "key": "dialog_egypt_1_3",
+            "value": "ถ้ามีของมีคมก็คงตัดได้...(Curious)"
+        },
+        {
+            "key": "dialog_egypt_1_4",
+            "value": "มีดพร้า! คราวนี้ลุยทางรกได้แล้ว!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_2_1",
+            "value": "ประตูนี่แปลกจัง...(Curious)"
+        },
+        {
+            "key": "dialog_egypt_2_2",
+            "value": "บันทึกเล่มนั้นน่าจะช่วยไขปริศนาได้มั้ยนะ(Normal)"
+        },
+        {
+            "key": "dialog_egypt_3_1",
+            "value": "เอ๊ะ? เหมือนมีอะไรสะท้อนแสง...(Curious)"
+        },
+        {
+            "key": "dialog_egypt_3_2",
+            "value": "กล้องโพลารอยด์! ของดีนี่นา!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_4_1",
+            "value": "โอ้โห~...ในนี้มืดสุดๆ(Normal)"
+        },
+        {
+            "key": "dialog_egypt_4_2",
+            "value": "ถ้ามัมมี่โผล่มา...แฮร่! ล้อเล่นน่า~(Normal)"
+        },
+        {
+            "key": "dialog_egypt_4_3",
+            "value": "เยี่ยม! คราวนี้มองเห็นแล้ว!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_4_4",
+            "value": "สัญลักษณ์นี่เหมือนกับเหรียญเลย...(Curious)"
+        },
+        {
+            "key": "dialog_egypt_5_1",
+            "value": "เหมือนจะมีสมบัติซ่อนอยู่อีกนะ!(Normal)"
+        },
+        {
+            "key": "dialog_egypt_5_2",
+            "value": "แส้เหรอ? ฟังดูเท่มากเลย!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_6_1",
+            "value": "ที่นี่ลึกลับกว่าเดิมอีก...(Normal)"
+        },
+        {
+            "key": "dialog_egypt_6_2",
+            "value": "ตั๋วเครื่องบินพิเศษ!? ลัคกี้ ลัคกี้!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_6_3",
+            "value": "หินนี่...เหมือนเป็นชิ้นส่วนอะไรสักอย่าง(Happy)"
+        },
+        {
+            "key": "dialog_china_2_1",
+            "value": "กลับมาที่นี่อีกครั้งแล้ว!(Normal)"
+        },
+        {
+            "key": "dialog_china_3_1",
+            "value": "หวดเดียวก็ผ่านได้เลย ฉันนี่เท่ชะมัด!(Normal)"
+        },
+        {
+            "key": "dialog_china_3_2",
+            "value": "มืดจัง...เดินแทบไม่เห็นทางเลย(Curious)"
+        },
+        {
+            "key": "dialog_china_3_3",
+            "value": "สว่างขึ้นเยอะเลย!(Happy)"
+        },
+        {
+            "key": "dialog_china_3_4",
+            "value": "มีเถาวัลย์ขวางเต็มเลย!(Normal)"
+        },
+        {
+            "key": "dialog_china_3_5",
+            "value": "ถ้ามีของมีคมก็คงผ่านได้(Normal)"
+        },
+        {
+            "key": "dialog_china_3_6",
+            "value": "ตัดให้ขาดเลยฉับ ฉับ ฉับ!(Happy)"
+        },
+        {
+            "key": "dialog_china_4_1",
+            "value": "ทางข้างหน้าดูอันตรายนิดๆ นะ...(Normal)"
+        },
+        {
+            "key": "dialog_china_4_2",
+            "value": "ว้าว...สวยจนไม่น่าเชื่อ!(Happy)"
+        },
+        {
+            "key": "dialog_greece_3_1",
+            "value": "ที่นี่เคยปิดไว้สินะ...(Normal)"
+        },
+        {
+            "key": "dialog_greece_3_2",
+            "value": "สูงจัง...(Curious)"
+        },
+        {
+            "key": "dialog_greece_3_3",
+            "value": "เชือกน่าจะช่วยได้!(Normal)"
+        },
+        {
+            "key": "dialog_greece_3_4",
+            "value": "เชือกพร้อม! ใจพร้อม! ปีนได้สบายเลย!(Happy)"
+        },
+        {
+            "key": "dialog_greece_3_5",
+            "value": "เอ๊ะ...มีเรือจอดอยู่ด้วย!(Normal)"
+        },
+        {
+            "key": "dialog_greece_3_6",
+            "value": "อ๋า...น้ำมันหมดนี่เอง!(Curious)"
+        },
+        {
+            "key": "dialog_greece_3_7",
+            "value": "บรื้นนน~ ติดแล้วไปกันต่อ!(Happy)"
+        },
+        {
+            "key": "dialog_jordan_3_1",
+            "value": "ตรงนี้เหมือนขุดต่อได้!(Normal)"
+        },
+        {
+            "key": "dialog_jordan_3_2",
+            "value": "ข้ามไม่ได้เลย...(Curious)"
+        },
+        {
+            "key": "dialog_jordan_3_3",
+            "value": "เชือกน่าจะช่วยได้นะ(Normal)"
+        },
+        {
+            "key": "dialog_jordan_4_1",
+            "value": "สูงจัง...ต้องระวังหน่อย!(Normal)"
+        },
+        {
+            "key": "dialog_jordan_4_2",
+            "value": "น้ำมัน? น้ำมันแพงเก็บไว้ก่อนดีกว่า(Happy)"
+        },
+        {
+            "key": "dialog_jordan_4_3",
+            "value": "มืดมากเลย...(Curious)"
+        },
+        {
+            "key": "dialog_jordan_4_4",
+            "value": "โอเค! เห็นทางแล้ว!(Happy)"
+        },
+        {
+            "key": "dialog_jordan_4_5",
+            "value": "ช่องนี้พอดีกับอะไรบางอย่างเลย...(Curious)"
+        },
+        {
+            "key": "dialog_jordan_5_1",
+            "value": "รู้สึกว่าปลายทางใกล้เข้ามาแล้ว!(Normal)"
+        },
+        {
+            "key": "dialog_jordan_5_2",
+            "value": "หินหยกมังกร! งดงามมากเลย!(Happy)"
+        },
+        {
+            "key": "dialog_jordan_5_3",
+            "value": "อีกก้อนแล้ว!(Happy)"
+        },
+        {
+            "key": "dialog_china_5_1",
+            "value": "ข้างในนี้ใหญ่กว่าที่คิดอีก!(Normal)"
+        },
+        {
+            "key": "dialog_china_5_2",
+            "value": "เอ...ไปทางไหนดีนะ?(Curious)"
+        },
+        {
+            "key": "dialog_china_5_3",
+            "value": "เย้! คราวนี้ไม่น่าหลงแล้ว!(Happy)"
+        },
+        {
+            "key": "dialog_china_5_4",
+            "value": "เหลืออีกไม่กี่ชิ้นเอง!(Happy)"
+        },
+        {
+            "key": "dialog_greece_4_1",
+            "value": "เสียงคลื่นดังจัง...(Normal)"
+        },
+        {
+            "key": "dialog_greece_4_2",
+            "value": "ลงไปไม่ได้แฮะ...(Curious)"
+        },
+        {
+            "key": "dialog_greece_4_3",
+            "value": "ถ้ามีอุปกรณ์ดำน้ำก็คงดี!(Normal)"
+        },
+        {
+            "key": "dialog_greece_4_4",
+            "value": "ได้เวลาผจญภัยใต้น้ำแล้ว!(Happy)"
+        },
+        {
+            "key": "dialog_greece_5_1",
+            "value": "ลึกกว่าที่คิดแฮะ...(Normal)"
+        },
+        {
+            "key": "dialog_greece_5_2",
+            "value": "นี่คือตรีศูลในตำนานเหรอ!(Happy)"
+        },
+        {
+            "key": "dialog_greece_5_3",
+            "value": "ครบแล้วหรือเปล่านะ?(Happy)"
+        },
+        {
+            "key": "dialog_japan_1_1",
+            "value": "ญี่ปุ่น! บรรยากาศต่างจากที่อื่นเลย(Normal)"
+        },
+        {
+            "key": "dialog_japan_2_1",
+            "value": "ช่องทั้งสี่นี่...เหมือนกำลังรออะไรอยู่(Curious)"
+        },
+        {
+            "key": "dialog_japan_2_2",
+            "value": "หินพวกนั้นน่าจะใช้ที่นี่ได้!(Happy)"
+        },
+        {
+            "key": "dialog_japan_3_1",
+            "value": "นี่สินะ...จุดหมายของการเดินทางทั้งหมด(Normal)"
+        },
+        {
+            "key": "dialog_japan_3_2",
+            "value": "หายใจเข้าลึกๆ...(Normal)"
+        },
+        {
+            "key": "dialog_japan_3_3",
+            "value": "นักสำรวจอย่างฉัน...ไม่ยอมแพ้หรอก!(Happy)"
+        },
+        {
+            "key": "dialog_japan_3_4",
+            "value": "ไปกันเลย!(Happy)"
         }
     ]
 }

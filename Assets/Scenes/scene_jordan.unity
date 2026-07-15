@@ -2754,6 +2754,8 @@ MonoBehaviour:
   panType: 3
   targetSpriteRenderer: {fileID: 0}
   sceneObject: {fileID: 11400000, guid: 897a888dba688b74ea58ad2e7bdbd1e6, type: 2}
+  onEnterSceneDialogKey: 
+  playOnlyFirst: 1
   lostDogs: []
   foundDogs: []
   gate: {fileID: 0}
@@ -10379,6 +10381,8 @@ MonoBehaviour:
   panType: 3
   targetSpriteRenderer: {fileID: 0}
   sceneObject: {fileID: 11400000, guid: 913d6029d2c5b7a4d8168313003979aa, type: 2}
+  onEnterSceneDialogKey: 
+  playOnlyFirst: 1
   lostDogs: []
   foundDogs: []
   gate: {fileID: 2110786098}
@@ -13660,6 +13664,8 @@ MonoBehaviour:
   panType: 2
   targetSpriteRenderer: {fileID: 0}
   sceneObject: {fileID: 11400000, guid: b6a16717c17e24e4da33a32d4720b3d0, type: 2}
+  onEnterSceneDialogKey: 
+  playOnlyFirst: 1
   lostDogs: []
   foundDogs: []
   gate: {fileID: 1905020236}
@@ -16190,6 +16196,8 @@ MonoBehaviour:
   panType: 2
   targetSpriteRenderer: {fileID: 0}
   sceneObject: {fileID: 11400000, guid: cbcd7486a46100147a61eb86803bb7ce, type: 2}
+  onEnterSceneDialogKey: dialog_jordan_2_1
+  playOnlyFirst: 1
   lostDogs: []
   foundDogs: []
   gate: {fileID: 0}
@@ -18285,6 +18293,8 @@ MonoBehaviour:
   panType: 2
   targetSpriteRenderer: {fileID: 0}
   sceneObject: {fileID: 11400000, guid: 49902b8fe6ee5ff45933653069457a03, type: 2}
+  onEnterSceneDialogKey: 
+  playOnlyFirst: 1
   lostDogs: []
   foundDogs: []
   gate: {fileID: 659523255}
@@ -18588,6 +18598,8 @@ MonoBehaviour:
   panType: 3
   targetSpriteRenderer: {fileID: 0}
   sceneObject: {fileID: 11400000, guid: 897a888dba688b74ea58ad2e7bdbd1e6, type: 2}
+  onEnterSceneDialogKey: 
+  playOnlyFirst: 1
   lostDogs: []
   foundDogs: []
   gate: {fileID: 0}
@@ -21010,6 +21022,8 @@ MonoBehaviour:
   panType: 2
   targetSpriteRenderer: {fileID: 0}
   sceneObject: {fileID: 11400000, guid: cbcd7486a46100147a61eb86803bb7ce, type: 2}
+  onEnterSceneDialogKey: 
+  playOnlyFirst: 1
   lostDogs: []
   foundDogs: []
   gate: {fileID: 0}

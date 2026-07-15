@@ -35,6 +35,330 @@
         {
             "key": "dialog_need_more_dogs",
             "value": "You must find all dogs in this area first!(Curious)"
+        },
+        {
+            "key": "dialog_need_pickaxe",
+            "value": "This dirt looks weird... we could probably dig it!(Curious)"
+        },
+        {
+            "key": "dialog_peru_1_1",
+            "value": "Wow~ There are traces everywhere! Let's explore the area!(Normal)"
+        },
+        {
+            "key": "dialog_peru_1_2",
+            "value": "Hmm? This spot looks suspicious...(Curious)"
+        },
+        {
+            "key": "dialog_peru_1_3",
+            "value": "Yay! This torch will definitely be useful!(Happy)"
+        },
+        {
+            "key": "dialog_camp_1_1",
+            "value": "Well then~... let's continue our journey!(Normal)"
+        },
+        {
+            "key": "dialog_china_1_1",
+            "value": "Hmm? Feels like something is hidden around here...(Curious)"
+        },
+        {
+            "key": "dialog_china_1_2",
+            "value": "Oops... this spot looks like it was buried!(Normal)"
+        },
+        {
+            "key": "dialog_china_1_3",
+            "value": "If I had a pickaxe, I could probably dig this...(Curious)"
+        },
+        {
+            "key": "dialog_china_1_4",
+            "value": "A pickaxe! Now I can dig!(Happy)"
+        },
+        {
+            "key": "dialog_jordan_1_1",
+            "value": "This dirt looks weird... we could probably dig it!(Curious)"
+        },
+        {
+            "key": "dialog_jordan_2_1",
+            "value": "It feels like a story is hidden here...(Normal)"
+        },
+        {
+            "key": "dialog_jordan_2_2",
+            "value": "An old journal! There might be clues!(Happy)"
+        },
+        {
+            "key": "dialog_greece_1_1",
+            "value": "This wall has some weird marks...(Curious)"
+        },
+        {
+            "key": "dialog_greece_1_2",
+            "value": "That book might tell us how to open it!(Normal)"
+        },
+        {
+            "key": "dialog_greece_1_3",
+            "value": "It's so dark in here...(Normal)"
+        },
+        {
+            "key": "dialog_greece_1_4",
+            "value": "If I had a torch, I could see.(Normal)"
+        },
+        {
+            "key": "dialog_greece_1_5",
+            "value": "Phew~ I can see now!(Happy)"
+        },
+        {
+            "key": "dialog_greece_2_1",
+            "value": "Feels like we're getting close to something important!(Normal)"
+        },
+        {
+            "key": "dialog_greece_2_2",
+            "value": "An ancient coin! So beautiful!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_1_1",
+            "value": "The desert stretches as far as the eye can see...(Normal)"
+        },
+        {
+            "key": "dialog_egypt_1_2",
+            "value": "There are vines blocking the way!(Normal)"
+        },
+        {
+            "key": "dialog_egypt_1_3",
+            "value": "If I had something sharp, I could cut them...(Curious)"
+        },
+        {
+            "key": "dialog_egypt_1_4",
+            "value": "A machete! Now I can clear the path!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_2_1",
+            "value": "This door is weird...(Curious)"
+        },
+        {
+            "key": "dialog_egypt_2_2",
+            "value": "I wonder if that journal can help solve this puzzle?(Normal)"
+        },
+        {
+            "key": "dialog_egypt_3_1",
+            "value": "Eh? Something is reflecting light...(Curious)"
+        },
+        {
+            "key": "dialog_egypt_3_2",
+            "value": "A Polaroid camera! Nice find!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_4_1",
+            "value": "Whoa~... it's super dark in here.(Normal)"
+        },
+        {
+            "key": "dialog_egypt_4_2",
+            "value": "If a mummy pops out... Boo! Just kidding~(Normal)"
+        },
+        {
+            "key": "dialog_egypt_4_3",
+            "value": "Great! Now I can see!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_4_4",
+            "value": "This symbol looks just like the coin...(Curious)"
+        },
+        {
+            "key": "dialog_egypt_5_1",
+            "value": "Looks like there's more treasure hidden here!(Normal)"
+        },
+        {
+            "key": "dialog_egypt_5_2",
+            "value": "A whip? Sounds awesome!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_6_1",
+            "value": "This place is even more mysterious...(Normal)"
+        },
+        {
+            "key": "dialog_egypt_6_2",
+            "value": "A special flight ticket!? Lucky, lucky!(Happy)"
+        },
+        {
+            "key": "dialog_egypt_6_3",
+            "value": "This stone... looks like a piece of something.(Happy)"
+        },
+        {
+            "key": "dialog_china_2_1",
+            "value": "Back here again!(Normal)"
+        },
+        {
+            "key": "dialog_china_3_1",
+            "value": "One swing and we're through! I'm so cool!(Normal)"
+        },
+        {
+            "key": "dialog_china_3_2",
+            "value": "So dark... I can barely see the way.(Curious)"
+        },
+        {
+            "key": "dialog_china_3_3",
+            "value": "Much brighter now!(Happy)"
+        },
+        {
+            "key": "dialog_china_3_4",
+            "value": "There are vines blocking the way!(Normal)"
+        },
+        {
+            "key": "dialog_china_3_5",
+            "value": "If I had something sharp, I could get through.(Normal)"
+        },
+        {
+            "key": "dialog_china_3_6",
+            "value": "Snip, snip, cut them all!(Happy)"
+        },
+        {
+            "key": "dialog_china_4_1",
+            "value": "The path ahead looks a bit dangerous...(Normal)"
+        },
+        {
+            "key": "dialog_china_4_2",
+            "value": "Wow... unbelievably beautiful!(Happy)"
+        },
+        {
+            "key": "dialog_greece_3_1",
+            "value": "This place used to be sealed...(Normal)"
+        },
+        {
+            "key": "dialog_greece_3_2",
+            "value": "So high...(Curious)"
+        },
+        {
+            "key": "dialog_greece_3_3",
+            "value": "A rope would help!(Normal)"
+        },
+        {
+            "key": "dialog_greece_3_4",
+            "value": "Rope ready! Heart ready! Easy climbing!(Happy)"
+        },
+        {
+            "key": "dialog_greece_3_5",
+            "value": "Eh... there's a boat parked here!(Normal)"
+        },
+        {
+            "key": "dialog_greece_3_6",
+            "value": "Ah... it's out of gas!(Curious)"
+        },
+        {
+            "key": "dialog_greece_3_7",
+            "value": "Vroom~ It started, let's go!(Happy)"
+        },
+        {
+            "key": "dialog_jordan_3_1",
+            "value": "Looks like we can dig more here!(Normal)"
+        },
+        {
+            "key": "dialog_jordan_3_2",
+            "value": "Can't cross at all...(Curious)"
+        },
+        {
+            "key": "dialog_jordan_3_3",
+            "value": "A rope should help.(Normal)"
+        },
+        {
+            "key": "dialog_jordan_4_1",
+            "value": "So high... gotta be careful!(Normal)"
+        },
+        {
+            "key": "dialog_jordan_4_2",
+            "value": "Gasoline? Gas is expensive, better keep it.(Happy)"
+        },
+        {
+            "key": "dialog_jordan_4_3",
+            "value": "It's so dark...(Curious)"
+        },
+        {
+            "key": "dialog_jordan_4_4",
+            "value": "Okay! I can see the way!(Happy)"
+        },
+        {
+            "key": "dialog_jordan_4_5",
+            "value": "This slot fits something perfectly...(Curious)"
+        },
+        {
+            "key": "dialog_jordan_5_1",
+            "value": "Feels like the destination is getting close!(Normal)"
+        },
+        {
+            "key": "dialog_jordan_5_2",
+            "value": "Dragon Jade Stone! So magnificent!(Happy)"
+        },
+        {
+            "key": "dialog_jordan_5_3",
+            "value": "Another piece!(Happy)"
+        },
+        {
+            "key": "dialog_china_5_1",
+            "value": "It's bigger inside than I thought!(Normal)"
+        },
+        {
+            "key": "dialog_china_5_2",
+            "value": "Hmm... which way should we go?(Curious)"
+        },
+        {
+            "key": "dialog_china_5_3",
+            "value": "Yay! Shouldn't get lost now!(Happy)"
+        },
+        {
+            "key": "dialog_china_5_4",
+            "value": "Only a few pieces left!(Happy)"
+        },
+        {
+            "key": "dialog_greece_4_1",
+            "value": "The waves are so loud...(Normal)"
+        },
+        {
+            "key": "dialog_greece_4_2",
+            "value": "Can't go down there...(Curious)"
+        },
+        {
+            "key": "dialog_greece_4_3",
+            "value": "Diving gear would be great!(Normal)"
+        },
+        {
+            "key": "dialog_greece_4_4",
+            "value": "Time for an underwater adventure!(Happy)"
+        },
+        {
+            "key": "dialog_greece_5_1",
+            "value": "Deeper than I thought...(Normal)"
+        },
+        {
+            "key": "dialog_greece_5_2",
+            "value": "Is this the legendary trident!?(Happy)"
+        },
+        {
+            "key": "dialog_greece_5_3",
+            "value": "Is that all of them?(Happy)"
+        },
+        {
+            "key": "dialog_japan_1_1",
+            "value": "Japan! The atmosphere is completely different.(Normal)"
+        },
+        {
+            "key": "dialog_japan_2_1",
+            "value": "These four slots... look like they are waiting for something.(Curious)"
+        },
+        {
+            "key": "dialog_japan_2_2",
+            "value": "Those stones should work here!(Happy)"
+        },
+        {
+            "key": "dialog_japan_3_1",
+            "value": "So this is it... the destination of our entire journey.(Normal)"
+        },
+        {
+            "key": "dialog_japan_3_2",
+            "value": "Take a deep breath...(Normal)"
+        },
+        {
+            "key": "dialog_japan_3_3",
+            "value": "An explorer like me... won't give up!(Happy)"
+        },
+        {
+            "key": "dialog_japan_3_4",
+            "value": "Let's go!(Happy)"
         }
     ]
 }

@@ -14,6 +14,12 @@ public class SceneHandle : MonoBehaviour
     public SpriteRenderer targetSpriteRenderer;
     public SceneObject sceneObject;
 
+    [Header("Scene Dialog")]
+    [Tooltip("ใส่ชื่อ Key ของบทสนทนาที่อยากให้เด้งขึ้นมาตอนเข้าด่านนี้ (เช่น dialog_jordan_2_1) ปล่อยว่างไว้ถ้าไม่มี")]
+    public string onEnterSceneDialogKey;
+    [Tooltip("ติ๊กถูกถ้าอยากให้บทสนทนานี้เด้งแค่ครั้งแรกครั้งเดียวที่เข้าด่าน")]
+    public bool playOnlyFirst = true;
+
     [HideInInspector]
     public List<Dog> lostDogs = new List<Dog>();
     public List<Dog> foundDogs = new List<Dog>();
@@ -88,6 +94,31 @@ public class SceneHandle : MonoBehaviour
     {
         lostDogs.Clear();
         foundDogs.Clear();
+
+        if (!string.IsNullOrEmpty(onEnterSceneDialogKey) && UIManager.Instance != null)
+        {
+            string memoryKey = "seen_" + onEnterSceneDialogKey;
+            bool shouldPlay = true;
+
+            if (playOnlyFirst && Gamemanager.Instance != null && Gamemanager.Instance.currentSaveData != null)
+            {
+                if (Gamemanager.Instance.currentSaveData.interactedEnvIDs.Contains(memoryKey))
+                {
+                    shouldPlay = false;
+                }
+            }
+
+            if (shouldPlay)
+            {
+                UIManager.Instance.ShowDialog(onEnterSceneDialogKey);
+
+                if (playOnlyFirst && Gamemanager.Instance != null && Gamemanager.Instance.currentSaveData != null)
+                {
+                    Gamemanager.Instance.currentSaveData.interactedEnvIDs.Add(memoryKey);
+                    Gamemanager.Instance.AutoSaveProgress();
+                }
+            }
+        }
 
         FindSCNSpriteRenderer();
 

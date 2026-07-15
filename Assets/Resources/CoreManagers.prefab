@@ -7945,6 +7945,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7082873917014779035, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
+      propertyPath: currentLanguage
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7094924720975992399, guid: 1907deb93035f9e4a871109eb1bffb05, type: 3}
       propertyPath: m_IsActive
       value: 1
