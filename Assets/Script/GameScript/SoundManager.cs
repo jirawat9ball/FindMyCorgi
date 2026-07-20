@@ -8,6 +8,9 @@ public class SoundManager : MonoBehaviour
 
     public AudioClip OnClickSound;
     public AudioClip OnEmptyClickSound;
+    public AudioClip OnClickObjectDestroySound; // เสียงตอน ClickObject ทำลาย/เคลียร์สำเร็จ
+    public AudioClip OnGotItemSound; // 🌟 เสียงตอนได้รับไอเทม
+    public AudioClip OnClickRealDogSound; // 🌟 เสียงตอนกดเจอหมาจริง (RealDog)
 
     public AudioClip MainMenu;
     public AudioClip DefaultBGSound;
@@ -59,7 +62,15 @@ public class SoundManager : MonoBehaviour
         _audioEF.volume = v;
     }
     public void PlayOnClickSound() {
-        _audioEF.PlayOneShot(OnClickSound);
+        if (OnClickSound != null) _audioEF.PlayOneShot(OnClickSound);
+    }
+
+    public void PlayOnClickObjectDestroySound()
+    {
+        if (OnClickObjectDestroySound != null)
+        {
+            _audioEF.PlayOneShot(OnClickObjectDestroySound);
+        }
     }
 
     public void PlayCustomSound(AudioClip customClip)
@@ -71,6 +82,27 @@ public class SoundManager : MonoBehaviour
     {
         _audioEF.PlayOneShot(OnEmptyClickSound);
     }
+    
+    public void PlayOnClickRealDogSound()
+    {
+        if (OnClickRealDogSound != null)
+        {
+            _audioEF.PlayOneShot(OnClickRealDogSound);
+        }
+        else
+        {
+            PlayOnClickSound();
+        }
+    }
+    
+    public void PlayGotItemSound()
+    {
+        if (OnGotItemSound != null)
+        {
+            _audioEF.PlayOneShot(OnGotItemSound);
+        }
+    }
+    
     public void PlayBGSound(AudioClip BGSound) {
         if (BGSound == null) return;
         if (_audioBG.clip == BGSound && _audioBG.isPlaying) return; // 🌟 ถ้าเป็นเพลงเดิมที่กำลังเล่นอยู่ ให้ข้ามไปเลย ไม่ต้องเริ่มใหม่

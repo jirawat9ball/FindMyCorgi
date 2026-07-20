@@ -268,7 +268,10 @@ public class SceneHandle : MonoBehaviour
     {
         int normalLostCount = 0;
         int specialLostCount = 0;
+        int normalTotal = 0;
+        int specialTotal = 0;
 
+        // นับจำนวนที่ยังหาไม่เจอ
         foreach (Dog dog in lostDogs)
         {
             if (dog != null)
@@ -279,10 +282,23 @@ public class SceneHandle : MonoBehaviour
                     normalLostCount++;
             }
         }
+        
+        // นับจำนวนทั้งหมดในด่าน (เอาไว้เช็คว่าด่านนี้มีหมาประเภทนั้นๆ ให้หาตั้งแต่แรกไหม)
+        Dog[] allDogs = GetAllDog();
+        foreach (Dog dog in allDogs)
+        {
+            if (dog != null && !dog.realDog)
+            {
+                if (dog.isSpecial)
+                    specialTotal++;
+                else
+                    normalTotal++;
+            }
+        }
 
         if (Gamemanager.Instance.uiIngame != null)
         {
-            Gamemanager.Instance.uiIngame.UpdateLostDog(normalLostCount, specialLostCount);
+            Gamemanager.Instance.uiIngame.UpdateLostDog(normalLostCount, specialLostCount, normalTotal, specialTotal);
         }
     }
 

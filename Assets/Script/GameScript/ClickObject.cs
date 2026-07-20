@@ -9,6 +9,7 @@ public class ClickObject : Obstacle
     int countClick = 0;
     int FailedClick = 0;
 
+
     protected override void OnMouseDown()
     {
         if (!Gamemanager.Instance.isStateGamePlay())
@@ -73,7 +74,10 @@ public class ClickObject : Obstacle
         onComplete?.Invoke();
 
         Debug.Log("Play Partical");
-        Debug.Log("Play Sound");
+        if (SoundManager.Instance != null)
+        {
+            SoundManager.Instance.PlayOnClickObjectDestroySound();
+        }
         //Destroy(gameObject);
     }
 }

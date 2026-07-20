@@ -42,7 +42,7 @@ public class SaveData
     public string lastSceneName;
 
     [Header("ไอเทมช่วยเหลือ")]
-    public int snackCount = 0;
+    public int snackCount = 3;
 
     [Header("ไอเทมที่เก็บแล้ว")]
     public List<string> collectedKeyItemIDs = new List<string>();

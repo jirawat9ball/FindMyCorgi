@@ -26,6 +26,14 @@ public class SlotItem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         itemImage.sprite = keyItem.Image;
         uIInventory = _uIInventory;
     }
+
+    public void ClearSlot() {
+        setUp = false;
+        button.interactable = false;
+        keyItem = null;
+        itemImage.enabled = false;
+        BG.enabled = false;
+    }
     public void OnPointerEnter(PointerEventData eventData)
     {
         if (setUp)

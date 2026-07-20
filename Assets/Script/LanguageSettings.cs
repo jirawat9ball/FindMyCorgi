@@ -11,7 +11,7 @@ public class LanguageSettings : MonoBehaviour
     public static LanguageSettings Instance { get; private set; }
     public enum Language { English, Spanish, French, German, Thai } // Add your desired languages
 
-    public Language currentLanguage = Language.Thai;
+    public Language currentLanguage = Language.English;
     public string languageFilePrefix = "lang_"; // Prefix for language files (e.g., lang_en.json)
 
     // 🌟 Event ที่จะถูกเรียกเมื่อมีการเปลี่ยนภาษา เพื่อให้ UI ทั้งหมดอัปเดตตัวเองอัตโนมัติ

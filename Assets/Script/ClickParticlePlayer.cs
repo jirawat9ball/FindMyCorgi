@@ -58,17 +58,36 @@ public class ClickParticlePlayer : MonoBehaviour
 
         if (hit2D.collider != null)
         {
-            // 🌟 เช็คว่าวัตถุนี้มีเสียงเฉพาะตัวไหม (สคริปต์ Interaction)
+            // 🌟 เช็คว่าวัตถุนี้มีเสียงเฉพาะตัวไหม (สคริปต์ Interaction หรือ ClickObject)
             Interaction interaction = hit2D.collider.GetComponent<Interaction>();
-            if (interaction != null && interaction.clipClick != null && interaction.clipClick.Length > 0)
+            ClickObject clickObj = hit2D.collider.GetComponent<ClickObject>();
+            Dog dogObj = hit2D.collider.GetComponent<Dog>();
+
+            if (dogObj != null && dogObj.realDog)
             {
-                // สุ่มเสียงจาก Array
+                // 🌟 เล่นเสียงเฉพาะของน้องหมาตัวจริง
+                SoundManager.Instance.PlayOnClickRealDogSound();
+            }
+            else if (clickObj != null)
+            {
+                if (clickObj.clipClick != null && clickObj.clipClick.Length > 0)
+                {
+                    AudioClip randomClip = clickObj.clipClick[Random.Range(0, clickObj.clipClick.Length)];
+                    SoundManager.Instance.PlayCustomSound(randomClip);
+                }
+                else
+                {
+                    SoundManager.Instance.PlayOnClickSound();
+                }
+            }
+            else if (interaction != null && interaction.clipClick != null && interaction.clipClick.Length > 0)
+            {
                 AudioClip randomClip = interaction.clipClick[Random.Range(0, interaction.clipClick.Length)];
                 SoundManager.Instance.PlayCustomSound(randomClip);
             }
             else
             {
-                // โดนวัตถุ เล่นเสียงปกติ
+                // โดนวัตถุ แต่ไม่ได้ตั้งเสียงเฉพาะไว้ เล่นเสียงปกติ
                 SoundManager.Instance.PlayOnClickSound();
             }
             

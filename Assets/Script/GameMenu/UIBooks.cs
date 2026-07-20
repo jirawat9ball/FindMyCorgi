@@ -16,11 +16,10 @@ public class UIBooks : MonoBehaviour
     [Header("Travel")]
     public Image TabImageTravel;
     public GameObject TravelPanal;
-    private void Start()
+    private void OnEnable()
     {
         SetUpSlots();
         ToggleTab(true);
-
     }
     public void OnClickTap(int i)
     {
@@ -52,13 +51,20 @@ public class UIBooks : MonoBehaviour
             }
         }
 
+        // ล้างข้อมูลช่องเก่าทั้งหมดก่อนเผื่อมีการปิดเปิดกระเป๋า
+        for (int i = 0; i < KeyItemslots.Length; i++) {
+            if (KeyItemslots[i] != null) KeyItemslots[i].ClearSlot();
+        }
+        for (int i = 0; i < Gemslots.Length; i++) {
+            if (Gemslots[i] != null) Gemslots[i].ClearSlot();
+        }
 
         for (int i = 0; i < ListItems.Count; i++) {
-            KeyItemslots[i].SetUpSlot(ListItems[i], this);
+            if (i < KeyItemslots.Length) KeyItemslots[i].SetUpSlot(ListItems[i], this);
         }
         for (int i = 0; i < Liststons.Count; i++)
         {
-            Gemslots[i].SetUpSlot(Liststons[i], this);
+            if (i < Gemslots.Length) Gemslots[i].SetUpSlot(Liststons[i], this);
         }
         if (ListItems.Count > 0) {
             ShowInfomation(ListItems[0]);

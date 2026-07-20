@@ -2605,7 +2605,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickObject
   NeedKey: {fileID: 0}
   Description: 
-  clipClick: []
+  clipClick:
+  - {fileID: 8300000, guid: db05a5946b406994dbcfbffcb4fafc04, type: 3}
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -9038,7 +9039,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickObject
   NeedKey: {fileID: 0}
   Description: 
-  clipClick: []
+  clipClick:
+  - {fileID: 8300000, guid: db05a5946b406994dbcfbffcb4fafc04, type: 3}
   onComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -13090,7 +13092,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ClickObjectDogLimit
   NeedKey: {fileID: 11400000, guid: 6e6595c93ca354b4392caca9f133b41c, type: 2}
   Description: Need some thing to open it
-  clipClick: []
+  clipClick:
+  - {fileID: 8300000, guid: db05a5946b406994dbcfbffcb4fafc04, type: 3}
   onComplete:
     m_PersistentCalls:
       m_Calls:
@@ -13151,7 +13154,7 @@ MonoBehaviour:
   - {fileID: -4607496142979237375, guid: 27b376930f450894793e7e7a09446c71, type: 3}
   - {fileID: -4607496142979237375, guid: 27b376930f450894793e7e7a09446c71, type: 3}
   RequiredClick: 2
-  requiredDogsLimit: 37
+  requiredDogsLimit: 38
   dogLimitTxt: {fileID: 200544839}
   dogLimitBG: {fileID: 2099706000}
 --- !u!1 &967551035 stripped

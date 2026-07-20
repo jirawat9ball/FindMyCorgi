@@ -9,6 +9,10 @@ public class TutorialManager : MonoBehaviour
     [Header("ปุ่มเป้าหมาย (กำหนดจาก Inspector หรือค้นหาเอง)")]
     public GameObject bagBtn;
     public GameObject htpBtn;
+    [Header("ตั้งค่า Effect (รูปภาพแอนิเมชัน)")]
+    public Sprite[] tutorialEffectSprites;
+    public float effectFrameDuration = 0.05f;
+    public float effectScaleMultiplier = 1.2f; // ขนาดของ Effect เทียบกับปุ่ม
 
     private static TutorialManager instance;
 
@@ -22,6 +26,15 @@ public class TutorialManager : MonoBehaviour
     private Vector2 originalHtpPos;
 
     private string currentSortingLayer = "Default";
+    private Coroutine activeEffectCoroutine;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+    }
 
     // ── รัน Tutorial อัตโนมัติเมื่อโหลด scene Tibet / Jordan ─────────
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
@@ -32,11 +45,21 @@ public class TutorialManager : MonoBehaviour
             string sceneName = scene.name.ToLower();
             if (sceneName.Contains("tibet") || sceneName.Contains("jordan"))
             {
+                // ลองหาตัวที่มีอยู่ใน Scene (ที่คุณตั้งค่าไว้ใน Inspector)
+                if (instance == null)
+                {
+                    instance = Object.FindObjectOfType<TutorialManager>();
+                }
+                
+                // ถ้ายังไม่มี ค่อยสร้างใหม่
                 if (instance == null)
                 {
                     GameObject go = new GameObject("TutorialManager");
                     instance = go.AddComponent<TutorialManager>();
                 }
+                
+                // ถ้ามีรันอยู่แล้ว ให้หยุดก่อน
+                instance.StopAllCoroutines();
                 instance.StartCoroutine(instance.TutorialFlow());
             }
         };
@@ -99,13 +122,45 @@ public class TutorialManager : MonoBehaviour
     // ── Tutorial Flow หลัก ───────────────────────────────────────────
     private IEnumerator TutorialFlow()
     {
+        // รอให้ UI เริ่มต้นสักนิดก่อนหาปุ่ม
+        yield return new WaitForSeconds(0.1f);
+
+        // หาปุ่ม Inventory และ HTP
+        bagBtn = FindButtonByName("inventory");
+        htpBtn = FindButtonByName("how to") ?? FindButtonByName("htpbtn");
+
+        // 🌟 ปิด Effect ที่อาจจะถูกเปิดค้างไว้ใน Editor ตั้งแต่แรกให้หมดก่อน
+        if (bagBtn != null)
+        {
+            Transform bagFx = bagBtn.transform.Find("TutorialEffect");
+            if (bagFx != null) bagFx.gameObject.SetActive(false);
+        }
+        if (htpBtn != null)
+        {
+            Transform htpFx = htpBtn.transform.Find("TutorialEffect");
+            if (htpFx != null) htpFx.gameObject.SetActive(false);
+
+            if (htpBtn.transform.parent != null)
+            {
+                Transform parentFx = htpBtn.transform.parent.Find("TutorialEffect");
+                if (parentFx != null) parentFx.gameObject.SetActive(false);
+            }
+        }
+
         // ข้ามถ้าทำ tutorial ไปแล้ว
         if (Gamemanager.Instance != null && Gamemanager.Instance.currentSaveData != null)
         {
-            if (Gamemanager.Instance.currentSaveData.hasCompletedTutorial) yield break;
+            if (Gamemanager.Instance.currentSaveData.hasCompletedTutorial)
+            {
+                // ถ้าสคริปต์นี้ถูกแปะไว้ที่ Gamemanager ห้ามลบ gameObject ทิ้ง!
+                if (gameObject.name == "TutorialManager") Destroy(gameObject);
+                else Destroy(this);
+                
+                yield break;
+            }
         }
 
-        yield return new WaitForSeconds(1.5f); // รอให้ UI โหลดครบก่อน
+        yield return new WaitForSeconds(1.4f); // รอให้ UI โหลดครบตามเวลาเดิม
 
         // หา hand pointer objects (อาจ inactive อยู่)
         GameObject invHand = FindInactiveObjectByName("inv_hand");
@@ -115,8 +170,6 @@ public class TutorialManager : MonoBehaviour
         if (invHand != null) invHand.SetActive(false);
         if (htpHand != null) htpHand.SetActive(false);
 
-        // หาปุ่ม Inventory
-        bagBtn = FindButtonByName("inventory");
         if (bagBtn == null)
         {
             Debug.LogWarning("[TutorialManager] หาปุ่มกระเป๋าไม่เจอ ยกเลิกการสอน");
@@ -151,7 +204,7 @@ public class TutorialManager : MonoBehaviour
         // รอให้แอนิเมชันเปิดหน้าหนังสือเสร็จก่อน ค่อยหาปุ่ม HTP
         yield return new WaitForSeconds(0.5f);
 
-        htpBtn = FindButtonByName("how to");
+        htpBtn = FindButtonByName("how to") ?? FindButtonByName("htpbtn");
         if (htpBtn == null)
         {
             Debug.LogWarning("[TutorialManager] หาปุ่ม How to play ไม่เจอ");
@@ -197,7 +250,10 @@ public class TutorialManager : MonoBehaviour
         }
 
         Destroy(darkOverlay);
-        Destroy(gameObject);
+        
+        // ลบแค่สคริปต์ตัวเองทิ้ง ป้องกันการลบ Gamemanager โดยไม่ได้ตั้งใจ
+        if (gameObject.name == "TutorialManager") Destroy(gameObject);
+        else Destroy(this);
     }
 
     // ── ยกปุ่มให้ทะลุจอดำ (ย้าย Parent ชั่วคราว) ────────────────────
@@ -206,55 +262,95 @@ public class TutorialManager : MonoBehaviour
     {
         if (target == null || darkOverlay == null) yield break;
 
+        // 🌟 ถ้านี่คือปุ่ม How to play และถูกคลุมด้วย Empty Object (Mask) 
+        // เราจะทำการยกตัวคลุม (Parent) ขึ้นมาแทน เพื่อให้ Mask ยังทำงานอยู่
+        GameObject objectToElevate = target;
+        if (target.name.ToLower().Contains("how to") || target.name.ToLower().Contains("htp"))
+        {
+            // เช็คว่า Parent ของปุ่ม ไม่ใช่ Book/Canvas โดยตรง (เช่นชื่อมีคำว่า Mask หรือเป็น Empty Object ที่เพิ่งสร้าง)
+            // คุณสามารถตั้งชื่อ Empty object ว่า "HTPMask" ได้
+            if (target.transform.parent != null)
+            {
+                objectToElevate = target.transform.parent.gameObject;
+            }
+        }
+
         // 1. จำ hierarchy เดิมไว้
         if (target.name.ToLower().Contains("inventory"))
         {
-            originalBagParent = target.transform.parent;
-            originalBagIndex = target.transform.GetSiblingIndex();
+            originalBagParent = objectToElevate.transform.parent;
+            originalBagIndex = objectToElevate.transform.GetSiblingIndex();
         }
-        else if (target.name.ToLower().Contains("how to"))
+        else if (target.name.ToLower().Contains("how to") || target.name.ToLower().Contains("htp"))
         {
-            originalHtpParent = target.transform.parent;
-            originalHtpIndex = target.transform.GetSiblingIndex();
+            originalHtpParent = objectToElevate.transform.parent;
+            originalHtpIndex = objectToElevate.transform.GetSiblingIndex();
 
-            RectTransform rect = target.GetComponent<RectTransform>();
+            RectTransform rect = objectToElevate.GetComponent<RectTransform>();
             if (rect != null)
             {
                 originalHtpPos = rect.anchoredPosition;
             }
         }
 
-        // 2. ย้ายปุ่มมาเป็นลูกของ darkOverlay (worldPositionStays=true รักษาตำแหน่งบนจอ)
-        target.transform.SetParent(darkOverlay.transform, true);
+        // 2. ย้าย Object มาเป็นลูกของ darkOverlay
+        objectToElevate.transform.SetParent(darkOverlay.transform, true);
 
-        // 3. วาดทับจอดำ (last sibling = ด้านหน้าสุด)
-        target.transform.SetAsLastSibling();
+        // 3. วาดทับจอดำ
+        objectToElevate.transform.SetAsLastSibling();
 
-        // 4. ปรับตำแหน่ง htpBtn ให้ตรงตำแหน่งที่ต้องการบนจอ
-        if (target.name.ToLower().Contains("how to"))
+        // 4. ปรับตำแหน่งให้ตรงกับบนจอดำ
+        if (target.name.ToLower().Contains("how to") || target.name.ToLower().Contains("htp"))
         {
-            RectTransform rect = target.GetComponent<RectTransform>();
+            RectTransform rect = objectToElevate.GetComponent<RectTransform>();
             if (rect != null)
             {
                 Vector2 pos = rect.anchoredPosition;
-                pos.x = 261.59f;
-                pos.y = -175f;
+                pos.x = 50f;
+                pos.y = 4.7f;
                 rect.anchoredPosition = pos;
             }
         }
 
-        // 5. รอ 1 frame ให้ Unity คำนวณ localPosition ใหม่หลัง SetParent
+        // 5. รอ 1 frame
         yield return null;
 
-        // 6. Update originalPosition ของ hover effect ให้ตรงกับตำแหน่งใหม่
-        //    เพราะ localPosition เปลี่ยนหลังย้าย parent ทำให้ hover drift ออกนอกกรอบ
+        // 6. Update originalPosition ของ hover
         ButtonHoverEffect hover = target.GetComponent<ButtonHoverEffect>();
         if (hover != null)
         {
             hover.UpdateOriginalPosition();
         }
 
-        Debug.Log($"[TutorialManager] ยก {target.name} ขึ้นบนจอดำสำเร็จ!");
+        // 🌟 เริ่มเล่น Effect (Frame-by-frame) วนซ้ำ
+        // โดยจะหา Object ลูกที่ชื่อ "TutorialEffect" ที่คุณสร้างรอไว้ใน Editor
+        Transform effectChild = objectToElevate.transform.Find("TutorialEffect");
+        if (effectChild != null && tutorialEffectSprites != null && tutorialEffectSprites.Length > 0)
+        {
+            effectChild.gameObject.SetActive(true);
+            
+            // 🌟 จัดตำแหน่งและขนาดให้ตรงกลางและใหญ่กว่าปุ่มนิดนึง (เผื่อลืมจัดใน Editor)
+            RectTransform effectRect = effectChild.GetComponent<RectTransform>();
+            RectTransform targetRect = objectToElevate.GetComponent<RectTransform>();
+            if (effectRect != null && targetRect != null)
+            {
+                effectRect.sizeDelta = targetRect.rect.size * effectScaleMultiplier;
+                effectRect.anchoredPosition = Vector2.zero;
+                effectRect.SetAsLastSibling();
+            }
+
+            Image effectImg = effectChild.GetComponent<Image>();
+            if (effectImg == null)
+            {
+                effectImg = effectChild.gameObject.AddComponent<Image>();
+                effectImg.raycastTarget = false;
+            }
+
+            if (activeEffectCoroutine != null) StopCoroutine(activeEffectCoroutine);
+            activeEffectCoroutine = StartCoroutine(SpriteAnimationEffect(effectImg));
+        }
+
+        Debug.Log($"[TutorialManager] ยก {objectToElevate.name} ขึ้นบนจอดำสำเร็จ!");
     }
 
     // ── คืนปุ่มกลับ hierarchy เดิม ───────────────────────────────────
@@ -262,19 +358,39 @@ public class TutorialManager : MonoBehaviour
     {
         if (target == null) return;
 
+        // หา Parent หลักที่ถูกยกขึ้นมา (ถ้ามีการครอบ Mask)
+        GameObject objectToRestore = target;
+        if (target.transform.parent != null && target.transform.parent.gameObject != darkOverlay)
+        {
+            objectToRestore = target.transform.parent.gameObject;
+        }
+
+        // 🌟 หยุด Effect ภาพแอนิเมชัน และปิด GameObject
+        if (activeEffectCoroutine != null)
+        {
+            StopCoroutine(activeEffectCoroutine);
+            activeEffectCoroutine = null;
+        }
+        
+        Transform effectChild = objectToRestore.transform.Find("TutorialEffect");
+        if (effectChild != null)
+        {
+            effectChild.gameObject.SetActive(false);
+        }
+
         // คืนกลับ parent เดิม
         if (target.name.ToLower().Contains("inventory") && originalBagParent != null)
         {
             target.transform.SetParent(originalBagParent, true);
             target.transform.SetSiblingIndex(originalBagIndex);
         }
-        else if (target.name.ToLower().Contains("how to") && originalHtpParent != null)
+        else if ((target.name.ToLower().Contains("how to") || target.name.ToLower().Contains("htp")) && originalHtpParent != null)
         {
-            target.transform.SetParent(originalHtpParent, true);
-            target.transform.SetSiblingIndex(originalHtpIndex);
+            objectToRestore.transform.SetParent(originalHtpParent, true);
+            objectToRestore.transform.SetSiblingIndex(originalHtpIndex);
 
-            // คืนตำแหน่ง anchoredPosition เดิมของ HTP
-            RectTransform rect = target.GetComponent<RectTransform>();
+            // คืนตำแหน่ง anchoredPosition เดิมของ HTP (และ Mask ถ้ามี)
+            RectTransform rect = objectToRestore.GetComponent<RectTransform>();
             if (rect != null)
             {
                 rect.anchoredPosition = originalHtpPos;
@@ -289,4 +405,28 @@ public class TutorialManager : MonoBehaviour
         }
     }
 
+    // 🌟 Effect สลับรูปภาพไปเรื่อยๆ
+    private IEnumerator SpriteAnimationEffect(Image effectImage)
+    {
+        int index = 0;
+        while (true)
+        {
+            if (tutorialEffectSprites != null && tutorialEffectSprites.Length > 0)
+            {
+                Sprite currentSprite = tutorialEffectSprites[index];
+                if (currentSprite != null)
+                {
+                    effectImage.sprite = currentSprite;
+                    effectImage.color = Color.white; // แสดงสีปกติเมื่อมีรูป
+                }
+                else
+                {
+                    effectImage.color = new Color(1, 1, 1, 0); // ซ่อนกล่องสี่เหลี่ยมขาวถ้ายังไม่ได้ใส่รูป
+                }
+                
+                index = (index + 1) % tutorialEffectSprites.Length;
+            }
+            yield return new WaitForSeconds(effectFrameDuration);
+        }
+    }
 }
