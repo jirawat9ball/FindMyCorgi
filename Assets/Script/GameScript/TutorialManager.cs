@@ -185,8 +185,15 @@ public class TutorialManager : MonoBehaviour
         // ยกปุ่มกระเป๋าของจริงให้ทะลุจอดำขึ้นมา
         yield return StartCoroutine(ElevateUI(bagBtn));
 
-        // แสดง hand pointer ชี้ปุ่มกระเป๋า
-        if (invHand != null) invHand.SetActive(true);
+        // แสดง hand pointer ชี้ปุ่มกระเป๋าแบบไม่เฟด แต่มีอนิเมชันลอย
+        Vector2 invHandStartPos = Vector2.zero;
+        Coroutine invHandFloatCoroutine = null;
+        if (invHand != null) 
+        {
+            invHand.SetActive(true);
+            invHandStartPos = invHand.GetComponent<RectTransform>().anchoredPosition;
+            invHandFloatCoroutine = StartCoroutine(FloatAnimation(invHand, invHandStartPos));
+        }
 
         // รอจนกว่า Inventory จะเปิดขึ้นมา
         while (Gamemanager.Instance.uiIngame.panelPopUpManager.Inventory == null ||
@@ -196,7 +203,12 @@ public class TutorialManager : MonoBehaviour
         }
 
         // ซ่อน hand และคืนปุ่มกระเป๋ากลับไปเหมือนเดิม
-        if (invHand != null) invHand.SetActive(false);
+        if (invHand != null) 
+        {
+            if (invHandFloatCoroutine != null) StopCoroutine(invHandFloatCoroutine);
+            invHand.GetComponent<RectTransform>().anchoredPosition = invHandStartPos;
+            invHand.SetActive(false);
+        }
         RestoreUI(bagBtn);
 
         // ================= STEP 2: กดปุ่ม How to play =================
@@ -214,8 +226,15 @@ public class TutorialManager : MonoBehaviour
         // ยกปุ่ม HTP ของจริงให้ทะลุจอดำขึ้นมา
         yield return StartCoroutine(ElevateUI(htpBtn));
 
-        // แสดง hand pointer ชี้ปุ่ม HTP
-        if (htpHand != null) htpHand.SetActive(true);
+        // แสดง hand pointer ชี้ปุ่ม HTP แบบนุ่มนวล
+        Vector2 htpHandStartPos = Vector2.zero;
+        Coroutine htpHandFloatCoroutine = null;
+        if (htpHand != null) 
+        {
+            htpHandStartPos = htpHand.GetComponent<RectTransform>().anchoredPosition;
+            yield return StartCoroutine(SmoothShowHand(htpHand));
+            htpHandFloatCoroutine = StartCoroutine(FloatAnimation(htpHand, htpHandStartPos));
+        }
 
         // รอจนกว่าหน้าต่าง How to play จะเปิดขึ้นมา
         while (Gamemanager.Instance.uiIngame.panelPopUpManager.Howtoplay == null ||
@@ -225,13 +244,24 @@ public class TutorialManager : MonoBehaviour
         }
 
         // ซ่อน hand และคืนปุ่ม HTP กลับไปเหมือนเดิม
-        if (htpHand != null) htpHand.SetActive(false);
+        if (htpHand != null) 
+        {
+            if (htpHandFloatCoroutine != null) StopCoroutine(htpHandFloatCoroutine);
+            htpHand.GetComponent<RectTransform>().anchoredPosition = htpHandStartPos;
+            StartCoroutine(SmoothHideHand(htpHand)); // ไม่ต้อง yield return
+        }
         RestoreUI(htpBtn);
 
         // ================= STEP 3: อ่านและปิด How to play =================
 
-        // ปิดจอดำ เพื่อให้ผู้เล่นอ่าน HTP ได้ชัดและกดปิดเองได้
-        darkOverlay.SetActive(false);
+        // 🌟 จอดำของ Tutorial จะ FadeOut ค่อยๆ จางหายไปพร้อมกับจอดำของ HTP ที่กำลัง FadeIn พอดี
+        // ป้องกันไม่ให้สีดำมันซ้อนกันจนเข้มเกินไป
+        Image darkImage = darkOverlay.GetComponent<Image>();
+        if (darkImage != null)
+        {
+            darkImage.raycastTarget = false; // 🌟 ปิดการบล็อกคลิก เพื่อให้กดปุ่มปิด How to play ได้
+            StartCoroutine(darkImage.FadeOut(0.25f)); // ใช้เวลา 0.25s เท่ากับที่ HTP เฟดเข้า
+        }
 
         // รอจนกว่าผู้เล่นจะกดปิด How to play ด้วยตัวเอง
         while (Gamemanager.Instance.uiIngame.panelPopUpManager.Howtoplay != null &&
@@ -239,6 +269,9 @@ public class TutorialManager : MonoBehaviour
         {
             yield return null;
         }
+
+        // ปิดจอดำทิ้งไปเลย
+        darkOverlay.SetActive(false);
 
         // ================= จบการสอน =================
 
@@ -322,6 +355,9 @@ public class TutorialManager : MonoBehaviour
             hover.UpdateOriginalPosition();
         }
 
+        // 🌟 เอฟเฟกต์เด้งป๊อปอัพ (Ultrasmooth Pop)
+        StartCoroutine(PopScaleEffect(objectToElevate.transform, objectToElevate.transform.localScale));
+
         // 🌟 เริ่มเล่น Effect (Frame-by-frame) วนซ้ำ
         // โดยจะหา Object ลูกที่ชื่อ "TutorialEffect" ที่คุณสร้างรอไว้ใน Editor
         Transform effectChild = objectToElevate.transform.Find("TutorialEffect");
@@ -403,6 +439,86 @@ public class TutorialManager : MonoBehaviour
         {
             hover.UpdateOriginalPosition();
         }
+    }
+
+    // ── ฟังก์ชันเสริมความ Ultrasmooth ───────────────────────────────────
+    private IEnumerator FadeCanvasGroup(CanvasGroup cg, float startAlpha, float targetAlpha, float duration)
+    {
+        if (cg == null) yield break;
+        float time = 0;
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+            float t = Mathf.SmoothStep(0f, 1f, time / duration);
+            cg.alpha = Mathf.Lerp(startAlpha, targetAlpha, t);
+            yield return null;
+        }
+        cg.alpha = targetAlpha;
+    }
+
+    private IEnumerator SmoothShowHand(GameObject hand)
+    {
+        if (hand == null) yield break;
+        hand.SetActive(true);
+        CanvasGroup cg = hand.GetComponent<CanvasGroup>();
+        if (cg == null) cg = hand.AddComponent<CanvasGroup>();
+        cg.alpha = 0f;
+        yield return StartCoroutine(FadeCanvasGroup(cg, 0f, 1f, 0.3f));
+    }
+
+    private IEnumerator SmoothHideHand(GameObject hand)
+    {
+        if (hand == null) yield break;
+        CanvasGroup cg = hand.GetComponent<CanvasGroup>();
+        if (cg == null) cg = hand.AddComponent<CanvasGroup>();
+        yield return StartCoroutine(FadeCanvasGroup(cg, cg.alpha, 0f, 0.3f));
+        hand.SetActive(false);
+    }
+
+    private IEnumerator FloatAnimation(GameObject obj, Vector2 startPos)
+    {
+        RectTransform rect = obj.GetComponent<RectTransform>();
+        if (rect == null) yield break;
+        
+        float speed = 6f;
+        float amplitude = 12f;
+        
+        while (true)
+        {
+            rect.anchoredPosition = startPos + new Vector2(0, Mathf.Sin(Time.time * speed) * amplitude);
+            yield return null;
+        }
+    }
+
+    private IEnumerator PopScaleEffect(Transform target, Vector3 originalScale)
+    {
+        if (target == null) yield break;
+        float duration = 0.2f;
+        float time = 0;
+        Vector3 targetScale = originalScale * 1.15f;
+        
+        // Scale up
+        while (time < duration)
+        {
+            if (target == null) yield break;
+            time += Time.deltaTime;
+            float t = Mathf.SmoothStep(0f, 1f, time / duration);
+            target.localScale = Vector3.Lerp(originalScale, targetScale, t);
+            yield return null;
+        }
+        
+        time = 0;
+        duration = 0.15f;
+        // Scale back to original
+        while (time < duration)
+        {
+            if (target == null) yield break;
+            time += Time.deltaTime;
+            float t = Mathf.SmoothStep(0f, 1f, time / duration);
+            target.localScale = Vector3.Lerp(targetScale, originalScale, t);
+            yield return null;
+        }
+        if (target != null) target.localScale = originalScale;
     }
 
     // 🌟 Effect สลับรูปภาพไปเรื่อยๆ

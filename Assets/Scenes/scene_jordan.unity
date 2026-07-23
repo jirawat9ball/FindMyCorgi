@@ -1644,7 +1644,7 @@ MonoBehaviour:
   currentState: 0
   targetTransform: {fileID: 1326095161}
   moveSpeed: 5
-  toggleMove: 1
+  toggleMove: 0
   rotateToTarget: 1
   objectIsLocked: 0
 --- !u!1 &127621742
@@ -2934,7 +2934,7 @@ MonoBehaviour:
   currentState: 0
   targetTransform: {fileID: 1613671461}
   moveSpeed: 5
-  toggleMove: 1
+  toggleMove: 0
   rotateToTarget: 1
   objectIsLocked: 0
 --- !u!1 &270120436
@@ -6782,7 +6782,7 @@ MonoBehaviour:
   currentState: 0
   targetTransform: {fileID: 77952457}
   moveSpeed: 5
-  toggleMove: 1
+  toggleMove: 0
   rotateToTarget: 1
   objectIsLocked: 0
 --- !u!1 &580321122 stripped
@@ -12869,7 +12869,7 @@ MonoBehaviour:
   currentState: 0
   targetTransform: {fileID: 254563363}
   moveSpeed: 5
-  toggleMove: 1
+  toggleMove: 0
   rotateToTarget: 1
   objectIsLocked: 0
 --- !u!114 &950387553
@@ -14015,7 +14015,7 @@ MonoBehaviour:
   currentState: 0
   targetTransform: {fileID: 1088422088}
   moveSpeed: 5
-  toggleMove: 1
+  toggleMove: 0
   rotateToTarget: 1
   objectIsLocked: 0
 --- !u!1 &1044400059
@@ -16642,7 +16642,7 @@ MonoBehaviour:
   currentState: 0
   targetTransform: {fileID: 38081640}
   moveSpeed: 5
-  toggleMove: 1
+  toggleMove: 0
   rotateToTarget: 1
   objectIsLocked: 0
 --- !u!1 &1251469356
@@ -22266,7 +22266,7 @@ MonoBehaviour:
   currentState: 0
   targetTransform: {fileID: 1157873068}
   moveSpeed: 5
-  toggleMove: 1
+  toggleMove: 0
   rotateToTarget: 1
   objectIsLocked: 0
 --- !u!1 &1709747932 stripped
@@ -24721,7 +24721,7 @@ MonoBehaviour:
   currentState: 0
   targetTransform: {fileID: 547853957}
   moveSpeed: 5
-  toggleMove: 1
+  toggleMove: 0
   rotateToTarget: 1
   objectIsLocked: 0
 --- !u!114 &1891216300

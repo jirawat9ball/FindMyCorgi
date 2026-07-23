@@ -19,6 +19,22 @@ public class UIingame : MonoBehaviour
     [UnityEngine.Serialization.FormerlySerializedAs("panalPopUpManager")]
     public PanalPopUpManager panelPopUpManager;
 
+    private void Start()
+    {
+        if (Gamemanager.Instance != null)
+        {
+            UpdateSnack(Gamemanager.Instance.Snack);
+        }
+    }
+
+    private void OnEnable()
+    {
+        if (Gamemanager.Instance != null)
+        {
+            UpdateSnack(Gamemanager.Instance.Snack);
+        }
+    }
+
     public void ToggleGameUI()
     {
         panalgame.SetActive(!panalgame.activeSelf);

@@ -624,6 +624,8 @@ MonoBehaviour:
   panType: 3
   targetSpriteRenderer: {fileID: 0}
   sceneObject: {fileID: 11400000, guid: e40ad1d9552ecd54fbf0fcf58ad5f688, type: 2}
+  onEnterSceneDialogKey: 
+  playOnlyFirst: 1
   lostDogs: []
   foundDogs: []
   gate: {fileID: 0}
@@ -5643,7 +5645,7 @@ MonoBehaviour:
   currentState: 0
   targetTransform: {fileID: 1412228192}
   moveSpeed: 5
-  toggleMove: 1
+  toggleMove: 0
   rotateToTarget: 1
   objectIsLocked: 0
 --- !u!1 &2007133086 stripped

@@ -11,7 +11,7 @@ public class ClickToMoveObject : Obstacle
     public float moveSpeed = 5f;
 
     [Tooltip("เมื่อคลิกอีกครั้งต้องการให้เลื่อนกลับที่เดิมหรือไม่?")]
-    public bool toggleMove = true; 
+    public bool toggleMove = false; 
 
     [Tooltip("ต้องการให้วัตถุหมุนตามองศาของเป้าหมายด้วยหรือไม่?")]
     public bool rotateToTarget = true;
@@ -40,6 +40,12 @@ public class ClickToMoveObject : Obstacle
 
     protected override void OnMouseDown()
     {
+        // 0. ถ้าวัตถุเลื่อนไปที่เป้าหมายแล้ว และตั้งค่าไม่ให้เลื่อนกลับ จะไม่สนใจการคลิกซ้ำ
+        if (isAtTarget && !toggleMove)
+        {
+            return;
+        }
+
         // 1. เช็คสถานะเกม (คลิกได้เฉพาะตอนเป็นฉากเกมเพลย์)
         if (!Gamemanager.Instance.isStateGamePlay()) 
         { 

@@ -66,12 +66,18 @@ public class UIBooks : MonoBehaviour
         {
             if (i < Gemslots.Length) Gemslots[i].SetUpSlot(Liststons[i], this);
         }
-        if (ListItems.Count > 0) {
-            ShowInfomation(ListItems[0]);
+
+        if (ImageInfomation != null && ImageInfomation.transform.parent != null)
+        {
+            ImageInfomation.transform.parent.gameObject.SetActive(false);
         }
-        
     }
+
     public void ShowInfomation(KeyItem keyItem) {
+        if (ImageInfomation != null && ImageInfomation.transform.parent != null)
+        {
+            ImageInfomation.transform.parent.gameObject.SetActive(true);
+        }
         ImageInfomation.sprite = keyItem.Image;
         textInfomation.text = keyItem.KeyInfomation;
         textItemName.text = keyItem.KeyName;

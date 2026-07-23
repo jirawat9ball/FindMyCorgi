@@ -11,6 +11,8 @@ public class SoundManager : MonoBehaviour
     public AudioClip OnClickObjectDestroySound; // เสียงตอน ClickObject ทำลาย/เคลียร์สำเร็จ
     public AudioClip OnGotItemSound; // 🌟 เสียงตอนได้รับไอเทม
     public AudioClip OnClickRealDogSound; // 🌟 เสียงตอนกดเจอหมาจริง (RealDog)
+    public AudioClip OnUseSnackSound; // 🌟 เสียงตอนกดใช้ขนม
+    public AudioClip OnEmptySnackSound; // 🌟 เสียงตอนกดใช้ขนมแต่ขนมหมด
 
     public AudioClip MainMenu;
     public AudioClip DefaultBGSound;
@@ -95,6 +97,30 @@ public class SoundManager : MonoBehaviour
         }
     }
     
+    public void PlayOnUseSnackSound()
+    {
+        if (OnUseSnackSound != null)
+        {
+            _audioEF.PlayOneShot(OnUseSnackSound);
+        }
+        else
+        {
+            PlayOnClickSound();
+        }
+    }
+
+    public void PlayOnEmptySnackSound()
+    {
+        if (OnEmptySnackSound != null)
+        {
+            _audioEF.PlayOneShot(OnEmptySnackSound);
+        }
+        else
+        {
+            PlayOnEmptyClickSound();
+        }
+    }
+
     public void PlayGotItemSound()
     {
         if (OnGotItemSound != null)

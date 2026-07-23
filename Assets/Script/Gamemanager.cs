@@ -292,6 +292,7 @@ public class Gamemanager : MonoBehaviour
     public void UseHintItem() {
         if (Snack <= 0) {
             Debug.Log("not enough Hint Item");
+            if (SoundManager.Instance != null) SoundManager.Instance.PlayOnEmptySnackSound();
             return;
         }
         Snack--;
@@ -302,6 +303,7 @@ public class Gamemanager : MonoBehaviour
         AutoSaveProgress();
 
         Debug.Log("UseHintItem");
+        if (SoundManager.Instance != null) SoundManager.Instance.PlayOnUseSnackSound();
         Vector3 target = currentZone.currentScene.lostDogsHint();
         cameraPan.TriggerLeap(target);
     }
