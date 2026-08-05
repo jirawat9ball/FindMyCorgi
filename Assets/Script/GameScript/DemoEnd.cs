@@ -7,7 +7,9 @@ public class DemoEnd : MonoBehaviour
     public static DemoEnd Instance { get; private set; }
 
     [Header("Social Links")]
-    public string followUrl = "https://www.facebook.com/yourpage";
+    public string facebookUrl = "https://www.facebook.com/";
+    public string instagramUrl = "https://www.instagram.com/";
+    public string discordUrl = "https://discord.gg/";
     public string wishlistUrl = "https://store.steampowered.com/app/yourgame";
 
     [Header("Demo Settings")]
@@ -153,11 +155,27 @@ public class DemoEnd : MonoBehaviour
         }
     }
 
-    public void OpenFollowLink()
+    public void OpenFacebookLink()
     {
-        if (!string.IsNullOrEmpty(followUrl))
+        if (!string.IsNullOrEmpty(facebookUrl))
         {
-            Application.OpenURL(followUrl);
+            Application.OpenURL(facebookUrl);
+        }
+    }
+
+    public void OpenInstagramLink()
+    {
+        if (!string.IsNullOrEmpty(instagramUrl))
+        {
+            Application.OpenURL(instagramUrl);
+        }
+    }
+
+    public void OpenDiscordLink()
+    {
+        if (!string.IsNullOrEmpty(discordUrl))
+        {
+            Application.OpenURL(discordUrl);
         }
     }
 
